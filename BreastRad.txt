@@ -29,5 +29,3 @@ EntryElement: BreastRadiologyReport
   Element: Recommendations
   Description: "Recommendations Section"
   Value: string
-
-xxyyz
