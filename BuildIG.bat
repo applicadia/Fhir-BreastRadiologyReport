@@ -1,6 +1,9 @@
 pushd ..\shr-cli
-copy ..\Fhir-BreastRadiologyReport\out .
+rmdir /s /q out\fhir
+mkdir out\fhir
+xcopy /E /Q ..\Fhir-BreastRadiologyReport\out\fhir .\out\fhir
 yarn run ig:publish
-popd
-
+rmdir /s /q ..\Fhir-BreastRadiologyReport\out\fhir
+mkdir ..\Fhir-BreastRadiologyReport\out\fhir
+copy out\fhir\guide ..\Fhir-BreastRadiologyReport\out\fhir
 prompt
