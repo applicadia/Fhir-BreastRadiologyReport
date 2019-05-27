@@ -1,0 +1,33 @@
+Grammar: DataElement 5.0
+Namespace: cimi.breastrad
+Description: "Breast Radiology Report"
+Uses: shr.core, shr.base
+
+EntryElement: BreastRadiologyReport
+0..* PatientHistory
+0..* FindingsLeftBreast
+0..* FindingsRightBreast
+0..* Impressions
+0..* Recommendations
+
+  Element: PatientHistory
+  Description: "Patient History Section"
+  Value: string
+
+  Element: FindingsLeftBreast
+  Description: "Findings (Left Breast) Section"
+  Value: string
+
+  Element: FindingsRightBreast
+  Description: "Findings (Right Breast) Section"
+  Value: string
+
+  Element: Impressions
+  Description: "Impressions Section"
+  Value: string
+
+  Element: Recommendations
+  Description: "Recommendations Section"
+  Value: string
+
+xxyyz

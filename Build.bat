@@ -1,0 +1,2 @@
+node ../shr-cli .
+pause

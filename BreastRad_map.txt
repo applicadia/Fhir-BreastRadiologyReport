@@ -1,0 +1,6 @@
+Grammar: Map 5.0
+Namespace: cimi.breastrad
+Target: FHIR_STU_3
+
+BreastRadiologyReport maps to Composition:
+
