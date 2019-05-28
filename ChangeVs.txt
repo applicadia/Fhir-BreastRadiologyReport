@@ -1,0 +1,20 @@
+Grammar:        ValueSet 5.0
+Namespace:      xxyyz
+
+ValueSet:        ChangeVs
+Description:     Change value
+Codesystem:      SNOMED = http://snomed.info/sct
+    SNOMED#DecreaseInCalcifications "DecreaseInCalcifications"
+    SNOMED#DecreasedInNumber "DecreasedInNumber"
+    SNOMED#DecreasedInSize "DecreasedInSize"
+    SNOMED#IncreaseInCalcifications "IncreaseInCalcifications"
+    SNOMED#IncreasedInNumber "IncreasedInNumber"
+    SNOMED#IncreasedInSize "IncreasedInSize"
+    SNOMED#LessProminent "LessProminent"
+    SNOMED#MoreProminent "MoreProminent"
+    SNOMED#New "New"
+    SNOMED#NoLongerSeen "NoLongerSeen"
+    SNOMED#NotSignificantlyChanged "NotSignificantlyChanged"
+    SNOMED#PartiallyRemoved "PartiallyRemoved"
+    SNOMED#RepresentsChange "RepresentsChange"
+    SNOMED#Stable "Stable"

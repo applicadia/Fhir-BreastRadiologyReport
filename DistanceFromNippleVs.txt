@@ -1,0 +1,9 @@
+Grammar:        ValueSet 5.0
+Namespace:      xxyyz
+
+ValueSet:        DistanceFromNippleVs
+Description:     Distance from Nipple
+Codesystem:      SNOMED = http://snomed.info/sct
+    SNOMED#Inner "Inner"
+    SNOMED#Middle "Middle"
+    SNOMED#Outter "Outter"

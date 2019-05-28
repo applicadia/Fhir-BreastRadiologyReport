@@ -1,0 +1,32 @@
+Grammar:        ValueSet 5.0
+Namespace:      xxyyz
+
+ValueSet:        AbnormalityTypeVs
+Description:     Abnormality Type value
+Codesystem:      SNOMED = http://snomed.info/sct
+    SNOMED#Abscess "Abscess"
+    SNOMED#PostSurgicalScar "PostSurgicalScar"
+    SNOMED#PathologicalLymphNode "PathologicalLymphNode"
+    SNOMED#Nodule "Nodule"
+    SNOMED#Node "Node"
+    SNOMED#MastitisArea "MastitisArea"
+    SNOMED#Mass "Mass"
+    SNOMED#Lipoma "Lipoma"
+    SNOMED#Hematoma "Hematoma"
+    SNOMED#Hamartoma "Hamartoma"
+    SNOMED#ForeignBody "ForeignBody"
+    SNOMED#FluidCollection "FluidCollection"
+    SNOMED#FibrocysticTissue "FibrocysticTissue"
+    SNOMED#FibroadenomaDegeneration "FibroadenomaDegeneration"
+    SNOMED#Fibroadenoma "Fibroadenoma"
+    SNOMED#FatNecrosis "FatNecrosis"
+    SNOMED#DuctEctasia "DuctEctasia"
+    SNOMED#DuctDialated "DuctDialated"
+    SNOMED#Cyst "Cyst"
+    SNOMED#Calcification "Calcification"
+    SNOMED#BrachytherapyCatheter "BrachytherapyCatheter"
+    SNOMED#Asymmetry "Asymmetry"
+    SNOMED#Area "Area"
+    SNOMED#ArchitecturalDistortion "ArchitecturalDistortion"
+    SNOMED#Seroma "Seroma"
+    SNOMED#SignalVoidArea "SignalVoidArea"

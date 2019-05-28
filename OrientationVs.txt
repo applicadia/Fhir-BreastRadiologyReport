@@ -1,0 +1,10 @@
+Grammar:        ValueSet 5.0
+Namespace:      xxyyz
+
+ValueSet:        OrientationVs
+Description:     Orientation
+Codesystem:      SNOMED = http://snomed.info/sct
+    SNOMED#ParallelToSkin "ParallelToSkin"
+    SNOMED#PerpendicularToSkinNotParallel "PerpendicularToSkinNotParallel"
+    SNOMED#TallerThanWide "TallerThanWide"
+    SNOMED#WiderThanTall "WiderThanTall"

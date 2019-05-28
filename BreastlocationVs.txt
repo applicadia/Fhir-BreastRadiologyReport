@@ -1,0 +1,21 @@
+Grammar:        ValueSet 5.0
+Namespace:      xxyyz
+
+ValueSet:        BreastlocationVs
+Description:     BreastLocation
+Codesystem:      SNOMED = http://snomed.info/sct
+    SNOMED#1OClock "1OClock"
+    SNOMED#10OClock "10OClock"
+    SNOMED#11OClock "11OClock"
+    SNOMED#12OClock "12OClock"
+    SNOMED#2OClock "2OClock"
+    SNOMED#3OClock "3OClock"
+    SNOMED#4OClock "4OClock"
+    SNOMED#5OClock "5OClock"
+    SNOMED#6OClock "6OClock"
+    SNOMED#7OClock "7OClock"
+    SNOMED#8OClock "8OClock"
+    SNOMED#9OClock "9OClock"
+    SNOMED#Axilla "Axilla"
+    SNOMED#AxillaryTail "AxillaryTail"
+    SNOMED#DirectlyUnderNipple "DirectlyUnderNipple"
