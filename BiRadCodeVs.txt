@@ -1,0 +1,15 @@
+Grammar:        ValueSet 5.0
+Namespace:      xxyyz
+
+ValueSet:        BiRadCodeVs
+Description:     Bi-Rad code value
+Codesystem:      SNOMED = http://snomed.info/sct
+    SNOMED#BIRAD5HighlySuggestive "BIRAD5HighlySuggestive"
+    SNOMED#BIRAD0Incomplete "BIRAD0Incomplete"
+    SNOMED#BIRAD1Negative "BIRAD1Negative"
+    SNOMED#BIRAD2Benign "BIRAD2Benign"
+    SNOMED#BIRAD3ProbablyBenign "BIRAD3ProbablyBenign"
+    SNOMED#BIRAD4ALowSuspicion "BIRAD4ALowSuspicion"
+    SNOMED#BIRAD4BModerateSuspicion "BIRAD4BModerateSuspicion"
+    SNOMED#BIRAD4CHighSuspicion "BIRAD4CHighSuspicion"
+    SNOMED#BIRAD6ProvenMalignancy "BIRAD6ProvenMalignancy"
