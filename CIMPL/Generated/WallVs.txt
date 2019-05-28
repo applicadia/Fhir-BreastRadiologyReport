@@ -1,0 +1,9 @@
+Grammar:            ValueSet 5.0
+Namespace:          xxyyz
+
+ValueSet:           WallVs
+Description:        "Wall"
+    #IrregularInternalWall "IrregularInternalWall"
+    #SeptatedInternalWall "SeptatedInternalWall"
+    #SmoothInternalWall "SmoothInternalWall"
+    #ThickenedWall "ThickenedWall"

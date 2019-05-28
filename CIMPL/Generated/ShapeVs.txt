@@ -1,0 +1,10 @@
+Grammar:            ValueSet 5.0
+Namespace:          xxyyz
+
+ValueSet:           ShapeVs
+Description:        "Shape"
+    #IrregularShape "IrregularShape"
+    #LobulatedShape "LobulatedShape"
+    #OvalShape "OvalShape"
+    #Reniform "Reniform"
+    #Round "Round"

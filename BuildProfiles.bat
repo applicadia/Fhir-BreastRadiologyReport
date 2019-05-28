@@ -1,2 +1,2 @@
-node ../shr-cli .
+node ../shr-cli CIMPL
 pause

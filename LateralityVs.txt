@@ -1,8 +1,0 @@
-Grammar:        ValueSet 5.0
-Namespace:      xxyyz
-
-ValueSet:        LateralityVs
-Description:     Laterality
-Codesystem:      SNOMED = http://snomed.info/sct
-    SNOMED#LeftBreast "LeftBreast"
-    SNOMED#RightBreast "RightBreast"

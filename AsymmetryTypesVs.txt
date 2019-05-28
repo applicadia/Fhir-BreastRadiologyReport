@@ -1,9 +1,0 @@
-Grammar:        ValueSet 5.0
-Namespace:      xxyyz
-
-ValueSet:        AsymmetryTypesVs
-Description:     Asymetry Type value
-Codesystem:      SNOMED = http://snomed.info/sct
-    SNOMED#DensityFocalAsymmetry "DensityFocalAsymmetry"
-    SNOMED#FocalAsymmetry "FocalAsymmetry"
-    SNOMED#GlobalAsymmetry "GlobalAsymmetry"
