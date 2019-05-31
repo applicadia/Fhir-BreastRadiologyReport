@@ -1,5 +1,5 @@
-Grammar:            ValueSet 5.0
-Namespace:          xxyyz
+Grammar:            ValueSet 6.0
+Namespace:          xxyyz.cysttypesvs
 ValueSet:           CystTypesVs
 Description:        "Cyst Types"
 
