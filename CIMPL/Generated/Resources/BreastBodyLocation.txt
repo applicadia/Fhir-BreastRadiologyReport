@@ -9,10 +9,10 @@ Uses:               shr.base,
 
 Entry:              BreastBodyLocation
 Description:        "BreastBodyLocation"
-Property:           Breastdepth 0..1
-Property:           Breastlocation 0..1
-Property:           DistanceFromNipple 0..1
-Property:           Laterality 0..1
+Property:           xxyyz.breastbodylocation.Breastdepth 0..1
+Property:           xxyyz.breastbodylocation.Breastlocation 0..1
+Property:           xxyyz.breastbodylocation.DistanceFromNipple 0..1
+Property:           xxyyz.breastbodylocation.Laterality 0..1
 
 Element:            Breastdepth
 Description:        "BreastDepth"

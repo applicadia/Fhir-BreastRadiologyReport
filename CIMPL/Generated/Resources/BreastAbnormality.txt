@@ -22,26 +22,26 @@ Uses:               shr.base,
 
 Entry:              BreastAbnormality
 Description:        "Breast Abnormality Form"
-Property:           AbnormalityDensity 0..1
-Property:           AbnormalityType 0..1
-Property:           AsymmetryTypes 0..1
-Property:           BiRadCode 0..1
-Property:           Breastbodylocation 0..1
-Property:           Change 0..1
-Property:           ClockLocation 0..1
-Property:           CystTypes 0..1
-Property:           Depth 0..1
-Property:           Laterality 0..1
-Property:           Margin 0..1
-Property:           MassTypes 0..1
-Property:           MaxLength 0..1
-Property:           MaxWidth 0..1
-Property:           NodeTypes 0..1
-Property:           Orientation 0..1
-Property:           Shape 0..1
-Property:           Vascularity 0..1
-Property:           Wall 0..1
-Property:           WoundCount 0..1
+Property:           xxyyz.breastabnormality.AbnormalityDensity 0..1
+Property:           xxyyz.breastabnormality.AbnormalityType 0..1
+Property:           xxyyz.breastabnormality.AsymmetryTypes 0..1
+Property:           xxyyz.breastabnormality.BiRadCode 0..1
+Property:           xxyyz.breastabnormality.Breastbodylocation 0..1
+Property:           xxyyz.breastabnormality.Change 0..1
+Property:           xxyyz.breastabnormality.ClockLocation 0..1
+Property:           xxyyz.breastabnormality.CystTypes 0..1
+Property:           xxyyz.breastabnormality.Depth 0..1
+Property:           xxyyz.breastabnormality.Laterality 0..1
+Property:           xxyyz.breastabnormality.Margin 0..1
+Property:           xxyyz.breastabnormality.MassTypes 0..1
+Property:           xxyyz.breastabnormality.MaxLength 0..1
+Property:           xxyyz.breastabnormality.MaxWidth 0..1
+Property:           xxyyz.breastabnormality.NodeTypes 0..1
+Property:           xxyyz.breastabnormality.Orientation 0..1
+Property:           xxyyz.breastabnormality.Shape 0..1
+Property:           xxyyz.breastabnormality.Vascularity 0..1
+Property:           xxyyz.breastabnormality.Wall 0..1
+Property:           xxyyz.breastabnormality.WoundCount 0..1
 
 Element:            AbnormalityDensity
 Description:        "Abnormal Density Description"
@@ -61,6 +61,7 @@ Value:              concept from BiRadCodeVs
 
 Element:            Breastbodylocation
 Description:        "Location of the breast abnormality."
+Value:              xxyyz.breastbodylocation.BreastBodyLocation
 
 Element:            Change
 Description:        "Change value"
