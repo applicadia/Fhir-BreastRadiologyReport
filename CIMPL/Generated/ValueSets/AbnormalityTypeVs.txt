@@ -1,8 +1,8 @@
 Grammar:            ValueSet 5.0
 Namespace:          xxyyz
-
 ValueSet:           AbnormalityTypeVs
 Description:        "Abnormality Type value"
+
     #Abscess "Abscess"
     #PostSurgicalScar "PostSurgicalScar"
     #PathologicalLymphNode "PathologicalLymphNode"

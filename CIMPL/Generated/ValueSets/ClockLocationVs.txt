@@ -1,8 +1,8 @@
 Grammar:            ValueSet 5.0
 Namespace:          xxyyz
-
 ValueSet:           ClockLocationVs
 Description:        "Clock location value"
+
     #1OClock "1OClock"
     #UpperAspect "UpperAspect"
     #OuterLowerQuadrant "OuterLowerQuadrant"

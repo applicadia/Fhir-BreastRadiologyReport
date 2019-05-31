@@ -1,8 +1,8 @@
 Grammar:            ValueSet 5.0
 Namespace:          xxyyz
-
 ValueSet:           ChangeVs
 Description:        "Change value"
+
     #DecreaseInCalcifications "DecreaseInCalcifications"
     #DecreasedInNumber "DecreasedInNumber"
     #DecreasedInSize "DecreasedInSize"

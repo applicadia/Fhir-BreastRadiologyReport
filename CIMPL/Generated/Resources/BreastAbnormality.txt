@@ -1,0 +1,107 @@
+Grammar:            DataElement 5.0
+Namespace:          xxyyz
+Uses:               shr.core, shr.base
+
+EntryElement:       BreastAbnormality
+Description:        "Breast Abnormality Form"
+0..1 AbnormalityDensity
+0..1 AbnormalityType
+0..1 AsymmetryTypes
+0..1 BiRadCode
+0..1 Breastbodylocation
+0..1 Change
+0..1 ClockLocation
+0..1 CystTypes
+0..1 Depth
+0..1 Laterality
+0..1 Margin
+0..1 MassTypes
+0..1 MaxLength
+0..1 MaxWidth
+0..1 NodeTypes
+0..1 Orientation
+0..1 Shape
+0..1 Vascularity
+0..1 Wall
+0..1 WoundCount
+
+Element:            AbnormalityDensity
+Description:        "Abnormal Density Description"
+Value:              code from xxyyz.AbnormalityDensityVs
+
+Element:            AbnormalityType
+Description:        "Abnormality Type value"
+Value:              code from xxyyz.AbnormalityTypeVs
+
+Element:            AsymmetryTypes
+Description:        "Asymetry Type value"
+Value:              code from xxyyz.AsymmetryTypesVs
+
+Element:            BiRadCode
+Description:        "Bi-Rad code value"
+Value:              code from xxyyz.BiRadCodeVs
+
+Element:            Breastbodylocation
+Description:        "Location of the breast abnormality."
+Value:              Reference
+
+Element:            Change
+Description:        "Change value"
+Value:              code from xxyyz.ChangeVs
+
+Element:            ClockLocation
+Description:        "Clock location value"
+Value:              code from xxyyz.ClockLocationVs
+
+Element:            CystTypes
+Description:        "Cyst Types"
+Value:              code from xxyyz.CystTypesVs
+
+Element:            Depth
+Description:        "Depth"
+Value:              code from xxyyz.DepthVs
+
+Element:            Laterality
+Description:        "Laterality"
+Value:              code from xxyyz.LateralityVs
+
+Element:            Margin
+Description:        "Margin"
+Value:              code from xxyyz.MarginVs
+
+Element:            MassTypes
+Description:        "Mass Types"
+Value:              code from xxyyz.MassTypesVs
+
+Element:            MaxLength
+Description:        "Max Length Description"
+Value:              integer
+
+Element:            MaxWidth
+Description:        "Max Width"
+Value:              integer
+
+Element:            NodeTypes
+Description:        "Node Types"
+Value:              code from xxyyz.NodeTypesVs
+
+Element:            Orientation
+Description:        "Orientation"
+Value:              code from xxyyz.OrientationVs
+
+Element:            Shape
+Description:        "Shape"
+Value:              code from xxyyz.ShapeVs
+
+Element:            Vascularity
+Description:        "Vascularity"
+Value:              code from xxyyz.VascularityVs
+
+Element:            Wall
+Description:        "Wall"
+Value:              code from xxyyz.WallVs
+
+Element:            WoundCount
+Description:        "Wound count"
+Value:              integer
+

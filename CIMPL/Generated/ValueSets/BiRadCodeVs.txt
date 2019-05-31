@@ -1,8 +1,8 @@
 Grammar:            ValueSet 5.0
 Namespace:          xxyyz
-
 ValueSet:           BiRadCodeVs
 Description:        "Bi-Rad code value"
+
     #BIRAD5HighlySuggestive "BIRAD5HighlySuggestive"
     #BIRAD0Incomplete "BIRAD0Incomplete"
     #BIRAD1Negative "BIRAD1Negative"

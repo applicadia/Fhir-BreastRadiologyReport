@@ -1,0 +1,27 @@
+Grammar:            DataElement 5.0
+Namespace:          xxyyz
+Uses:               shr.core, shr.base
+
+EntryElement:       BreastBodyLocation
+Description:        "BreastBodyLocation"
+0..1 Breastdepth
+0..1 Breastlocation
+0..1 DistanceFromNipple
+0..1 Laterality
+
+Element:            Breastdepth
+Description:        "BreastDepth"
+Value:              code from xxyyz.BreastdepthVs
+
+Element:            Breastlocation
+Description:        "BreastLocation"
+Value:              code from xxyyz.BreastlocationVs
+
+Element:            DistanceFromNipple
+Description:        "Distance from Nipple"
+Value:              code from xxyyz.DistanceFromNippleVs
+
+Element:            Laterality
+Description:        "Laterality"
+Value:              code from xxyyz.LateralityVs
+

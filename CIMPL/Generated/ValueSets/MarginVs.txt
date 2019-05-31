@@ -1,8 +1,8 @@
 Grammar:            ValueSet 5.0
 Namespace:          xxyyz
-
 ValueSet:           MarginVs
 Description:        "Margin"
+
     #AngularMargin "AngularMargin"
     #CircumscribedMargin "CircumscribedMargin"
     #IndistinctMargin "IndistinctMargin"

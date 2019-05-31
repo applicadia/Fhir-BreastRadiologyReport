@@ -1,8 +1,8 @@
 Grammar:            ValueSet 5.0
 Namespace:          xxyyz
-
 ValueSet:           OrientationVs
 Description:        "Orientation"
+
     #ParallelToSkin "ParallelToSkin"
     #PerpendicularToSkinNotParallel "PerpendicularToSkinNotParallel"
     #TallerThanWide "TallerThanWide"
