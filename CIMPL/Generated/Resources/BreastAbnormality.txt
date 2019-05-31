@@ -1,11 +1,12 @@
 Grammar:            DataElement 6.0
 Namespace:          xxyyz.breastabnormality
-Uses:               shr.core,
-                    shr.base,
+Uses:               shr.base,
+                    shr.core,
                     xxyyz.abnormalitydensityvs,
                     xxyyz.abnormalitytypevs,
                     xxyyz.asymmetrytypesvs,
                     xxyyz.biradcodevs,
+                    xxyyz.breastbodylocation,
                     xxyyz.changevs,
                     xxyyz.clocklocationvs,
                     xxyyz.cysttypesvs,
@@ -16,6 +17,7 @@ Uses:               shr.core,
                     xxyyz.nodetypesvs,
                     xxyyz.orientationvs,
                     xxyyz.shapevs,
+                    xxyyz.vascularityvs,
                     xxyyz.wallvs
 
 Entry:              BreastAbnormality
@@ -59,7 +61,6 @@ Value:              concept from BiRadCodeVs
 
 Element:            Breastbodylocation
 Description:        "Location of the breast abnormality."
-Value:              Reference
 
 Element:            Change
 Description:        "Change value"

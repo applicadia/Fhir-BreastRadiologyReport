@@ -1,9 +1,10 @@
 Grammar:            DataElement 6.0
 Namespace:          xxyyz.breastbodylocation
-Uses:               shr.core,
-                    shr.base,
+Uses:               shr.base,
+                    shr.core,
                     xxyyz.breastdepthvs,
                     xxyyz.breastlocationvs,
+                    xxyyz.distancefromnipplevs,
                     xxyyz.lateralityvs
 
 Entry:              BreastBodyLocation
