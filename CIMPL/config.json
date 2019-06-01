@@ -3,6 +3,7 @@
     "projectShorthand": "BreastRadReport",
     "projectURL": "http://BreastRadReport.com",
     "fhirURL": "http://BreastRadReport.com/fhir",
+    "fhirTarget": "FHIR_R4",
     "implementationGuide": {
         "npmName": "breastRadReport",
         "version": "0.0.1",

@@ -2,7 +2,7 @@ Grammar: DataElement 6.0
 Namespace: xxyyz
 Description: "Breast Radiology Report"
 Uses: shr.core, shr.base
-CodeSystem: UNK0 = http://foo.org
+CodeSystem: KWA = http://foo.org
 
 // BreastRadiologyReport Definition
 // This is the main breast radiology report class.
@@ -58,7 +58,7 @@ Abstract: PatientHistorySection
 Description: "Patient History Section"
 Parent:    Section
 //			Title[string] = "Patient History"
-			SectionCode[concept] = UNK0#baz
+			SectionCode[concept] = KWA#baz
 
 
 // Findings left breast Section
@@ -66,25 +66,25 @@ Abstract: FindingsLeftBreastSection
 Description: "Findings Left Breast Section"
 Parent:    Section
 //			Title[string] = "Findings Left Breast"
-			SectionCode[concept] = UNK0#baz
+			SectionCode[concept] = KWA#baz
 
 // Findings right breast Section
 Abstract: FindingsRightBreastSection
 Description: "Findings Right Breast Section"
 Parent:    Section
 //			Title[string] = "Findings Right Breast"
-			SectionCode[concept] = UNK0#baz
+			SectionCode[concept] = KWA#baz
 
 // Impressions Section
 Abstract: ImpressionsSection
 Description: "Impressions Section"
 Parent:    Section
 //			Title[string] = "Impressions"
-			SectionCode[concept] = UNK0#baz
+			SectionCode[concept] = KWA#baz
 			
 // Recommendations Section
 Abstract: RecommendationsSection
 Description: "Recommendations Section"
 Parent:    Section
 //			Title[string] = "Recommendations"
-			SectionCode[concept] = UNK0#baz
+			SectionCode[concept] = KWA#baz
