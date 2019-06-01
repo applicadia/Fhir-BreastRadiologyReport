@@ -3,8 +3,3 @@ Namespace: xxyyz
 Target: FHIR_STU_3
 
 BreastRadiologyReport maps to Composition:
-    PatientHistory maps to section (slice on = section.code)
-    FindingsLeftBreast maps to section (slice on = section.code)
-    FindingsRightBreast maps to section (slice on = section.code)
-    Impressions maps to section (slice on = section.code)
-    Recommendations maps to section (slice on = section.code)

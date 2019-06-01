@@ -2,30 +2,89 @@ Grammar: DataElement 6.0
 Namespace: xxyyz
 Description: "Breast Radiology Report"
 Uses: shr.core, shr.base
+CodeSystem: UNK0 = http://foo.org
 
+// BreastRadiologyReport Definition
+// This is the main breast radiology report class.
 Entry: BreastRadiologyReport
-Property: PatientHistory 0..*
-Property: FindingsLeftBreast 0..*
-Property: FindingsRightBreast 0..*
-Property: Impressions 0..*
-Property: Recommendations 0..*
+Property: PatientHistory 0..1
+Property: FindingsLeftBreast 0..1
+Property: FindingsRightBreast 0..1
+Property: Impressions 0..1
+Property: Recommendations 0..1
 
 Element: PatientHistory
-Description: "Patient History Section"
-Value: string
+Value:  PatientHistorySection
 
 Element: FindingsLeftBreast
-Description: "Findings (Left Breast) Section"
-Value: string
+Value:  Section
 
 Element: FindingsRightBreast
-Description: "Findings (Right Breast) Section"
-Value: string
+Value:  Section
 
 Element: Impressions
-Description: "Impressions Section"
-Value: string
+Value:  Section
 
 Element: Recommendations
-Description: "Recommendations Section"
+Value:  Section
+
+// Section definition
+// This defines the abstract class for a composition section.
+Abstract: Section
+Description: "Section Entry Definition"
+Property: Title 1..1
+Property: SectionCode 0..1
+Property: Text 0..1
+Property: SectionEntry 0..1
+Property: EmptyReason 0..1
+
+Element: Title
 Value: string
+
+Element: SectionCode
+Value: concept
+
+Element: Text
+Value: string
+
+Element: SectionEntry
+Value: string
+
+Element: EmptyReason
+Value: concept
+
+// Patient History Section
+Abstract: PatientHistorySection
+Description: "Patient History Section"
+Parent:    Section
+//			Title[string] = "Patient History"
+			SectionCode[concept] = UNK0#baz
+
+
+// Findings left breast Section
+Abstract: FindingsLeftBreastSection
+Description: "Findings Left Breast Section"
+Parent:    Section
+//			Title[string] = "Findings Left Breast"
+			SectionCode[concept] = UNK0#baz
+
+// Findings right breast Section
+Abstract: FindingsRightBreastSection
+Description: "Findings Right Breast Section"
+Parent:    Section
+//			Title[string] = "Findings Right Breast"
+			SectionCode[concept] = UNK0#baz
+
+// Impressions Section
+Abstract: ImpressionsSection
+Description: "Impressions Section"
+Parent:    Section
+//			Title[string] = "Impressions"
+			SectionCode[concept] = UNK0#baz
+			
+// Recommendations Section
+Abstract: RecommendationsSection
+Description: "Recommendations Section"
+Parent:    Section
+//			Title[string] = "Recommendations"
+			SectionCode[concept] = UNK0#baz
