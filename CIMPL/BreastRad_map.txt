@@ -3,3 +3,9 @@ Namespace: xxyyz
 Target: FHIR_STU_3
 
 BreastRadiologyReport maps to Composition:
+    PatientHistory maps to  section (slice on = SectionCode[concept])
+    PatientHistory.Title maps to section.title
+    //PatientHistory.SectionCode 0..1
+    //PatientHistory.Text 0..1
+    //PatientHistory.SectionEntry 0..1
+    //PatientHistory.EmptyReason 0..1
