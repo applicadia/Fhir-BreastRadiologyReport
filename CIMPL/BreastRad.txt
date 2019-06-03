@@ -30,15 +30,22 @@ Value:  Section
 
 // Section definition
 // This defines the abstract class for a composition section.
-Abstract: Section
-Description: "Section Entry Definition"
-Property: Title 1..1
-Property: SectionCode 0..1
-Property: Text 0..1
-Property: SectionEntry 0..1
-Property: EmptyReason 0..1
+Abstract:             Section
+Description:       "Represents a section containing entries in a composition."
+Property:          SectionTitle 0..1
+Property:          SectionCode 0..1
+//Property:          Author 0..*
+//Property:          FocalSubject 0..1
+//Property:          Narrative 0..1
+//Property:          Type 0..1
+//Property:          SortOrder 0..1
+//Property:          DomainResource 0..*
+//Property:          EmptyReason 0..1
+//Property:          Section 0..*
+//                   Code from http://hl7.org/fhir/ValueSet/doc-section-codes (example)
+//                   Type from http://hl7.org/fhir/ValueSet/list-mode (required)
 
-Element: Title
+Element: SectionTitle
 Value: string
 
 Element: SectionCode
@@ -54,37 +61,37 @@ Element: EmptyReason
 Value: concept
 
 // Patient History Section
-Abstract: PatientHistorySection
+Entry: PatientHistorySection
 Description: "Patient History Section"
 Parent:    Section
-//			Title[string] = "Patient History"
+//			SectionTitle[string] = "Patient History"
 			SectionCode[concept] = KWA#baz
 
 
 // Findings left breast Section
-Abstract: FindingsLeftBreastSection
+Entry: FindingsLeftBreastSection
 Description: "Findings Left Breast Section"
 Parent:    Section
-//			Title[string] = "Findings Left Breast"
+//			SectionTitle[string] = "Findings Left Breast"
 			SectionCode[concept] = KWA#baz
 
 // Findings right breast Section
-Abstract: FindingsRightBreastSection
+Entry: FindingsRightBreastSection
 Description: "Findings Right Breast Section"
 Parent:    Section
-//			Title[string] = "Findings Right Breast"
+//			SectionTitle[string] = "Findings Right Breast"
 			SectionCode[concept] = KWA#baz
 
 // Impressions Section
-Abstract: ImpressionsSection
+Entry: ImpressionsSection
 Description: "Impressions Section"
 Parent:    Section
-//			Title[string] = "Impressions"
+//			SectionTitle[string] = "Impressions"
 			SectionCode[concept] = KWA#baz
 			
 // Recommendations Section
-Abstract: RecommendationsSection
+Entry: RecommendationsSection
 Description: "Recommendations Section"
 Parent:    Section
-//			Title[string] = "Recommendations"
+//			SectionTitle[string] = "Recommendations"
 			SectionCode[concept] = KWA#baz
