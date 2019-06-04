@@ -1,8 +1,0 @@
-Grammar:            ValueSet 6.0
-Namespace:          xxyyz.breastdepthvs
-ValueSet:           BreastdepthVs
-Description:        "BreastDepth"
-
-    #Anterior "Anterior"
-    #Middle "Middle"
-    #Posterior "Posterior"

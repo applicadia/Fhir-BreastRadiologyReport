@@ -1,8 +1,0 @@
-Grammar:            ValueSet 6.0
-Namespace:          xxyyz.asymmetrytypesvs
-ValueSet:           AsymmetryTypesVs
-Description:        "Asymetry Type value"
-
-    #DensityFocalAsymmetry "DensityFocalAsymmetry"
-    #FocalAsymmetry "FocalAsymmetry"
-    #GlobalAsymmetry "GlobalAsymmetry"

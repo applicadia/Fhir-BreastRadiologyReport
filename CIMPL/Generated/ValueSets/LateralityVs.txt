@@ -1,7 +1,0 @@
-Grammar:            ValueSet 6.0
-Namespace:          xxyyz.lateralityvs
-ValueSet:           LateralityVs
-Description:        "Laterality"
-
-    #LeftBreast "LeftBreast"
-    #RightBreast "RightBreast"

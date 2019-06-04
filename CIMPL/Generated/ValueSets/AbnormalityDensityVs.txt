@@ -1,9 +1,0 @@
-Grammar:            ValueSet 6.0
-Namespace:          xxyyz.abnormalitydensityvs
-ValueSet:           AbnormalityDensityVs
-Description:        "Abnormal Density Description"
-
-    #EqualDensity "EqualDensity"
-    #FatContaining "FatContaining"
-    #HighDensity "HighDensity"
-    #LowDensity "LowDensity"
