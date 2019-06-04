@@ -1,6 +1,6 @@
 Grammar: Map 6.0
 Namespace: xxyyz
-Target: FHIR_STU_3
+Target: FHIR_R4
 
 BreastRadiologyReport maps to Composition:
     PatientHistory maps to  section (slice on = SectionCode[concept])
