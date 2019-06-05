@@ -6,7 +6,6 @@ Description:        "%classdescription%"
 Property:          ObservationComponent 0..1
                    ObservationComponent
 //+ *ConceptComponent-Property
-%code%
                    includes %namespace%.%classname%.%elementname% %min%..%max%
 //- *ConceptComponent-Property
 
@@ -30,7 +29,6 @@ Description:       "A clinical interpretation of a finding (applies to both asse
 Value:             concept from http://hl7.org/fhir/ValueSet/observation-interpretation (extensible)
 
 //+ *ConceptComponent-Entry
-%code%
 
 Element:            %elementname%
 Parent:             ConceptComponent
