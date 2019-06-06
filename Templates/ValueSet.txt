@@ -1,0 +1,11 @@
+Grammar: ValueSet 6.0
+Namespace: %namespace%
+ValueSet: %valuesetname%
+Description: "%valuesetdescription%"
+//+ *CODESYSTEM
+Codesystem: %codesystemkey% = %codesystemurl%
+//- *CODESYSTEM
+
+//+ *ITEMS
+    #%itemname% "%itemdescription%"
+//- *ITEMS

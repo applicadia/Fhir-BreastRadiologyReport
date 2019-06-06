@@ -1,8 +1,13 @@
-//+ *HEADER
-//- *HEADER
+Grammar: DataElement 6.0
+Namespace: %namespace%
+//+ *CODESYSTEM
+Codesystem: %codesystemkey% = %codesystemurl%
+//- *CODESYSTEM
+//+ *USES
+//- *USES
 
-Entry:              %classname%
-Description:        "%classdescription%"
+Entry: %classname%
+Description: "%classdescription%"
 //+ *Default-Property
 %property%
 //- *Default-Property
