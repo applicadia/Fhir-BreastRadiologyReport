@@ -1,6 +1,8 @@
 //+ *HEADER
 //- *HEADER
 
+Entry:              %classname%
+Description:        "%classdescription%"
 //+ *Default-Property
 %property%
 //- *Default-Property
