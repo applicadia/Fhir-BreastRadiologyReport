@@ -45,6 +45,6 @@ Value: concept from http://hl7.org/fhir/ValueSet/observation-interpretation (ext
 Element: %elementname%
 Parent: ConceptComponent
 Description: "%elementdescription%"
-    Code = %code%
+    Code = %componentCode%
     DataValue[concept] from %classname%Vs
 //- *ConceptComponent-Entry
