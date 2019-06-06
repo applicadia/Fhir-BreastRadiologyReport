@@ -1,40 +1,11 @@
 //+ *HEADER
 //- *HEADER
 
-Entry:              %classname%
-Description:        "%classdescription%"
-Property:          ObservationComponent 0..1
-                   ObservationComponent
-//+ *ConceptComponent-Property
-%code%
-                   includes %namespace%.%classname%.%elementname% %min%..%max%
-//- *ConceptComponent-Property
+//+ *Default-Property
+%property%
+//- *Default-Property
 
-Abstract:          ObservationComponent
-Description:       "A sub-observation contributing to the parent observation, expressed as separate code value pairs that share the same attributes. Examples include systolic and diastolic component observations for blood pressure measurement and multiple component observations for genetics observations. Component observations share the same attributes in the Observation resource as the primary observation and are always treated a part of a single observation (they are not separable). However, the reference range for the primary observation value is not inherited by the component values and is required when appropriate for each component observation."
-Property:          Code 1..1
-Property:          DataValue 0..1
-Property:          DataAbsentReason 0..1
-Property:          Interpretation 0..1
+//+ *Default-Entry
+%element%
 
-Element:           DataValue
-Description:       "The value or result of a test, evaluation, or judgment, for example, a systolic blood pressure, or if a condition or body structure is present or absent."
-Value:             concept or Quantity or string or Range or Ratio or time or dateTime or TimePeriod or SampledData
-
-Element:           DataAbsentReason
-Description:       "Reason that a value associated with a test or other finding is missing."
-Value:             concept from http://hl7.org/fhir/ValueSet/data-absent-reason (extensible)
-
-Element:           Interpretation
-Description:       "A clinical interpretation of a finding (applies to both assertions and observation)."
-Value:             concept from http://hl7.org/fhir/ValueSet/observation-interpretation (extensible)
-
-//+ *ConceptComponent-Entry
-%code%
-
-Element:            %elementname%
-Parent:             ConceptComponent
-Description:        "%elementdescription%"
-                    Code = %code%
-                    DataValue[concept] from %classname%Vs
-//- *ConceptComponent-Entry
+//- *Default-Entry
