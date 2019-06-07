@@ -1,10 +1,10 @@
 Grammar: DataElement 6.0
 Namespace: %namespace%
+//+ *USES
+//- *USES
 //+ *CODESYSTEM
 Codesystem: %codesystemkey% = %codesystemurl%
 //- *CODESYSTEM
-//+ *USES
-//- *USES
 
 Entry: %classname%
 Description: "%classdescription%"
@@ -43,8 +43,8 @@ Value: concept from http://hl7.org/fhir/ValueSet/observation-interpretation (ext
 //+ *ConceptComponent-Entry
 
 Element: %elementname%
-Parent: ConceptComponent
+Parent: ObservationComponent
 Description: "%elementdescription%"
     Code = %componentCode%
-    DataValue[concept] from %classname%Vs
+    DataValue[concept] from %elementname%Vs
 //- *ConceptComponent-Entry

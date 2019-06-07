@@ -1,10 +1,10 @@
 Grammar: DataElement 6.0
 Namespace: %namespace%
+//+ *USES
+//- *USES
 //+ *CODESYSTEM
 Codesystem: %codesystemkey% = %codesystemurl%
 //- *CODESYSTEM
-//+ *USES
-//- *USES
 
 Entry: %classname%
 Description: "%classdescription%"
