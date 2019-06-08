@@ -13,6 +13,9 @@ Property: ObservationComponent 0..1
 //+ *ConceptComponent-Property
     includes %elementname% %min%..%max%
 //- *ConceptComponent-Property
+//+ *TypeComponent-Property
+    includes %elementname% %min%..%max%
+//- *TypeComponent-Property
 //+ *Default-Property
 %property%
 //- *Default-Property
@@ -49,3 +52,12 @@ Description: "%elementdescription%"
     DataValue only concept
     DataValue[concept] from %External("%elementname%Vs")%
 //- *ConceptComponent-Entry
+
+//+ *TypeComponent-Entry
+
+Element: %elementname%
+Parent: ObservationComponent
+Description: "%elementdescription%"
+    Code = %componentCode%
+    DataValue only integer
+//- *TypeComponent-Entry
