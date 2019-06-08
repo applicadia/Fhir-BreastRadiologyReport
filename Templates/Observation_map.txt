@@ -1,8 +1,8 @@
 Grammar: Map 6.0
-Namespace: xxyyz.breastabnormality
+Namespace: %namespace%
 Target: FHIR_R4
 
-BreastAbnormality  maps to Observation:
+%classname%  maps to Observation:
     fix code to http://loinc.org#24323-8
     constrain value[x] to 0..0
 	ObservationComponent maps to component (slice on = code.coding.code; slice strategy = includes)
