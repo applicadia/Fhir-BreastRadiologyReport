@@ -29,7 +29,7 @@ Property: Interpretation 0..1
 
 Element: DataValue
 Description: "The value or result of a test, evaluation, or judgment, for example, a systolic blood pressure, or if a condition or body structure is present or absent."
-Value: concept or Quantity or string or Range or Ratio or time or dateTime or TimePeriod or SampledData
+Value: concept or Quantity or integer or string or Range or Ratio or time or dateTime or TimePeriod or SampledData
 
 Element: DataAbsentReason
 Description: "Reason that a value associated with a test or other finding is missing."
