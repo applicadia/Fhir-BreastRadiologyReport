@@ -5,7 +5,4 @@ Target: FHIR_R4
 %classname%  maps to Observation:
     fix code to http://loinc.org#24323-8
     constrain value[x] to 0..0
-	ObservationComponent maps to component (slice on = code.coding.code; slice strategy = includes)
-	ObservationComponent.Code maps to component.code
-	ObservationComponent.DataValue maps to component.value[x]
     

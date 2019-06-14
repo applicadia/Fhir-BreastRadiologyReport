@@ -1,97 +1,52 @@
 Grammar: DataElement 6.0
 Namespace: xxyyz
 Description: "Breast Radiology Report"
-Uses: shr.core, shr.base
+Uses: obf
 CodeSystem: KWA = http://foo.org
 
 // BreastRadiologyReport Definition
 // This is the main breast radiology report class.
 Entry: BreastRadiologyReport
-Property: PatientHistory 0..1
-Property: FindingsLeftBreast 0..1
-Property: FindingsRightBreast 0..1
-Property: Impressions 0..1
-Property: Recommendations 0..1
-
-Element: PatientHistory
-Value:  PatientHistorySection
-
-Element: FindingsLeftBreast
-Value:  Section
-
-Element: FindingsRightBreast
-Value:  Section
-
-Element: Impressions
-Value:  Section
-
-Element: Recommendations
-Value:  Section
-
-// Section definition
-// This defines the abstract class for a composition section.
-Abstract:             Section
-Description:       "Represents a section containing entries in a composition."
-Property:          SectionTitle 0..1
-Property:          SectionCode 0..1
-//Property:          Author 0..*
-//Property:          FocalSubject 0..1
-//Property:          Narrative 0..1
-//Property:          Type 0..1
-//Property:          SortOrder 0..1
-//Property:          DomainResource 0..*
-//Property:          EmptyReason 0..1
-//Property:          Section 0..*
-//                   Code from http://hl7.org/fhir/ValueSet/doc-section-codes (example)
-//                   Type from http://hl7.org/fhir/ValueSet/list-mode (required)
-
-Element: SectionTitle
-Value: string
-
-Element: SectionCode
-Value: concept
-
-Element: Text
-Value: string
-
-Element: SectionEntry
-Value: string
-
-Element: EmptyReason
-Value: concept
+Parent: Composition
+		Section
+		includes PatientHistory 0..1
+		includes FindingsLeftBreast 0..1
+		includes FindingsRightBreast 0..1
+		includes Impressions 0..1
+		includes Recommendations 0..1
 
 // Patient History Section
-Entry: PatientHistorySection
+Group: PatientHistory
+Parent: Section
 Description: "Patient History Section"
-Parent:    Section
+			Code[concept] = KWA#baz
 //			SectionTitle[string] = "Patient History"
-			SectionCode[concept] = KWA#baz
 
 
 // Findings left breast Section
-Entry: FindingsLeftBreastSection
-Description: "Findings Left Breast Section"
+Group: FindingsLeftBreast
 Parent:    Section
-//			SectionTitle[string] = "Findings Left Breast"
-			SectionCode[concept] = KWA#baz
+Description: "Findings Left Breast Section"
+//			Title[string] = "Findings Left Breast"
+			Code = KWA#baz
 
 // Findings right breast Section
-Entry: FindingsRightBreastSection
-Description: "Findings Right Breast Section"
+Group: FindingsRightBreast
 Parent:    Section
-//			SectionTitle[string] = "Findings Right Breast"
-			SectionCode[concept] = KWA#baz
+Description: "Findings Right Breast Section"
+//			Title[string] = "Findings Right Breast"
+			Code = KWA#baz
 
 // Impressions Section
-Entry: ImpressionsSection
-Description: "Impressions Section"
+Group: Impressions
 Parent:    Section
-//			SectionTitle[string] = "Impressions"
-			SectionCode[concept] = KWA#baz
+Description: "Impressions Section"
+//			Title[string] = "Impressions"
+			Code = KWA#baz
 			
 // Recommendations Section
-Entry: RecommendationsSection
-Description: "Recommendations Section"
+Group: Recommendations
 Parent:    Section
-//			SectionTitle[string] = "Recommendations"
-			SectionCode[concept] = KWA#baz
+Description: "Recommendations Section"
+//			Title[string] = "Recommendations"
+			Code = KWA#baz

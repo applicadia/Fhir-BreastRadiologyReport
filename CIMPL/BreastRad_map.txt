@@ -3,19 +3,3 @@ Namespace: xxyyz
 Target: FHIR_R4
 
 BreastRadiologyReport maps to Composition:
-    PatientHistory maps to  section (slice on = SectionCode[concept])
-    PatientHistory[PatientHistorySection].SectionTitle maps to section.title
-    PatientHistory[PatientHistorySection].SectionCode maps to section.code
-    //PatientHistory.Text 0..1
-    //PatientHistory.SectionEntry 0..1
-    //PatientHistory.EmptyReason 0..1
-    //Section.Title maps to section.title
-    //Section.Code maps to section.code
-    //Section.Author maps to section.author
-    //Section.FocalSubject maps to section.focus
-    //Section.Narrative maps to section.text
-    //Section.Type maps to section.mode
-    //Section.SortOrder maps to section.orderedBy // terrible FHIR name!
-    //Section.DomainResource maps to section.entry  (slice on = reference.resolve(); slice on type = profile; slice strategy = includes)
-    //Section.EmptyReason maps to section.emptyReason
-	//Section.Section maps to section.section

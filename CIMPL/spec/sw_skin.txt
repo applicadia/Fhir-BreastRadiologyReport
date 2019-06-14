@@ -1,0 +1,63 @@
+Grammar:           DataElement 6.0
+Namespace:         sw
+Description:       "SHR implementation of wound assessment."
+Uses:              shr.core, obf
+CodeSystem:        LNC = http://loinc.org
+
+Entry:             SkinAssessmentPanel
+Parent:            NonLaboratoryObservation
+Description:       "A panel that contains all of the necessary elements needed for a skin nursing assessment."
+                   ObservationSubjectOfRecord only Patient
+                   Code = LNC#72284-3 "Skin assessment panel"
+                   DataValue 0..0
+                   DataAbsentReason 0..0
+                   Components.ObservationComponent
+                   includes SkinColor 0..1
+                   includes SkinDegreeOfMoisture 0..1
+                   includes SkinTemperature 0..1
+                   includes SkinTurgor 0..1
+                   includes SkinIntegrity 0..1
+                   includes MucousMembraneIntegrity 0..1
+                   includes PressurePointExamined 0..*
+
+Group:             SkinColor
+Parent:            CodedObservationComponent
+Description:       "The color of the patient's skin, compared to the normal skin tone for the individual."
+                   Code = LNC#39107-8 "Color of skin"
+                   DataValue from SkinColorVS (preferred)
+
+Group:             SkinDegreeOfMoisture
+Parent:            CodedObservationComponent
+Description:       "A description of the moisture of the patient's skin."
+                   Code = LNC#39129-2 "Moisture of Skin"
+                   DataValue from SkinDegreeOfMoistureVS (required)
+
+Group:             SkinTemperature
+Parent:            CodedObservationComponent
+Description:       "Qualitative assessment of temperature of the patient's skin, relative to normal."
+                   Code = LNC#39106-0 "Temperature of Skin"
+                   DataValue from SkinTemperatureVS (preferred)
+
+Group:             SkinTurgor
+Parent:            CodedObservationComponent
+Description:       "Assessment of the skin's ability to return to normal position after being pinched and pulled up."
+                   Code = LNC#39109-4 "Turgor [Interpretation} of Skin"
+                   DataValue from SkinTurgorVS (required)
+
+Group:             SkinIntegrity
+Parent:            CodedObservationComponent
+Description:       "Assessment of the integrity of the skin."
+                   Code = LNC#80344-5 "Skin integrity"
+                   DataValue from SkinIntegrityVS (required)
+
+Group:             MucousMembraneIntegrity
+Parent:            CodedObservationComponent
+Description:       "Assessment of mucous membranes."
+                   Code = LNC#80347-8 "Mucous membrane integrity"
+                   DataValue from MucousMembraneIntegrityVS (required)
+
+Group:             PressurePointExamined
+Parent:            CodedObservationComponent
+Description:       "A pressure point that was examined in the course of this skin assessment."
+                   Code = LNC#80345-2 "Pressure points examined"
+                   DataValue from PressurePointVS (required)
