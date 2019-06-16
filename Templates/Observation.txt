@@ -11,6 +11,8 @@ Entry: %classname%
 Parent: Observation
 Description: "%classdescription%"
 Parent: Observation
+    DataValue 0..0
+    Code = %observationCode%
     Components.ObservationComponent
 //+ *ConceptComponent-Property
     includes Breast%elementname% %min%..%max%

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Breastdepth",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/ValueSet/Breastdepth",
+  "version": "4.0.0",
+  "name": "Breastdepth",
+  "title": "BreastDepth",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "BreastDepth",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "Anterior",
+            "display": "Anterior"
+          },
+          {
+            "code": "Middle",
+            "display": "Middle"
+          },
+          {
+            "code": "Posterior",
+            "display": "Posterior"
+          }
+        ]
+      }
+    ]
+  }
+}

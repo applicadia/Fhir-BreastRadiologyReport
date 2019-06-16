@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Margin",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/ValueSet/Margin",
+  "version": "4.0.0",
+  "name": "Margin",
+  "title": "Margin",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "Margin",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "AngularMargin",
+            "display": "AngularMargin"
+          },
+          {
+            "code": "CircumscribedMargin",
+            "display": "CircumscribedMargin"
+          },
+          {
+            "code": "IndistinctMargin",
+            "display": "IndistinctMargin"
+          },
+          {
+            "code": "IntraductalExtension",
+            "display": "IntraductalExtension"
+          },
+          {
+            "code": "IrregularMargin",
+            "display": "IrregularMargin"
+          },
+          {
+            "code": "LobulatedMargin",
+            "display": "LobulatedMargin"
+          },
+          {
+            "code": "MacrolobulatedMargin",
+            "display": "MacrolobulatedMargin"
+          },
+          {
+            "code": "MicrolobulatedMargin",
+            "display": "MicrolobulatedMargin"
+          },
+          {
+            "code": "NonCircumscribedMargin",
+            "display": "NonCircumscribedMargin"
+          },
+          {
+            "code": "ObscuredMargin",
+            "display": "ObscuredMargin"
+          },
+          {
+            "code": "SmoothMargin",
+            "display": "SmoothMargin"
+          },
+          {
+            "code": "SpiculatedMargin",
+            "display": "SpiculatedMargin"
+          }
+        ]
+      }
+    ]
+  }
+}

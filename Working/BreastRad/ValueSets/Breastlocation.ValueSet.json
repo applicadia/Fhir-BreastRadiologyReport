@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Breastlocation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/ValueSet/Breastlocation",
+  "version": "4.0.0",
+  "name": "Breastlocation",
+  "title": "BreastLocation",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "BreastLocation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "1OClock",
+            "display": "1OClock"
+          },
+          {
+            "code": "10OClock",
+            "display": "10OClock"
+          },
+          {
+            "code": "11OClock",
+            "display": "11OClock"
+          },
+          {
+            "code": "12OClock",
+            "display": "12OClock"
+          },
+          {
+            "code": "2OClock",
+            "display": "2OClock"
+          },
+          {
+            "code": "3OClock",
+            "display": "3OClock"
+          },
+          {
+            "code": "4OClock",
+            "display": "4OClock"
+          },
+          {
+            "code": "5OClock",
+            "display": "5OClock"
+          },
+          {
+            "code": "6OClock",
+            "display": "6OClock"
+          },
+          {
+            "code": "7OClock",
+            "display": "7OClock"
+          },
+          {
+            "code": "8OClock",
+            "display": "8OClock"
+          },
+          {
+            "code": "9OClock",
+            "display": "9OClock"
+          },
+          {
+            "code": "Axilla",
+            "display": "Axilla"
+          },
+          {
+            "code": "AxillaryTail",
+            "display": "AxillaryTail"
+          },
+          {
+            "code": "DirectlyUnderNipple",
+            "display": "DirectlyUnderNipple"
+          }
+        ]
+      }
+    ]
+  }
+}

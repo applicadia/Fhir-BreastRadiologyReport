@@ -1,0 +1,15 @@
+{
+  "BaseUrl": "http://www.cimi.com",
+  "ImplementationGuideUrl": "www.test.com/BreastRad/IGGuide",
+  "AbbreviatedProjectName": "BreastRad",
+  "LongProjectName": "Breast Radiology Reporting",
+  "PublicationStatus": "draft",
+  "ProjectVersion": "0.1",
+  "NameOfPublishingEntity": "Penrad Technologies, LLC",
+  "ProjectContactUrl": "http://www.test.com/Contact",
+  "ProjectCopyrightText": "None",
+  "IGOverviewMarkdown": "IG Overview",
+  "NameSpace": "xxyyz",
+  "ReferenceItems": [],
+  "AuthorItems": []
+}
