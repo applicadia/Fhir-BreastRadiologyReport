@@ -1,7 +1,7 @@
 Grammar: DataElement 6.0
 Namespace: xxyyz
 Description: "Breast Radiology Report"
-Uses: obf
+Uses: shr.core, obf
 CodeSystem: KWA = http://foo.org
 
 // BreastRadiologyReport Definition
