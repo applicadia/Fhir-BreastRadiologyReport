@@ -16,3 +16,8 @@ Element:           Code
 Description:       "The main type identifier for a lab, procedure, condition, etc., usually drawn from a controlled vocabulary."
 Value:             concept
 
+Element: Title
+Value: string
+
+Element: EmptyReason
+Value: concept
