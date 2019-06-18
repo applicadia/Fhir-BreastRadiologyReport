@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "MassTypes",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/ValueSet/MassTypes",
+  "version": "4.0.0",
+  "name": "MassTypes",
+  "title": "Mass Types",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "Mass Types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "IntraductalMass",
+            "display": "IntraductalMass"
+          },
+          {
+            "code": "PartiallySolidMass",
+            "display": "PartiallySolidMass"
+          },
+          {
+            "code": "SkinMass",
+            "display": "SkinMass"
+          },
+          {
+            "code": "SolidMass",
+            "display": "SolidMass"
+          }
+        ]
+      }
+    ]
+  }
+}

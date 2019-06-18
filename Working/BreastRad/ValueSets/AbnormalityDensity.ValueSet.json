@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "AbnormalityDensity",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/ValueSet/AbnormalityDensity",
+  "version": "4.0.0",
+  "name": "AbnormalityDensity",
+  "title": "Abnormality Density",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "Abnormal Density Description",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "EqualDensity",
+            "display": "EqualDensity"
+          },
+          {
+            "code": "FatContaining",
+            "display": "FatContaining"
+          },
+          {
+            "code": "HighDensity",
+            "display": "HighDensity"
+          },
+          {
+            "code": "LowDensity",
+            "display": "LowDensity"
+          }
+        ]
+      }
+    ]
+  }
+}

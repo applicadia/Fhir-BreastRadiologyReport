@@ -1,0 +1,131 @@
+{
+  "resourceType": "ValueSet",
+  "id": "AbnormalityType",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/ValueSet/AbnormalityType",
+  "version": "4.0.0",
+  "name": "AbnormalityType",
+  "title": "Abnormality Type",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "Abnormality Type value",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "Abscess",
+            "display": "Abscess"
+          },
+          {
+            "code": "PostSurgicalScar",
+            "display": "PostSurgicalScar"
+          },
+          {
+            "code": "PathologicalLymphNode",
+            "display": "PathologicalLymphNode"
+          },
+          {
+            "code": "Nodule",
+            "display": "Nodule"
+          },
+          {
+            "code": "Node",
+            "display": "Node"
+          },
+          {
+            "code": "MastitisArea",
+            "display": "MastitisArea"
+          },
+          {
+            "code": "Mass",
+            "display": "Mass"
+          },
+          {
+            "code": "Lipoma",
+            "display": "Lipoma"
+          },
+          {
+            "code": "Hematoma",
+            "display": "Hematoma"
+          },
+          {
+            "code": "Hamartoma",
+            "display": "Hamartoma"
+          },
+          {
+            "code": "ForeignBody",
+            "display": "ForeignBody"
+          },
+          {
+            "code": "FluidCollection",
+            "display": "FluidCollection"
+          },
+          {
+            "code": "FibrocysticTissue",
+            "display": "FibrocysticTissue"
+          },
+          {
+            "code": "FibroadenomaDegeneration",
+            "display": "FibroadenomaDegeneration"
+          },
+          {
+            "code": "Fibroadenoma",
+            "display": "Fibroadenoma"
+          },
+          {
+            "code": "FatNecrosis",
+            "display": "FatNecrosis"
+          },
+          {
+            "code": "DuctEctasia",
+            "display": "DuctEctasia"
+          },
+          {
+            "code": "DuctDialated",
+            "display": "DuctDialated"
+          },
+          {
+            "code": "Cyst",
+            "display": "Cyst"
+          },
+          {
+            "code": "Calcification",
+            "display": "Calcification"
+          },
+          {
+            "code": "BrachytherapyCatheter",
+            "display": "BrachytherapyCatheter"
+          },
+          {
+            "code": "Asymmetry",
+            "display": "Asymmetry"
+          },
+          {
+            "code": "Area",
+            "display": "Area"
+          },
+          {
+            "code": "ArchitecturalDistortion",
+            "display": "ArchitecturalDistortion"
+          },
+          {
+            "code": "Seroma",
+            "display": "Seroma"
+          },
+          {
+            "code": "SignalVoidArea",
+            "display": "SignalVoidArea"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ClockLocation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/ValueSet/ClockLocation",
+  "version": "4.0.0",
+  "name": "ClockLocation",
+  "title": "Clock Location",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "Clock location value",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "1OClock",
+            "display": "1OClock"
+          },
+          {
+            "code": "UpperAspect",
+            "display": "UpperAspect"
+          },
+          {
+            "code": "OuterLowerQuadrant",
+            "display": "OuterLowerQuadrant"
+          },
+          {
+            "code": "OuterInnerQuadrant",
+            "display": "OuterInnerQuadrant"
+          },
+          {
+            "code": "LowerAspect",
+            "display": "LowerAspect"
+          },
+          {
+            "code": "EntireBreast",
+            "display": "EntireBreast"
+          },
+          {
+            "code": "CentralToNipple",
+            "display": "CentralToNipple"
+          },
+          {
+            "code": "AxillaryTail",
+            "display": "AxillaryTail"
+          },
+          {
+            "code": "Axilla",
+            "display": "Axilla"
+          },
+          {
+            "code": "9OClock",
+            "display": "9OClock"
+          },
+          {
+            "code": "8OClock",
+            "display": "8OClock"
+          },
+          {
+            "code": "7OClock",
+            "display": "7OClock"
+          },
+          {
+            "code": "6OClock",
+            "display": "6OClock"
+          },
+          {
+            "code": "5OClock",
+            "display": "5OClock"
+          },
+          {
+            "code": "4OClock",
+            "display": "4OClock"
+          },
+          {
+            "code": "3OClock",
+            "display": "3OClock"
+          },
+          {
+            "code": "2OClock",
+            "display": "2OClock"
+          },
+          {
+            "code": "12OClock",
+            "display": "12OClock"
+          },
+          {
+            "code": "11OClock",
+            "display": "11OClock"
+          },
+          {
+            "code": "10OClock",
+            "display": "10OClock"
+          },
+          {
+            "code": "UpperInnerQuadrant",
+            "display": "UpperInnerQuadrant"
+          },
+          {
+            "code": "UpperLowerQuadrant",
+            "display": "UpperLowerQuadrant"
+          }
+        ]
+      }
+    ]
+  }
+}

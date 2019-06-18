@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CystTypes",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/ValueSet/CystTypes",
+  "version": "4.0.0",
+  "name": "CystTypes",
+  "title": "Cyst Types",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "Cyst Types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "ComplexCyst",
+            "display": "ComplexCyst"
+          },
+          {
+            "code": "ComplicatedCyst",
+            "display": "ComplicatedCyst"
+          },
+          {
+            "code": "CystWithDebris",
+            "display": "CystWithDebris"
+          },
+          {
+            "code": "MicroCyst",
+            "display": "MicroCyst"
+          },
+          {
+            "code": "OilCyst",
+            "display": "OilCyst"
+          },
+          {
+            "code": "SimpleCyst",
+            "display": "SimpleCyst"
+          }
+        ]
+      }
+    ]
+  }
+}

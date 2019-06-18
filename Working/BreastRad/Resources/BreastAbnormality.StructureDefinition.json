@@ -1,0 +1,507 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "BreastAbnormality",
+  "extension": [
+    {
+      "url": "http://www.cimi.com/ModelDef/SectionPurpose",
+      "valueString": "Profile"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "xxyyz"
+    }
+  ],
+  "url": "http://www.cimi.com/StructureDefinition/BreastAbnormality",
+  "name": "BreastAbnormality",
+  "title": "Breast Abnormality",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "Penrad Technologies, LLC",
+  "description": "Breast Abnormality Form",
+  "fhirVersion": "4.0.0",
+  "mapping": [
+    {
+      "identity": "ModelDef.MapToProfile",
+      "name": "ModelDef.MapToProfile",
+      "comment": "{\"BaseResourceName\":\"Observation\"}"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "BreastAbnormality",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+  "differential": {
+    "element": [
+      {
+        "id": "BreastAbnormality",
+        "path": "BreastAbnormality",
+        "short": "BreastAbnormality",
+        "comment": "BreastAbnormality Logical Model",
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"Observation\",\"Arguments\":[{\"Name\":\"observationCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[{\"Name\":\"CodeSystem\",\"Values\":[\"KWA\",\"http://www.test.com/KWA\"]}]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.abnormalityDensity",
+        "path": "BreastAbnormality.abnormalityDensity",
+        "short": "Abnormality Density",
+        "definition": "Abnormal Density Description",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Abnormal Density Description",
+          "valueSet": "http://www.cimi.com/ValueSet/AbnormalityDensity"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.abnormalityType",
+        "path": "BreastAbnormality.abnormalityType",
+        "short": "Abnormality Type",
+        "definition": "Abnormality Type value",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Abnormality Type value",
+          "valueSet": "http://www.cimi.com/ValueSet/AbnormalityType"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.asymmetryTypes",
+        "path": "BreastAbnormality.asymmetryTypes",
+        "short": "Asymmetry Types",
+        "definition": "Asymetry Type value",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Asymetry Type value",
+          "valueSet": "http://www.cimi.com/ValueSet/AsymmetryTypes"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.biRadCode",
+        "path": "BreastAbnormality.biRadCode",
+        "short": "Bi-Rad Code",
+        "definition": "Bi-Rad code value",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Bi-Rad code value",
+          "valueSet": "http://www.cimi.com/ValueSet/BiRadCode"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.breastbodylocation",
+        "extension": [
+          {
+            "url": "http://www.cimi.com/ModelDef/Composable",
+            "valueString": "Flatten"
+          }
+        ],
+        "path": "BreastAbnormality.breastbodylocation",
+        "short": "BreastBodyLocation",
+        "definition": "Location of the breast abnormality.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "profile": [
+              "http://www.cimi.com/StructureDefinition/Breastbodylocation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.change",
+        "path": "BreastAbnormality.change",
+        "short": "Change",
+        "definition": "Change value",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Change value",
+          "valueSet": "http://www.cimi.com/ValueSet/Change"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.clockLocation",
+        "path": "BreastAbnormality.clockLocation",
+        "short": "Clock Location",
+        "definition": "Clock location value",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Clock location value",
+          "valueSet": "http://www.cimi.com/ValueSet/ClockLocation"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.cystTypes",
+        "path": "BreastAbnormality.cystTypes",
+        "short": "Cyst Types",
+        "definition": "Cyst Types",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Cyst Types",
+          "valueSet": "http://www.cimi.com/ValueSet/CystTypes"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.depth",
+        "path": "BreastAbnormality.depth",
+        "short": "Depth",
+        "definition": "Depth",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Depth",
+          "valueSet": "http://www.cimi.com/ValueSet/Depth"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.margin",
+        "path": "BreastAbnormality.margin",
+        "short": "Margin",
+        "definition": "Margin",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Margin",
+          "valueSet": "http://www.cimi.com/ValueSet/Margin"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.massTypes",
+        "path": "BreastAbnormality.massTypes",
+        "short": "Mass Types",
+        "definition": "Mass Types",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Mass Types",
+          "valueSet": "http://www.cimi.com/ValueSet/MassTypes"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.maxLength",
+        "path": "BreastAbnormality.maxLength",
+        "short": "Max Length",
+        "definition": "Max Length Description",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.maxWidth",
+        "path": "BreastAbnormality.maxWidth",
+        "short": "Max Width",
+        "definition": "Max Width",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.nodeTypes",
+        "path": "BreastAbnormality.nodeTypes",
+        "short": "Node Types",
+        "definition": "Node Types",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Node Types",
+          "valueSet": "http://www.cimi.com/ValueSet/NodeTypes"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.orientation",
+        "path": "BreastAbnormality.orientation",
+        "short": "Orientation",
+        "definition": "Orientation",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Orientation",
+          "valueSet": "http://www.cimi.com/ValueSet/Orientation"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.shape",
+        "path": "BreastAbnormality.shape",
+        "short": "Shape",
+        "definition": "Shape",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Shape",
+          "valueSet": "http://www.cimi.com/ValueSet/Shape"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.vascularity",
+        "path": "BreastAbnormality.vascularity",
+        "short": "Vascularity",
+        "definition": "Vascularity",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Vascularity",
+          "valueSet": "http://www.cimi.com/ValueSet/Vascularity"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.wall",
+        "path": "BreastAbnormality.wall",
+        "short": "Wall",
+        "definition": "Wall",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Wall",
+          "valueSet": "http://www.cimi.com/ValueSet/Wall"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.woundCount",
+        "path": "BreastAbnormality.woundCount",
+        "short": "Wound count",
+        "definition": "Wound count",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      }
+    ]
+  }
+}

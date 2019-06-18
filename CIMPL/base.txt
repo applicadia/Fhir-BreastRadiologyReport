@@ -11,3 +11,8 @@ Value:             id
 
 Element:           EntryType
 Value:             uri
+
+Element:           Code
+Description:       "The main type identifier for a lab, procedure, condition, etc., usually drawn from a controlled vocabulary."
+Value:             concept
+
