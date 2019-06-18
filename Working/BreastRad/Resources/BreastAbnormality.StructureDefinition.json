@@ -41,7 +41,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"Observation\",\"Arguments\":[{\"Name\":\"observationCode\",\"Values\":[\"http://loinc.org#24323-8\"]}],\"Commands\":[{\"Name\":\"CodeSystem\",\"Values\":[\"KWA\",\"http://www.test.com/KWA\"]}]}"
+            "map": "{\"Target\":\"Observation\",\"Arguments\":[{\"Name\":\"observationCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[{\"Name\":\"CodeSystem\",\"Values\":[\"KWA\",\"http://www.test.com/KWA\"]}]}"
           }
         ]
       },
@@ -66,7 +66,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#AbnormalityDensity\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -91,7 +91,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#AbnormalityType\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -116,7 +116,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#AsymetryDensity\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -141,7 +141,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#BiRadCode\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -188,7 +188,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#Change\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -213,7 +213,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#ClockLocation\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -238,7 +238,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#CystTypes\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -263,32 +263,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#Depth\"]}],\"Commands\":[]}"
-          }
-        ]
-      },
-      {
-        "id": "BreastAbnormality.laterality",
-        "path": "BreastAbnormality.laterality",
-        "short": "Laterality",
-        "definition": "Laterality",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "code"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "Laterality",
-          "valueSet": "http://www.cimi.com/ValueSet/Laterality"
-        },
-        "mapping": [
-          {
-            "identity": "ModelDef.CIMPLMap",
-            "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#Laterality\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -313,7 +288,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#Margin\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -338,7 +313,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#MassTypes\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -358,7 +333,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#MaxLength\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -378,7 +353,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#MaxWidth\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -403,7 +378,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#NodeTypes\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -428,7 +403,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#Orientation\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -453,7 +428,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#Shape\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -478,7 +453,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#Vascularity\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -503,7 +478,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#Wall\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -523,7 +498,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"KWA#WoundCount\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       }

@@ -21,12 +21,16 @@
         "system": "http://test.com",
         "concept": [
           {
-            "code": "LeftBreast",
-            "display": "LeftBreast"
+            "code": "Bilateral",
+            "display": "Bilateral"
           },
           {
-            "code": "RightBreast",
-            "display": "RightBreast"
+            "code": "Left",
+            "display": "Left"
+          },
+          {
+            "code": "Right",
+            "display": "Right"
           }
         ]
       }
