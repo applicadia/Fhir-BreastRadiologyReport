@@ -1,10 +1,11 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: ShapeVs
 Description: "Shape"
-
-    #IrregularShape "IrregularShape"
-    #LobulatedShape "LobulatedShape"
-    #OvalShape "OvalShape"
-    #Reniform "Reniform"
-    #Round "Round"
+    SNOMED#54302000  "IrregularShape"
+    SNOMED#249366005  "LobulatedShape"
+    SNOMED#271939006 "OvalShape"
+    SNOMED#289530006 "Reniform"
+    SNOMED#9957009 "Round"

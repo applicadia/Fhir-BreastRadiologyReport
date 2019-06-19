@@ -1,11 +1,12 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: VascularityVs
 Description: "Vascularity"
-
-    #Adjacent "Adjacent"
-    #Increased "Increased"
-    #IncreasedInSurroundArea "IncreasedInSurroundArea"
-    #NoIncrease "NoIncrease"
-    #NotPresent "NotPresent"
-    #Present "Present"
+    SNOMED#49727002 "Adjacent"
+    SNOMED#422587007 "Increased"
+    SNOMED#300848003 "IncreasedInSurroundArea"
+    SNOMED#72863001 "NoIncrease"
+    SNOMED#247441003 "NotPresent"
+    SNOMED#76067001 "Present"

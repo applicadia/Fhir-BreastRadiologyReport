@@ -1,9 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: DepthVs
 Description: "Depth"
-
-    #Anterior "Anterior"
-    #Middle "Middle"
-    #Posterior "Posterior"
-    #SubAreolar "SubAreolar"
+    SNOMED#54302000  "Anterior"
+    SNOMED#249366005  "Middle"
+    SNOMED#271939006 "Posterior"
+    SNOMED#289530006 "SubAreolar"

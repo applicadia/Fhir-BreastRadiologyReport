@@ -1,14 +1,15 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: BiRadCodeVs
 Description: "Bi-Rad code value"
-
-    #BIRAD5HighlySuggestive "BIRAD5HighlySuggestive"
-    #BIRAD0Incomplete "BIRAD0Incomplete"
-    #BIRAD1Negative "BIRAD1Negative"
-    #BIRAD2Benign "BIRAD2Benign"
-    #BIRAD3ProbablyBenign "BIRAD3ProbablyBenign"
-    #BIRAD4ALowSuspicion "BIRAD4ALowSuspicion"
-    #BIRAD4BModerateSuspicion "BIRAD4BModerateSuspicion"
-    #BIRAD4CHighSuspicion "BIRAD4CHighSuspicion"
-    #BIRAD6ProvenMalignancy "BIRAD6ProvenMalignancy"
+    SNOMED#289530006 "BIRAD5HighlySuggestive"
+    SNOMED#9957009 "BIRAD0Incomplete"
+    SNOMED#49727002 "BIRAD1Negative"
+    SNOMED#422587007 "BIRAD2Benign"
+    SNOMED#300848003 "BIRAD3ProbablyBenign"
+    SNOMED#72863001 "BIRAD4ALowSuspicion"
+    SNOMED#247441003 "BIRAD4BModerateSuspicion"
+    SNOMED#76067001 "BIRAD4CHighSuspicion"
+    SNOMED#62315008 "BIRAD6ProvenMalignancy"

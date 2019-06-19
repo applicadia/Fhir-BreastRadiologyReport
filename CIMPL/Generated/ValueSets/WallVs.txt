@@ -1,9 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: WallVs
 Description: "Wall"
-
-    #IrregularInternalWall "IrregularInternalWall"
-    #SeptatedInternalWall "SeptatedInternalWall"
-    #SmoothInternalWall "SmoothInternalWall"
-    #ThickenedWall "ThickenedWall"
+    SNOMED#62315008 "IrregularInternalWall"
+    SNOMED#65124004 "SeptatedInternalWall"
+    SNOMED#65958008 "SmoothInternalWall"
+    SNOMED#88610006 "ThickenedWall"

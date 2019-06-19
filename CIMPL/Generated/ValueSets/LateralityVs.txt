@@ -1,8 +1,9 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: LateralityVs
 Description: "Laterality"
-
-    #Bilateral "Bilateral"
-    #Left "Left"
-    #Right "Right"
+    SNOMED#300848003 "Bilateral"
+    SNOMED#72863001 "Left"
+    SNOMED#247441003 "Right"

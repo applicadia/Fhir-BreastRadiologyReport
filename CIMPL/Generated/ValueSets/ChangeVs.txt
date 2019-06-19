@@ -1,19 +1,20 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: ChangeVs
 Description: "Change value"
-
-    #DecreaseInCalcifications "DecreaseInCalcifications"
-    #DecreasedInNumber "DecreasedInNumber"
-    #DecreasedInSize "DecreasedInSize"
-    #IncreaseInCalcifications "IncreaseInCalcifications"
-    #IncreasedInNumber "IncreasedInNumber"
-    #IncreasedInSize "IncreasedInSize"
-    #LessProminent "LessProminent"
-    #MoreProminent "MoreProminent"
-    #New "New"
-    #NoLongerSeen "NoLongerSeen"
-    #NotSignificantlyChanged "NotSignificantlyChanged"
-    #PartiallyRemoved "PartiallyRemoved"
-    #RepresentsChange "RepresentsChange"
-    #Stable "Stable"
+    SNOMED#65124004 "DecreaseInCalcifications"
+    SNOMED#65958008 "DecreasedInNumber"
+    SNOMED#88610006 "DecreasedInSize"
+    SNOMED#300132001 "IncreaseInCalcifications"
+    SNOMED#271771009 "IncreasedInNumber"
+    SNOMED#246679005  "IncreasedInSize"
+    SNOMED#54302000  "LessProminent"
+    SNOMED#249366005  "MoreProminent"
+    SNOMED#271939006 "New"
+    SNOMED#289530006 "NoLongerSeen"
+    SNOMED#9957009 "NotSignificantlyChanged"
+    SNOMED#49727002 "PartiallyRemoved"
+    SNOMED#422587007 "RepresentsChange"
+    SNOMED#300848003 "Stable"

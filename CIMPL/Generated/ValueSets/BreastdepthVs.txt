@@ -1,8 +1,9 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: BreastdepthVs
 Description: "BreastDepth"
-
-    #Anterior "Anterior"
-    #Middle "Middle"
-    #Posterior "Posterior"
+    SNOMED#65124004 "Anterior"
+    SNOMED#65958008 "Middle"
+    SNOMED#88610006 "Posterior"

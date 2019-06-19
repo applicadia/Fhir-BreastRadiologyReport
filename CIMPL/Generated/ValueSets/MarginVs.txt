@@ -1,17 +1,18 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: MarginVs
 Description: "Margin"
-
-    #AngularMargin "AngularMargin"
-    #CircumscribedMargin "CircumscribedMargin"
-    #IndistinctMargin "IndistinctMargin"
-    #IntraductalExtension "IntraductalExtension"
-    #IrregularMargin "IrregularMargin"
-    #LobulatedMargin "LobulatedMargin"
-    #MacrolobulatedMargin "MacrolobulatedMargin"
-    #MicrolobulatedMargin "MicrolobulatedMargin"
-    #NonCircumscribedMargin "NonCircumscribedMargin"
-    #ObscuredMargin "ObscuredMargin"
-    #SmoothMargin "SmoothMargin"
-    #SpiculatedMargin "SpiculatedMargin"
+    SNOMED#76067001 "AngularMargin"
+    SNOMED#62315008 "CircumscribedMargin"
+    SNOMED#65124004 "IndistinctMargin"
+    SNOMED#65958008 "IntraductalExtension"
+    SNOMED#88610006 "IrregularMargin"
+    SNOMED#300132001 "LobulatedMargin"
+    SNOMED#271771009 "MacrolobulatedMargin"
+    SNOMED#246679005  "MicrolobulatedMargin"
+    SNOMED#54302000  "NonCircumscribedMargin"
+    SNOMED#249366005  "ObscuredMargin"
+    SNOMED#271939006 "SmoothMargin"
+    SNOMED#289530006 "SpiculatedMargin"

@@ -42,105 +42,105 @@ Value: xxyyz.BreastBodyLocation
 Element: BreastAbnormalityDensity
 Parent: ObservationComponent
 Description: "Abnormal Density Description"
-    Code = SNOMED#422587007
+    Code = SNOMED#300132001
     DataValue only concept
     DataValue[concept] from AbnormalityDensityVs
 
 Element: BreastAbnormalityType
 Parent: ObservationComponent
 Description: "Abnormality Type value"
-    Code = SNOMED#300848003
+    Code = SNOMED#271771009
     DataValue only concept
     DataValue[concept] from AbnormalityTypeVs
 
 Element: BreastAsymmetryTypes
 Parent: ObservationComponent
 Description: "Asymetry Type value"
-    Code = SNOMED#72863001
+    Code = SNOMED#246679005 
     DataValue only concept
     DataValue[concept] from AsymmetryTypesVs
 
 Element: BreastBiRadCode
 Parent: ObservationComponent
 Description: "Bi-Rad code value"
-    Code = SNOMED#247441003
+    Code = SNOMED#54302000 
     DataValue only concept
     DataValue[concept] from BiRadCodeVs
 
 Element: BreastChange
 Parent: ObservationComponent
 Description: "Change value"
-    Code = SNOMED#76067001
+    Code = SNOMED#249366005 
     DataValue only concept
     DataValue[concept] from ChangeVs
 
 Element: BreastClockLocation
 Parent: ObservationComponent
 Description: "Clock location value"
-    Code = SNOMED#62315008
+    Code = SNOMED#271939006
     DataValue only concept
     DataValue[concept] from ClockLocationVs
 
 Element: BreastCystTypes
 Parent: ObservationComponent
 Description: "Cyst Types"
-    Code = SNOMED#65124004
+    Code = SNOMED#289530006
     DataValue only concept
     DataValue[concept] from CystTypesVs
 
 Element: BreastDepth
 Parent: ObservationComponent
 Description: "Depth"
-    Code = SNOMED#65958008
+    Code = SNOMED#9957009
     DataValue only concept
     DataValue[concept] from DepthVs
 
 Element: BreastMargin
 Parent: ObservationComponent
 Description: "Margin"
-    Code = SNOMED#88610006
+    Code = SNOMED#49727002
     DataValue only concept
     DataValue[concept] from MarginVs
 
 Element: BreastMassTypes
 Parent: ObservationComponent
 Description: "Mass Types"
-    Code = SNOMED#300132001
+    Code = SNOMED#422587007
     DataValue only concept
     DataValue[concept] from MassTypesVs
 
 Element: BreastNodeTypes
 Parent: ObservationComponent
 Description: "Node Types"
-    Code = SNOMED#54302000 
+    Code = SNOMED#247441003
     DataValue only concept
     DataValue[concept] from NodeTypesVs
 
 Element: BreastOrientation
 Parent: ObservationComponent
 Description: "Orientation"
-    Code = SNOMED#249366005 
+    Code = SNOMED#76067001
     DataValue only concept
     DataValue[concept] from OrientationVs
 
 Element: BreastShape
 Parent: ObservationComponent
 Description: "Shape"
-    Code = SNOMED#271939006
+    Code = SNOMED#62315008
     DataValue only concept
     DataValue[concept] from ShapeVs
 
 Element: BreastVascularity
 Parent: ObservationComponent
 Description: "Vascularity"
-    Code = SNOMED#289530006
+    Code = SNOMED#65124004
     DataValue only concept
     DataValue[concept] from VascularityVs
 
 Element: BreastWall
 Parent: ObservationComponent
 Description: "Wall"
-    Code = SNOMED#9957009
+    Code = SNOMED#65958008
     DataValue only concept
     DataValue[concept] from WallVs
 
@@ -148,17 +148,17 @@ Description: "Wall"
 Element: BreastMaxLength
 Parent: ObservationComponent
 Description: "Max Length Description"
-    Code = SNOMED#271771009
+    Code = SNOMED#300848003
     DataValue only integer
 
 Element: BreastMaxWidth
 Parent: ObservationComponent
 Description: "Max Width"
-    Code = SNOMED#246679005 
+    Code = SNOMED#72863001
     DataValue only integer
 
 Element: BreastWoundCount
 Parent: ObservationComponent
 Description: "Wound count"
-    Code = SNOMED#49727002
+    Code = SNOMED#88610006
     DataValue only integer

@@ -1,8 +1,9 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: AsymmetryTypesVs
 Description: "Asymetry Type value"
-
-    #DensityFocalAsymmetry "DensityFocalAsymmetry"
-    #FocalAsymmetry "FocalAsymmetry"
-    #GlobalAsymmetry "GlobalAsymmetry"
+    SNOMED#54302000  "DensityFocalAsymmetry"
+    SNOMED#249366005  "FocalAsymmetry"
+    SNOMED#271939006 "GlobalAsymmetry"

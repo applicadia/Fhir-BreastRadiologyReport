@@ -1,11 +1,12 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: NodeTypesVs
 Description: "Node Types"
-
-    #AxillaryNode "AxillaryNode"
-    #EnlargedNode "EnlargedNode"
-    #FocalCortexNode "FocalCortexNode"
-    #InfraclavicularNode "InfraclavicularNode"
-    #IntramammaryNode "IntramammaryNode"
-    #SupraclavicularNode "SupraclavicularNode"
+    SNOMED#72863001 "AxillaryNode"
+    SNOMED#247441003 "EnlargedNode"
+    SNOMED#76067001 "FocalCortexNode"
+    SNOMED#62315008 "InfraclavicularNode"
+    SNOMED#65124004 "IntramammaryNode"
+    SNOMED#65958008 "SupraclavicularNode"

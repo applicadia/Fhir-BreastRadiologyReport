@@ -1,9 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: MassTypesVs
 Description: "Mass Types"
-
-    #IntraductalMass "IntraductalMass"
-    #PartiallySolidMass "PartiallySolidMass"
-    #SkinMass "SkinMass"
-    #SolidMass "SolidMass"
+    SNOMED#9957009 "IntraductalMass"
+    SNOMED#49727002 "PartiallySolidMass"
+    SNOMED#422587007 "SkinMass"
+    SNOMED#300848003 "SolidMass"

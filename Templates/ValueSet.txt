@@ -1,11 +1,11 @@
 Grammar: ValueSet 6.0
 Namespace: %namespace%
-ValueSet: %valuesetname%
-Description: "%valuesetdescription%"
 //+ *CODESYSTEM
 Codesystem: %codesystemkey% = %codesystemurl%
 //- *CODESYSTEM
 
+ValueSet: %valuesetname%
+Description: "%valuesetdescription%"
 //+ *ITEMS
-    ABCDEF %RandomCode()% "%itemdescription%"
+    %fullcode% "%display%"
 //- *ITEMS

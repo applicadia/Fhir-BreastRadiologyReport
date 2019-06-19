@@ -1,11 +1,12 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: CystTypesVs
 Description: "Cyst Types"
-
-    #ComplexCyst "ComplexCyst"
-    #ComplicatedCyst "ComplicatedCyst"
-    #CystWithDebris "CystWithDebris"
-    #MicroCyst "MicroCyst"
-    #OilCyst "OilCyst"
-    #SimpleCyst "SimpleCyst"
+    SNOMED#65124004 "ComplexCyst"
+    SNOMED#65958008 "ComplicatedCyst"
+    SNOMED#88610006 "CystWithDebris"
+    SNOMED#300132001 "MicroCyst"
+    SNOMED#271771009 "OilCyst"
+    SNOMED#246679005  "SimpleCyst"

@@ -1,9 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: AbnormalityDensityVs
 Description: "Abnormal Density Description"
-
-    #EqualDensity "EqualDensity"
-    #FatContaining "FatContaining"
-    #HighDensity "HighDensity"
-    #LowDensity "LowDensity"
+    SNOMED#422587007 "EqualDensity"
+    SNOMED#300848003 "FatContaining"
+    SNOMED#72863001 "HighDensity"
+    SNOMED#247441003 "LowDensity"

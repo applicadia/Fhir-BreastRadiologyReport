@@ -1,9 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: xxyyz
+CodeSystem: SNOMED = http://snomed.info/sct
+
 ValueSet: OrientationVs
 Description: "Orientation"
-
-    #ParallelToSkin "ParallelToSkin"
-    #PerpendicularToSkinNotParallel "PerpendicularToSkinNotParallel"
-    #TallerThanWide "TallerThanWide"
-    #WiderThanTall "WiderThanTall"
+    SNOMED#88610006 "ParallelToSkin"
+    SNOMED#300132001 "PerpendicularToSkinNotParallel"
+    SNOMED#271771009 "TallerThanWide"
+    SNOMED#246679005  "WiderThanTall"
