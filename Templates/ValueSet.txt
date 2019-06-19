@@ -7,5 +7,5 @@ Codesystem: %codesystemkey% = %codesystemurl%
 //- *CODESYSTEM
 
 //+ *ITEMS
-    #%itemname% "%itemdescription%"
+    ABCDEF %RandomCode()% "%itemdescription%"
 //- *ITEMS

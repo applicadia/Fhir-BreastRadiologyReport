@@ -1,0 +1,9 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: DepthVs
+Description: "Depth"
+
+    #Anterior "Anterior"
+    #Middle "Middle"
+    #Posterior "Posterior"
+    #SubAreolar "SubAreolar"

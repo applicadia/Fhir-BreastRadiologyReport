@@ -1,0 +1,20 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: BreastlocationVs
+Description: "BreastLocation"
+
+    #1OClock "1OClock"
+    #10OClock "10OClock"
+    #11OClock "11OClock"
+    #12OClock "12OClock"
+    #2OClock "2OClock"
+    #3OClock "3OClock"
+    #4OClock "4OClock"
+    #5OClock "5OClock"
+    #6OClock "6OClock"
+    #7OClock "7OClock"
+    #8OClock "8OClock"
+    #9OClock "9OClock"
+    #Axilla "Axilla"
+    #AxillaryTail "AxillaryTail"
+    #DirectlyUnderNipple "DirectlyUnderNipple"

@@ -1,13 +1,13 @@
 Grammar: DataElement 6.0
 Namespace: xxyyz
 Description: "Breast Radiology Report"
-Uses: shr.core, shr.base
-CodeSystem: KWA = http://foo.org
+Uses: shr.core, obf
+CodeSystem: LOINC = http://loinc.org
 
 // BreastRadiologyReport Definition
 // This is the main breast radiology report class.
 Entry: BreastRadiologyReport
-Property: Section 0..*
+Parent: Composition
 		Section
 		includes PatientHistory 0..1
 		includes FindingsLeftBreast 0..1
@@ -15,55 +15,38 @@ Property: Section 0..*
 		includes Impressions 0..1
 		includes Recommendations 0..1
 
-// Section definition
-// This defines the abstract class for a composition section.
-Group:             Section
-Description:       "Represents a section containing entries in a composition."
-Property:          Title 0..1
-Property:          Code 0..1
-//Property:          Author 0..*
-//Property:          FocalSubject 0..1
-//Property:          Narrative 0..1
-//Property:          Type 0..1
-//Property:          SortOrder 0..1
-//Property:          DomainResource 0..*
-Property:          EmptyReason 0..1
-//Property:          Section 0..*
-//                   Code from http://hl7.org/fhir/ValueSet/doc-section-codes (example)
-//                   Type from http://hl7.org/fhir/ValueSet/list-mode (required)
-
 // Patient History Section
-Entry: PatientHistory
+Group: PatientHistory
+Parent: Section
 Description: "Patient History Section"
-Parent:    Section
-//			Title[string] = "Patient History"
-			Code[concept] = KWA#baz
+			Code[concept] = LOINC#baz
+//			SectionTitle[string] = "Patient History"
 
 
 // Findings left breast Section
-Entry: FindingsLeftBreast
-Description: "Findings Left Breast Section"
+Group: FindingsLeftBreast
 Parent:    Section
+Description: "Findings Left Breast Section"
 //			Title[string] = "Findings Left Breast"
-			Code[concept] = KWA#baz
+			Code = LOINC#26215-4 
 
 // Findings right breast Section
-Entry: FindingsRightBreast
-Description: "Findings Right Breast Section"
+Group: FindingsRightBreast
 Parent:    Section
+Description: "Findings Right Breast Section"
 //			Title[string] = "Findings Right Breast"
-			Code[concept] = KWA#baz
+			Code = LOINC#26216-2
 
 // Impressions Section
-Entry: Impressions
-Description: "Impressions Section"
+Group: Impressions
 Parent:    Section
+Description: "Impressions Section"
 //			Title[string] = "Impressions"
-			Code[concept] = KWA#baz
+			Code = LOINC#19005-8
 			
 // Recommendations Section
-Entry: Recommendations
-Description: "Recommendations Section"
+Group: Recommendations
 Parent:    Section
+Description: "Recommendations Section"
 //			Title[string] = "Recommendations"
-			Code[concept] = KWA#baz
+			Code = LOINC#18783-1

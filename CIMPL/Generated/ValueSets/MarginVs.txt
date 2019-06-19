@@ -1,0 +1,17 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: MarginVs
+Description: "Margin"
+
+    #AngularMargin "AngularMargin"
+    #CircumscribedMargin "CircumscribedMargin"
+    #IndistinctMargin "IndistinctMargin"
+    #IntraductalExtension "IntraductalExtension"
+    #IrregularMargin "IrregularMargin"
+    #LobulatedMargin "LobulatedMargin"
+    #MacrolobulatedMargin "MacrolobulatedMargin"
+    #MicrolobulatedMargin "MicrolobulatedMargin"
+    #NonCircumscribedMargin "NonCircumscribedMargin"
+    #ObscuredMargin "ObscuredMargin"
+    #SmoothMargin "SmoothMargin"
+    #SpiculatedMargin "SpiculatedMargin"

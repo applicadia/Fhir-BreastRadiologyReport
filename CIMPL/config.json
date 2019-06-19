@@ -1,32 +1,46 @@
 {
-    "projectName": "Breast Radiology Report",
-    "projectShorthand": "BreastRadReport",
-    "projectURL": "http://BreastRadReport.com",
-    "fhirURL": "http://BreastRadReport.com/fhir",
-    "fhirTarget": "FHIR_R4",
-    "implementationGuide": {
-        "npmName": "breastRadReport",
-        "version": "0.0.1",
-       "indexContent": "BreastRadReport.html"
-    },
-    "publisher": "Eir Solutions, LLC",
-    "contact": [
-        {
-            "telecom": [
-                {
-                    "system": "url",
-                    "value": "http://BreastRadReport.com"
-                }
-            ]
-        }
-    ],
-    "provenanceInfo": {
-        "leadAuthor": {
-            "name":"Kurt W. Allen",
-            "organization": "Eir Solutions, LLC",
-            "email": "example@example.org"
-        },
-        "license": "Creative Commons CC-BY <https://creativecommons.org/licenses/by/3.0/>",
-        "copyright": "Copyright (c) Penrad Technologies, LLC."
-    }
+	"projectName": "Breast Radiology Report",
+	"projectShorthand": "BreastRadReport",
+	"projectURL": "http://BreastRadReport.com",
+	"fhirURL": "http://BreastRadReport.com/fhir",
+	"fhirTarget": "FHIR_R4",
+	"implementationGuide": {
+		"indexContent": "BreastRadReport.html",
+		"npmName": "hl7.fhir.us.brr",
+		"version": "0.0.1",
+		"primarySelectionStrategy": {
+			"strategy": "namespace",
+			"primary": ["xxyyz"],
+			"hideSupporting": true
+		},
+		"packageList": "ig-breastRad-plist.json",
+		"includeLogicalModels": false,
+		"includeModelDoc": false,
+		"historyLink": "http://hl7.org/fhir/us/odh/history.html"
+	},
+	"filterStrategy": {
+		"filter": true,
+		"strategy": "namespace",
+		"target": ["xxyyz"]
+	},
+	"publisher": "Hl7",
+	"contact": [
+		{
+			"telecom": [
+				{
+					"system": "url",
+					"value": "http://BreastRadReport.com"
+				}
+			]
+		}
+	],
+	"provenanceInfo": {
+		"leadAuthor": {
+			"name": "Kurt W. Allen",
+			"organization": "Penrad Technologies",
+			"email": "info@Penrad.org"
+		},
+		"license": "Creative Commons CC-BY <https://creativecommons.org/licenses/by/3.0/>",
+		"copyright": "Copyright (c) The Example Organization <http://example.org>"
+	}
 }

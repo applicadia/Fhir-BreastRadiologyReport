@@ -1,0 +1,8 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: DistanceFromNippleVs
+Description: "Distance from Nipple"
+
+    #Inner "Inner"
+    #Middle "Middle"
+    #Outter "Outter"
