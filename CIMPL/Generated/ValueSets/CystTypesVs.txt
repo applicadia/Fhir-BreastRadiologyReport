@@ -1,0 +1,11 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: CystTypesVs
+Description: "Cyst Types"
+
+    #ComplexCyst "ComplexCyst"
+    #ComplicatedCyst "ComplicatedCyst"
+    #CystWithDebris "CystWithDebris"
+    #MicroCyst "MicroCyst"
+    #OilCyst "OilCyst"
+    #SimpleCyst "SimpleCyst"

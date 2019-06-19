@@ -1,0 +1,8 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: LateralityVs
+Description: "Laterality"
+
+    #Bilateral "Bilateral"
+    #Left "Left"
+    #Right "Right"

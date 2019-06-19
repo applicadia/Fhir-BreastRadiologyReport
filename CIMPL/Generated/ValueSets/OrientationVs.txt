@@ -1,0 +1,9 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: OrientationVs
+Description: "Orientation"
+
+    #ParallelToSkin "ParallelToSkin"
+    #PerpendicularToSkinNotParallel "PerpendicularToSkinNotParallel"
+    #TallerThanWide "TallerThanWide"
+    #WiderThanTall "WiderThanTall"

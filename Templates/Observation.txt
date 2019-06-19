@@ -1,7 +1,7 @@
+%Uses("obf")%
 Grammar: DataElement 6.0
 Namespace: %namespace%
 //+ *USES
-%Uses("obf")%
 //- *USES
 //+ *CODESYSTEM
 Codesystem: %codesystemkey% = %codesystemurl%

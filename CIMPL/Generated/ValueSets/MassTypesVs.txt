@@ -1,0 +1,9 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: MassTypesVs
+Description: "Mass Types"
+
+    #IntraductalMass "IntraductalMass"
+    #PartiallySolidMass "PartiallySolidMass"
+    #SkinMass "SkinMass"
+    #SolidMass "SolidMass"

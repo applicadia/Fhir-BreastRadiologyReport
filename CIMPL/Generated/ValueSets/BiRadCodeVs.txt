@@ -1,0 +1,14 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: BiRadCodeVs
+Description: "Bi-Rad code value"
+
+    #BIRAD5HighlySuggestive "BIRAD5HighlySuggestive"
+    #BIRAD0Incomplete "BIRAD0Incomplete"
+    #BIRAD1Negative "BIRAD1Negative"
+    #BIRAD2Benign "BIRAD2Benign"
+    #BIRAD3ProbablyBenign "BIRAD3ProbablyBenign"
+    #BIRAD4ALowSuspicion "BIRAD4ALowSuspicion"
+    #BIRAD4BModerateSuspicion "BIRAD4BModerateSuspicion"
+    #BIRAD4CHighSuspicion "BIRAD4CHighSuspicion"
+    #BIRAD6ProvenMalignancy "BIRAD6ProvenMalignancy"

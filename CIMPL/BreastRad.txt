@@ -2,7 +2,7 @@ Grammar: DataElement 6.0
 Namespace: xxyyz
 Description: "Breast Radiology Report"
 Uses: shr.core, obf
-CodeSystem: KWA = http://foo.org
+CodeSystem: LOINC = http://loinc.org
 
 // BreastRadiologyReport Definition
 // This is the main breast radiology report class.
@@ -19,7 +19,7 @@ Parent: Composition
 Group: PatientHistory
 Parent: Section
 Description: "Patient History Section"
-			Code[concept] = KWA#baz
+			Code[concept] = LOINC#baz
 //			SectionTitle[string] = "Patient History"
 
 
@@ -28,25 +28,25 @@ Group: FindingsLeftBreast
 Parent:    Section
 Description: "Findings Left Breast Section"
 //			Title[string] = "Findings Left Breast"
-			Code = KWA#baz
+			Code = LOINC#26215-4 
 
 // Findings right breast Section
 Group: FindingsRightBreast
 Parent:    Section
 Description: "Findings Right Breast Section"
 //			Title[string] = "Findings Right Breast"
-			Code = KWA#baz
+			Code = LOINC#26216-2
 
 // Impressions Section
 Group: Impressions
 Parent:    Section
 Description: "Impressions Section"
 //			Title[string] = "Impressions"
-			Code = KWA#baz
+			Code = LOINC#19005-8
 			
 // Recommendations Section
 Group: Recommendations
 Parent:    Section
 Description: "Recommendations Section"
 //			Title[string] = "Recommendations"
-			Code = KWA#baz
+			Code = LOINC#18783-1

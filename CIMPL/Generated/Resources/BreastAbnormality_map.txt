@@ -1,0 +1,6 @@
+Grammar: Map 6.0
+Namespace: xxyyz
+Target: FHIR_R4
+
+BreastAbnormality  maps to Observation:
+    

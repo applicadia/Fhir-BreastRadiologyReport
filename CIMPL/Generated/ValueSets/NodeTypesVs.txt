@@ -1,0 +1,11 @@
+Grammar: ValueSet 6.0
+Namespace: xxyyz
+ValueSet: NodeTypesVs
+Description: "Node Types"
+
+    #AxillaryNode "AxillaryNode"
+    #EnlargedNode "EnlargedNode"
+    #FocalCortexNode "FocalCortexNode"
+    #InfraclavicularNode "InfraclavicularNode"
+    #IntramammaryNode "IntramammaryNode"
+    #SupraclavicularNode "SupraclavicularNode"
