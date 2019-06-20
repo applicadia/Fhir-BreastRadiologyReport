@@ -1,46 +1,50 @@
 {
-	"projectName": "Breast Radiology Report",
-	"projectShorthand": "BreastRadReport",
-	"projectURL": "http://BreastRadReport.com",
-	"fhirURL": "http://BreastRadReport.com/fhir",
-	"fhirTarget": "FHIR_R4",
-	"implementationGuide": {
-		"indexContent": "BreastRadReport.html",
-		"npmName": "hl7.fhir.us.brr",
-		"version": "0.0.1",
-		"primarySelectionStrategy": {
-			"strategy": "namespace",
-			"primary": ["xxyyz"],
-			"hideSupporting": true
-		},
-		"packageList": "ig-breastRad-plist.json",
-		"includeLogicalModels": true,
-		"includeModelDoc": true,
-		"historyLink": "http://hl7.org/fhir/us/odh/history.html"
-	},
-	"filterStrategy": {
-		"filter": true,
-		"strategy": "namespace",
-		"target": ["xxyyz"]
-	},
-	"publisher": "Hl7",
-	"contact": [
-		{
-			"telecom": [
-				{
-					"system": "url",
-					"value": "http://BreastRadReport.com"
-				}
-			]
-		}
-	],
-	"provenanceInfo": {
-		"leadAuthor": {
-			"name": "Kurt W. Allen",
-			"organization": "Penrad Technologies",
-			"email": "info@Penrad.org"
-		},
-		"license": "Creative Commons CC-BY <https://creativecommons.org/licenses/by/3.0/>",
-		"copyright": "Copyright (c) The Example Organization <http://example.org>"
-	}
+  "projectName": "Breast Radiology Reporting",
+  "projectShorthand": "BreastRad",
+  "projectURL": "http://www.cimi.com",
+  "fhirURL": "http://www.cimi.com/fhir",
+  "fhirTarget": "FHIR_R4",
+  "implementationGuide": {
+    "indexContent": "Pages/BreastRad.html",
+    "npmName": "hl7.fhir.us.brr",
+    "version": "0.1",
+    "primarySelectionStrategy": {
+      "strategy": "namespace",
+      "primary": [
+        "xxyyz"
+      ],
+      "hideSupporting": true
+    },
+    "packageList": "ig-breastRad-plist.json",
+    "includeLogicalModels": true,
+    "includeModelDoc": true,
+    "historyLink": "http://hl7.org/fhir/us/odh/history.html"
+  },
+  "filterStrategy": {
+    "strategy": "namespace",
+    "filter": true,
+    "target": [
+      "xxyyz"
+    ]
+  },
+  "publisher": "Hl7",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://BreastRadReport.com"
+        }
+      ]
+    }
+  ],
+  "provenanceInfo": {
+    "leadAuthor": {
+      "name": "Kurt W. Allen",
+      "organization": "Penrad Technologies",
+      "email": "info@Penrad.org"
+    },
+    "license": "Creative Commons CC-BY <https://creativecommons.org/licenses/by/3.0/>",
+    "copyright": "Copyright (c) The Example Organization <http://example.org>"
+  }
 }
