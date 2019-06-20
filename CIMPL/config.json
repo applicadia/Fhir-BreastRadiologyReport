@@ -14,8 +14,8 @@
 			"hideSupporting": true
 		},
 		"packageList": "ig-breastRad-plist.json",
-		"includeLogicalModels": false,
-		"includeModelDoc": false,
+		"includeLogicalModels": true,
+		"includeModelDoc": true,
 		"historyLink": "http://hl7.org/fhir/us/odh/history.html"
 	},
 	"filterStrategy": {
