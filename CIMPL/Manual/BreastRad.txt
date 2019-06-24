@@ -7,6 +7,7 @@ CodeSystem: LOINC = http://loinc.org
 // BreastRadiologyReport Definition
 // This is the main breast radiology report class.
 Entry: BreastRadiologyReport
+Description:	"Breast Radiology Report"
 Parent: Composition
 		Section
 		includes PatientHistory 0..1
@@ -17,14 +18,16 @@ Parent: Composition
 
 // Patient History Section
 Group: PatientHistory
+Description:	"Patient History"
 Parent: Section
 Description: "Patient History Section"
-			Code[concept] = LOINC#baz
+			Code[concept] = LOINC#34117-2
 //			SectionTitle[string] = "Patient History"
 
 
 // Findings left breast Section
 Group: FindingsLeftBreast
+Description:	"Findings for Left Breast"
 Parent:    Section
 Description: "Findings Left Breast Section"
 //			Title[string] = "Findings Left Breast"
@@ -32,6 +35,7 @@ Description: "Findings Left Breast Section"
 
 // Findings right breast Section
 Group: FindingsRightBreast
+Description:	"Findings for Right  Breast"
 Parent:    Section
 Description: "Findings Right Breast Section"
 //			Title[string] = "Findings Right Breast"
@@ -40,12 +44,14 @@ Description: "Findings Right Breast Section"
 // Impressions Section
 Group: Impressions
 Parent:    Section
+Description:	"Clinical Impressions"
 Description: "Impressions Section"
 //			Title[string] = "Impressions"
 			Code = LOINC#19005-8
 			
 // Recommendations Section
 Group: Recommendations
+Description:	"Recommendations"
 Parent:    Section
 Description: "Recommendations Section"
 //			Title[string] = "Recommendations"
