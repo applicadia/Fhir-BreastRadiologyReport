@@ -333,7 +333,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"QuantityComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]},{\"Name\":\"units\",\"Values\":[\"from UnitsOfLengthVS (required)\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -353,7 +353,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"QuantityComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]},{\"Name\":\"units\",\"Values\":[\"from UnitsOfLengthVS (required)\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -498,7 +498,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"QuantityComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]},{\"Name\":\"units\",\"Values\":[\" =  UCUM#{count}\"]}],\"Commands\":[]}"
           }
         ]
       }

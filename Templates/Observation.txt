@@ -20,6 +20,9 @@ Parent: Observation
 //+ *TypeComponent-Property
     includes Breast%elementname% %min%..%max%
 //- *TypeComponent-Property
+//+ *QuantityComponent-Property
+    includes Breast%elementname% %min%..%max%
+//- *QuantityComponent-Property
 //+ *Default-Property
 %property%
 //- *Default-Property
@@ -46,3 +49,14 @@ Description: "%elementdescription%"
     Code = %componentCode%
     DataValue only %ElementTypes()%
 //- *TypeComponent-Entry
+
+//+ *QuantityComponent-Entry
+
+Element: Breast%elementname%
+Parent: ObservationComponent
+Description: "%elementdescription%"
+    Code = %componentCode%
+    DataValue only Quantity
+    DataValue[Quantity].Units %units%
+
+//- *QuantityComponent-Entry

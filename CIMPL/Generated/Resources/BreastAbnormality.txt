@@ -145,20 +145,27 @@ Description: "Wall"
     DataValue[concept] from WallVs
 
 
+
 Element: BreastMaxLength
 Parent: ObservationComponent
 Description: "Max Length Description"
     Code = SNOMED#300848003
-    DataValue only integer
+    DataValue only Quantity
+    DataValue[Quantity].Units from UnitsOfLengthVS (required)
+
 
 Element: BreastMaxWidth
 Parent: ObservationComponent
 Description: "Max Width"
     Code = SNOMED#72863001
-    DataValue only integer
+    DataValue only Quantity
+    DataValue[Quantity].Units from UnitsOfLengthVS (required)
+
 
 Element: BreastWoundCount
 Parent: ObservationComponent
 Description: "Wound count"
     Code = SNOMED#88610006
-    DataValue only integer
+    DataValue only Quantity
+    DataValue[Quantity].Units  =  UCUM#{count}
+
