@@ -2,5 +2,4 @@ Grammar: Map 6.0
 Namespace: breastrad
 Target: FHIR_R4
 
-BreastAbnormality  maps to Observation:
-    
+BreastRadiologyReport maps to DiagnosticReport:

@@ -1,12 +1,12 @@
 Grammar: DataElement 6.0
-Namespace: xxyyz
+Namespace: breastrad
 Description: "Breast Radiology Report"
 Uses: shr.core, obf
 CodeSystem: LOINC = http://loinc.org
 
 // BreastRadiologyReport Definition
 // This is the main breast radiology report class.
-Entry: BreastRadiologyReport
+Entry: BreastRadiologyDocument
 Description:	"Breast Radiology Report"
 Parent: Composition
 		Section

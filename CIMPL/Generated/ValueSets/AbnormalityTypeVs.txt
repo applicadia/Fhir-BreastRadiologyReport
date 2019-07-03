@@ -1,5 +1,5 @@
 Grammar: ValueSet 6.0
-Namespace: xxyyz
+Namespace: breastrad
 CodeSystem: SNOMED = http://snomed.info/sct
 
 ValueSet: AbnormalityTypeVs

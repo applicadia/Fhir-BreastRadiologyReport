@@ -8,7 +8,7 @@
     },
     {
       "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
-      "valueUri": "xxyyz"
+      "valueUri": "BreastRad"
     }
   ],
   "url": "http://www.cimi.com/StructureDefinition/BreastAbnormality",

@@ -1,0 +1,15 @@
+Grammar: DataElement 6.0
+Namespace: breastrad
+Description: "Breast Radiology Report"
+Uses: shr.core, obf
+CodeSystem: LOINC = http://loinc.org
+
+Entry: BreastRadiologyReport
+Description:	"Breast Radiology Diagnostic Report. Detailed information about the reports document is contained in the Breast Radiology Document [resultComposition]"
+Parent: DiagnosticReport
+Property: ResultComposition 0..1
+
+Entry: ResultComposition
+Description:	"Reference to the document containing detailed information about the breast radiology reports"
+Value: Composition
+

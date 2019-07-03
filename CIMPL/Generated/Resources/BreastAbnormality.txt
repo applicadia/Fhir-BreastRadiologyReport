@@ -1,6 +1,6 @@
 
 Grammar: DataElement 6.0
-Namespace: xxyyz
+Namespace: breastrad
 Uses: obf,
     shr.base,
     shr.core
@@ -32,11 +32,11 @@ Parent: Observation
     includes BreastMaxLength 0..1
     includes BreastMaxWidth 0..1
     includes BreastWoundCount 0..1
-Property: xxyyz.Breastbodylocation 0..1
+Property: breastrad.Breastbodylocation 0..1
 
 Element: Breastbodylocation
 Description: "Location of the breast abnormality."
-Value: xxyyz.BreastBodyLocation
+Value: breastrad.BreastBodyLocation
 
 
 Element: BreastAbnormalityDensity

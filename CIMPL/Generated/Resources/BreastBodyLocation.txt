@@ -1,14 +1,14 @@
 Grammar: DataElement 6.0
-Namespace: xxyyz
+Namespace: breastrad
 Uses: shr.base,
     shr.core
 
 Entry: BreastBodyLocation
 Description: "BreastBodyLocation"
-Property: xxyyz.Breastdepth 0..1
-Property: xxyyz.Breastlocation 0..1
-Property: xxyyz.DistanceFromNipple 0..1
-Property: xxyyz.Laterality 0..1
+Property: breastrad.Breastdepth 0..1
+Property: breastrad.Breastlocation 0..1
+Property: breastrad.DistanceFromNipple 0..1
+Property: breastrad.Laterality 0..1
 
 Element: Breastdepth
 Description: "BreastDepth"
