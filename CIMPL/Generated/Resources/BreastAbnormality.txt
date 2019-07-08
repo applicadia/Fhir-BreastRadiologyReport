@@ -1,11 +1,11 @@
 
 Grammar: DataElement 6.0
 Namespace: breastrad
-Uses: obf,
-    shr.base,
-    shr.core
-CodeSystem: SNOMED = http://snomed.info/sct
-CodeSystem: KWA = http://www.test.com/KWA
+Uses: obf,                                                                      // ProcessDataElement.cs:615
+    shr.base,                                                                   // ProcessDataElement.cs:617
+    shr.core                                                                    // ProcessDataElement.cs:618
+CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: KWA = http://www.test.com/KWA                                       // ProcessBase.cs:106
 
 Entry: BreastAbnormality
 Parent: Observation
@@ -22,6 +22,7 @@ Parent: Observation
     includes BreastClockLocation 0..1
     includes BreastCystTypes 0..1
     includes BreastDepth 0..1
+    includes BreastLaterality 0..1
     includes BreastMargin 0..1
     includes BreastMassTypes 0..1
     includes BreastNodeTypes 0..1
@@ -32,68 +33,75 @@ Parent: Observation
     includes BreastMaxLength 0..1
     includes BreastMaxWidth 0..1
     includes BreastWoundCount 0..1
-Property: breastrad.Breastbodylocation 0..1
+Property: breastrad.Breastbodylocation 0..1                                     // ProcessDataElement.cs:465
 
-Element: Breastbodylocation
-Description: "Location of the breast abnormality."
-Value: breastrad.BreastBodyLocation
+Element: Breastbodylocation                                                     // ProcessDataElement.cs:428
+Description: "Location of the breast abnormality."                              // ProcessDataElement.cs:438
+Value: breastrad.BreastBodyLocation                                             // ProcessDataElement.cs:447
 
 
 Element: BreastAbnormalityDensity
 Parent: ObservationComponent
 Description: "Abnormal Density Description"
-    Code = SNOMED#300132001
+    Code = SNOMED#88610006
     DataValue only concept
     DataValue[concept] from AbnormalityDensityVs
 
 Element: BreastAbnormalityType
 Parent: ObservationComponent
 Description: "Abnormality Type value"
-    Code = SNOMED#271771009
+    Code = SNOMED#300132001
     DataValue only concept
     DataValue[concept] from AbnormalityTypeVs
 
 Element: BreastAsymmetryTypes
 Parent: ObservationComponent
 Description: "Asymetry Type value"
-    Code = SNOMED#246679005 
+    Code = SNOMED#271771009
     DataValue only concept
     DataValue[concept] from AsymmetryTypesVs
 
 Element: BreastBiRadCode
 Parent: ObservationComponent
 Description: "Bi-Rad code value"
-    Code = SNOMED#54302000 
+    Code = SNOMED#246679005 
     DataValue only concept
     DataValue[concept] from BiRadCodeVs
 
 Element: BreastChange
 Parent: ObservationComponent
 Description: "Change value"
-    Code = SNOMED#249366005 
+    Code = SNOMED#54302000 
     DataValue only concept
     DataValue[concept] from ChangeVs
 
 Element: BreastClockLocation
 Parent: ObservationComponent
 Description: "Clock location value"
-    Code = SNOMED#271939006
+    Code = SNOMED#249366005 
     DataValue only concept
     DataValue[concept] from ClockLocationVs
 
 Element: BreastCystTypes
 Parent: ObservationComponent
 Description: "Cyst Types"
-    Code = SNOMED#289530006
+    Code = SNOMED#271939006
     DataValue only concept
     DataValue[concept] from CystTypesVs
 
 Element: BreastDepth
 Parent: ObservationComponent
 Description: "Depth"
-    Code = SNOMED#9957009
+    Code = SNOMED#289530006
     DataValue only concept
     DataValue[concept] from DepthVs
+
+Element: BreastLaterality
+Parent: ObservationComponent
+Description: "Laterality"
+    Code = SNOMED#9957009
+    DataValue only concept
+    DataValue[concept] from LateralityVs
 
 Element: BreastMargin
 Parent: ObservationComponent
@@ -145,27 +153,21 @@ Description: "Wall"
     DataValue[concept] from WallVs
 
 
-
 Element: BreastMaxLength
 Parent: ObservationComponent
 Description: "Max Length Description"
     Code = SNOMED#300848003
-    DataValue only Quantity
-    DataValue[Quantity].Units from UnitsOfLengthVS (required)
-
+    DataValue only integer
 
 Element: BreastMaxWidth
 Parent: ObservationComponent
 Description: "Max Width"
     Code = SNOMED#72863001
-    DataValue only Quantity
-    DataValue[Quantity].Units from UnitsOfLengthVS (required)
-
+    DataValue only integer
 
 Element: BreastWoundCount
 Parent: ObservationComponent
 Description: "Wound count"
     Code = SNOMED#88610006
-    DataValue only Quantity
-    DataValue[Quantity].Units  =  UCUM#{count}
+    DataValue only integer
 

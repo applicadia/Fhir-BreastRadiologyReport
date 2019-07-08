@@ -268,6 +268,31 @@
         ]
       },
       {
+        "id": "BreastAbnormality.laterality",
+        "path": "BreastAbnormality.laterality",
+        "short": "Laterality",
+        "definition": "Laterality",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Laterality",
+          "valueSet": "http://www.cimi.com/ValueSet/Laterality"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
         "id": "BreastAbnormality.margin",
         "path": "BreastAbnormality.margin",
         "short": "Margin",
@@ -333,7 +358,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"QuantityComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]},{\"Name\":\"units\",\"Values\":[\"from UnitsOfLengthVS (required)\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -353,7 +378,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"QuantityComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]},{\"Name\":\"units\",\"Values\":[\"from UnitsOfLengthVS (required)\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -498,7 +523,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"QuantityComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]},{\"Name\":\"units\",\"Values\":[\" =  UCUM#{count}\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       }

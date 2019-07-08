@@ -1,12 +1,12 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct
+CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
 
 ValueSet: NodeTypesVs
 Description: "Node Types"
-    SNOMED#72863001 "AxillaryNode"
-    SNOMED#247441003 "EnlargedNode"
-    SNOMED#76067001 "FocalCortexNode"
-    SNOMED#62315008 "InfraclavicularNode"
-    SNOMED#65124004 "IntramammaryNode"
-    SNOMED#65958008 "SupraclavicularNode"
+    SNOMED#300848003 "AxillaryNode"
+    SNOMED#72863001 "EnlargedNode"
+    SNOMED#247441003 "FocalCortexNode"
+    SNOMED#76067001 "InfraclavicularNode"
+    SNOMED#62315008 "IntramammaryNode"
+    SNOMED#65124004 "SupraclavicularNode"

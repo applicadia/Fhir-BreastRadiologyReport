@@ -1,10 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct
+CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
 
 ValueSet: MassTypesVs
 Description: "Mass Types"
-    SNOMED#9957009 "IntraductalMass"
-    SNOMED#49727002 "PartiallySolidMass"
-    SNOMED#422587007 "SkinMass"
-    SNOMED#300848003 "SolidMass"
+    SNOMED#289530006 "IntraductalMass"
+    SNOMED#9957009 "PartiallySolidMass"
+    SNOMED#49727002 "SkinMass"
+    SNOMED#422587007 "SolidMass"

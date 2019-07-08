@@ -1,18 +1,18 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct
+CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
 
 ValueSet: MarginVs
 Description: "Margin"
-    SNOMED#76067001 "AngularMargin"
-    SNOMED#62315008 "CircumscribedMargin"
-    SNOMED#65124004 "IndistinctMargin"
-    SNOMED#65958008 "IntraductalExtension"
-    SNOMED#88610006 "IrregularMargin"
-    SNOMED#300132001 "LobulatedMargin"
-    SNOMED#271771009 "MacrolobulatedMargin"
-    SNOMED#246679005  "MicrolobulatedMargin"
-    SNOMED#54302000  "NonCircumscribedMargin"
-    SNOMED#249366005  "ObscuredMargin"
-    SNOMED#271939006 "SmoothMargin"
-    SNOMED#289530006 "SpiculatedMargin"
+    SNOMED#247441003 "AngularMargin"
+    SNOMED#76067001 "CircumscribedMargin"
+    SNOMED#62315008 "IndistinctMargin"
+    SNOMED#65124004 "IntraductalExtension"
+    SNOMED#65958008 "IrregularMargin"
+    SNOMED#88610006 "LobulatedMargin"
+    SNOMED#300132001 "MacrolobulatedMargin"
+    SNOMED#271771009 "MicrolobulatedMargin"
+    SNOMED#246679005  "NonCircumscribedMargin"
+    SNOMED#54302000  "ObscuredMargin"
+    SNOMED#249366005  "SmoothMargin"
+    SNOMED#271939006 "SpiculatedMargin"

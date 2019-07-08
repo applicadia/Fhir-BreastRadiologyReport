@@ -1,28 +1,28 @@
 Grammar: DataElement 6.0
 Namespace: breastrad
-Uses: shr.base,
-    shr.core
+Uses: shr.base,                                                                 // ProcessDataElement.cs:615
+    shr.core                                                                    // ProcessDataElement.cs:618
 
 Entry: BreastBodyLocation
 Description: "BreastBodyLocation"
-Property: breastrad.Breastdepth 0..1
-Property: breastrad.Breastlocation 0..1
-Property: breastrad.DistanceFromNipple 0..1
-Property: breastrad.Laterality 0..1
+Property: breastrad.Breastdepth 0..1                                            // ProcessDataElement.cs:465
+Property: breastrad.Breastlocation 0..1                                         // ProcessDataElement.cs:465
+Property: breastrad.DistanceFromNipple 0..1                                     // ProcessDataElement.cs:465
+Property: breastrad.Laterality 0..1                                             // ProcessDataElement.cs:465
 
-Element: Breastdepth
-Description: "BreastDepth"
-Value: concept
+Element: Breastdepth                                                            // ProcessDataElement.cs:428
+Description: "BreastDepth"                                                      // ProcessDataElement.cs:438
+Value: concept                                                                  // ProcessDataElement.cs:447
 
-Element: Breastlocation
-Description: "BreastLocation"
-Value: concept
+Element: Breastlocation                                                         // ProcessDataElement.cs:428
+Description: "BreastLocation"                                                   // ProcessDataElement.cs:438
+Value: concept                                                                  // ProcessDataElement.cs:447
 
-Element: DistanceFromNipple
-Description: "Distance from Nipple"
-Value: concept
+Element: DistanceFromNipple                                                     // ProcessDataElement.cs:428
+Description: "Distance from Nipple"                                             // ProcessDataElement.cs:438
+Value: concept                                                                  // ProcessDataElement.cs:447
 
-Element: Laterality
-Description: "Laterality"
-Value: concept
+Element: Laterality                                                             // ProcessDataElement.cs:428
+Description: "Laterality"                                                       // ProcessDataElement.cs:438
+Value: concept                                                                  // ProcessDataElement.cs:447
 

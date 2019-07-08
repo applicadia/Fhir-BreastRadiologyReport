@@ -11,7 +11,7 @@
     "primarySelectionStrategy": {
       "strategy": "namespace",
       "primary": [
-        "BreastRad"
+        "breastrad"
       ],
       "hideSupporting": true
     },
@@ -24,7 +24,7 @@
     "strategy": "namespace",
     "filter": true,
     "target": [
-      "BreastRad"
+      "breastrad"
     ]
   },
   "publisher": "Hl7",

@@ -1,10 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct
+CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
 
 ValueSet: WallVs
 Description: "Wall"
-    SNOMED#62315008 "IrregularInternalWall"
-    SNOMED#65124004 "SeptatedInternalWall"
-    SNOMED#65958008 "SmoothInternalWall"
-    SNOMED#88610006 "ThickenedWall"
+    SNOMED#76067001 "IrregularInternalWall"
+    SNOMED#62315008 "SeptatedInternalWall"
+    SNOMED#65124004 "SmoothInternalWall"
+    SNOMED#65958008 "ThickenedWall"
