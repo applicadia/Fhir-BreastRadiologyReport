@@ -12,17 +12,17 @@ Property: breastrad.Laterality 0..1                                             
 
 Element: Breastdepth                                                            // ProcessDataElement.cs:428
 Description: "BreastDepth"                                                      // ProcessDataElement.cs:438
-Value: concept                                                                  // ProcessDataElement.cs:447
+Value: concept from BreastdepthVs                                               // ProcessDataElement.cs:447
 
 Element: Breastlocation                                                         // ProcessDataElement.cs:428
 Description: "BreastLocation"                                                   // ProcessDataElement.cs:438
-Value: concept                                                                  // ProcessDataElement.cs:447
+Value: concept from BreastlocationVs                                            // ProcessDataElement.cs:447
 
 Element: DistanceFromNipple                                                     // ProcessDataElement.cs:428
 Description: "Distance from Nipple"                                             // ProcessDataElement.cs:438
-Value: concept                                                                  // ProcessDataElement.cs:447
+Value: concept from DistanceFromNippleVs                                        // ProcessDataElement.cs:447
 
 Element: Laterality                                                             // ProcessDataElement.cs:428
 Description: "Laterality"                                                       // ProcessDataElement.cs:438
-Value: concept                                                                  // ProcessDataElement.cs:447
+Value: concept from LateralityVs                                                // ProcessDataElement.cs:447
 
