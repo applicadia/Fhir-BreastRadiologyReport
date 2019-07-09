@@ -165,6 +165,13 @@
               "http://www.cimi.com/StructureDefinition/Breastbodylocation"
             ]
           }
+        ],
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"Substitute\",\"Arguments\":[{\"Name\":\"Name\",\"Values\":[\"BreastBodyLocation\"]}],\"Commands\":[]}"
+          }
         ]
       },
       {

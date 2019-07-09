@@ -1,9 +1,9 @@
 
 Grammar: DataElement 6.0
 Namespace: breastrad
-Uses: obf,                                                                      // ProcessDataElement.cs:615
-    shr.base,                                                                   // ProcessDataElement.cs:617
-    shr.core                                                                    // ProcessDataElement.cs:618
+Uses: obf,                                                                      // ProcessDataElement.cs:616
+    shr.base,                                                                   // ProcessDataElement.cs:618
+    shr.core                                                                    // ProcessDataElement.cs:619
 CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
 CodeSystem: KWA = http://www.test.com/KWA                                       // ProcessBase.cs:106
 
@@ -11,6 +11,7 @@ Entry: BreastAbnormality
 Parent: Observation
 Description: "Breast Abnormality Form"
 Parent: Observation
+Property: BreastBodyLocation 0..1
     DataValue 0..0
     Code = SNOMED#49727002
     Components.ObservationComponent
@@ -33,13 +34,10 @@ Parent: Observation
     includes BreastMaxLength 0..1
     includes BreastMaxWidth 0..1
     includes BreastWoundCount 0..1
-Property: breastrad.Breastbodylocation 0..1                                     // ProcessDataElement.cs:465
-
-Element: Breastbodylocation                                                     // ProcessDataElement.cs:428
-Description: "Location of the breast abnormality."                              // ProcessDataElement.cs:438
-Value: breastrad.BreastBodyLocation                                             // ProcessDataElement.cs:447
 
 
+
+//ConceptComponent-Entry
 Element: BreastAbnormalityDensity
 Parent: ObservationComponent
 Description: "Abnormal Density Description"
@@ -47,6 +45,7 @@ Description: "Abnormal Density Description"
     DataValue only concept
     DataValue[concept] from AbnormalityDensityVs
 
+//ConceptComponent-Entry
 Element: BreastAbnormalityType
 Parent: ObservationComponent
 Description: "Abnormality Type value"
@@ -54,6 +53,7 @@ Description: "Abnormality Type value"
     DataValue only concept
     DataValue[concept] from AbnormalityTypeVs
 
+//ConceptComponent-Entry
 Element: BreastAsymmetryTypes
 Parent: ObservationComponent
 Description: "Asymetry Type value"
@@ -61,6 +61,7 @@ Description: "Asymetry Type value"
     DataValue only concept
     DataValue[concept] from AsymmetryTypesVs
 
+//ConceptComponent-Entry
 Element: BreastBiRadCode
 Parent: ObservationComponent
 Description: "Bi-Rad code value"
@@ -68,6 +69,7 @@ Description: "Bi-Rad code value"
     DataValue only concept
     DataValue[concept] from BiRadCodeVs
 
+//ConceptComponent-Entry
 Element: BreastChange
 Parent: ObservationComponent
 Description: "Change value"
@@ -75,6 +77,7 @@ Description: "Change value"
     DataValue only concept
     DataValue[concept] from ChangeVs
 
+//ConceptComponent-Entry
 Element: BreastClockLocation
 Parent: ObservationComponent
 Description: "Clock location value"
@@ -82,6 +85,7 @@ Description: "Clock location value"
     DataValue only concept
     DataValue[concept] from ClockLocationVs
 
+//ConceptComponent-Entry
 Element: BreastCystTypes
 Parent: ObservationComponent
 Description: "Cyst Types"
@@ -89,6 +93,7 @@ Description: "Cyst Types"
     DataValue only concept
     DataValue[concept] from CystTypesVs
 
+//ConceptComponent-Entry
 Element: BreastDepth
 Parent: ObservationComponent
 Description: "Depth"
@@ -96,6 +101,7 @@ Description: "Depth"
     DataValue only concept
     DataValue[concept] from DepthVs
 
+//ConceptComponent-Entry
 Element: BreastLaterality
 Parent: ObservationComponent
 Description: "Laterality"
@@ -103,6 +109,7 @@ Description: "Laterality"
     DataValue only concept
     DataValue[concept] from LateralityVs
 
+//ConceptComponent-Entry
 Element: BreastMargin
 Parent: ObservationComponent
 Description: "Margin"
@@ -110,6 +117,7 @@ Description: "Margin"
     DataValue only concept
     DataValue[concept] from MarginVs
 
+//ConceptComponent-Entry
 Element: BreastMassTypes
 Parent: ObservationComponent
 Description: "Mass Types"
@@ -117,6 +125,7 @@ Description: "Mass Types"
     DataValue only concept
     DataValue[concept] from MassTypesVs
 
+//ConceptComponent-Entry
 Element: BreastNodeTypes
 Parent: ObservationComponent
 Description: "Node Types"
@@ -124,6 +133,7 @@ Description: "Node Types"
     DataValue only concept
     DataValue[concept] from NodeTypesVs
 
+//ConceptComponent-Entry
 Element: BreastOrientation
 Parent: ObservationComponent
 Description: "Orientation"
@@ -131,6 +141,7 @@ Description: "Orientation"
     DataValue only concept
     DataValue[concept] from OrientationVs
 
+//ConceptComponent-Entry
 Element: BreastShape
 Parent: ObservationComponent
 Description: "Shape"
@@ -138,6 +149,7 @@ Description: "Shape"
     DataValue only concept
     DataValue[concept] from ShapeVs
 
+//ConceptComponent-Entry
 Element: BreastVascularity
 Parent: ObservationComponent
 Description: "Vascularity"
@@ -145,6 +157,7 @@ Description: "Vascularity"
     DataValue only concept
     DataValue[concept] from VascularityVs
 
+//ConceptComponent-Entry
 Element: BreastWall
 Parent: ObservationComponent
 Description: "Wall"
@@ -153,21 +166,27 @@ Description: "Wall"
     DataValue[concept] from WallVs
 
 
+// TypeComponent-Entry
 Element: BreastMaxLength
 Parent: ObservationComponent
 Description: "Max Length Description"
     Code = SNOMED#300848003
     DataValue only integer
 
+// TypeComponent-Entry
 Element: BreastMaxWidth
 Parent: ObservationComponent
 Description: "Max Width"
     Code = SNOMED#72863001
     DataValue only integer
 
+// TypeComponent-Entry
 Element: BreastWoundCount
 Parent: ObservationComponent
 Description: "Wound count"
     Code = SNOMED#88610006
     DataValue only integer
 
+
+
+//Substitute-Entry

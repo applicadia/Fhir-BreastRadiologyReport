@@ -11,6 +11,9 @@ Entry: %classname%
 Parent: Observation
 Description: "%classdescription%"
 Parent: Observation
+//+ *Substitute-Property
+Property: %Name% %min%..%max%
+//- *Substitute-Property
     DataValue 0..0
     Code = %observationCode%
     Components.ObservationComponent
@@ -33,6 +36,7 @@ Parent: Observation
 
 //+ *ConceptComponent-Entry
 
+//ConceptComponent-Entry
 Element: Breast%elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
@@ -43,6 +47,7 @@ Description: "%elementdescription%"
 
 //+ *TypeComponent-Entry
 
+// TypeComponent-Entry
 Element: Breast%elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
@@ -52,6 +57,7 @@ Description: "%elementdescription%"
 
 //+ *QuantityComponent-Entry
 
+//QuantityComponent-Entry
 Element: Breast%elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
@@ -59,3 +65,8 @@ Description: "%elementdescription%"
     DataValue only Quantity
     DataValue[Quantity].Units %units%
 //- *QuantityComponent-Entry
+
+//+ *Substitute-Entry
+
+//Substitute-Entry
+//- *Substitute-Entry
