@@ -3,56 +3,77 @@ Namespace: breastrad
 Description: "Breast Radiology Report"
 Uses: shr.core, obf
 CodeSystem: LOINC = http://loinc.org
+CodeSystem: LISTORDER = http://terminology.hl7.org/CodeSystem/list-order
 
+//
 // BreastRadiologyReport Definition
-// This is the main breast radiology report class.
+// The contains the breast study sections and assocaited details. It is referenced by the BreastRadiologyDocument.
+// This is derived from Composition.
+//
 Entry: BreastRadiologyDocument
-Description:	"Breast Radiology Report"
+Description: "Breast Radiology Report"
 Parent: Composition
 		Section
-		includes PatientHistory 0..1
-		includes FindingsLeftBreast 0..1
-		includes FindingsRightBreast 0..1
-		includes Impressions 0..1
-		includes Recommendations 0..1
+		includes PatientHistory 0..1								// Composition.Section Patient History Splice
+		includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
+		includes FindingsRightBreast 0..1							// Composition.Section Findings right  breast Splice
+		includes Impressions 0..1									// Composition.Section Impressions Splice
+		includes Recommendations 0..1								// Composition.Section Recommendations Splice
 
 // Patient History Section
 Group: PatientHistory
-Description:	"Patient History"
+Description: "Patient History"
 Parent: Section
 Description: "Patient History Section"
-			Code[concept] = LOINC#34117-2
-//			SectionTitle[string] = "Patient History"
+		Code = LOINC#34117-2										// is this correct code for section
+		Section 0..0												// Child sections not allowed in this section
+		SortOrder 0..0												// No defined sort order
+		FocalSubject 0..0											// Subject is always Composition.FocalSubject
+//		[string] = "Patient History"
 
 
 // Findings left breast Section
 Group: FindingsLeftBreast
-Description:	"Findings for Left Breast"
-Parent:    Section
+Description: "Findings for Left Breast"
+Parent: Section
 Description: "Findings Left Breast Section"
-//			Title[string] = "Findings Left Breast"
-			Code = LOINC#26215-4 
+//		Title[string] = "Findings Left Breast"
+		Code = LOINC#26215-4 										// is this correct code for section
+		DomainResource substitute Observation						// Only Observations allowed in this section
+		Section 0..0												// Child sections not allowed in this section
+		SortOrder 0..0												// No defined sort order
+		FocalSubject 0..0											// Subject is always Composition.FocalSubject
 
 // Findings right breast Section
 Group: FindingsRightBreast
-Description:	"Findings for Right  Breast"
-Parent:    Section
+Description: "Findings for Right  Breast"
+Parent: Section
 Description: "Findings Right Breast Section"
-//			Title[string] = "Findings Right Breast"
-			Code = LOINC#26216-2
+//		Title[string] = "Findings Right Breast"
+		Code = LOINC#26216-2										// is this correct code for section
+		DomainResource substitute Observation						// Only Observations allowed in this section
+		Section 0..0												// Child sections not allowed in this section
+		SortOrder 0..0												// No defined sort order
+		FocalSubject 0..0											// Subject is always Composition.FocalSubject
 
 // Impressions Section
 Group: Impressions
-Parent:    Section
-Description:	"Clinical Impressions"
+Parent: Section
+Description: "Clinical Impressions"
 Description: "Impressions Section"
-//			Title[string] = "Impressions"
-			Code = LOINC#19005-8
+//		Title[string] = "Impressions"
+		Code = LOINC#19005-8										// is this correct code for section
+		Section 0..0												// Child sections not allowed in this section
+		SortOrder 0..0												// No defined sort order
+		FocalSubject 0..0											// Subject is always Composition.FocalSubject
 			
 // Recommendations Section
 Group: Recommendations
-Description:	"Recommendations"
-Parent:    Section
+Description: "Recommendations"
+Parent: Section
 Description: "Recommendations Section"
-//			Title[string] = "Recommendations"
-			Code = LOINC#18783-1
+//		Title[string] = "Recommendations"
+		Code = LOINC#18783-1										// is this correct code for section
+		Section 0..0												// Child sections not allowed in this section
+		SortOrder 0..0												// No defined sort order
+		FocalSubject 0..0											// Subject is always Composition.FocalSubject

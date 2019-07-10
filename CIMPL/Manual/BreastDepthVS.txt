@@ -1,9 +1,13 @@
- Grammar: ValueSet 6.0
- Namespace: breastrad
- CodeSystem: SNOMED = http://snomed.info/sct
+Grammar: ValueSet 6.0
+Namespace: breastrad
+CodeSystem: SNOMED = http://snomed.info/sct
   
- ValueSet: BreastdepthVs
- Description: "Depth in breast of abnormality"
-     SNOMED#65124004 "Anterior"
-     SNOMED#65958008 "Middle"
-     SNOMED#88610006 "Posterior"
+//
+//  BreastdepthVs
+// Values for breast depth.
+// 
+ValueSet: BreastdepthVs
+Description: "Depth in breast of abnormality"
+    SNOMED#65124004 "Anterior"
+    SNOMED#65958008 "Middle"
+    SNOMED#88610006 "Posterior"

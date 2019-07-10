@@ -5,6 +5,10 @@ Uses: obf, shr.base, shr.core, brca
 CodeSystem: SNOMED = http://snomed.info/sct
 
 //
+// BreastBodyLocation
+// Location in the breast of a wound or abnormality.
+// This class is derived from BodyLocation and restricts the body location values to breat location related values, and adds
+// BreastDepth to the body location.
 //$ RelationToLandmark.LandmarkToBodyLocationDistance is a measurement, not a drop down as in the original
 //$ ModelLabs item.
 //
@@ -17,6 +21,10 @@ Property: breastrad.Breastdepth 0..1
     RelationToLandmark.LandmarkType = SCT#361083003                                 // Normal anatomy (body structure)
     RelationToLandmark.LandmarkToBodyLocationDistance[Quantity].Units = UCUM#cm
 
+//
+// Breast Depth value.
+// Shold this be a quantity with a linear units of measure rather than a set of files relative values?
+//
 Element: Breastdepth
 Description: "BreastDepth"
 Value: Code from BreastdepthVs (required)
