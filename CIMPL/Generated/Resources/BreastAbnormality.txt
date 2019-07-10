@@ -11,7 +11,8 @@ Entry: BreastAbnormality
 Parent: Observation
 Description: "Breast Abnormality Form"
 Parent: Observation
-Property: BreastBodyLocation 0..1
+    BodyLocation substitute BreastBodyLocation
+    BreastBodyLocation 0..1
     DataValue 0..0
     Code = SNOMED#49727002
     Components.ObservationComponent
@@ -180,4 +181,3 @@ Description: "Wound count"
 
 
 
-//Substitute-Entry

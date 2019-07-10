@@ -4,11 +4,18 @@ Uses: obf, shr.base, shr.core, brca
 
 CodeSystem: SNOMED = http://snomed.info/sct
 
+//
+//$ RelationToLandmark.LandmarkToBodyLocationDistance is a measurement, not a drop down as in the original
+//$ ModelLabs item.
+//
 Element: BreastBodyLocation
 Parent: BodyLocation
 Description: "Location of the breast abnormality."
 Property: breastrad.Breastdepth 0..1
-    Code from BreastSiteVS (required)
+    Code = SCT#76752008                                                             // Breast structure (body structure)
+    RelationToLandmark.LandmarkLocation.Code = SCT#181139003                        // Areola structure (body structure)
+    RelationToLandmark.LandmarkType = SCT#361083003                                 // Normal anatomy (body structure)
+    RelationToLandmark.LandmarkToBodyLocationDistance[Quantity].Units = UCUM#cm
 
 Element: Breastdepth
 Description: "BreastDepth"

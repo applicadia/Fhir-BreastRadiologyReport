@@ -12,7 +12,8 @@ Parent: Observation
 Description: "%classdescription%"
 Parent: Observation
 //+ *Substitute-Property
-Property: %Name% %min%..%max%
+    %Source% substitute %Target%
+    %Target% %min%..%max%
 //- *Substitute-Property
     DataValue 0..0
     Code = %observationCode%
@@ -67,6 +68,4 @@ Description: "%elementdescription%"
 //- *QuantityComponent-Entry
 
 //+ *Substitute-Entry
-
-//Substitute-Entry
 //- *Substitute-Entry

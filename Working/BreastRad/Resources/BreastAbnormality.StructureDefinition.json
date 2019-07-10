@@ -161,7 +161,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"Substitute\",\"Arguments\":[{\"Name\":\"Name\",\"Values\":[\"BreastBodyLocation\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"Substitute\",\"Arguments\":[{\"Name\":\"Source\",\"Values\":[\"BodyLocation\"]},{\"Name\":\"Target\",\"Values\":[\"BreastBodyLocation\"]}],\"Commands\":[]}"
           }
         ]
       },
