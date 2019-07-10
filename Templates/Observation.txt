@@ -18,13 +18,13 @@ Property: %Name% %min%..%max%
     Code = %observationCode%
     Components.ObservationComponent
 //+ *ConceptComponent-Property
-    includes Breast%elementname% %min%..%max%
+    includes %namespace%.%elementname% %min%..%max%
 //- *ConceptComponent-Property
 //+ *TypeComponent-Property
-    includes Breast%elementname% %min%..%max%
+    includes %namespace%.%elementname% %min%..%max%
 //- *TypeComponent-Property
 //+ *QuantityComponent-Property
-    includes Breast%elementname% %min%..%max%
+    includes %namespace%.%elementname% %min%..%max%
 //- *QuantityComponent-Property
 //+ *Default-Property
 %property%
@@ -37,7 +37,7 @@ Property: %Name% %min%..%max%
 //+ *ConceptComponent-Entry
 
 //ConceptComponent-Entry
-Element: Breast%elementname%
+Element: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
     Code = %componentCode%
@@ -48,7 +48,7 @@ Description: "%elementdescription%"
 //+ *TypeComponent-Entry
 
 // TypeComponent-Entry
-Element: Breast%elementname%
+Element: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
     Code = %componentCode%
@@ -58,7 +58,7 @@ Description: "%elementdescription%"
 //+ *QuantityComponent-Entry
 
 //QuantityComponent-Entry
-Element: Breast%elementname%
+Element: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
     Code = %componentCode%

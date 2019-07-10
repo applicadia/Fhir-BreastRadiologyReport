@@ -4,8 +4,8 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: ShapeVs
 Description: "Shape"
-    SNOMED#246679005  "IrregularShape"
-    SNOMED#54302000  "LobulatedShape"
-    SNOMED#249366005  "OvalShape"
-    SNOMED#271939006 "Reniform"
-    SNOMED#289530006 "Round"
+    SNOMED#65124004 "IrregularShape"
+    SNOMED#65958008 "LobulatedShape"
+    SNOMED#88610006 "OvalShape"
+    SNOMED#300132001 "Reniform"
+    SNOMED#271771009 "Round"

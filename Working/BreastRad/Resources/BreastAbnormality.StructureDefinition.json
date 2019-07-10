@@ -147,23 +147,14 @@
       },
       {
         "id": "BreastAbnormality.breastbodylocation",
-        "extension": [
-          {
-            "url": "http://www.cimi.com/ModelDef/Composable",
-            "valueString": "Flatten"
-          }
-        ],
         "path": "BreastAbnormality.breastbodylocation",
         "short": "BreastBodyLocation",
-        "definition": "Location of the breast abnormality.",
+        "definition": "Location of the breast abnormality,",
         "min": 0,
         "max": "1",
         "type": [
           {
-            "code": "Reference",
-            "profile": [
-              "http://www.cimi.com/StructureDefinition/Breastbodylocation"
-            ]
+            "code": "string"
           }
         ],
         "mapping": [
@@ -265,31 +256,6 @@
           "strength": "required",
           "description": "Depth",
           "valueSet": "http://www.cimi.com/ValueSet/Depth"
-        },
-        "mapping": [
-          {
-            "identity": "ModelDef.CIMPLMap",
-            "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
-          }
-        ]
-      },
-      {
-        "id": "BreastAbnormality.laterality",
-        "path": "BreastAbnormality.laterality",
-        "short": "Laterality",
-        "definition": "Laterality",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "code"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "Laterality",
-          "valueSet": "http://www.cimi.com/ValueSet/Laterality"
         },
         "mapping": [
           {

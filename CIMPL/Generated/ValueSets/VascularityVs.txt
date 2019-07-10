@@ -4,9 +4,9 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: VascularityVs
 Description: "Vascularity"
-    SNOMED#9957009 "Adjacent"
-    SNOMED#49727002 "Increased"
-    SNOMED#422587007 "IncreasedInSurroundArea"
-    SNOMED#300848003 "NoIncrease"
-    SNOMED#72863001 "NotPresent"
-    SNOMED#247441003 "Present"
+    SNOMED#246679005  "Adjacent"
+    SNOMED#54302000  "Increased"
+    SNOMED#249366005  "IncreasedInSurroundArea"
+    SNOMED#271939006 "NoIncrease"
+    SNOMED#289530006 "NotPresent"
+    SNOMED#9957009 "Present"

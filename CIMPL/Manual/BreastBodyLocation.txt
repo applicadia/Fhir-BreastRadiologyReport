@@ -1,29 +1,15 @@
 Grammar: DataElement 6.0
 Namespace: breastrad
-Uses: obf, shr.base, shr.core
+Uses: obf, shr.base, shr.core, brca
 
 CodeSystem: SNOMED = http://snomed.info/sct
 
 Element: BreastBodyLocation
+Parent: BodyLocation
 Description: "Location of the breast abnormality."
 Property: breastrad.Breastdepth 0..1
-Property: breastrad.Breastlocation 0..1
-Property: breastrad.DistanceFromNipple 0..1
-Property: breastrad.Laterality 0..1
-
+    Code from BreastSiteVS (required)
 
 Element: Breastdepth
 Description: "BreastDepth"
-Value: concept from BreastdepthVs
-
-Element: Breastlocation
-Description: "BreastLocation"
-Value: concept from BreastlocationVs
-
-Element: DistanceFromNipple
-Description: "Distance from Nipple"
-Value: concept from DistanceFromNippleVs
-
-Element: Laterality
-Description: "Laterality"
-Value: concept from LateralityVs
+Value: Code from BreastdepthVs (required)

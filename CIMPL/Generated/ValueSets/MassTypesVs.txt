@@ -4,7 +4,7 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: MassTypesVs
 Description: "Mass Types"
-    SNOMED#289530006 "IntraductalMass"
-    SNOMED#9957009 "PartiallySolidMass"
-    SNOMED#49727002 "SkinMass"
-    SNOMED#422587007 "SolidMass"
+    SNOMED#271771009 "IntraductalMass"
+    SNOMED#246679005  "PartiallySolidMass"
+    SNOMED#54302000  "SkinMass"
+    SNOMED#249366005  "SolidMass"

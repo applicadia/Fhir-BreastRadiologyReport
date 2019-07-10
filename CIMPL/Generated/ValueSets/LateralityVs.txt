@@ -1,8 +1,0 @@
-Grammar: ValueSet 6.0
-Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
-
-ValueSet: LateralityVs
-Description: "Laterality"
-    SNOMED#300848003 "LeftBreast"
-    SNOMED#72863001 "RightBreast"

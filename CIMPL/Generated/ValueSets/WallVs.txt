@@ -4,7 +4,7 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: WallVs
 Description: "Wall"
-    SNOMED#76067001 "IrregularInternalWall"
-    SNOMED#62315008 "SeptatedInternalWall"
-    SNOMED#65124004 "SmoothInternalWall"
-    SNOMED#65958008 "ThickenedWall"
+    SNOMED#49727002 "IrregularInternalWall"
+    SNOMED#422587007 "SeptatedInternalWall"
+    SNOMED#300848003 "SmoothInternalWall"
+    SNOMED#72863001 "ThickenedWall"

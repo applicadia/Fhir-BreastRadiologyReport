@@ -1,9 +1,0 @@
-Grammar: ValueSet 6.0
-Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
-
-ValueSet: BreastdepthVs
-Description: "BreastDepth"
-    SNOMED#65124004 "Anterior"
-    SNOMED#65958008 "Middle"
-    SNOMED#88610006 "Posterior"
