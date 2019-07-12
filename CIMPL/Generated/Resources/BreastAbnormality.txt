@@ -14,7 +14,7 @@ Parent: Observation
     BodyLocation substitute BreastBodyLocation
     BreastBodyLocation 0..1
     DataValue 0..0
-    Code = %RandomCode()%
+    Code = TEST#BreastAbnormality
     Components.ObservationComponent
     includes breastrad.AbnormalityDensity 0..1
     includes breastrad.AbnormalityType 0..1

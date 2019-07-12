@@ -41,7 +41,7 @@ Parent: Observation
 Element: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
-    Code = %componentCode%
+    Code = TEST#%elementname%
     DataValue only %ElementTypes()%
     DataValue[concept] from %External("%elementname%Vs")%
 //- *ConceptComponent-Entry
