@@ -4,7 +4,7 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: OrientationVs
 Description: "Orientation"
-    SNOMED#72863001 "ParallelToSkin"
-    SNOMED#247441003 "PerpendicularToSkinNotParallel"
-    SNOMED#76067001 "TallerThanWide"
-    SNOMED#62315008 "WiderThanTall"
+    SNOMED#300848003 "ParallelToSkin"
+    SNOMED#72863001 "PerpendicularToSkinNotParallel"
+    SNOMED#247441003 "TallerThanWide"
+    SNOMED#76067001 "WiderThanTall"

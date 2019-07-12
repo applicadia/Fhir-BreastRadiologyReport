@@ -4,7 +4,7 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: DepthVs
 Description: "Depth"
-    SNOMED#54302000  "Anterior"
-    SNOMED#249366005  "Middle"
-    SNOMED#271939006 "Posterior"
-    SNOMED#289530006 "SubAreolar"
+    SNOMED#246679005  "Anterior"
+    SNOMED#54302000  "Middle"
+    SNOMED#249366005  "Posterior"
+    SNOMED#271939006 "SubAreolar"

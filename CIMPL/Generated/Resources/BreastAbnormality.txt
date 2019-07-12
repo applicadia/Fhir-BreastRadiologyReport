@@ -1,11 +1,11 @@
 
 Grammar: DataElement 6.0
 Namespace: breastrad
-Uses: obf,                                                                      // ProcessDataElement.cs:616
-    shr.base,                                                                   // ProcessDataElement.cs:618
-    shr.core                                                                    // ProcessDataElement.cs:619
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+Uses: obf,                                                                      // ProcessDataElement.cs:627
+    shr.base,                                                                   // ProcessDataElement.cs:629
+    shr.core                                                                    // ProcessDataElement.cs:630
 CodeSystem: KWA = http://www.test.com/KWA                                       // ProcessBase.cs:106
+CodeSystem: TEST = http://www.test.com/test-codes                               // ProcessBase.cs:106
 
 Entry: BreastAbnormality
 Parent: Observation
@@ -14,7 +14,7 @@ Parent: Observation
     BodyLocation substitute BreastBodyLocation
     BreastBodyLocation 0..1
     DataValue 0..0
-    Code = SNOMED#49727002
+    Code = %RandomCode()%
     Components.ObservationComponent
     includes breastrad.AbnormalityDensity 0..1
     includes breastrad.AbnormalityType 0..1
@@ -41,7 +41,7 @@ Parent: Observation
 Element: AbnormalityDensity
 Parent: ObservationComponent
 Description: "Abnormal Density Description"
-    Code = SNOMED#247441003
+    Code = TEST#AbnormalityDensity
     DataValue only concept
     DataValue[concept] from AbnormalityDensityVs
 
@@ -49,7 +49,7 @@ Description: "Abnormal Density Description"
 Element: AbnormalityType
 Parent: ObservationComponent
 Description: "Abnormality Type value"
-    Code = SNOMED#76067001
+    Code = TEST#AbnormalityType
     DataValue only concept
     DataValue[concept] from AbnormalityTypeVs
 
@@ -57,7 +57,7 @@ Description: "Abnormality Type value"
 Element: AsymmetryTypes
 Parent: ObservationComponent
 Description: "Asymetry Type value"
-    Code = SNOMED#62315008
+    Code = TEST#AsymmetryTypes
     DataValue only concept
     DataValue[concept] from AsymmetryTypesVs
 
@@ -65,7 +65,7 @@ Description: "Asymetry Type value"
 Element: BiRadCode
 Parent: ObservationComponent
 Description: "Bi-Rad code value"
-    Code = SNOMED#65124004
+    Code = TEST#BiRadCode
     DataValue only concept
     DataValue[concept] from BiRadCodeVs
 
@@ -73,7 +73,7 @@ Description: "Bi-Rad code value"
 Element: Change
 Parent: ObservationComponent
 Description: "Change value"
-    Code = SNOMED#65958008
+    Code = TEST#Change
     DataValue only concept
     DataValue[concept] from ChangeVs
 
@@ -81,7 +81,7 @@ Description: "Change value"
 Element: ClockLocation
 Parent: ObservationComponent
 Description: "Clock location value"
-    Code = SNOMED#88610006
+    Code = TEST#ClockLocation
     DataValue only concept
     DataValue[concept] from ClockLocationVs
 
@@ -89,7 +89,7 @@ Description: "Clock location value"
 Element: CystTypes
 Parent: ObservationComponent
 Description: "Cyst Types"
-    Code = SNOMED#300132001
+    Code = TEST#CystTypes
     DataValue only concept
     DataValue[concept] from CystTypesVs
 
@@ -97,7 +97,7 @@ Description: "Cyst Types"
 Element: Depth
 Parent: ObservationComponent
 Description: "Depth"
-    Code = SNOMED#271771009
+    Code = TEST#Depth
     DataValue only concept
     DataValue[concept] from DepthVs
 
@@ -105,7 +105,7 @@ Description: "Depth"
 Element: Margin
 Parent: ObservationComponent
 Description: "Margin"
-    Code = SNOMED#246679005 
+    Code = TEST#Margin
     DataValue only concept
     DataValue[concept] from MarginVs
 
@@ -113,7 +113,7 @@ Description: "Margin"
 Element: MassTypes
 Parent: ObservationComponent
 Description: "Mass Types"
-    Code = SNOMED#54302000 
+    Code = TEST#MassTypes
     DataValue only concept
     DataValue[concept] from MassTypesVs
 
@@ -121,7 +121,7 @@ Description: "Mass Types"
 Element: NodeTypes
 Parent: ObservationComponent
 Description: "Node Types"
-    Code = SNOMED#289530006
+    Code = TEST#NodeTypes
     DataValue only concept
     DataValue[concept] from NodeTypesVs
 
@@ -129,7 +129,7 @@ Description: "Node Types"
 Element: Orientation
 Parent: ObservationComponent
 Description: "Orientation"
-    Code = SNOMED#9957009
+    Code = TEST#Orientation
     DataValue only concept
     DataValue[concept] from OrientationVs
 
@@ -137,7 +137,7 @@ Description: "Orientation"
 Element: Shape
 Parent: ObservationComponent
 Description: "Shape"
-    Code = SNOMED#49727002
+    Code = TEST#Shape
     DataValue only concept
     DataValue[concept] from ShapeVs
 
@@ -145,7 +145,7 @@ Description: "Shape"
 Element: Vascularity
 Parent: ObservationComponent
 Description: "Vascularity"
-    Code = SNOMED#422587007
+    Code = TEST#Vascularity
     DataValue only concept
     DataValue[concept] from VascularityVs
 
@@ -153,7 +153,7 @@ Description: "Vascularity"
 Element: Wall
 Parent: ObservationComponent
 Description: "Wall"
-    Code = SNOMED#300848003
+    Code = TEST#Wall
     DataValue only concept
     DataValue[concept] from WallVs
 
@@ -162,21 +162,21 @@ Description: "Wall"
 Element: MaxLength
 Parent: ObservationComponent
 Description: "Max Length Description"
-    Code = SNOMED#249366005 
+    Code = TEST#MaxLength
     DataValue only integer
 
 // TypeComponent-Entry
 Element: MaxWidth
 Parent: ObservationComponent
 Description: "Max Width"
-    Code = SNOMED#271939006
+    Code = TEST#MaxWidth
     DataValue only integer
 
 // TypeComponent-Entry
 Element: WoundCount
 Parent: ObservationComponent
 Description: "Wound count"
-    Code = SNOMED#72863001
+    Code = TEST#WoundCount
     DataValue only integer
 
 

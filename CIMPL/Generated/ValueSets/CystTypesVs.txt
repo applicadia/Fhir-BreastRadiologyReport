@@ -4,9 +4,9 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: CystTypesVs
 Description: "Cyst Types"
-    SNOMED#65124004 "ComplexCyst"
-    SNOMED#65958008 "ComplicatedCyst"
-    SNOMED#88610006 "CystWithDebris"
-    SNOMED#300132001 "MicroCyst"
-    SNOMED#271771009 "OilCyst"
-    SNOMED#246679005  "SimpleCyst"
+    SNOMED#62315008 "ComplexCyst"
+    SNOMED#65124004 "ComplicatedCyst"
+    SNOMED#65958008 "CystWithDebris"
+    SNOMED#88610006 "MicroCyst"
+    SNOMED#300132001 "OilCyst"
+    SNOMED#271771009 "SimpleCyst"

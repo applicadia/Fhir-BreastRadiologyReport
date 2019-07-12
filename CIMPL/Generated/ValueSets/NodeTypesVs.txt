@@ -4,9 +4,9 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: NodeTypesVs
 Description: "Node Types"
-    SNOMED#271939006 "AxillaryNode"
-    SNOMED#289530006 "EnlargedNode"
-    SNOMED#9957009 "FocalCortexNode"
-    SNOMED#49727002 "InfraclavicularNode"
-    SNOMED#422587007 "IntramammaryNode"
-    SNOMED#300848003 "SupraclavicularNode"
+    SNOMED#249366005  "AxillaryNode"
+    SNOMED#271939006 "EnlargedNode"
+    SNOMED#289530006 "FocalCortexNode"
+    SNOMED#9957009 "InfraclavicularNode"
+    SNOMED#49727002 "IntramammaryNode"
+    SNOMED#422587007 "SupraclavicularNode"

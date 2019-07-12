@@ -4,6 +4,6 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: AsymmetryTypesVs
 Description: "Asymetry Type value"
-    SNOMED#54302000  "DensityFocalAsymmetry"
-    SNOMED#249366005  "FocalAsymmetry"
-    SNOMED#271939006 "GlobalAsymmetry"
+    SNOMED#246679005  "DensityFocalAsymmetry"
+    SNOMED#54302000  "FocalAsymmetry"
+    SNOMED#249366005  "GlobalAsymmetry"

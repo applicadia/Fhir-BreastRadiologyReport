@@ -4,7 +4,7 @@ CodeSystem: SNOMED = http://snomed.info/sct                                     
 
 ValueSet: AbnormalityDensityVs
 Description: "Abnormal Density Description"
-    SNOMED#422587007 "EqualDensity"
-    SNOMED#300848003 "FatContaining"
-    SNOMED#72863001 "HighDensity"
-    SNOMED#247441003 "LowDensity"
+    SNOMED#49727002 "EqualDensity"
+    SNOMED#422587007 "FatContaining"
+    SNOMED#300848003 "HighDensity"
+    SNOMED#72863001 "LowDensity"
