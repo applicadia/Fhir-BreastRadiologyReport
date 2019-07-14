@@ -26,6 +26,7 @@ Description: "Patient History"
 Parent: Section
 Description: "Patient History Section"
 		Code = LOINC#34117-2										// is this correct code for section
+		DomainResource substitute Observation						// Only Observations allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
@@ -33,6 +34,10 @@ Description: "Patient History Section"
 
 
 // Findings left breast Section
+// TODO: Each Findings should have
+// - summary birads code
+// - breast density
+// nest left and right findings under common findings.
 Group: FindingsLeftBreast
 Description: "Findings for Left Breast"
 Parent: Section
@@ -46,7 +51,7 @@ Description: "Findings Left Breast Section"
 
 // Findings right breast Section
 Group: FindingsRightBreast
-Description: "Findings for Right  Breast"
+Description: "Findings for Right Breast"
 Parent: Section
 Description: "Findings Right Breast Section"
 //		Title[string] = "Findings Right Breast"
@@ -57,11 +62,15 @@ Description: "Findings Right Breast Section"
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
 
 // Impressions Section
+// TODO:add 
+// - summary birads code (worst code)
+// - breast density (most dense)
+// nest left and right findings under common findings.
 Group: Impressions
 Parent: Section
-Description: "Clinical Impressions"
-Description: "Impressions Section"
+Description: "Clinical Impressions Section"
 //		Title[string] = "Impressions"
+		DomainResource substitute Condition							// Only Conditions allowed in this section
 		Code = LOINC#19005-8										// is this correct code for section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order

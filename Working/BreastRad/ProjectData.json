@@ -1,15 +1,15 @@
 {
   "BaseUrl": "http://www.cimi.com",
-  "ImplementationGuideUrl": "www.test.com/BreastRad/IGGuide",
+  "ImplementationGuideUrl": "http://www.test.com/xxyyz",
   "AbbreviatedProjectName": "BreastRad",
   "LongProjectName": "Breast Radiology Reporting",
-  "PublicationStatus": "draft",
+  "PublicationStatus": "unknown",
   "ProjectVersion": "0.1",
-  "NameOfPublishingEntity": "Penrad Technologies, LLC",
-  "ProjectContactUrl": "http://www.test.com/Contact",
-  "ProjectCopyrightText": "None",
-  "IGOverviewMarkdown": "IG Overview",
-  "NameSpace": "BreastRad",
+  "NameOfPublishingEntity": "HL7.org",
+  "ProjectContactUrl": "http://www.test.com/xxyyz",
+  "ProjectCopyrightText": "Sep 2019 HL7.org",
+  "IGOverviewMarkdown": "Breast cancer IG Overview\n",
+  "NameSpace": "breastrad",
   "ReferenceItems": [],
   "AuthorItems": []
 }

@@ -4,16 +4,16 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
-      "valueUri": "BreastRad"
+      "valueUri": "breastrad"
     }
   ],
   "url": "http://www.cimi.com/ValueSet/AbnormalityDensity",
   "version": "4.0.0",
   "name": "AbnormalityDensity",
   "title": "Abnormality Density",
-  "status": "draft",
+  "status": "unknown",
   "date": "2001-01-01T01:01:01+00:00",
-  "publisher": "Penrad Technologies, LLC",
+  "publisher": "HL7.org",
   "description": "Abnormal Density Description",
   "compose": {
     "include": [

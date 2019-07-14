@@ -11,14 +11,15 @@ CodeSystem: LOINC = http://loinc.org
 Entry: BreastRadiologyReport
 Description:	"Breast Radiology Diagnostic Report. Detailed information about the reports document is contained in the Breast Radiology Document [resultComposition]"
 Parent: DiagnosticReport                            // Derived from Diagnostic Report
-Property: ResultComposition 0..1                    // Details of report are stored in Composition.
+Property: ResultComposition 1..1                    // Details of report are stored in Composition.
     Code=LOINC#10193-1 	                            // Physical findings of Breasts Narrative. IS this correct code ??
     Observation 0..0                                // Use ResultComposition instead of observation
+    Specimen 0..0                                   // dont have specimen
     ConclusionText 1..1                             // require conclusion text. Copied from ResultComposition
     ConclusionCode 1..1                             // require conclusion code
 
 
 Entry: ResultComposition
-Description:	"Reference to the document containing detailed information about the breast radiology report, including assicated sections"
+Description:	"Reference to the document containing detailed information about the breast radiology report, including assocated sections"
 Value: BreastRadiologyDocument
 

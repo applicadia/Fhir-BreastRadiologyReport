@@ -24,7 +24,6 @@ Parent: Observation
     includes breastrad.CystTypes 0..1
     includes breastrad.Depth 0..1
     includes breastrad.Margin 0..1
-    includes breastrad.MassTypes 0..1
     includes breastrad.NodeTypes 0..1
     includes breastrad.Orientation 0..1
     includes breastrad.Shape 0..1
@@ -32,8 +31,11 @@ Parent: Observation
     includes breastrad.Wall 0..1
     includes breastrad.MaxLength 0..1
     includes breastrad.MaxWidth 0..1
-    includes breastrad.WoundCount 0..1
+Property: breastrad.MassTypes 0..1                                              // ProcessDataElement.cs:466
 
+Element: MassTypes                                                              // ProcessDataElement.cs:429
+Description: "Mass Types"                                                       // ProcessDataElement.cs:439
+Value: concept from MassTypesVs                                                 // ProcessDataElement.cs:448
 
 
 //ConceptComponent-Entry
@@ -109,14 +111,6 @@ Description: "Margin"
     DataValue[concept] from MarginVs
 
 //ConceptComponent-Entry
-Element: MassTypes
-Parent: ObservationComponent
-Description: "Mass Types"
-    Code = TEST#MassTypes
-    DataValue only concept
-    DataValue[concept] from MassTypesVs
-
-//ConceptComponent-Entry
 Element: NodeTypes
 Parent: ObservationComponent
 Description: "Node Types"
@@ -169,13 +163,6 @@ Element: MaxWidth
 Parent: ObservationComponent
 Description: "Max Width"
     Code = TEST#MaxWidth
-    DataValue only integer
-
-// TypeComponent-Entry
-Element: WoundCount
-Parent: ObservationComponent
-Description: "Wound count"
-    Code = TEST#WoundCount
     DataValue only integer
 
 

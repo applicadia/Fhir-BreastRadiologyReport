@@ -8,15 +8,15 @@
     },
     {
       "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
-      "valueUri": "BreastRad"
+      "valueUri": "breastrad"
     }
   ],
   "url": "http://www.cimi.com/StructureDefinition/BreastAbnormality",
   "name": "BreastAbnormality",
   "title": "Breast Abnormality",
-  "status": "draft",
+  "status": "unknown",
   "date": "2001-01-01T01:01:01+00:00",
-  "publisher": "Penrad Technologies, LLC",
+  "publisher": "HL7.org",
   "description": "Breast Abnormality Form",
   "fhirVersion": "4.0.0",
   "mapping": [
@@ -306,14 +306,7 @@
           "strength": "required",
           "description": "Mass Types",
           "valueSet": "http://www.cimi.com/ValueSet/MassTypes"
-        },
-        "mapping": [
-          {
-            "identity": "ModelDef.CIMPLMap",
-            "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
-          }
-        ]
+        }
       },
       {
         "id": "BreastAbnormality.maxLength",
@@ -477,26 +470,6 @@
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
             "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
-          }
-        ]
-      },
-      {
-        "id": "BreastAbnormality.woundCount",
-        "path": "BreastAbnormality.woundCount",
-        "short": "Wound count",
-        "definition": "Wound count",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "integer"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "ModelDef.CIMPLMap",
-            "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
           }
         ]
       }
