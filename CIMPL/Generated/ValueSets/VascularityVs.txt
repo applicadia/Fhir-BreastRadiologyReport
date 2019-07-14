@@ -1,12 +1,12 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: TEST = http://test.com
 
 ValueSet: VascularityVs
 Description: "Vascularity"
-    SNOMED#271771009 "Adjacent"
-    SNOMED#246679005  "Increased"
-    SNOMED#54302000  "IncreasedInSurroundArea"
-    SNOMED#249366005  "NoIncrease"
-    SNOMED#271939006 "NotPresent"
-    SNOMED#289530006 "Present"
+    TEST#Adjacent "Adjacent"
+    TEST#Increased "Increased"
+    TEST#IncreasedInSurroundArea "IncreasedInSurroundArea"
+    TEST#NoIncrease "NoIncrease"
+    TEST#NotPresent "NotPresent"
+    TEST#Present "Present"

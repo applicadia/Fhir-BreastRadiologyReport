@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: %namespace%
 //+ *CODESYSTEM
-Codesystem: %codesystemkey% = %codesystemurl%
+CodeSystem: %codesystemkey% = %codesystemurl%
 //- *CODESYSTEM
 
 ValueSet: %valuesetname%

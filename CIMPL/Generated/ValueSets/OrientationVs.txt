@@ -1,10 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: TEST = http://test.com
 
 ValueSet: OrientationVs
 Description: "Orientation"
-    SNOMED#300848003 "ParallelToSkin"
-    SNOMED#72863001 "PerpendicularToSkinNotParallel"
-    SNOMED#247441003 "TallerThanWide"
-    SNOMED#76067001 "WiderThanTall"
+    TEST#ParallelToSkin "ParallelToSkin"
+    TEST#PerpendicularToSkinNotParallel "PerpendicularToSkinNotParallel"
+    TEST#TallerThanWide "TallerThanWide"
+    TEST#WiderThanTall "WiderThanTall"

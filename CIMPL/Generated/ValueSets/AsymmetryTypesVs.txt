@@ -1,9 +1,9 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: TEST = http://test.com
 
 ValueSet: AsymmetryTypesVs
 Description: "Asymetry Type value"
-    SNOMED#246679005  "DensityFocalAsymmetry"
-    SNOMED#54302000  "FocalAsymmetry"
-    SNOMED#249366005  "GlobalAsymmetry"
+    TEST#DensityFocalAsymmetry "DensityFocalAsymmetry"
+    TEST#FocalAsymmetry "FocalAsymmetry"
+    TEST#GlobalAsymmetry "GlobalAsymmetry"

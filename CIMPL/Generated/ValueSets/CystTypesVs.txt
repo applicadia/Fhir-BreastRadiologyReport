@@ -1,12 +1,12 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: TEST = http://test.com
 
 ValueSet: CystTypesVs
 Description: "Cyst Types"
-    SNOMED#62315008 "ComplexCyst"
-    SNOMED#65124004 "ComplicatedCyst"
-    SNOMED#65958008 "CystWithDebris"
-    SNOMED#88610006 "MicroCyst"
-    SNOMED#300132001 "OilCyst"
-    SNOMED#271771009 "SimpleCyst"
+    TEST#ComplexCyst "ComplexCyst"
+    TEST#ComplicatedCyst "ComplicatedCyst"
+    TEST#CystWithDebris "CystWithDebris"
+    TEST#MicroCyst "MicroCyst"
+    TEST#OilCyst "OilCyst"
+    TEST#SimpleCyst "SimpleCyst"

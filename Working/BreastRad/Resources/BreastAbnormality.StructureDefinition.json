@@ -41,7 +41,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"Observation\",\"Arguments\":[{\"Name\":\"observationCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[{\"Name\":\"CodeSystem\",\"Values\":[\"KWA\",\"http://www.test.com/KWA\"]}]}"
+            "map": "{\"Target\":\"Observation\",\"Arguments\":[{\"Name\":\"observationCode\",\"Values\":[\"TEST#BreastAbnormality\"]}],\"Commands\":[{\"Name\":\"CodeSystem\",\"Values\":[\"TEST\",\"http://www.test.com/test-codes\"]}]}"
           }
         ]
       },
@@ -146,10 +146,10 @@
         ]
       },
       {
-        "id": "BreastAbnormality.breastbodylocation",
-        "path": "BreastAbnormality.breastbodylocation",
-        "short": "BreastBodyLocation",
-        "definition": "Location of the breast abnormality,",
+        "id": "BreastAbnormality.breastBodyLocation",
+        "path": "BreastAbnormality.breastBodyLocation",
+        "short": "Breast Body Location",
+        "definition": "Location in the breast of the abnormality,",
         "min": 0,
         "max": "1",
         "type": [
@@ -311,7 +311,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%RandomCode()%\"]}],\"Commands\":[]}"
           }
         ]
       },

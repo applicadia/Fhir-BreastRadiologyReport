@@ -3,7 +3,7 @@ Namespace: %namespace%
 //+ *USES
 //- *USES
 //+ *CODESYSTEM
-Codesystem: %codesystemkey% = %codesystemurl%
+CodeSystem: %codesystemkey% = %codesystemurl%
 //- *CODESYSTEM
 
 Entry: %classname%

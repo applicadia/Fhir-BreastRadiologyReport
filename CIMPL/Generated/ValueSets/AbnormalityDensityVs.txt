@@ -1,10 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: TEST = http://test.com
 
 ValueSet: AbnormalityDensityVs
 Description: "Abnormal Density Description"
-    SNOMED#49727002 "EqualDensity"
-    SNOMED#422587007 "FatContaining"
-    SNOMED#300848003 "HighDensity"
-    SNOMED#72863001 "LowDensity"
+    TEST#EqualDensity "EqualDensity"
+    TEST#FatContaining "FatContaining"
+    TEST#HighDensity "HighDensity"
+    TEST#LowDensity "LowDensity"

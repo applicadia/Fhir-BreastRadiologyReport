@@ -4,8 +4,7 @@ Namespace: breastrad
 Uses: obf,                                                                      // ProcessDataElement.cs:627
     shr.base,                                                                   // ProcessDataElement.cs:629
     shr.core                                                                    // ProcessDataElement.cs:630
-CodeSystem: KWA = http://www.test.com/KWA                                       // ProcessBase.cs:106
-CodeSystem: TEST = http://www.test.com/test-codes                               // ProcessBase.cs:106
+CodeSystem: TEST = http://www.test.com/test-codes
 
 Entry: BreastAbnormality
 Parent: Observation

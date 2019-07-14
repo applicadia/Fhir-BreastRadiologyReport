@@ -1,20 +1,20 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: TEST = http://test.com
 
 ValueSet: ChangeVs
 Description: "Change value"
-    SNOMED#62315008 "DecreaseInCalcifications"
-    SNOMED#65124004 "DecreasedInNumber"
-    SNOMED#65958008 "DecreasedInSize"
-    SNOMED#88610006 "IncreaseInCalcifications"
-    SNOMED#300132001 "IncreasedInNumber"
-    SNOMED#271771009 "IncreasedInSize"
-    SNOMED#246679005  "LessProminent"
-    SNOMED#54302000  "MoreProminent"
-    SNOMED#249366005  "New"
-    SNOMED#271939006 "NoLongerSeen"
-    SNOMED#289530006 "NotSignificantlyChanged"
-    SNOMED#9957009 "PartiallyRemoved"
-    SNOMED#49727002 "RepresentsChange"
-    SNOMED#422587007 "Stable"
+    TEST#DecreaseInCalcifications "DecreaseInCalcifications"
+    TEST#DecreasedInNumber "DecreasedInNumber"
+    TEST#DecreasedInSize "DecreasedInSize"
+    TEST#IncreaseInCalcifications "IncreaseInCalcifications"
+    TEST#IncreasedInNumber "IncreasedInNumber"
+    TEST#IncreasedInSize "IncreasedInSize"
+    TEST#LessProminent "LessProminent"
+    TEST#MoreProminent "MoreProminent"
+    TEST#New "New"
+    TEST#NoLongerSeen "NoLongerSeen"
+    TEST#NotSignificantlyChanged "NotSignificantlyChanged"
+    TEST#PartiallyRemoved "PartiallyRemoved"
+    TEST#RepresentsChange "RepresentsChange"
+    TEST#Stable "Stable"

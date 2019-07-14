@@ -1,15 +1,15 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: TEST = http://test.com
 
 ValueSet: BiRadCodeVs
 Description: "Bi-Rad code value"
-    SNOMED#271939006 "BIRAD5HighlySuggestive"
-    SNOMED#289530006 "BIRAD0Incomplete"
-    SNOMED#9957009 "BIRAD1Negative"
-    SNOMED#49727002 "BIRAD2Benign"
-    SNOMED#422587007 "BIRAD3ProbablyBenign"
-    SNOMED#300848003 "BIRAD4ALowSuspicion"
-    SNOMED#72863001 "BIRAD4BModerateSuspicion"
-    SNOMED#247441003 "BIRAD4CHighSuspicion"
-    SNOMED#76067001 "BIRAD6ProvenMalignancy"
+    TEST#BIRAD5HighlySuggestive "BIRAD5HighlySuggestive"
+    TEST#BIRAD0Incomplete "BIRAD0Incomplete"
+    TEST#BIRAD1Negative "BIRAD1Negative"
+    TEST#BIRAD2Benign "BIRAD2Benign"
+    TEST#BIRAD3ProbablyBenign "BIRAD3ProbablyBenign"
+    TEST#BIRAD4ALowSuspicion "BIRAD4ALowSuspicion"
+    TEST#BIRAD4BModerateSuspicion "BIRAD4BModerateSuspicion"
+    TEST#BIRAD4CHighSuspicion "BIRAD4CHighSuspicion"
+    TEST#BIRAD6ProvenMalignancy "BIRAD6ProvenMalignancy"

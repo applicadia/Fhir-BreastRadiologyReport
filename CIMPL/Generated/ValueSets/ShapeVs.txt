@@ -1,11 +1,11 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: SNOMED = http://snomed.info/sct                                     // ProcessBase.cs:106
+CodeSystem: TEST = http://test.com
 
 ValueSet: ShapeVs
 Description: "Shape"
-    SNOMED#62315008 "IrregularShape"
-    SNOMED#65124004 "LobulatedShape"
-    SNOMED#65958008 "OvalShape"
-    SNOMED#88610006 "Reniform"
-    SNOMED#300132001 "Round"
+    TEST#IrregularShape "IrregularShape"
+    TEST#LobulatedShape "LobulatedShape"
+    TEST#OvalShape "OvalShape"
+    TEST#Reniform "Reniform"
+    TEST#Round "Round"
