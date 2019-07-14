@@ -13,16 +13,16 @@ CodeSystem: LISTORDER = http://terminology.hl7.org/CodeSystem/list-order
 Entry: BreastRadiologyDocument
 Description: "Breast Radiology Report"
 Parent: Composition
+Property: SummaryBiRadCode 1..1										// Worst BiRad code in document
+Property: BreastExamTechnique 1..*									// Breast exam technique
 		Section
 		includes PatientHistory 0..1								// Composition.Section Patient History Splice
-		includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
-		includes FindingsRightBreast 0..1							// Composition.Section Findings right  breast Splice
+		includes Findings 0..1										// Composition.Section Findings  Splice
 		includes Impressions 0..1									// Composition.Section Impressions Splice
 		includes Recommendations 0..1								// Composition.Section Recommendations Splice
 
 // Patient History Section
 Group: PatientHistory
-Description: "Patient History"
 Parent: Section
 Description: "Patient History Section"
 		Code = LOINC#34117-2										// is this correct code for section
@@ -32,16 +32,26 @@ Description: "Patient History Section"
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
 //		[string] = "Patient History"
 
+// Findings Section
+Group: Findings
+Description: "Findings section"
+Parent: Section
+		Section
+		includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
+		includes FindingsRightBreast 0..1							// Composition.Section Findings right  breast Splice
+		Code = LOINC#34117-2										// is this correct code for section
+		DomainResource substitute Observation						// Only Observations allowed in this section
+		SortOrder 0..0												// No defined sort order
+		FocalSubject 0..0											// Subject is always Composition.FocalSubject
+//		[string] = "Findings"
 
 // Findings left breast Section
 // TODO: Each Findings should have
-// - summary birads code
-// - breast density
-// nest left and right findings under common findings.
 Group: FindingsLeftBreast
-Description: "Findings for Left Breast"
 Parent: Section
 Description: "Findings Left Breast Section"
+Property: FindingSummaryBiRadCode 1..1								// Worst BiRad code in left breast findings
+Property: BreastDensity 1..1										// Left breast density
 //		Title[string] = "Findings Left Breast"
 		Code = LOINC#26215-4 										// is this correct code for section
 		DomainResource substitute Observation						// Only Observations allowed in this section
@@ -51,9 +61,10 @@ Description: "Findings Left Breast Section"
 
 // Findings right breast Section
 Group: FindingsRightBreast
-Description: "Findings for Right Breast"
 Parent: Section
 Description: "Findings Right Breast Section"
+Property: FindingSummaryBiRadCode 1..1								// Worst BiRad code in right breast findings
+Property: BreastDensity 1..1										// Right breast density
 //		Title[string] = "Findings Right Breast"
 		Code = LOINC#26216-2										// is this correct code for section
 		DomainResource substitute Observation						// Only Observations allowed in this section
@@ -64,7 +75,6 @@ Description: "Findings Right Breast Section"
 // Impressions Section
 // TODO:add 
 // - summary birads code (worst code)
-// - breast density (most dense)
 // nest left and right findings under common findings.
 Group: Impressions
 Parent: Section
@@ -78,7 +88,6 @@ Description: "Clinical Impressions Section"
 			
 // Recommendations Section
 Group: Recommendations
-Description: "Recommendations"
 Parent: Section
 Description: "Recommendations Section"
 //		Title[string] = "Recommendations"
@@ -86,3 +95,23 @@ Description: "Recommendations Section"
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
+
+// Summary bi rad code for a section.
+Element: SummaryBiRadCode
+Description: "BiRd code that summarizes a set of BiRad codes in a the document. Generally the most concerning/important BiRad code in the document."
+Value: concept from BiRadCodeVs
+
+// Summary bi rad code for a breast finding.
+Element: FindingSummaryBiRadCode
+Description: "BiRd code that summarizes a set of BiRad codes for a single breast finding. Generally the most concerning/important BiRad code in that finding."
+Value: concept from BiRadCodeVs
+
+// Breast density element.
+Element: BreastDensity
+Description: "Breast density value."
+Value: concept from BreastDensityVs
+
+// Technique used for observation.
+Element: BreastExamTechnique
+Description: "Technique used during breast examination."
+Value: concept from DiagnosticTechniqueVs

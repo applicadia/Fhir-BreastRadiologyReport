@@ -1,0 +1,11 @@
+Grammar: ValueSet 6.0
+Namespace: breastrad
+CodeSystem: TEST = http://www.test.com/test-codes
+
+//
+//  BreastDensityVS
+// Values for breast density.
+// 
+ValueSet: BreastDensityVs
+Description: "Breast density values"
+    TEST#PredominatelyFatty "Predominately Fatty"
