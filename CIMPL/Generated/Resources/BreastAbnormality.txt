@@ -20,7 +20,6 @@ Parent: Observation
     includes breastrad.AsymmetryTypes 0..1
     includes breastrad.BiRadCode 0..1
     includes breastrad.Change 0..1
-    includes breastrad.ClockLocation 0..1
     includes breastrad.CystTypes 0..1
     includes breastrad.Depth 0..1
     includes breastrad.Margin 0..1
@@ -77,14 +76,6 @@ Description: "Change value"
     Code = TEST#Change
     DataValue only concept
     DataValue[concept] from ChangeVs
-
-//ConceptComponent-Entry
-Element: ClockLocation
-Parent: ObservationComponent
-Description: "Clock location value"
-    Code = TEST#ClockLocation
-    DataValue only concept
-    DataValue[concept] from ClockLocationVs
 
 //ConceptComponent-Entry
 Element: CystTypes

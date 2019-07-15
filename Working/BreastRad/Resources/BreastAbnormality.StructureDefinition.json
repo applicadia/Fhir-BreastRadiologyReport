@@ -191,31 +191,6 @@
         ]
       },
       {
-        "id": "BreastAbnormality.clockLocation",
-        "path": "BreastAbnormality.clockLocation",
-        "short": "Clock Location",
-        "definition": "Clock location value",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "code"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "Clock location value",
-          "valueSet": "http://www.cimi.com/ValueSet/ClockLocation"
-        },
-        "mapping": [
-          {
-            "identity": "ModelDef.CIMPLMap",
-            "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
-          }
-        ]
-      },
-      {
         "id": "BreastAbnormality.cystTypes",
         "path": "BreastAbnormality.cystTypes",
         "short": "Cyst Types",

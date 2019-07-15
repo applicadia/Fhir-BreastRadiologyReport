@@ -16,14 +16,14 @@ Element: BreastBodyLocation
 Parent: BodyLocation
 Description: "Location of the breast abnormality."
 Property: breastrad.Breastdepth 0..1
-    Code = SCT#76752008                                                             // Breast structure (body structure)
-    RelationToLandmark.LandmarkLocation.Code = SCT#181139003                        // Areola structure (body structure)
-    RelationToLandmark.LandmarkType = SCT#361083003                                 // Normal anatomy (body structure)
+    Code = SCT#76752008                                                                 // Breast structure (body structure)
+    //RelationToLandmark.LandmarkToBodyLocationDirection only ClockFaceDirection          // only use clock direction for location direction.
+    RelationToLandmark.LandmarkLocation.Code = SCT#181139003                            // Areola structure (body structure)
+    RelationToLandmark.LandmarkType = SCT#361083003                                     // Normal anatomy (body structure)
     RelationToLandmark.LandmarkToBodyLocationDistance[Quantity].Units = UCUM#cm
 
 //
 // Breast Depth value.
-// Shold this be a quantity with a linear units of measure rather than a set of files relative values?
 //
 Element: Breastdepth
 Description: "BreastDepth"

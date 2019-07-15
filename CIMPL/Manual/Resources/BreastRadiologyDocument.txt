@@ -95,6 +95,8 @@ Description: "Recommendations Section"
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
+		DomainResource substitute ActionRequest						// Only xxx request references allowed
+
 
 // Summary bi rad code for a section.
 Element: SummaryBiRadCode
