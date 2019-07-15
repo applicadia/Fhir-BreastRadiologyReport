@@ -1,9 +1,9 @@
 
 Grammar: DataElement 6.0
 Namespace: breastrad
-Uses: obf,                                                                      // ProcessDataElement.cs:626
-    shr.base,                                                                   // ProcessDataElement.cs:628
-    shr.core                                                                    // ProcessDataElement.cs:629
+Uses: obf,
+    shr.base,
+    shr.core
 CodeSystem: TEST = http://www.test.com/test-codes
 
 Entry: BreastAbnormality
@@ -31,11 +31,11 @@ Parent: Observation
     includes breastrad.Wall 0..1
     includes breastrad.MaxLength 0..1
     includes breastrad.MaxWidth 0..1
-Property: breastrad.MassTypes 0..1                                              // ProcessDataElement.cs:466
+Property: breastrad.MassTypes 0..1
 
-Element: MassTypes                                                              // ProcessDataElement.cs:429
-Description: "Mass Types"                                                       // ProcessDataElement.cs:439
-Value: concept from MassTypesVs                                                 // ProcessDataElement.cs:448
+Element: MassTypes
+Description: "Mass Types"
+Value: concept from MassTypesVs
 
 
 //ConceptComponent-Entry
