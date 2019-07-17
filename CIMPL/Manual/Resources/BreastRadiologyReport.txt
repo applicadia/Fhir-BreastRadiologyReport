@@ -19,7 +19,7 @@ Property: ResultComposition 1..1                    // Details of report are sto
     ConclusionCode 1..1                             // require conclusion code
 
 
-Entry: ResultComposition
+Element: ResultComposition
 Description:	"Reference to the document containing detailed information about the breast radiology report, including assocated sections"
 Value: BreastRadiologyDocument
 

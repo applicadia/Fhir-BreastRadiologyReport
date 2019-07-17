@@ -38,7 +38,7 @@ Value: concept from MassTypesVs
 
 
 //ConceptComponent-Entry
-Element: AbnormalityDensity
+Group: AbnormalityDensity
 Parent: ObservationComponent
 Description: "Abnormal Density Description"
     Code = TEST#AbnormalityDensity
@@ -46,7 +46,7 @@ Description: "Abnormal Density Description"
     DataValue[concept] from AbnormalityDensityVs
 
 //ConceptComponent-Entry
-Element: AbnormalityType
+Group: AbnormalityType
 Parent: ObservationComponent
 Description: "Abnormality Type value"
     Code = TEST#AbnormalityType
@@ -54,7 +54,7 @@ Description: "Abnormality Type value"
     DataValue[concept] from AbnormalityTypeVs
 
 //ConceptComponent-Entry
-Element: AsymmetryTypes
+Group: AsymmetryTypes
 Parent: ObservationComponent
 Description: "Asymetry Type value"
     Code = TEST#AsymmetryTypes
@@ -62,7 +62,7 @@ Description: "Asymetry Type value"
     DataValue[concept] from AsymmetryTypesVs
 
 //ConceptComponent-Entry
-Element: BiRadCode
+Group: BiRadCode
 Parent: ObservationComponent
 Description: "Bi-Rad code value"
     Code = TEST#BiRadCode
@@ -70,7 +70,7 @@ Description: "Bi-Rad code value"
     DataValue[concept] from BiRadCodeVs
 
 //ConceptComponent-Entry
-Element: Change
+Group: Change
 Parent: ObservationComponent
 Description: "Change value"
     Code = TEST#Change
@@ -78,7 +78,7 @@ Description: "Change value"
     DataValue[concept] from ChangeVs
 
 //ConceptComponent-Entry
-Element: CystTypes
+Group: CystTypes
 Parent: ObservationComponent
 Description: "Cyst Types"
     Code = TEST#CystTypes
@@ -86,7 +86,7 @@ Description: "Cyst Types"
     DataValue[concept] from CystTypesVs
 
 //ConceptComponent-Entry
-Element: Depth
+Group: Depth
 Parent: ObservationComponent
 Description: "Depth"
     Code = TEST#Depth
@@ -94,7 +94,7 @@ Description: "Depth"
     DataValue[concept] from DepthVs
 
 //ConceptComponent-Entry
-Element: Margin
+Group: Margin
 Parent: ObservationComponent
 Description: "Margin"
     Code = TEST#Margin
@@ -102,7 +102,7 @@ Description: "Margin"
     DataValue[concept] from MarginVs
 
 //ConceptComponent-Entry
-Element: NodeTypes
+Group: NodeTypes
 Parent: ObservationComponent
 Description: "Node Types"
     Code = TEST#NodeTypes
@@ -110,7 +110,7 @@ Description: "Node Types"
     DataValue[concept] from NodeTypesVs
 
 //ConceptComponent-Entry
-Element: Orientation
+Group: Orientation
 Parent: ObservationComponent
 Description: "Orientation"
     Code = TEST#Orientation
@@ -118,7 +118,7 @@ Description: "Orientation"
     DataValue[concept] from OrientationVs
 
 //ConceptComponent-Entry
-Element: Shape
+Group: Shape
 Parent: ObservationComponent
 Description: "Shape"
     Code = TEST#Shape
@@ -126,7 +126,7 @@ Description: "Shape"
     DataValue[concept] from ShapeVs
 
 //ConceptComponent-Entry
-Element: Vascularity
+Group: Vascularity
 Parent: ObservationComponent
 Description: "Vascularity"
     Code = TEST#Vascularity
@@ -134,7 +134,7 @@ Description: "Vascularity"
     DataValue[concept] from VascularityVs
 
 //ConceptComponent-Entry
-Element: Wall
+Group: Wall
 Parent: ObservationComponent
 Description: "Wall"
     Code = TEST#Wall
@@ -143,18 +143,18 @@ Description: "Wall"
 
 
 // TypeComponent-Entry
-Element: MaxLength
+Group: MaxLength
 Parent: ObservationComponent
 Description: "Max Length Description"
     Code = TEST#MaxLength
-    DataValue only integer
+    DataValue only Quantity
 
 // TypeComponent-Entry
-Element: MaxWidth
+Group: MaxWidth
 Parent: ObservationComponent
 Description: "Max Width"
     Code = TEST#MaxWidth
-    DataValue only integer
+    DataValue only Quantity
 
 
 

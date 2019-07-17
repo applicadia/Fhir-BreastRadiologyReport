@@ -38,7 +38,7 @@ Parent: Observation
 //+ *ConceptComponent-Entry
 
 //ConceptComponent-Entry
-Element: %elementname%
+Group: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
     Code = TEST#%elementname%
@@ -49,7 +49,7 @@ Description: "%elementdescription%"
 //+ *TypeComponent-Entry
 
 // TypeComponent-Entry
-Element: %elementname%
+Group: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
     Code = %componentCode%
@@ -59,7 +59,7 @@ Description: "%elementdescription%"
 //+ *QuantityComponent-Entry
 
 //QuantityComponent-Entry
-Element: %elementname%
+Group: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%"
     Code = %componentCode%

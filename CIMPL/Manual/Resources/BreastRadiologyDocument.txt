@@ -26,6 +26,7 @@ Group: PatientHistory
 Parent: Section
 Description: "Patient History Section"
 		Code = LOINC#34117-2										// is this correct code for section
+		DomainResource 0..*
 		DomainResource substitute Observation						// Only Observations allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
@@ -36,11 +37,11 @@ Description: "Patient History Section"
 Group: Findings
 Description: "Findings section"
 Parent: Section
+		Code = LOINC#34117-2										// is this correct code for section
 		Section
 		includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
 		includes FindingsRightBreast 0..1							// Composition.Section Findings right  breast Splice
-		Code = LOINC#34117-2										// is this correct code for section
-		DomainResource 0..0											// Only two section children allowed from findings. No observations.
+		DomainResource 0..0											// No observations alloqed, just child sections (left & right breast findings)
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
 //		[string] = "Findings"
@@ -54,6 +55,7 @@ Property: FindingSummaryBiRadCode 1..1								// Worst BiRad code in left breast
 Property: BreastDensity 1..1										// Left breast density
 //		Title[string] = "Findings Left Breast"
 		Code = LOINC#26215-4 										// is this correct code for section
+		DomainResource 0..*											// Allow multiple observations
 		DomainResource substitute Observation						// Only Observations allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
@@ -67,6 +69,7 @@ Property: FindingSummaryBiRadCode 1..1								// Worst BiRad code in right breas
 Property: BreastDensity 1..1										// Right breast density
 //		Title[string] = "Findings Right Breast"
 		Code = LOINC#26216-2										// is this correct code for section
+		DomainResource 0..*											// Allow multiple observations
 		DomainResource substitute Observation						// Only Observations allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
@@ -80,8 +83,9 @@ Group: Impressions
 Parent: Section
 Description: "Clinical Impressions Section"
 //		Title[string] = "Impressions"
-		DomainResource substitute Condition							// Only Conditions allowed in this section
 		Code = LOINC#19005-8										// is this correct code for section
+		DomainResource 0..*											// Allow multiple conditions
+		DomainResource substitute Condition							// Only Conditions allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
@@ -92,10 +96,11 @@ Parent: Section
 Description: "Recommendations Section"
 //		Title[string] = "Recommendations"
 		Code = LOINC#18783-1										// is this correct code for section
+		DomainResource 0..*											// Allow multiple Action Requests
+		DomainResource substitute ActionRequest						// Only xxx request references allowed
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
-		DomainResource substitute ActionRequest						// Only xxx request references allowed
 
 
 // Summary bi rad code for a section.

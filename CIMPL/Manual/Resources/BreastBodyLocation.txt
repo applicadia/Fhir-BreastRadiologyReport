@@ -12,7 +12,7 @@ CodeSystem: SNOMED = http://snomed.info/sct
 //$ RelationToLandmark.LandmarkToBodyLocationDistance is a measurement, not a drop down as in the original
 //$ ModelLabs item.
 //
-Element: BreastBodyLocation
+Group: BreastBodyLocation
 Parent: BodyLocation
 Description: "Location of the breast abnormality."
 Property: breastrad.Breastdepth 0..1
