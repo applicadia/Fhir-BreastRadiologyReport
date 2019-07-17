@@ -30,7 +30,7 @@ Description: "Patient History Section"
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
-//		[string] = "Patient History"
+		// Title = "Patient History"
 
 // Findings Section
 Group: Findings
@@ -40,7 +40,7 @@ Parent: Section
 		includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
 		includes FindingsRightBreast 0..1							// Composition.Section Findings right  breast Splice
 		Code = LOINC#34117-2										// is this correct code for section
-		DomainResource substitute Observation						// Only Observations allowed in this section
+		DomainResource 0..0											// Only two section children allowed from findings. No observations.
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
 //		[string] = "Findings"
