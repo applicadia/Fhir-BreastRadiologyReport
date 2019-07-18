@@ -26,8 +26,8 @@ Group: PatientHistory
 Parent: Section
 Description: "Patient History Section"
 		Code = LOINC#34117-2										// is this correct code for section
-		DomainResource 0..*
-		DomainResource substitute Observation						// Only Observations allowed in this section
+		Resource 0..*
+		Resource substitute Observation								// Only Observations allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
@@ -41,7 +41,7 @@ Parent: Section
 		Section
 		includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
 		includes FindingsRightBreast 0..1							// Composition.Section Findings right  breast Splice
-		DomainResource 0..0											// No observations alloqed, just child sections (left & right breast findings)
+		Resource 0..0												// No observations alloqed, just child sections (left & right breast findings)
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
 //		[string] = "Findings"
@@ -55,8 +55,8 @@ Property: FindingSummaryBiRadCode 1..1								// Worst BiRad code in left breast
 Property: BreastDensity 1..1										// Left breast density
 //		Title[string] = "Findings Left Breast"
 		Code = LOINC#26215-4 										// is this correct code for section
-		DomainResource 0..*											// Allow multiple observations
-		DomainResource substitute Observation						// Only Observations allowed in this section
+		Resource 0..*												// Allow multiple observations
+		Resource substitute Observation								// Only Observations allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
@@ -69,8 +69,8 @@ Property: FindingSummaryBiRadCode 1..1								// Worst BiRad code in right breas
 Property: BreastDensity 1..1										// Right breast density
 //		Title[string] = "Findings Right Breast"
 		Code = LOINC#26216-2										// is this correct code for section
-		DomainResource 0..*											// Allow multiple observations
-		DomainResource substitute Observation						// Only Observations allowed in this section
+		Resource 0..*												// Allow multiple observations
+		Resource substitute Observation								// Only Observations allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
@@ -84,8 +84,8 @@ Parent: Section
 Description: "Clinical Impressions Section"
 //		Title[string] = "Impressions"
 		Code = LOINC#19005-8										// is this correct code for section
-		DomainResource 0..*											// Allow multiple conditions
-		DomainResource substitute Condition							// Only Conditions allowed in this section
+		Resource 0..*												// Allow multiple conditions
+		Resource substitute Condition								// Only Conditions allowed in this section
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
@@ -96,8 +96,8 @@ Parent: Section
 Description: "Recommendations Section"
 //		Title[string] = "Recommendations"
 		Code = LOINC#18783-1										// is this correct code for section
-		DomainResource 0..*											// Allow multiple Action Requests
-		DomainResource substitute ActionRequest						// Only xxx request references allowed
+		Resource 0..*												// Allow multiple Action Requests
+		Resource substitute ActionRequest							// Only xxx request references allowed
 		Section 0..0												// Child sections not allowed in this section
 		SortOrder 0..0												// No defined sort order
 		FocalSubject 0..0											// Subject is always Composition.FocalSubject
