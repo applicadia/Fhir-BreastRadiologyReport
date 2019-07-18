@@ -2,8 +2,7 @@
 // to do this in the CIMPL code.
 fixString Composition:breastrad-BreastRadiologyDocument.section:breastrad-PatientHistory.title "Patient History";
 fixString Composition:breastrad-BreastRadiologyDocument.section:breastrad-Findings.title "Findings";
-fixString  Composition:breastrad-BreastRadiologyDocument.section:breastrad-Findings.section:breastrad-FindingsLeftBreast "Findings Left Breast";
-fixString  Composition:breastrad-BreastRadiologyDocument.section:breastrad-Findings.section:breastrad-FindingsRightBreast "Findings Right Breast";
+fixString Composition:breastrad-BreastRadiologyDocument.section:breastrad-Findings.section:breastrad-FindingsLeftBreast.title "Findings Left Breast";
+fixString Composition:breastrad-BreastRadiologyDocument.section:breastrad-Findings.section:breastrad-FindingsRightBreast.title "Findings Right Breast";
 fixString Composition:breastrad-BreastRadiologyDocument.section:breastrad-Impressions.title "Clinical Impressions";
 fixString Composition:breastrad-BreastRadiologyDocument.section:breastrad-Recommendations.title "Recommendations";
-
