@@ -5,6 +5,6 @@ Target: FHIR_R4
 BreastAbnormality  maps to Observation:
 	BreastBodyLocation.Code maps to bodySite
 	BreastBodyLocation.Laterality maps to bodySite.extension
-	BreastBodyLocation.Orientation maps to bodySite.extension
+	BreastBodyLocation.AnatomicalOrientation maps to bodySite.extension
 	BreastBodyLocation.RelationToLandmark maps to bodySite.extension
     
