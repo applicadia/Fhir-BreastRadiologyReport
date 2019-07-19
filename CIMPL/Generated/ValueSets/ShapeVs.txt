@@ -3,7 +3,20 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: ShapeVs
-Description: "Shape"
+Description: "Shape
+
+
+Current terminology for this value set has not been specified, but the terminology selected
+will include terminology values with the following meanings.
+
+| Code | Meaning |
+|:-------------|:-----|
+IrregularShape | IrregularShape
+LobulatedShape | LobulatedShape
+OvalShape | OvalShape
+Reniform | Reniform
+Round | Round
+"
     TEST#IrregularShape "IrregularShape"
     TEST#LobulatedShape "LobulatedShape"
     TEST#OvalShape "OvalShape"

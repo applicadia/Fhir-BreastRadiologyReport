@@ -3,7 +3,41 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: AbnormalityTypeVs
-Description: "Abnormality Type value"
+Description: "Abnormality Type value
+
+
+Current terminology for this value set has not been specified, but the terminology selected
+will include terminology values with the following meanings.
+
+| Code | Meaning |
+|:-------------|:-----|
+Abscess | Abscess
+PostSurgicalScar | PostSurgicalScar
+PathologicalLymphNode | PathologicalLymphNode
+Nodule | Nodule
+Node | Node
+MastitisArea | MastitisArea
+Mass | Mass
+Lipoma | Lipoma
+Hematoma | Hematoma
+Hamartoma | Hamartoma
+ForeignBody | ForeignBody
+FluidCollection | FluidCollection
+FibrocysticTissue | FibrocysticTissue
+FibroadenomaDegeneration | FibroadenomaDegeneration
+Fibroadenoma | Fibroadenoma
+FatNecrosis | FatNecrosis
+DuctEctasia | DuctEctasia
+DuctDialated | DuctDialated
+Cyst | Cyst
+Calcification | Calcification
+BrachytherapyCatheter | BrachytherapyCatheter
+Asymmetry | Asymmetry
+Area | Area
+ArchitecturalDistortion | ArchitecturalDistortion
+Seroma | Seroma
+SignalVoidArea | SignalVoidArea
+"
     TEST#Abscess "Abscess"
     TEST#PostSurgicalScar "PostSurgicalScar"
     TEST#PathologicalLymphNode "PathologicalLymphNode"

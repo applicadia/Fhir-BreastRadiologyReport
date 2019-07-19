@@ -64,7 +64,7 @@ Parent: ObservationComponent
 Description: "%elementdescription%"
     Code = %componentCode%
     DataValue only Quantity
-    DataValue[Quantity].Units %units%
+    DataValue[Quantity].Units from %units%
 //- *QuantityComponent-Entry
 
 //+ *Substitute-Entry

@@ -3,7 +3,7 @@
   "id": "BreastAbnormality",
   "extension": [
     {
-      "url": "http://www.cimi.com/ModelDef/SectionPurpose",
+      "url": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ModelDef/SectionPurpose",
       "valueString": "Profile"
     },
     {
@@ -11,7 +11,7 @@
       "valueUri": "breastrad"
     }
   ],
-  "url": "http://www.cimi.com/StructureDefinition/BreastAbnormality",
+  "url": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//StructureDefinition/BreastAbnormality",
   "name": "BreastAbnormality",
   "title": "Breast Abnormality",
   "status": "unknown",
@@ -60,7 +60,7 @@
         "binding": {
           "strength": "required",
           "description": "Abnormal Density Description",
-          "valueSet": "http://www.cimi.com/ValueSet/AbnormalityDensity"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/AbnormalityDensity"
         },
         "mapping": [
           {
@@ -85,7 +85,7 @@
         "binding": {
           "strength": "required",
           "description": "Abnormality Type value",
-          "valueSet": "http://www.cimi.com/ValueSet/AbnormalityType"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/AbnormalityType"
         },
         "mapping": [
           {
@@ -110,7 +110,7 @@
         "binding": {
           "strength": "required",
           "description": "Asymetry Type value",
-          "valueSet": "http://www.cimi.com/ValueSet/AsymmetryTypes"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/AsymmetryTypes"
         },
         "mapping": [
           {
@@ -135,7 +135,7 @@
         "binding": {
           "strength": "required",
           "description": "Bi-Rad code value",
-          "valueSet": "http://www.cimi.com/ValueSet/BiRadCode"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/BiRadCode"
         },
         "mapping": [
           {
@@ -180,7 +180,7 @@
         "binding": {
           "strength": "required",
           "description": "Change value",
-          "valueSet": "http://www.cimi.com/ValueSet/Change"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Change"
         },
         "mapping": [
           {
@@ -205,7 +205,7 @@
         "binding": {
           "strength": "required",
           "description": "Cyst Types",
-          "valueSet": "http://www.cimi.com/ValueSet/CystTypes"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/CystTypes"
         },
         "mapping": [
           {
@@ -230,7 +230,7 @@
         "binding": {
           "strength": "required",
           "description": "Depth",
-          "valueSet": "http://www.cimi.com/ValueSet/Depth"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Depth"
         },
         "mapping": [
           {
@@ -255,7 +255,7 @@
         "binding": {
           "strength": "required",
           "description": "Margin",
-          "valueSet": "http://www.cimi.com/ValueSet/Margin"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Margin"
         },
         "mapping": [
           {
@@ -280,7 +280,7 @@
         "binding": {
           "strength": "required",
           "description": "Mass Types",
-          "valueSet": "http://www.cimi.com/ValueSet/MassTypes"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/MassTypes"
         }
       },
       {
@@ -299,7 +299,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"QuantityComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]},{\"Name\":\"units\",\"Values\":[\"UnitsOfLengthVS\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -319,7 +319,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"TypeComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"QuantityComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]},{\"Name\":\"units\",\"Values\":[\"UnitsOfLengthVS\"]}],\"Commands\":[]}"
           }
         ]
       },
@@ -338,32 +338,7 @@
         "binding": {
           "strength": "required",
           "description": "Node Types",
-          "valueSet": "http://www.cimi.com/ValueSet/NodeTypes"
-        },
-        "mapping": [
-          {
-            "identity": "ModelDef.CIMPLMap",
-            "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
-          }
-        ]
-      },
-      {
-        "id": "BreastAbnormality.orientation",
-        "path": "BreastAbnormality.orientation",
-        "short": "Orientation",
-        "definition": "Orientation",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "code"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "Orientation",
-          "valueSet": "http://www.cimi.com/ValueSet/Orientation"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/NodeTypes"
         },
         "mapping": [
           {
@@ -388,7 +363,7 @@
         "binding": {
           "strength": "required",
           "description": "Shape",
-          "valueSet": "http://www.cimi.com/ValueSet/Shape"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Shape"
         },
         "mapping": [
           {
@@ -413,7 +388,7 @@
         "binding": {
           "strength": "required",
           "description": "Vascularity",
-          "valueSet": "http://www.cimi.com/ValueSet/Vascularity"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Vascularity"
         },
         "mapping": [
           {
@@ -438,7 +413,7 @@
         "binding": {
           "strength": "required",
           "description": "Wall",
-          "valueSet": "http://www.cimi.com/ValueSet/Wall"
+          "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Wall"
         },
         "mapping": [
           {

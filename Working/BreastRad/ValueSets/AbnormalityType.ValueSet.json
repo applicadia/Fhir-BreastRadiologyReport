@@ -7,7 +7,7 @@
       "valueUri": "breastrad"
     }
   ],
-  "url": "http://www.cimi.com/ValueSet/AbnormalityType",
+  "url": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/AbnormalityType",
   "version": "4.0.0",
   "name": "AbnormalityType",
   "title": "Abnormality Type",

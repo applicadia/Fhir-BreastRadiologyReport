@@ -7,7 +7,7 @@
       "valueUri": "breastrad"
     }
   ],
-  "url": "http://www.cimi.com/ValueSet/Change",
+  "url": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Change",
   "version": "4.0.0",
   "name": "Change",
   "title": "Change",

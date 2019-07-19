@@ -3,7 +3,24 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: BiRadCodeVs
-Description: "Bi-Rad code value"
+Description: "Bi-Rad code value
+
+
+Current terminology for this value set has not been specified, but the terminology selected
+will include terminology values with the following meanings.
+
+| Code | Meaning |
+|:-------------|:-----|
+BIRAD5HighlySuggestive | BIRAD5HighlySuggestive
+BIRAD0Incomplete | BIRAD0Incomplete
+BIRAD1Negative | BIRAD1Negative
+BIRAD2Benign | BIRAD2Benign
+BIRAD3ProbablyBenign | BIRAD3ProbablyBenign
+BIRAD4ALowSuspicion | BIRAD4ALowSuspicion
+BIRAD4BModerateSuspicion | BIRAD4BModerateSuspicion
+BIRAD4CHighSuspicion | BIRAD4CHighSuspicion
+BIRAD6ProvenMalignancy | BIRAD6ProvenMalignancy
+"
     TEST#BIRAD5HighlySuggestive "BIRAD5HighlySuggestive"
     TEST#BIRAD0Incomplete "BIRAD0Incomplete"
     TEST#BIRAD1Negative "BIRAD1Negative"

@@ -3,7 +3,21 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: NodeTypesVs
-Description: "Node Types"
+Description: "Node Types
+
+
+Current terminology for this value set has not been specified, but the terminology selected
+will include terminology values with the following meanings.
+
+| Code | Meaning |
+|:-------------|:-----|
+AxillaryNode | AxillaryNode
+EnlargedNode | EnlargedNode
+FocalCortexNode | FocalCortexNode
+InfraclavicularNode | InfraclavicularNode
+IntramammaryNode | IntramammaryNode
+SupraclavicularNode | SupraclavicularNode
+"
     TEST#AxillaryNode "AxillaryNode"
     TEST#EnlargedNode "EnlargedNode"
     TEST#FocalCortexNode "FocalCortexNode"

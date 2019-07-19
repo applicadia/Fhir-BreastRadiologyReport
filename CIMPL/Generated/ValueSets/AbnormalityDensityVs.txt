@@ -3,7 +3,19 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: AbnormalityDensityVs
-Description: "Abnormal Density Description"
+Description: "Abnormal Density Description
+
+
+Current terminology for this value set has not been specified, but the terminology selected
+will include terminology values with the following meanings.
+
+| Code | Meaning |
+|:-------------|:-----|
+EqualDensity | EqualDensity
+FatContaining | FatContaining
+HighDensity | HighDensity
+LowDensity | LowDensity
+"
     TEST#EqualDensity "EqualDensity"
     TEST#FatContaining "FatContaining"
     TEST#HighDensity "HighDensity"

@@ -24,7 +24,6 @@ Parent: Observation
     includes breastrad.Depth 0..1
     includes breastrad.Margin 0..1
     includes breastrad.NodeTypes 0..1
-    includes breastrad.Orientation 0..1
     includes breastrad.Shape 0..1
     includes breastrad.Vascularity 0..1
     includes breastrad.Wall 0..1
@@ -110,14 +109,6 @@ Description: "Node Types"
     DataValue[concept] from NodeTypesVs
 
 //ConceptComponent-Entry
-Group: Orientation
-Parent: ObservationComponent
-Description: "Orientation"
-    Code = TEST#Orientation
-    DataValue only concept
-    DataValue[concept] from OrientationVs
-
-//ConceptComponent-Entry
 Group: Shape
 Parent: ObservationComponent
 Description: "Shape"
@@ -142,19 +133,21 @@ Description: "Wall"
     DataValue[concept] from WallVs
 
 
-// TypeComponent-Entry
+
+//QuantityComponent-Entry
 Group: MaxLength
 Parent: ObservationComponent
 Description: "Max Length Description"
     Code = TEST#MaxLength
     DataValue only Quantity
+    DataValue[Quantity].Units from UnitsOfLengthVS
 
-// TypeComponent-Entry
+//QuantityComponent-Entry
 Group: MaxWidth
 Parent: ObservationComponent
 Description: "Max Width"
     Code = TEST#MaxWidth
     DataValue only Quantity
-
+    DataValue[Quantity].Units from UnitsOfLengthVS
 
 

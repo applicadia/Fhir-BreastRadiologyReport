@@ -7,7 +7,7 @@
       "valueUri": "breastrad"
     }
   ],
-  "url": "http://www.cimi.com/ValueSet/NodeTypes",
+  "url": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/NodeTypes",
   "version": "4.0.0",
   "name": "NodeTypes",
   "title": "Node Types",

@@ -9,3 +9,6 @@ Description: "%valuesetdescription%"
 //+ *ITEMS
     %fullcode% "%display%"
 //- *ITEMS
+//+ *TESTITEM
+%code% | %display%
+//- *TESTITEM

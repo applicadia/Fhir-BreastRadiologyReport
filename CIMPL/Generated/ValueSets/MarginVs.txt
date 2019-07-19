@@ -3,7 +3,27 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: MarginVs
-Description: "Margin"
+Description: "Margin
+
+
+Current terminology for this value set has not been specified, but the terminology selected
+will include terminology values with the following meanings.
+
+| Code | Meaning |
+|:-------------|:-----|
+AngularMargin | AngularMargin
+CircumscribedMargin | CircumscribedMargin
+IndistinctMargin | IndistinctMargin
+IntraductalExtension | IntraductalExtension
+IrregularMargin | IrregularMargin
+LobulatedMargin | LobulatedMargin
+MacrolobulatedMargin | MacrolobulatedMargin
+MicrolobulatedMargin | MicrolobulatedMargin
+NonCircumscribedMargin | NonCircumscribedMargin
+ObscuredMargin | ObscuredMargin
+SmoothMargin | SmoothMargin
+SpiculatedMargin | SpiculatedMargin
+"
     TEST#AngularMargin "AngularMargin"
     TEST#CircumscribedMargin "CircumscribedMargin"
     TEST#IndistinctMargin "IndistinctMargin"
