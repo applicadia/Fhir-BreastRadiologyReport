@@ -1,8 +1,8 @@
 {
   "projectName": "Breast Radiology Reporting",
   "projectShorthand": "BreastRad",
-  "projectURL": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig",
-  "fhirURL": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig/fhir",
+  "projectURL": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig/",
+  "fhirURL": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//fhir",
   "fhirTarget": "FHIR_R4",
   "implementationGuide": {
     "indexContent": "Pages/BreastRad.html",
