@@ -39,7 +39,11 @@ Value: concept from MassTypesVs
 //ConceptComponent-Entry
 Group: AbnormalityDensity
 Parent: ObservationComponent
-Description: "Abnormal Density Description"
+Description: "Abnormal Density Description.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - AbnormalityDensity]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#AbnormalityDensity
     DataValue only concept
     DataValue[concept] from AbnormalityDensityVs
@@ -47,7 +51,11 @@ Description: "Abnormal Density Description"
 //ConceptComponent-Entry
 Group: AbnormalityType
 Parent: ObservationComponent
-Description: "Abnormality Type value"
+Description: "Abnormality Type value.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - AbnormalityType]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#AbnormalityType
     DataValue only concept
     DataValue[concept] from AbnormalityTypeVs
@@ -55,7 +63,11 @@ Description: "Abnormality Type value"
 //ConceptComponent-Entry
 Group: AsymmetryTypes
 Parent: ObservationComponent
-Description: "Asymetry Type value"
+Description: "Asymetry Type value.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - AsymmetryTypes]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#AsymmetryTypes
     DataValue only concept
     DataValue[concept] from AsymmetryTypesVs
@@ -63,7 +75,11 @@ Description: "Asymetry Type value"
 //ConceptComponent-Entry
 Group: BiRadCode
 Parent: ObservationComponent
-Description: "Bi-Rad code value"
+Description: "Bi-Rad code value.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - BiRadCode]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#BiRadCode
     DataValue only concept
     DataValue[concept] from BiRadCodeVs
@@ -71,7 +87,11 @@ Description: "Bi-Rad code value"
 //ConceptComponent-Entry
 Group: Change
 Parent: ObservationComponent
-Description: "Change value"
+Description: "Change value.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - Change]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#Change
     DataValue only concept
     DataValue[concept] from ChangeVs
@@ -79,7 +99,11 @@ Description: "Change value"
 //ConceptComponent-Entry
 Group: CystTypes
 Parent: ObservationComponent
-Description: "Cyst Types"
+Description: "Cyst Types.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - CystTypes]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#CystTypes
     DataValue only concept
     DataValue[concept] from CystTypesVs
@@ -87,7 +111,11 @@ Description: "Cyst Types"
 //ConceptComponent-Entry
 Group: Depth
 Parent: ObservationComponent
-Description: "Depth"
+Description: "Depth.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - Depth]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#Depth
     DataValue only concept
     DataValue[concept] from DepthVs
@@ -95,7 +123,11 @@ Description: "Depth"
 //ConceptComponent-Entry
 Group: Margin
 Parent: ObservationComponent
-Description: "Margin"
+Description: "Margin.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - Margin]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#Margin
     DataValue only concept
     DataValue[concept] from MarginVs
@@ -103,7 +135,11 @@ Description: "Margin"
 //ConceptComponent-Entry
 Group: NodeTypes
 Parent: ObservationComponent
-Description: "Node Types"
+Description: "Node Types.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - NodeTypes]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#NodeTypes
     DataValue only concept
     DataValue[concept] from NodeTypesVs
@@ -111,7 +147,11 @@ Description: "Node Types"
 //ConceptComponent-Entry
 Group: Shape
 Parent: ObservationComponent
-Description: "Shape"
+Description: "Shape.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - Shape]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#Shape
     DataValue only concept
     DataValue[concept] from ShapeVs
@@ -119,7 +159,11 @@ Description: "Shape"
 //ConceptComponent-Entry
 Group: Vascularity
 Parent: ObservationComponent
-Description: "Vascularity"
+Description: "Vascularity.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - Vascularity]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#Vascularity
     DataValue only concept
     DataValue[concept] from VascularityVs
@@ -127,7 +171,11 @@ Description: "Vascularity"
 //ConceptComponent-Entry
 Group: Wall
 Parent: ObservationComponent
-Description: "Wall"
+Description: "Wall.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - Wall]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#Wall
     DataValue only concept
     DataValue[concept] from WallVs
@@ -137,7 +185,11 @@ Description: "Wall"
 //QuantityComponent-Entry
 Group: MaxLength
 Parent: ObservationComponent
-Description: "Max Length Description"
+Description: "Max Length Description
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - MaxLength]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#MaxLength
     DataValue only Quantity
     DataValue[Quantity].Units from UnitsOfLengthVS
@@ -145,7 +197,11 @@ Description: "Max Length Description"
 //QuantityComponent-Entry
 Group: MaxWidth
 Parent: ObservationComponent
-Description: "Max Width"
+Description: "Max Width
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code [http://www.test.com - MaxWidth]
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
     Code = TEST#MaxWidth
     DataValue only Quantity
     DataValue[Quantity].Units from UnitsOfLengthVS

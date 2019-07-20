@@ -11,7 +11,7 @@ CodeSystem: LISTORDER = http://terminology.hl7.org/CodeSystem/list-order
 // This is derived from Composition.
 //
 Entry: BreastRadiologyDocument
-Description: "Breast Radiology Report"
+Description: "Breast Radiology Document. This Composition contains the details of a specific Breast Radiology Report."
 Parent: Composition
 Property: SummaryBiRadCode 1..1										// Worst BiRad code in document
 Property: BreastExamTechnique 1..*									// Breast exam technique
