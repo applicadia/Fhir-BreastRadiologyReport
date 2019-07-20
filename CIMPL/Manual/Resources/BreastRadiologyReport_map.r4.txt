@@ -1,0 +1,5 @@
+Grammar: Map 6.0
+Namespace: breastrad
+Target: FHIR_R4
+
+BreastRadiologyReport maps to DiagnosticReport:

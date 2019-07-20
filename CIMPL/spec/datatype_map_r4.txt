@@ -109,7 +109,6 @@ Identifier maps to Identifier:
 //	Issuer maps to assigner  MK - this causes a profile on Identifier because Organization is also profiled
 
 RelatedArtifact maps to RelatedArtifact:
-	Type maps to type
 	LabelText maps to label
 	DisplayText maps to display
 	Citation maps to citation

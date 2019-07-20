@@ -1,0 +1,50 @@
+{
+  "projectName": "Breast Radiology Reporting",
+  "projectShorthand": "BreastRad",
+  "projectURL": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig/",
+  "fhirURL": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//fhir",
+  "fhirTarget": "FHIR_STU_3",
+  "implementationGuide": {
+    "indexContent": "Pages/BreastRad.html",
+    "npmName": "hl7.fhir.us.brr",
+    "version": "0.1",
+    "primarySelectionStrategy": {
+      "strategy": "namespace",
+      "primary": [
+        "breastrad"
+      ],
+      "hideSupporting": true
+    },
+    "packageList": "ig-breastRad-plist.json",
+    "includeLogicalModels": true,
+    "includeModelDoc": true,
+    "historyLink": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig/history.html"
+  },
+  "filterStrategy": {
+    "strategy": "namespace",
+    "filter": true,
+    "target": [
+      "breastrad"
+    ]
+  },
+  "publisher": "Hl7",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://BreastRadReport.com"
+        }
+      ]
+    }
+  ],
+  "provenanceInfo": {
+    "leadAuthor": {
+      "name": "Kurt W. Allen",
+      "organization": "Penrad Technologies",
+      "email": "info@Penrad.org"
+    },
+    "license": "Creative Commons CC-BY <https://creativecommons.org/licenses/by/3.0/>",
+    "copyright": "Copyright (c) The Example Organization <http://example.org>"
+  }
+}

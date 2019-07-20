@@ -188,7 +188,6 @@ Media maps to Media:
 	MediaBasedOn maps to basedOn
 	PartOf maps to extension
 	Status maps to extension
-	Type maps to type
 	Modality  maps to subtype
 	View maps to view
 	SubjectOfRecord maps to subject

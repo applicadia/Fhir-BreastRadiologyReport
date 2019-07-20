@@ -172,7 +172,6 @@ Device maps to http://fhir.org/guides/argonaut/StructureDefinition/argo-device:
 	Patient maps to patient
 
 Media maps to Media:
-	Type maps to type
 	Modality maps to subtype
 	Identifier maps to identifier
 	SubjectOfRecord maps to subject
