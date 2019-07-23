@@ -1,12 +1,12 @@
 {
 	"package-id": "hl7.fhir.us.brr",
 	"title": "HL7 FHIR Profile: Breast Radiology Report (BRR), Release 0.1 (Comment only)",
-	"canonical": "http://hl7.org/fhir/us/brr",
+	"canonical": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//fhir",
 	"list": [
 		{
 			"version": "current",
 			"desc": "Continuous Integration Build (latest in version control)",
-			"path": "https://build.fhir.org/ig/HL7/us-brr",
+			"path": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//fhir",
 			"status": "ci-build",
 			"current": true
 		}

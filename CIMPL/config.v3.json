@@ -18,7 +18,7 @@
     "packageList": "ig-breastRad-plist.json",
     "includeLogicalModels": true,
     "includeModelDoc": true,
-    "historyLink": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig/history.html"
+    "historyLink": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//fhir/history.html"
   },
   "filterStrategy": {
     "strategy": "namespace",
