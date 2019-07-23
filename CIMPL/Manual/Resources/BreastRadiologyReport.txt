@@ -10,7 +10,7 @@ CodeSystem: LOINC = http://loinc.org
 //
 Entry: BreastRadiologyReport
 Description:	"Breast Radiology Diagnostic Report.
-<br>This diagnostic report is the base of the Breast Radiology Report, and contains a summary of the reeport findings.
+<br>This diagnostic report is the base of the Breast Radiology Report, and contains a summary of the report findings.
 <br>Detailed information about the reports document is contained in the Breast Radiology Document linked to by the [resultComposition] field."
 Parent: DiagnosticReport                            // Derived from Diagnostic Report
 Property: ResultComposition 1..1                    // Details of report are stored in Composition.
@@ -19,7 +19,6 @@ Property: ResultComposition 1..1                    // Details of report are sto
     Specimen 0..0                                   // dont have specimen
     ConclusionText 1..1                             // require conclusion text. Copied from ResultComposition
     ConclusionCode 1..1                             // require conclusion code
-
 
 Element: ResultComposition
 Description:	"Reference to the document containing detailed information about the breast radiology report, including assocated sections"

@@ -10,10 +10,12 @@ Entry: BreastAbnormality
 Parent: Observation
 Description: "Breast Abnormality Form"
 Parent: Observation
-    BodyLocation substitute BreastBodyLocation
-    BreastBodyLocation 0..1
+Property: breastrad.MassTypes 0..1
+    Specimen 0..0                                   // dont have specimen
     DataValue 0..0
     Code = TEST#BreastAbnormality
+    BodyLocation substitute BreastBodyLocation                    // BodyLocation is constrained to be only BreastBodyLocation
+    BreastBodyLocation 0..1                           // Constrain BreastBodyLocation cardinality
     Components.ObservationComponent
     includes breastrad.AbnormalityDensity 0..1
     includes breastrad.AbnormalityType 0..1
@@ -29,7 +31,6 @@ Parent: Observation
     includes breastrad.Wall 0..1
     includes breastrad.MaxLength 0..1
     includes breastrad.MaxWidth 0..1
-Property: breastrad.MassTypes 0..1
 
 Element: MassTypes
 Description: "Mass Types"
@@ -39,7 +40,7 @@ Value: concept from MassTypesVs
 //ConceptComponent-Entry
 Group: AbnormalityDensity
 Parent: ObservationComponent
-Description: "Abnormal Density Description.
+Description: "Visually estimated content of fibroglandular-density tissue within the breast.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code [http://www.test.com - AbnormalityDensity]
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
@@ -63,7 +64,7 @@ Description: "Abnormality Type value.
 //ConceptComponent-Entry
 Group: AsymmetryTypes
 Parent: ObservationComponent
-Description: "Asymetry Type value.
+Description: "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry..
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code [http://www.test.com - AsymmetryTypes]
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.

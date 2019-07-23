@@ -3,7 +3,7 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: AbnormalityDensityVs
-Description: "Abnormal Density Description
+Description: "Visually estimated content of fibroglandular-density tissue within the breast
 
 
 Current terminology for this value set has not been specified, but the terminology selected

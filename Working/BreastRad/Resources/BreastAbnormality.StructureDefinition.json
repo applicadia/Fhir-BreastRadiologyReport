@@ -49,7 +49,7 @@
         "id": "BreastAbnormality.abnormalityDensity",
         "path": "BreastAbnormality.abnormalityDensity",
         "short": "Abnormality Density",
-        "definition": "Abnormal Density Description",
+        "definition": "Visually estimated content of fibroglandular-density tissue within the breast",
         "min": 0,
         "max": "1",
         "type": [
@@ -59,7 +59,7 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "Abnormal Density Description",
+          "description": "Visually estimated content of fibroglandular-density tissue within the breast",
           "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/AbnormalityDensity"
         },
         "mapping": [
@@ -99,7 +99,7 @@
         "id": "BreastAbnormality.asymmetryTypes",
         "path": "BreastAbnormality.asymmetryTypes",
         "short": "Asymmetry Types",
-        "definition": "Asymetry Type value",
+        "definition": "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry.",
         "min": 0,
         "max": "1",
         "type": [
@@ -109,7 +109,7 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "Asymetry Type value",
+          "description": "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry.",
           "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/AsymmetryTypes"
         },
         "mapping": [

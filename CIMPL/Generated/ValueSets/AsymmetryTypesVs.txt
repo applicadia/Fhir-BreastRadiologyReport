@@ -3,7 +3,7 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: AsymmetryTypesVs
-Description: "Asymetry Type value
+Description: "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry.
 
 
 Current terminology for this value set has not been specified, but the terminology selected
@@ -12,9 +12,11 @@ will include terminology values with the following meanings.
 | Code | Meaning |
 |:-------------|:-----|
 DensityFocalAsymmetry | DensityFocalAsymmetry
+DevelopingAsymmetry | DevelopingAsymmetry
 FocalAsymmetry | FocalAsymmetry
 GlobalAsymmetry | GlobalAsymmetry
 "
     TEST#DensityFocalAsymmetry "DensityFocalAsymmetry"
+    TEST#DevelopingAsymmetry "DevelopingAsymmetry"
     TEST#FocalAsymmetry "FocalAsymmetry"
     TEST#GlobalAsymmetry "GlobalAsymmetry"

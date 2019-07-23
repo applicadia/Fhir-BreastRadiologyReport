@@ -11,12 +11,16 @@ Entry: %classname%
 Parent: Observation
 Description: "%classdescription%"
 Parent: Observation
-//+ *Substitute-Property
-    %Source% substitute %Target%
-    %Target% %min%..%max%
-//- *Substitute-Property
+//+ *Default-Property
+%property%
+//- *Default-Property
+    Specimen 0..0                                   // dont have specimen
     DataValue 0..0
     Code = %observationCode%
+//+ *Substitute-Property
+    %Source% substitute %Target%                    // %Source% is constrained to be only %Target%
+    %Target% %min%..%max%                           // Constrain %Target% cardinality
+//- *Substitute-Property
     Components.ObservationComponent
 //+ *ConceptComponent-Property
     includes %namespace%.%elementname% %min%..%max%
@@ -27,9 +31,6 @@ Parent: Observation
 //+ *QuantityComponent-Property
     includes %namespace%.%elementname% %min%..%max%
 //- *QuantityComponent-Property
-//+ *Default-Property
-%property%
-//- *Default-Property
 
 //+ *Default-Entry
 %element%

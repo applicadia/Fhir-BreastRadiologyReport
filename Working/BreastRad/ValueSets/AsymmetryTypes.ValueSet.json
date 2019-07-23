@@ -14,7 +14,7 @@
   "status": "unknown",
   "date": "2001-01-01T01:01:01+00:00",
   "publisher": "HL7.org",
-  "description": "Asymetry Type value",
+  "description": "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry.",
   "compose": {
     "include": [
       {
@@ -23,6 +23,10 @@
           {
             "code": "DensityFocalAsymmetry",
             "display": "DensityFocalAsymmetry"
+          },
+          {
+            "code": "DevelopingAsymmetry",
+            "display": "DevelopingAsymmetry"
           },
           {
             "code": "FocalAsymmetry",
