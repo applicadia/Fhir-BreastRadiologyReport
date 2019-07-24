@@ -3,7 +3,7 @@ Namespace: breastrad
 CodeSystem: TEST = http://test.com
 
 ValueSet: AsymmetryTypesVs
-Description: "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry.
+Description: "Currently many studies utilize cortical thickening and hilum absence as criteria for definition of the risk for metastasis(11,12-16). ... Metastatic deposits accumulate in the lymph node peripheral area, causing enlargement of the cortex, usually focal (at early stages), or uniform.
 
 
 Current terminology for this value set has not been specified, but the terminology selected

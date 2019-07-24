@@ -6,8 +6,8 @@
   "fhirTarget": "FHIR_STU_3",
   "implementationGuide": {
     "indexContent": "Pages/BreastRad.html",
-    "npmName": "hl7.fhir.us.brr",
-    "version": "0.1",
+    "npmName": "hl7.fhir.us.breast-radiology",
+    "version": "0.1.0",
     "primarySelectionStrategy": {
       "strategy": "namespace",
       "primary": [

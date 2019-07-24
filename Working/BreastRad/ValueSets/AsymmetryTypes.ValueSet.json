@@ -11,10 +11,10 @@
   "version": "4.0.0",
   "name": "AsymmetryTypes",
   "title": "Asymmetry Types",
-  "status": "unknown",
+  "status": "draft",
   "date": "2001-01-01T01:01:01+00:00",
-  "publisher": "HL7.org",
-  "description": "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry.",
+  "publisher": "HL7 International - Clinical Interoperability Council",
+  "description": "Currently many studies utilize cortical thickening and hilum absence as criteria for definition of the risk for metastasis(11,12-16). ... Metastatic deposits accumulate in the lymph node peripheral area, causing enlargement of the cortex, usually focal (at early stages), or uniform.",
   "compose": {
     "include": [
       {

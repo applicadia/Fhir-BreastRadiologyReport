@@ -14,9 +14,9 @@
   "url": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//StructureDefinition/BreastAbnormality",
   "name": "BreastAbnormality",
   "title": "Breast Abnormality",
-  "status": "unknown",
+  "status": "draft",
   "date": "2001-01-01T01:01:01+00:00",
-  "publisher": "HL7.org",
+  "publisher": "HL7 International - Clinical Interoperability Council",
   "description": "Breast Abnormality Form",
   "fhirVersion": "4.0.0",
   "mapping": [
@@ -99,7 +99,7 @@
         "id": "BreastAbnormality.asymmetryTypes",
         "path": "BreastAbnormality.asymmetryTypes",
         "short": "Asymmetry Types",
-        "definition": "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry.",
+        "definition": "Currently many studies utilize cortical thickening and hilum absence as criteria for definition of the risk for metastasis(11,12-16). ... Metastatic deposits accumulate in the lymph node peripheral area, causing enlargement of the cortex, usually focal (at early stages), or uniform.",
         "min": 0,
         "max": "1",
         "type": [
@@ -109,7 +109,7 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "1 Asymmetry, 2 Global asymmetry, 3 Focal asymmetry, and 4 Developing asymmetry.",
+          "description": "Currently many studies utilize cortical thickening and hilum absence as criteria for definition of the risk for metastasis(11,12-16). ... Metastatic deposits accumulate in the lymph node peripheral area, causing enlargement of the cortex, usually focal (at early stages), or uniform.",
           "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/AsymmetryTypes"
         },
         "mapping": [
@@ -244,7 +244,7 @@
         "id": "BreastAbnormality.margin",
         "path": "BreastAbnormality.margin",
         "short": "Margin",
-        "definition": "Margin",
+        "definition": "When breast cancer is surgically removed (during a surgical biopsy, lumpectomy or mastectomy), a rim of normal tissue surrounding the tumor is also removed. This rim is called a margin. Margins help show whether or not all of the tumor was removed.",
         "min": 0,
         "max": "1",
         "type": [
@@ -254,7 +254,7 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "Margin",
+          "description": "When breast cancer is surgically removed (during a surgical biopsy, lumpectomy or mastectomy), a rim of normal tissue surrounding the tumor is also removed. This rim is called a margin. Margins help show whether or not all of the tumor was removed.",
           "valueSet": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Margin"
         },
         "mapping": [
