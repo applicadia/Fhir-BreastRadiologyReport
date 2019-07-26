@@ -11,12 +11,12 @@ will include terminology values with the following meanings.
 
 | Code | Meaning |
 |:-------------|:-----|
-Anterior | Anterior
-Middle | Middle
-Posterior | Posterior
-SubAreolar | SubAreolar
+Anterior | The frontal third of the breast.
+Middle | The middle third of the breast.
+Posterior | The rear third of the breast.
+SubAreolar | Subareolar abscess is an abscess, or growth, on the areolar gland. The areolar gland is located in the breast under or below the areola (colored area around the nipple).
 "
-    TEST#Anterior "Anterior"
-    TEST#Middle "Middle"
-    TEST#Posterior "Posterior"
-    TEST#SubAreolar "SubAreolar"
+    TEST#Anterior "The frontal third of the breast."
+    TEST#Middle "The middle third of the breast."
+    TEST#Posterior "The rear third of the breast."
+    TEST#SubAreolar "Subareolar abscess is an abscess, or growth, on the areolar gland. The areolar gland is located in the breast under or below the areola (colored area around the nipple)."

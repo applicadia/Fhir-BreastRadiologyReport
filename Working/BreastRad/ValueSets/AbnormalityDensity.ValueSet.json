@@ -22,19 +22,19 @@
         "concept": [
           {
             "code": "EqualDensity",
-            "display": "EqualDensity"
+            "display": "X-ray attenuation of the mass is the same as the expected attenuation of an equal volume of fibroglandular breast tissue."
           },
           {
             "code": "FatContaining",
-            "display": "FatContaining"
+            "display": "Includes all masses containing fat, such as oil cyst, lipoma, or galactocele as well as mixeddensity lesions such as hamartoma."
           },
           {
             "code": "HighDensity",
-            "display": "HighDensity"
+            "display": "X-ray attenuation of the mass is grater than the expected attenuation of an equal volume of fibroglandular breast tissue."
           },
           {
             "code": "LowDensity",
-            "display": "LowDensity"
+            "display": "X-ray attenuation of the mass is less than the expected attenuation of an equal volume of fibroglandular breast tissue."
           }
         ]
       }

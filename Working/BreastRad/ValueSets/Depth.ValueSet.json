@@ -22,19 +22,19 @@
         "concept": [
           {
             "code": "Anterior",
-            "display": "Anterior"
+            "display": "The frontal third of the breast."
           },
           {
             "code": "Middle",
-            "display": "Middle"
+            "display": "The middle third of the breast."
           },
           {
             "code": "Posterior",
-            "display": "Posterior"
+            "display": "The rear third of the breast."
           },
           {
             "code": "SubAreolar",
-            "display": "SubAreolar"
+            "display": "Subareolar abscess is an abscess, or growth, on the areolar gland. The areolar gland is located in the breast under or below the areola (colored area around the nipple)."
           }
         ]
       }

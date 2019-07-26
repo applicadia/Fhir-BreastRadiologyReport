@@ -22,39 +22,39 @@
         "concept": [
           {
             "code": "BIRAD5HighlySuggestive",
-            "display": "BIRAD5HighlySuggestive"
+            "display": "Highly Suggestive of Malignancy"
           },
           {
             "code": "BIRAD0Incomplete",
-            "display": "BIRAD0Incomplete"
+            "display": "Need Additional Imaging Evaluation and/or Prior Mammograms for Comparison"
           },
           {
             "code": "BIRAD1Negative",
-            "display": "BIRAD1Negative"
+            "display": "Negative Finding"
           },
           {
             "code": "BIRAD2Benign",
-            "display": "BIRAD2Benign"
+            "display": "Non cancerous finding"
           },
           {
             "code": "BIRAD3ProbablyBenign",
-            "display": "BIRAD3ProbablyBenign"
+            "display": "Probably non-cancerous."
           },
           {
             "code": "BIRAD4ALowSuspicion",
-            "display": "BIRAD4ALowSuspicion"
+            "display": "Low suspicion for Malignancy"
           },
           {
             "code": "BIRAD4BModerateSuspicion",
-            "display": "BIRAD4BModerateSuspicion"
+            "display": "Moderate Suspicion for Malignancy"
           },
           {
             "code": "BIRAD4CHighSuspicion",
-            "display": "BIRAD4CHighSuspicion"
+            "display": "High Suspicion of Malignancy"
           },
           {
             "code": "BIRAD6ProvenMalignancy",
-            "display": "BIRAD6ProvenMalignancy"
+            "display": "Known Biopsy-Proven Malignancy"
           }
         ]
       }

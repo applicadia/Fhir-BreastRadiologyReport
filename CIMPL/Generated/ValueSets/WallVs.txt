@@ -11,12 +11,12 @@ will include terminology values with the following meanings.
 
 | Code | Meaning |
 |:-------------|:-----|
-IrregularInternalWall | IrregularInternalWall
-SeptatedInternalWall | SeptatedInternalWall
-SmoothInternalWall | SmoothInternalWall
-ThickenedWall | ThickenedWall
+IrregularInternalWall | no definition found.
+SeptatedInternalWall | No definition found.
+SmoothInternalWall | No definition found.
+ThickenedWall | If you have fibrocystic breasts, you may have more pronounced changes in response to these hormones. ... You may develop lumps in your breasts caused by cysts and swelling of your breast lobules, the milk-producing glands. You may also feel a lumpy thickening in your breast caused by an excess growth of fibrous tissue.
 "
-    TEST#IrregularInternalWall "IrregularInternalWall"
-    TEST#SeptatedInternalWall "SeptatedInternalWall"
-    TEST#SmoothInternalWall "SmoothInternalWall"
-    TEST#ThickenedWall "ThickenedWall"
+    TEST#IrregularInternalWall "no definition found."
+    TEST#SeptatedInternalWall "No definition found."
+    TEST#SmoothInternalWall "No definition found."
+    TEST#ThickenedWall "If you have fibrocystic breasts, you may have more pronounced changes in response to these hormones. ... You may develop lumps in your breasts caused by cysts and swelling of your breast lobules, the milk-producing glands. You may also feel a lumpy thickening in your breast caused by an excess growth of fibrous tissue."

@@ -11,22 +11,22 @@ will include terminology values with the following meanings.
 
 | Code | Meaning |
 |:-------------|:-----|
-BIRAD5HighlySuggestive | BIRAD5HighlySuggestive
-BIRAD0Incomplete | BIRAD0Incomplete
-BIRAD1Negative | BIRAD1Negative
-BIRAD2Benign | BIRAD2Benign
-BIRAD3ProbablyBenign | BIRAD3ProbablyBenign
-BIRAD4ALowSuspicion | BIRAD4ALowSuspicion
-BIRAD4BModerateSuspicion | BIRAD4BModerateSuspicion
-BIRAD4CHighSuspicion | BIRAD4CHighSuspicion
-BIRAD6ProvenMalignancy | BIRAD6ProvenMalignancy
+BIRAD5HighlySuggestive | Highly Suggestive of Malignancy
+BIRAD0Incomplete | Need Additional Imaging Evaluation and/or Prior Mammograms for Comparison
+BIRAD1Negative | Negative Finding
+BIRAD2Benign | Non cancerous finding
+BIRAD3ProbablyBenign | Probably non-cancerous.
+BIRAD4ALowSuspicion | Low suspicion for Malignancy
+BIRAD4BModerateSuspicion | Moderate Suspicion for Malignancy
+BIRAD4CHighSuspicion | High Suspicion of Malignancy
+BIRAD6ProvenMalignancy | Known Biopsy-Proven Malignancy
 "
-    TEST#BIRAD5HighlySuggestive "BIRAD5HighlySuggestive"
-    TEST#BIRAD0Incomplete "BIRAD0Incomplete"
-    TEST#BIRAD1Negative "BIRAD1Negative"
-    TEST#BIRAD2Benign "BIRAD2Benign"
-    TEST#BIRAD3ProbablyBenign "BIRAD3ProbablyBenign"
-    TEST#BIRAD4ALowSuspicion "BIRAD4ALowSuspicion"
-    TEST#BIRAD4BModerateSuspicion "BIRAD4BModerateSuspicion"
-    TEST#BIRAD4CHighSuspicion "BIRAD4CHighSuspicion"
-    TEST#BIRAD6ProvenMalignancy "BIRAD6ProvenMalignancy"
+    TEST#BIRAD5HighlySuggestive "Highly Suggestive of Malignancy"
+    TEST#BIRAD0Incomplete "Need Additional Imaging Evaluation and/or Prior Mammograms for Comparison"
+    TEST#BIRAD1Negative "Negative Finding"
+    TEST#BIRAD2Benign "Non cancerous finding"
+    TEST#BIRAD3ProbablyBenign "Probably non-cancerous."
+    TEST#BIRAD4ALowSuspicion "Low suspicion for Malignancy"
+    TEST#BIRAD4BModerateSuspicion "Moderate Suspicion for Malignancy"
+    TEST#BIRAD4CHighSuspicion "High Suspicion of Malignancy"
+    TEST#BIRAD6ProvenMalignancy "Known Biopsy-Proven Malignancy"

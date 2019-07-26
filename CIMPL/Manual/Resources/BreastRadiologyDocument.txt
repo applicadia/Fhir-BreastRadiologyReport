@@ -20,6 +20,8 @@ Property: BreastExamTechnique 1..*								// Breast exam technique
 	includes Findings 0..1										// Composition.Section Findings  Splice
 	includes Impressions 0..1									// Composition.Section Impressions Splice
 	includes Recommendations 0..1								// Composition.Section Recommendations Splice
+	includes PatientRisk 0..1									// Composition.Section PatientRisk Splice
+	includes PriorReports 0..1									// Composition.Section Prior Studies/Reports Splice
 
 // Patient History Section
 Group: PatientHistory
@@ -102,6 +104,28 @@ Description: "Recommendations Section"
 	SortOrder 0..0												// No defined sort order
 	FocalSubject 0..0											// Subject is always Composition.FocalSubject
 
+// Patient Risk Section
+Group: PatientRisk
+Parent: Section
+Description: "Patient Risk Section"
+	Code = LOINC#76546-1										// is this correct code for section
+	Resource 0..*
+	Resource substitute Observation								// Only Observations allowed in this section
+	Section 0..0												// Child sections not allowed in this section
+	SortOrder 0..0												// No defined sort order
+	FocalSubject 0..0											// Subject is always Composition.FocalSubject
+
+
+// Prior Report Section
+Group: PriorReports
+Parent: Section
+Description: "Prior Report Section"
+	Code = LOINC#76546-1										// is this correct code for section
+	Resource 0..*
+	Resource substitute BreastRadiologyReport					// Only Breast Radiology reports allowed in this section
+	Section 0..0												// Child sections not allowed in this section
+	SortOrder 0..0												// No defined sort order
+	FocalSubject 0..0											// Subject is always Composition.FocalSubject
 
 // Summary bi rad code for a section.
 Element: SummaryBiRadCode

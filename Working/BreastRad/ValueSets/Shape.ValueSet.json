@@ -22,23 +22,23 @@
         "concept": [
           {
             "code": "IrregularShape",
-            "display": "IrregularShape"
+            "display": "Neither round nor oval"
           },
           {
             "code": "LobulatedShape",
-            "display": "LobulatedShape"
+            "display": "The presence of greater than three lobulations is an indeterminate feature. Irregular shape is suspicious of malignancy. The margin of the lesion reflects the demarcation of the mass with surrounding tissue. It can be smooth, micro lobulated, irregular or spiculated."
           },
           {
             "code": "OvalShape",
-            "display": "OvalShape"
+            "display": "Elliptical or egg-shaped (may include 2 or 3 undulations, i.e., 'gently lobulated' or 'macrolobulated')"
           },
           {
             "code": "Reniform",
-            "display": "Reniform"
+            "display": "No definition found."
           },
           {
             "code": "Round",
-            "display": "Round"
+            "display": "Spherical, ball-shaped, circular, or globular."
           }
         ]
       }

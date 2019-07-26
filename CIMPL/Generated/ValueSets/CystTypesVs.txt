@@ -11,16 +11,16 @@ will include terminology values with the following meanings.
 
 | Code | Meaning |
 |:-------------|:-----|
-ComplexCyst | ComplexCyst
-ComplicatedCyst | ComplicatedCyst
-CystWithDebris | CystWithDebris
-MicroCyst | MicroCyst
-OilCyst | OilCyst
-SimpleCyst | SimpleCyst
+ComplexCyst | Complicated cysts are 'in between' simple and complex. Although they share most of the features of simple cysts, they tend to have some debris inside them and echo back some of the ultrasound waves.
+ComplicatedCyst | A 'complex' or 'complicated' breast cyst, refers to cysts that contain something besides clear fluid
+CystWithDebris | Complicated cysts are 'in between' simple and complex. Although they share most of the features of simple cysts, they tend to have some debris inside them and echo back some of the ultrasound waves.
+MicroCyst | A 'Microcyst' on the other hand, is very small, often less than 2-3 mm. They will only show up on a mammogram or ultrasound, and, they often occur in clusters. Breast clustered microcysts are quite common, estimated to appear in around 6%% of all breast ultrasound scans
+OilCyst | Breast oil cysts are benign breast lumps that usually don't require treatment.
+SimpleCyst | The cyst usually contains only fluid, and it is surrounded by a very thin wall.
 "
-    TEST#ComplexCyst "ComplexCyst"
-    TEST#ComplicatedCyst "ComplicatedCyst"
-    TEST#CystWithDebris "CystWithDebris"
-    TEST#MicroCyst "MicroCyst"
-    TEST#OilCyst "OilCyst"
-    TEST#SimpleCyst "SimpleCyst"
+    TEST#ComplexCyst "Complicated cysts are 'in between' simple and complex. Although they share most of the features of simple cysts, they tend to have some debris inside them and echo back some of the ultrasound waves."
+    TEST#ComplicatedCyst "A 'complex' or 'complicated' breast cyst, refers to cysts that contain something besides clear fluid"
+    TEST#CystWithDebris "Complicated cysts are 'in between' simple and complex. Although they share most of the features of simple cysts, they tend to have some debris inside them and echo back some of the ultrasound waves."
+    TEST#MicroCyst "A 'Microcyst' on the other hand, is very small, often less than 2-3 mm. They will only show up on a mammogram or ultrasound, and, they often occur in clusters. Breast clustered microcysts are quite common, estimated to appear in around 6%% of all breast ultrasound scans"
+    TEST#OilCyst "Breast oil cysts are benign breast lumps that usually don't require treatment."
+    TEST#SimpleCyst "The cyst usually contains only fluid, and it is surrounded by a very thin wall."

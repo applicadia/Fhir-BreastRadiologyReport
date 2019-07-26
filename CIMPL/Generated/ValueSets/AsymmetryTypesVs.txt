@@ -11,12 +11,12 @@ will include terminology values with the following meanings.
 
 | Code | Meaning |
 |:-------------|:-----|
-DensityFocalAsymmetry | DensityFocalAsymmetry
-DevelopingAsymmetry | DevelopingAsymmetry
-FocalAsymmetry | FocalAsymmetry
-GlobalAsymmetry | GlobalAsymmetry
+DensityFocalAsymmetry | By definition, a focal asymmetric density is seen on two mammographic views but cannot be accurately identified as a true mass (,,,Fig 4). Although a focal asymmetric density may represent normal breast tissue, further evaluation is often warranted to exclude a true mass or architectural distortion.
+DevelopingAsymmetry | A focal asymmetry that is new, larger, or more conspicuous than on a previous examination.
+FocalAsymmetry | Judged relative to the corresponding location in the contralateral breast and represents a relatively small amount of fibroglandular-density tissue over a confined portion of the breast. Refer to lexicon classification form for complete description.
+GlobalAsymmetry | Judged relative to the corresponding area in the contralateral breast and represents a large amount of fibroglandular-density tissue over a substantial portion of the breast. Refer to lexicon classification form for complete description.
 "
-    TEST#DensityFocalAsymmetry "DensityFocalAsymmetry"
-    TEST#DevelopingAsymmetry "DevelopingAsymmetry"
-    TEST#FocalAsymmetry "FocalAsymmetry"
-    TEST#GlobalAsymmetry "GlobalAsymmetry"
+    TEST#DensityFocalAsymmetry "By definition, a focal asymmetric density is seen on two mammographic views but cannot be accurately identified as a true mass (,,,Fig 4). Although a focal asymmetric density may represent normal breast tissue, further evaluation is often warranted to exclude a true mass or architectural distortion."
+    TEST#DevelopingAsymmetry "A focal asymmetry that is new, larger, or more conspicuous than on a previous examination."
+    TEST#FocalAsymmetry "Judged relative to the corresponding location in the contralateral breast and represents a relatively small amount of fibroglandular-density tissue over a confined portion of the breast. Refer to lexicon classification form for complete description."
+    TEST#GlobalAsymmetry "Judged relative to the corresponding area in the contralateral breast and represents a large amount of fibroglandular-density tissue over a substantial portion of the breast. Refer to lexicon classification form for complete description."
