@@ -7,7 +7,7 @@
       "valueUri": "breastrad"
     }
   ],
-  "url": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Wall",
+  "url": "http://hl7.org/fhir/us/breast-radiology/ValueSet/Wall",
   "version": "4.0.0",
   "name": "Wall",
   "title": "Wall",

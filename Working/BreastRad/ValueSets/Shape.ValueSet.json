@@ -7,7 +7,7 @@
       "valueUri": "breastrad"
     }
   ],
-  "url": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig//ValueSet/Shape",
+  "url": "http://hl7.org/fhir/us/breast-radiology/ValueSet/Shape",
   "version": "4.0.0",
   "name": "Shape",
   "title": "Shape",

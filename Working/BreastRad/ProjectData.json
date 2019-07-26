@@ -1,6 +1,6 @@
 {
-  "BaseUrl": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig/",
-  "ImplementationGuideUrl": "http://build.fhir.org/ig/HL7/fhir-breast-radiology-ig/",
+  "BaseUrl": "http://hl7.org/fhir/us/breast-radiology",
+  "ImplementationGuideUrl": "http://hl7.org/fhir/us/breast-radiology",
   "AbbreviatedProjectName": "BreastRad",
   "LongProjectName": "Breast Radiology Reporting",
   "PublicationStatus": "draft",
