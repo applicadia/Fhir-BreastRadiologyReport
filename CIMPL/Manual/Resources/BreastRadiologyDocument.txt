@@ -27,18 +27,19 @@ Property: BreastExamTechnique 1..*								// Breast exam technique
 Group: PatientHistory
 Parent: Section
 Description: "Patient History Section"
+	Title = "Patient History"									// Set section name to fixed value
 	Code = LOINC#34117-2										// is this correct code for section
 	Resource 0..*
 	Resource substitute Observation								// Only Observations allowed in this section
 	Section 0..0												// Child sections not allowed in this section
 	SortOrder 0..0												// No defined sort order
 	FocalSubject 0..0											// Subject is always Composition.FocalSubject
-		// Title = "Patient History"
 
 // Findings Section
 Group: Findings
 Description: "Findings section"
 Parent: Section
+	Title = "Findings"											// Set section name to fixed value
 	Code = LOINC#34117-2										// is this correct code for section
 	Section
 	includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
@@ -46,7 +47,6 @@ Parent: Section
 	Resource 0..0												// No observations alloqed, just child sections (left & right breast findings)
 	SortOrder 0..0												// No defined sort order
 	FocalSubject 0..0											// Subject is always Composition.FocalSubject
-//	[string] = "Findings"
 
 // Findings left breast Section
 // TODO: Each Findings should have
@@ -55,7 +55,7 @@ Parent: Section
 Description: "Findings Left Breast Section"
 Property: FindingSummaryBiRadCode 1..1							// Worst BiRad code in left breast findings
 Property: BreastDensity 1..1									// Left breast density
-//	Title[string] = "Findings Left Breast"
+	Title[string] = "Findings Left Breast"						// Set section name to fixed value
 	Code = LOINC#26215-4 										// is this correct code for section
 	Resource 0..*												// Allow multiple observations
 	Resource substitute Observation								// Only Observations allowed in this section
@@ -69,7 +69,7 @@ Parent: Section
 Description: "Findings Right Breast Section"
 Property: FindingSummaryBiRadCode 1..1							// Worst BiRad code in right breast findings
 Property: BreastDensity 1..1									// Right breast density
-//	Title[string] = "Findings Right Breast"
+	Title[string] = "Findings Right Breast"						// Set section name to fixed value
 	Code = LOINC#26216-2										// is this correct code for section
 	Resource 0..*												// Allow multiple observations
 	Resource substitute Observation								// Only Observations allowed in this section
@@ -84,7 +84,7 @@ Property: BreastDensity 1..1									// Right breast density
 Group: Impressions
 Parent: Section
 Description: "Clinical Impressions Section"
-//		Title[string] = "Impressions"
+	Title[string] = "Impressions"								// Set section name to fixed value
 	Code = LOINC#19005-8										// is this correct code for section
 	Resource 0..*												// Allow multiple conditions
 	Resource substitute Condition								// Only Conditions allowed in this section
@@ -96,7 +96,7 @@ Description: "Clinical Impressions Section"
 Group: Recommendations
 Parent: Section
 Description: "Recommendations Section"
-//		Title[string] = "Recommendations"
+	Title[string] = "Recommendations"							// Set section name to fixed value
 	Code = LOINC#18783-1										// is this correct code for section
 	Resource 0..*												// Allow multiple Action Requests
 	Resource substitute ActionRequest							// Only xxx request references allowed
@@ -108,6 +108,7 @@ Description: "Recommendations Section"
 Group: PatientRisk
 Parent: Section
 Description: "Patient Risk Section"
+	Title[string] = "Patient Rick"								// Set section name to fixed value
 	Code = LOINC#76546-1										// is this correct code for section
 	Resource 0..*
 	Resource substitute Observation								// Only Observations allowed in this section
@@ -120,6 +121,7 @@ Description: "Patient Risk Section"
 Group: PriorReports
 Parent: Section
 Description: "Prior Report Section"
+	Title[string] = "Prior Reports"								// Set section name to fixed value
 	Code = LOINC#76546-1										// is this correct code for section
 	Resource 0..*
 	Resource substitute BreastRadiologyReport					// Only Breast Radiology reports allowed in this section
