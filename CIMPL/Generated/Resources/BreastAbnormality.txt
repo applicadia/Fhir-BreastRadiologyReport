@@ -10,7 +10,6 @@ Entry: BreastAbnormality
 Parent: Observation
 Description: "Breast Abnormality Form"
 Parent: Observation
-Property: breastrad.MassTypes 0..1
     Specimen 0..0                                   // dont have specimen
     DataValue 0..0
     Code = TEST#BreastAbnormality
@@ -25,6 +24,7 @@ Property: breastrad.MassTypes 0..1
     includes breastrad.CystTypes 0..1
     includes breastrad.Depth 0..1
     includes breastrad.Margin 0..1
+    includes breastrad.MassTypes 0..1
     includes breastrad.NodeTypes 0..1
     includes breastrad.Shape 0..1
     includes breastrad.Vascularity 0..1
@@ -32,9 +32,6 @@ Property: breastrad.MassTypes 0..1
     includes breastrad.MaxLength 0..1
     includes breastrad.MaxWidth 0..1
 
-Element: MassTypes
-Description: "Mass Types"
-Value: concept from MassTypesVs
 
 
 //ConceptComponent-Entry
@@ -42,7 +39,7 @@ Group: AbnormalityDensity
 Parent: ObservationComponent
 Description: "Visually estimated content of fibroglandular-density tissue within the breast.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - AbnormalityDensity]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#AbnormalityDensity
@@ -54,7 +51,7 @@ Group: AbnormalityType
 Parent: ObservationComponent
 Description: "Abnormality Type value.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - AbnormalityType]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#AbnormalityType
@@ -66,7 +63,7 @@ Group: AsymmetryTypes
 Parent: ObservationComponent
 Description: "Currently many studies utilize cortical thickening and hilum absence as criteria for definition of the risk for metastasis(11,12-16). ... Metastatic deposits accumulate in the lymph node peripheral area, causing enlargement of the cortex, usually focal (at early stages), or uniform..
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - AsymmetryTypes]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#AsymmetryTypes
@@ -78,7 +75,7 @@ Group: BiRadCode
 Parent: ObservationComponent
 Description: "Bi-Rad code value.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - BiRadCode]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#BiRadCode
@@ -90,7 +87,7 @@ Group: Change
 Parent: ObservationComponent
 Description: "Change value.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - Change]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#Change
@@ -102,7 +99,7 @@ Group: CystTypes
 Parent: ObservationComponent
 Description: "Cyst Types.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - CystTypes]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#CystTypes
@@ -114,7 +111,7 @@ Group: Depth
 Parent: ObservationComponent
 Description: "Depth.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - Depth]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#Depth
@@ -126,7 +123,7 @@ Group: Margin
 Parent: ObservationComponent
 Description: "When breast cancer is surgically removed (during a surgical biopsy, lumpectomy or mastectomy), a rim of normal tissue surrounding the tumor is also removed. This rim is called a margin. Margins help show whether or not all of the tumor was removed..
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - Margin]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#Margin
@@ -134,11 +131,23 @@ Description: "When breast cancer is surgically removed (during a surgical biopsy
     DataValue[concept] from MarginVs
 
 //ConceptComponent-Entry
+Group: MassTypes
+Parent: ObservationComponent
+Description: "Mass Types.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code.
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
+    Code = TEST#MassTypes
+    DataValue only concept
+    DataValue[concept] from MassTypesVs
+
+//ConceptComponent-Entry
 Group: NodeTypes
 Parent: ObservationComponent
 Description: "Node Types.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - NodeTypes]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#NodeTypes
@@ -150,7 +159,7 @@ Group: Shape
 Parent: ObservationComponent
 Description: "Shape.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - Shape]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#Shape
@@ -162,7 +171,7 @@ Group: Vascularity
 Parent: ObservationComponent
 Description: "Vascularity.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - Vascularity]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#Vascularity
@@ -174,7 +183,7 @@ Group: Wall
 Parent: ObservationComponent
 Description: "Wall.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - Wall]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#Wall
@@ -188,7 +197,7 @@ Group: MaxLength
 Parent: ObservationComponent
 Description: "Max Length Description
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - MaxLength]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#MaxLength
@@ -200,7 +209,7 @@ Group: MaxWidth
 Parent: ObservationComponent
 Description: "Max Width
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - MaxWidth]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#MaxWidth

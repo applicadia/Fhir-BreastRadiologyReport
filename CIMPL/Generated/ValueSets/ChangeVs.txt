@@ -1,42 +1,20 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: TEST = http://test.com
 
 ValueSet: ChangeVs
 Description: "Change value
-
-
-Current terminology for this value set has not been specified, but the terminology selected
-will include terminology values with the following meanings.
-
-| Code | Meaning |
-|:-------------|:-----|
-DecreaseInCalcifications | DecreaseInCalcifications
-DecreasedInNumber | DecreasedInNumber
-DecreasedInSize | DecreasedInSize
-IncreaseInCalcifications | IncreaseInCalcifications
-IncreasedInNumber | IncreasedInNumber
-IncreasedInSize | IncreasedInSize
-LessProminent | LessProminent
-MoreProminent | MoreProminent
-New | New
-NoLongerSeen | NoLongerSeen
-NotSignificantlyChanged | NotSignificantlyChanged
-PartiallyRemoved | PartiallyRemoved
-RepresentsChange | RepresentsChange
-Stable | Stable
 "
-    TEST#DecreaseInCalcifications "DecreaseInCalcifications"
-    TEST#DecreasedInNumber "DecreasedInNumber"
-    TEST#DecreasedInSize "DecreasedInSize"
-    TEST#IncreaseInCalcifications "IncreaseInCalcifications"
-    TEST#IncreasedInNumber "IncreasedInNumber"
-    TEST#IncreasedInSize "IncreasedInSize"
-    TEST#LessProminent "LessProminent"
-    TEST#MoreProminent "MoreProminent"
-    TEST#New "New"
-    TEST#NoLongerSeen "NoLongerSeen"
-    TEST#NotSignificantlyChanged "NotSignificantlyChanged"
-    TEST#PartiallyRemoved "PartiallyRemoved"
-    TEST#RepresentsChange "RepresentsChange"
-    TEST#Stable "Stable"
+    #DecreaseInCalcifications "DecreaseInCalcifications"
+    #DecreasedInNumber "DecreasedInNumber"
+    #DecreasedInSize "DecreasedInSize"
+    #IncreaseInCalcifications "IncreaseInCalcifications"
+    #IncreasedInNumber "IncreasedInNumber"
+    #IncreasedInSize "IncreasedInSize"
+    #LessProminent "LessProminent"
+    #MoreProminent "MoreProminent"
+    #New "New"
+    #NoLongerSeen "NoLongerSeen"
+    #NotSignificantlyChanged "NotSignificantlyChanged"
+    #PartiallyRemoved "PartiallyRemoved"
+    #RepresentsChange "RepresentsChange"
+    #Stable "Stable"

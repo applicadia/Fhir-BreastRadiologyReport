@@ -1,7 +1,7 @@
 {
   "projectName": "Breast Radiology Reporting",
   "projectShorthand": "BreastRad",
-  "projectURL": "http://hl7.org/fhir/us/breast-radiology/fhir",
+  "projectURL": "http://hl7.org/fhir/us/breast-radiology",
   "fhirURL": "http://hl7.org/fhir/us/breast-radiology/fhir",
   "fhirTarget": "FHIR_STU_3",
   "implementationGuide": {

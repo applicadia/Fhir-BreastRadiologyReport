@@ -1,24 +1,11 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: TEST = http://test.com
 
 ValueSet: ShapeVs
 Description: "Shape
-
-
-Current terminology for this value set has not been specified, but the terminology selected
-will include terminology values with the following meanings.
-
-| Code | Meaning |
-|:-------------|:-----|
-IrregularShape | Neither round nor oval
-LobulatedShape | The presence of greater than three lobulations is an indeterminate feature. Irregular shape is suspicious of malignancy. The margin of the lesion reflects the demarcation of the mass with surrounding tissue. It can be smooth, micro lobulated, irregular or spiculated.
-OvalShape | Elliptical or egg-shaped (may include 2 or 3 undulations, i.e., 'gently lobulated' or 'macrolobulated')
-Reniform | No definition found.
-Round | Spherical, ball-shaped, circular, or globular.
 "
-    TEST#IrregularShape "Neither round nor oval"
-    TEST#LobulatedShape "The presence of greater than three lobulations is an indeterminate feature. Irregular shape is suspicious of malignancy. The margin of the lesion reflects the demarcation of the mass with surrounding tissue. It can be smooth, micro lobulated, irregular or spiculated."
-    TEST#OvalShape "Elliptical or egg-shaped (may include 2 or 3 undulations, i.e., 'gently lobulated' or 'macrolobulated')"
-    TEST#Reniform "No definition found."
-    TEST#Round "Spherical, ball-shaped, circular, or globular."
+    #IrregularShape "Neither round nor oval"
+    #LobulatedShape "The presence of greater than three lobulations is an indeterminate feature. Irregular shape is suspicious of malignancy. The margin of the lesion reflects the demarcation of the mass with surrounding tissue. It can be smooth, micro lobulated, irregular or spiculated."
+    #OvalShape "Elliptical or egg-shaped (may include 2 or 3 undulations, i.e., 'gently lobulated' or 'macrolobulated')"
+    #Reniform "No definition found."
+    #Round "Spherical, ball-shaped, circular, or globular."

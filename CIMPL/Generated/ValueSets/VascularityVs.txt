@@ -1,26 +1,12 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: TEST = http://test.com
 
 ValueSet: VascularityVs
 Description: "Vascularity
-
-
-Current terminology for this value set has not been specified, but the terminology selected
-will include terminology values with the following meanings.
-
-| Code | Meaning |
-|:-------------|:-----|
-Adjacent | Adjacent
-Increased | Increased
-IncreasedInSurroundArea | IncreasedInSurroundArea
-NoIncrease | NoIncrease
-NotPresent | NotPresent
-Present | Present
 "
-    TEST#Adjacent "Adjacent"
-    TEST#Increased "Increased"
-    TEST#IncreasedInSurroundArea "IncreasedInSurroundArea"
-    TEST#NoIncrease "NoIncrease"
-    TEST#NotPresent "NotPresent"
-    TEST#Present "Present"
+    #Adjacent "Adjacent"
+    #Increased "Increased"
+    #IncreasedInSurroundArea "IncreasedInSurroundArea"
+    #NoIncrease "NoIncrease"
+    #NotPresent "NotPresent"
+    #Present "Present"

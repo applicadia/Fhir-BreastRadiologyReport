@@ -1,22 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: TEST = http://test.com
 
 ValueSet: AbnormalityDensityVs
 Description: "Visually estimated content of fibroglandular-density tissue within the breast
-
-
-Current terminology for this value set has not been specified, but the terminology selected
-will include terminology values with the following meanings.
-
-| Code | Meaning |
-|:-------------|:-----|
-EqualDensity | X-ray attenuation of the mass is the same as the expected attenuation of an equal volume of fibroglandular breast tissue.
-FatContaining | Includes all masses containing fat, such as oil cyst, lipoma, or galactocele as well as mixeddensity lesions such as hamartoma.
-HighDensity | X-ray attenuation of the mass is grater than the expected attenuation of an equal volume of fibroglandular breast tissue.
-LowDensity | X-ray attenuation of the mass is less than the expected attenuation of an equal volume of fibroglandular breast tissue.
 "
-    TEST#EqualDensity "X-ray attenuation of the mass is the same as the expected attenuation of an equal volume of fibroglandular breast tissue."
-    TEST#FatContaining "Includes all masses containing fat, such as oil cyst, lipoma, or galactocele as well as mixeddensity lesions such as hamartoma."
-    TEST#HighDensity "X-ray attenuation of the mass is grater than the expected attenuation of an equal volume of fibroglandular breast tissue."
-    TEST#LowDensity "X-ray attenuation of the mass is less than the expected attenuation of an equal volume of fibroglandular breast tissue."
+    #EqualDensity "X-ray attenuation of the mass is the same as the expected attenuation of an equal volume of fibroglandular breast tissue."
+    #FatContaining "Includes all masses containing fat, such as oil cyst, lipoma, or galactocele as well as mixeddensity lesions such as hamartoma."
+    #HighDensity "X-ray attenuation of the mass is grater than the expected attenuation of an equal volume of fibroglandular breast tissue."
+    #LowDensity "X-ray attenuation of the mass is less than the expected attenuation of an equal volume of fibroglandular breast tissue."

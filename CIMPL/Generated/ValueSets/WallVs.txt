@@ -1,22 +1,10 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
-CodeSystem: TEST = http://test.com
 
 ValueSet: WallVs
 Description: "Wall
-
-
-Current terminology for this value set has not been specified, but the terminology selected
-will include terminology values with the following meanings.
-
-| Code | Meaning |
-|:-------------|:-----|
-IrregularInternalWall | no definition found.
-SeptatedInternalWall | No definition found.
-SmoothInternalWall | No definition found.
-ThickenedWall | If you have fibrocystic breasts, you may have more pronounced changes in response to these hormones. ... You may develop lumps in your breasts caused by cysts and swelling of your breast lobules, the milk-producing glands. You may also feel a lumpy thickening in your breast caused by an excess growth of fibrous tissue.
 "
-    TEST#IrregularInternalWall "no definition found."
-    TEST#SeptatedInternalWall "No definition found."
-    TEST#SmoothInternalWall "No definition found."
-    TEST#ThickenedWall "If you have fibrocystic breasts, you may have more pronounced changes in response to these hormones. ... You may develop lumps in your breasts caused by cysts and swelling of your breast lobules, the milk-producing glands. You may also feel a lumpy thickening in your breast caused by an excess growth of fibrous tissue."
+    #IrregularInternalWall "no definition found."
+    #SeptatedInternalWall "No definition found."
+    #SmoothInternalWall "No definition found."
+    #ThickenedWall "If you have fibrocystic breasts, you may have more pronounced changes in response to these hormones. ... You may develop lumps in your breasts caused by cysts and swelling of your breast lobules, the milk-producing glands. You may also feel a lumpy thickening in your breast caused by an excess growth of fibrous tissue."

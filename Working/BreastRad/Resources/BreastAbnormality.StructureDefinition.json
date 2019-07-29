@@ -281,7 +281,14 @@
           "strength": "required",
           "description": "Mass Types",
           "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/MassTypes"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
+          }
+        ]
       },
       {
         "id": "BreastAbnormality.maxLength",

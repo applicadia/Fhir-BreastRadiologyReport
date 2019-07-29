@@ -1,5 +1,5 @@
 copy "Graphics\ProfileOverview.jpg" "CIMPL\Pages"
-call .\BuildProfiles.v3.bat
-call .\BuildIG.v3.bat
+call BatchHelpers\DoBuildProfiles.v3.bat
+call BatchHelpers\DoBuildIG.v3.bat
 
 pause

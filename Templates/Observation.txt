@@ -43,7 +43,7 @@ Group: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%.
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - %elementname%]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = TEST#%elementname%
@@ -58,7 +58,7 @@ Group: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - %elementname%]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = %componentCode%
@@ -72,7 +72,7 @@ Group: %elementname%
 Parent: ObservationComponent
 Description: "%elementdescription%
 <br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code [http://www.test.com - %elementname%]
+<br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = %componentCode%

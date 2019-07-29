@@ -7,8 +7,5 @@ CodeSystem: %codesystemkey% = %codesystemurl%
 ValueSet: %valuesetname%
 Description: "%valuesetdescription%"
 //+ *ITEMS
-    %fullcode% "%display%"
+    #%code% "%display%"
 //- *ITEMS
-//+ *TESTITEM
-%code% | %display%
-//- *TESTITEM
