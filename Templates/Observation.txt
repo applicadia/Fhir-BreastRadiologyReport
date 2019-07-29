@@ -48,7 +48,7 @@ Description: "%elementdescription%.
 "
     Code = TEST#%elementname%
     DataValue only %ElementTypes()%
-    DataValue[concept] from %External("%elementname%Vs")%
+    DataValue[concept] from %External("%elementname%VS")%
 //- *ConceptComponent-Entry
 
 //+ *TypeComponent-Entry
