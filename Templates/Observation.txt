@@ -46,7 +46,7 @@ Description: "%elementdescription%.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#%elementname%
+    Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
     DataValue only %ElementTypes()%
     DataValue[concept] from %External("%elementname%Vs")%
 //- *ConceptComponent-Entry
@@ -61,7 +61,7 @@ Description: "%elementdescription%
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = %componentCode%
+    Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
     DataValue only %ElementTypes()%
 //- *TypeComponent-Entry
 
@@ -75,7 +75,7 @@ Description: "%elementdescription%
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = %componentCode%
+    Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
     DataValue only Quantity
     DataValue[Quantity].Units from %units%
 //- *QuantityComponent-Entry
