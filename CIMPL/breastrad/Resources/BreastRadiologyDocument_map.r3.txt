@@ -1,0 +1,14 @@
+Grammar: Map 6.0
+Namespace: breastrad
+Target: FHIR_STU_3
+
+BreastRadiologyDocument maps to Composition:
+    Section.Section maps to section.section (slice on = code; slice strategy = includes)
+    Section.Section.Title maps to section.section.title
+    Section.Section.Code maps to section.section.code
+    Section.Section.Narrative maps to section.section.text
+    Section.Section.Type maps to section.section.mode
+    Section.Section.SortOrder maps to section.section.orderedBy
+    Section.Section.Resource maps to section.section.entry (slice on = code; slice strategy = includes)
+    Section.Section.EmptyReason maps to section.section.emptyReason
+    Section.Section.Section maps to section.section.section
