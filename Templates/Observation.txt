@@ -1,4 +1,5 @@
 %Uses("obf")%
+%Uses("obf.datatype")% 
 Grammar: DataElement 6.0
 Namespace: %namespace%
 //+ *USES
@@ -16,7 +17,7 @@ Parent: Observation
 //- *Default-Property
     Specimen 0..0                                   // dont have specimen
     DataValue 0..0
-    Code = %observationCode%
+    Code = %LocalCode("%classname%CodesVS", "%classname% Observation code", "%classname%ObservationCode")%
 //+ *Substitute-Property
     %Source% substitute %Target%                    // %Source% is constrained to be only %Target%
     %Target% %min%..%max%                           // Constrain %Target% cardinality
@@ -40,13 +41,13 @@ Parent: Observation
 
 //ConceptComponent-Entry
 Group: %elementname%
-Parent: ObservationComponent
+Parent: CodedObservationComponent
 Description: "%elementdescription%.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#%elementname%
+    Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
     DataValue only %ElementTypes()%
     DataValue[concept] from %External("%elementname%VS")%
 //- *ConceptComponent-Entry
@@ -61,7 +62,7 @@ Description: "%elementdescription%
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = %componentCode%
+    Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
     DataValue only %ElementTypes()%
 //- *TypeComponent-Entry
 
@@ -69,13 +70,13 @@ Description: "%elementdescription%
 
 //QuantityComponent-Entry
 Group: %elementname%
-Parent: ObservationComponent
+Parent: QuantitativeObservationComponent
 Description: "%elementdescription%
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = %componentCode%
+    Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
     DataValue only Quantity
     DataValue[Quantity].Units from %units%
 //- *QuantityComponent-Entry
