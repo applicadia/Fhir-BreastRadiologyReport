@@ -24,13 +24,13 @@ Parent: Observation
 //- *Substitute-Property
     Components.ObservationComponent
 //+ *ConceptComponent-Property
-    includes %namespace%.%elementname% %min%..%max%
+    includes %elementname% %min%..%max%
 //- *ConceptComponent-Property
 //+ *TypeComponent-Property
-    includes %namespace%.%elementname% %min%..%max%
+    includes %elementname% %min%..%max%
 //- *TypeComponent-Property
 //+ *QuantityComponent-Property
-    includes %namespace%.%elementname% %min%..%max%
+    includes %elementname% %min%..%max%
 //- *QuantityComponent-Property
 
 //+ *Default-Entry
