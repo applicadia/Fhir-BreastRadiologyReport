@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: DepthVs
+ValueSet: DepthVS
 Description: "Depth
 "
     #Anterior "The frontal third of the breast."

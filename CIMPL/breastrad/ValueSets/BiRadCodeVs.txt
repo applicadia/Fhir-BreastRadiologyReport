@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: BiRadCodeVs
+ValueSet: BiRadCodeVS
 Description: "Bi-Rad code value
 "
     #BIRAD5HighlySuggestive "Highly Suggestive of Malignancy"

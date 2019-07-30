@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: MassTypesVs
+ValueSet: MassTypesVS
 Description: "Mass Types
 "
     #IntraductalMass "Intraductal papillomas are benign (non-cancerous), wart-like tumors that grow within the milk ducts of the breast"

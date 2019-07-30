@@ -1,6 +1,6 @@
 Grammar: DataElement 6.0
 Namespace: breastrad
-Uses: obf, shr.base, shr.core, brca
+Uses: obf, obf.datatype
 
 CodeSystem: SNOMED = http://snomed.info/sct
 
@@ -15,9 +15,9 @@ CodeSystem: SNOMED = http://snomed.info/sct
 Group: BreastBodyLocation
 Parent: BodyLocation
 Description: "Location of the breast abnormality."
-Property: breastrad.Breastdepth 0..1
+Property: BreastDepth 0..1
     Code = SCT#76752008                                                                 // Breast structure (body structure)
-    //RelationToLandmark.LandmarkToBodyLocationDirection only ClockFaceDirection          // only use clock direction for location direction.
+    RelationToLandmark.LandmarkToBodyLocationDirection from ClockFaceDirectionVS (required)   // only use clock direction for location direction.-
     RelationToLandmark.LandmarkLocation.Code = SCT#181139003                            // Areola structure (body structure)
     RelationToLandmark.LandmarkType = SCT#361083003                                     // Normal anatomy (body structure)
     RelationToLandmark.LandmarkToBodyLocationDistance[Quantity].Units = UCUM#cm
@@ -25,6 +25,6 @@ Property: breastrad.Breastdepth 0..1
 //
 // Breast Depth value.
 //
-Element: Breastdepth
-Description: "BreastDepth"
-Value: Code from BreastdepthVs (required)
+Element: BreastDepth
+Description: "Depth in breast of abnormality."
+Value: Code from BreastDepthVS (required)

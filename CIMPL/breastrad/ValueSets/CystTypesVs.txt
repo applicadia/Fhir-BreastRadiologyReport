@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: CystTypesVs
+ValueSet: CystTypesVS
 Description: "Cyst Types
 "
     #ComplexCyst "Complicated cysts are 'in between' simple and complex. Although they share most of the features of simple cysts, they tend to have some debris inside them and echo back some of the ultrasound waves."

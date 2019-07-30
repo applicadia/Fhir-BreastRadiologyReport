@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: ShapeVs
+ValueSet: ShapeVS
 Description: "Shape
 "
     #IrregularShape "Neither round nor oval"

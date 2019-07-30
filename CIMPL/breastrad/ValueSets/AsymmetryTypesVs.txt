@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: AsymmetryTypesVs
+ValueSet: AsymmetryTypesVS
 Description: "Currently many studies utilize cortical thickening and hilum absence as criteria for definition of the risk for metastasis(11,12-16). ... Metastatic deposits accumulate in the lymph node peripheral area, causing enlargement of the cortex, usually focal (at early stages), or uniform.
 "
     #DensityFocalAsymmetry "By definition, a focal asymmetric density is seen on two mammographic views but cannot be accurately identified as a true mass (,,,Fig 4). Although a focal asymmetric density may represent normal breast tissue, further evaluation is often warranted to exclude a true mass or architectural distortion."

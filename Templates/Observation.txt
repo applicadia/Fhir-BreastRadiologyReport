@@ -40,7 +40,7 @@ Parent: Observation
 
 //ConceptComponent-Entry
 Group: %elementname%
-Parent: ObservationComponent
+Parent: CodedObservationComponent
 Description: "%elementdescription%.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
@@ -48,7 +48,7 @@ Description: "%elementdescription%.
 "
     Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
     DataValue only %ElementTypes()%
-    DataValue[concept] from %External("%elementname%Vs")%
+    DataValue[concept] from %External("%elementname%VS")%
 //- *ConceptComponent-Entry
 
 //+ *TypeComponent-Entry
@@ -69,7 +69,7 @@ Description: "%elementdescription%
 
 //QuantityComponent-Entry
 Group: %elementname%
-Parent: ObservationComponent
+Parent: QuantativeObservationComponent
 Description: "%elementdescription%
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.

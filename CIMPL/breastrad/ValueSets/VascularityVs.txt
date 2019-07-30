@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: VascularityVs
+ValueSet: VascularityVS
 Description: "Vascularity
 "
     #Adjacent "Adjacent"

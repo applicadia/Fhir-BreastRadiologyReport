@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: AbnormalityTypeVs
+ValueSet: AbnormalityTypeVS
 Description: "Abnormality Type value
 "
     #Abscess "A local accumulation of pus anywhere in the body."

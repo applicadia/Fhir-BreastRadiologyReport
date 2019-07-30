@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: AbnormalityDensityVs
+ValueSet: AbnormalityDensityVS
 Description: "Visually estimated content of fibroglandular-density tissue within the breast
 "
     #EqualDensity "X-ray attenuation of the mass is the same as the expected attenuation of an equal volume of fibroglandular breast tissue."

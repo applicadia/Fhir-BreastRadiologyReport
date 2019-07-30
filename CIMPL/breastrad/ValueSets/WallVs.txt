@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: WallVs
+ValueSet: WallVS
 Description: "Wall
 "
     #IrregularInternalWall "no definition found."

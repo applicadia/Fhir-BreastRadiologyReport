@@ -1,7 +1,7 @@
 Grammar: ValueSet 6.0
 Namespace: breastrad
 
-ValueSet: NodeTypesVs
+ValueSet: NodeTypesVS
 Description: "Node Types
 "
     #AxillaryNode "The axillary lymph nodes or armpit lymph nodes (20 to 49 in number) drain lymph vessels from the lateral quadrants of the breast, the superficial lymph vessels from thin walls of the chest and the abdomen above the level of the navel, and the vessels from the upper limb."

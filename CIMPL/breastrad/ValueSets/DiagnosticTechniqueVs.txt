@@ -3,9 +3,9 @@ Namespace: breastrad
 CodeSystem: LOINC = http://loinc.org
   
 //
-//  DiagnosticTechniqueVs
+//  DiagnosticTechniqueVS
 // ValueSet for diagnostic techniques.
 // 
-ValueSet: DiagnosticTechniqueVs
+ValueSet: DiagnosticTechniqueVS
 Description: "Breast exam diagnostic technique"
 		LOINC#34117-2										// Wrong! placeholder

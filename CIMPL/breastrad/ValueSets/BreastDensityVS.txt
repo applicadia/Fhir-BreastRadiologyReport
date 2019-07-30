@@ -5,6 +5,6 @@ Namespace: breastrad
 //  BreastDensityVS
 // Values for breast density.
 // 
-ValueSet: BreastDensityVs
+ValueSet: BreastDensityVS
 Description: "Breast density values"
     #PredominatelyFatty "Predominately Fatty"

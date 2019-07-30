@@ -3,10 +3,10 @@ Namespace: breastrad
 CodeSystem: SNOMED = http://snomed.info/sct
   
 //
-//  BreastdepthVs
+//  BreastDepthVS
 // Values for breast depth.
 // 
-ValueSet: BreastdepthVs
+ValueSet: BreastDepthVS
 Description: "Depth in breast of abnormality"
     SNOMED#65124004 "Anterior"
     SNOMED#65958008 "Middle"

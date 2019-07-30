@@ -1,7 +1,7 @@
 Grammar: DataElement 6.0
 Namespace: breastrad
 Description: "Breast Radiology Report"
-Uses: shr.core, obf
+Uses: obf.datatype, obf
 CodeSystem: LOINC = http://loinc.org
 CodeSystem: LISTORDER = http://terminology.hl7.org/CodeSystem/list-order
 
@@ -11,8 +11,8 @@ CodeSystem: LISTORDER = http://terminology.hl7.org/CodeSystem/list-order
 // This is derived from Composition.
 //
 Entry: BreastRadiologyDocument
-Description: "Breast Radiology Document. This Composition contains the details of a specific Breast Radiology Report."
 Parent: Composition
+Description: "Breast Radiology Document. This Composition contains the details of a specific Breast Radiology Report."
 Property: SummaryBiRadCode 1..1									// Worst BiRad code in document
 Property: BreastExamTechnique 1..*								// Breast exam technique
 	Section
@@ -132,19 +132,19 @@ Description: "Prior Report Section"
 // Summary bi rad code for a section.
 Element: SummaryBiRadCode
 Description: "BiRd code that summarizes a set of BiRad codes in a the document. Generally the most concerning/important BiRad code in the document."
-Value: concept from BiRadCodeVs
+Value: concept from BiRadCodeVS
 
 // Summary bi rad code for a breast finding.
 Element: FindingSummaryBiRadCode
 Description: "BiRd code that summarizes a set of BiRad codes for a single breast finding. Generally the most concerning/important BiRad code in that finding."
-Value: concept from BiRadCodeVs
+Value: concept from BiRadCodeVS
 
 // Breast density element.
 Element: BreastDensity
 Description: "Breast density value."
-Value: concept from BreastDensityVs
+Value: concept from BreastDensityVS
 
 // Technique used for observation.
 Element: BreastExamTechnique
 Description: "Technique used during breast examination."
-Value: concept from DiagnosticTechniqueVs
+Value: concept from DiagnosticTechniqueVS
