@@ -1,0 +1,12 @@
+Grammar: ValueSet 6.0
+Namespace: breastrad
+
+ValueSet: VascularityVs
+Description: "Vascularity
+"
+    #Adjacent "Adjacent"
+    #Increased "Increased"
+    #IncreasedInSurroundArea "IncreasedInSurroundArea"
+    #NoIncrease "NoIncrease"
+    #NotPresent "NotPresent"
+    #Present "Present"
