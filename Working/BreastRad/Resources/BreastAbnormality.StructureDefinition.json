@@ -66,7 +66,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%TestCode()%\"]}],\"Commands\":[]}"
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[{\"Name\":\"componentCode\",\"Values\":[\"%LocalCode('BreastRadiologyComponentCodesVS' 'Component code for Abnormality Density Component')%\"]}],\"Commands\":[]}"
           }
         ]
       },
