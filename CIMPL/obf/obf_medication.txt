@@ -68,7 +68,7 @@ Description:       "The amount of medication administered."
 Property:          Type 0..1
 Property:          DoseAmount 0..1
 Property:          DoseRate 0..1
-                   Type from http://hl7.org/fhir/ValueSet/dose-rate-type (example)
+// R4 only                   Type from http://hl7.org/fhir/ValueSet/dose-rate-type (example)
 
 Element:           DoseAmount
 Description:       "The amount of medication taken per dose, as a quantity or range. Relative dose (e.g., per kg body weight or surface area) are indicated by specifying appropriate units (e.g., mg/kg or mg/m2 etc)."

@@ -79,7 +79,7 @@ Group:             Age
 Parent:            Quantity
 Concept:           MTH#C0001779
 Description:       "How long someone has been alive, or something has existed."
-                   Units from http://hl7.org/fhir/ValueSet/age-units (extensible)
+                   Units // R4 only // from http://hl7.org/fhir/ValueSet/age-units (extensible)
 
 Group:             Distance
 Parent:            Quantity
@@ -89,7 +89,7 @@ Description:       "The measure of space separating two objects or points."
 Group:             Duration
 Parent:            SimpleQuantity
 Description:       "The length of time that something continues."
-                   Units from http://hl7.org/fhir/ValueSet/duration-units (extensible)
+                   Units // R4 only // from http://hl7.org/fhir/ValueSet/duration-units (extensible)
 
                    // structural changes in R4
 Group:             MoneyQuantity
@@ -109,7 +109,7 @@ Value:             decimal
 
 Element:           Currency
 Description:       "ISO 4217 Currency Code"
-Value:             concept from http://hl7.org/fhir/ValueSet/currencies (required)
+Value:             concept // R4 only // from http://hl7.org/fhir/ValueSet/currencies (required)
 
 Element:           CodeSystem
 Description:       "A formal terminology system."

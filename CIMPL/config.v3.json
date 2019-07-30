@@ -16,8 +16,8 @@
       "hideSupporting": true
     },
     "packageList": "ig-breastRad-plist.json",
-    "includeLogicalModels": true,
-    "includeModelDoc": true,
+    "includeLogicalModels": false,
+    "includeModelDoc": false,
     "historyLink": "http://hl7.org/fhir/us/breast-radiology/fhir/history.html"
   },
   "filterStrategy": {

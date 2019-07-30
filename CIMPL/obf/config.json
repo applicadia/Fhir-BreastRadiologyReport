@@ -13,8 +13,8 @@
 	{
         "npmName": "obf",
         "version": "0.8.0",
-		"includeLogicalModels": true,
-		"includeModelDoc": true,
+		"includeLogicalModels": false,
+		"includeModelDoc": false,
         "indexContent": "LandingPageObf.html",
 		"primarySelectionStrategy":
 		{

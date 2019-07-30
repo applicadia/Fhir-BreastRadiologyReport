@@ -54,7 +54,7 @@ Description:       "The relative advancement in the course of a disease. The Sta
 Property:          StageSummary 0..1
 Property:          StageDetail 0..1
 Property:          Type 0..1
-                   Type from http://hl7.org/fhir/ValueSet/condition-stage-type (example)
+// R4 only               Type from http://hl7.org/fhir/ValueSet/condition-stage-type (example)
 
 Element:           StageDetail
 Description:       "The full staging information"
@@ -298,7 +298,8 @@ Property:          PresentedForm 0..*
                    SubjectOfRecord substitute ObservationSubjectOfRecord
                    CareContext only Encounter
                    StatementDateTime 1..1
-                   Code from http://hl7.org/fhir/us/core/ValueSet/us-core-diagnosticreport-report-and-note-codes (extensible)
+// In US Core v2 (FHIR STU 3), the VS is http://hl7.org/fhir/ValueSet/report-codes
+// R4                  Code from http://hl7.org/fhir/us/core/ValueSet/us-core-diagnosticreport-report-and-note-codes (extensible)
 
 Entry:             LaboratoryReport
 Parent:            DiagnosticReport
