@@ -1,8 +1,9 @@
 
+ 
 Grammar: DataElement 6.0
 Namespace: breastrad
-Uses: obf.datatype, obf
-CodeSystem: TEST = http://www.test.com/test-codes
+Uses: obf, obf.datatype
+CodeSystem: BREASTABNORMALITYCODESVS = http://hl7.org/fhir/us/breast-radiology/breastrad/vs/breastabnormalitycodesvs
 
 Entry: BreastAbnormality
 Parent: Observation
@@ -10,7 +11,7 @@ Description: "Breast Abnormality Form"
 Parent: Observation
     Specimen 0..0                                   // dont have specimen
     DataValue 0..0
-    Code = TEST#BreastAbnormality
+    Code = BREASTABNORMALITYCODESVS#BreastAbnormalityObservationCode
     BodyLocation substitute BreastBodyLocation                    // BodyLocation is constrained to be only BreastBodyLocation
     BreastBodyLocation 0..1                           // Constrain BreastBodyLocation cardinality
     Components.ObservationComponent
@@ -31,6 +32,7 @@ Parent: Observation
     includes breastrad.MaxWidth 0..1
 
 
+
 //ConceptComponent-Entry
 Group: AbnormalityDensity
 Parent: CodedObservationComponent
@@ -39,7 +41,7 @@ Description: "Visually estimated content of fibroglandular-density tissue within
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#AbnormalityDensity
+    Code = BREASTABNORMALITYCODESVS#AbnormalityDensity
     DataValue only concept
     DataValue[concept] from AbnormalityDensityVS
 
@@ -51,7 +53,7 @@ Description: "Abnormality Type value.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#AbnormalityType
+    Code = BREASTABNORMALITYCODESVS#AbnormalityType
     DataValue only concept
     DataValue[concept] from AbnormalityTypeVS
 
@@ -63,7 +65,7 @@ Description: "Currently many studies utilize cortical thickening and hilum absen
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#AsymmetryTypes
+    Code = BREASTABNORMALITYCODESVS#AsymmetryTypes
     DataValue only concept
     DataValue[concept] from AsymmetryTypesVS
 
@@ -75,7 +77,7 @@ Description: "Bi-Rad code value.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#BiRadCode
+    Code = BREASTABNORMALITYCODESVS#BiRadCode
     DataValue only concept
     DataValue[concept] from BiRadCodeVS
 
@@ -87,7 +89,7 @@ Description: "Change value.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#Change
+    Code = BREASTABNORMALITYCODESVS#Change
     DataValue only concept
     DataValue[concept] from ChangeVS
 
@@ -99,7 +101,7 @@ Description: "Cyst Types.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#CystTypes
+    Code = BREASTABNORMALITYCODESVS#CystTypes
     DataValue only concept
     DataValue[concept] from CystTypesVS
 
@@ -111,7 +113,7 @@ Description: "Depth.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#Depth
+    Code = BREASTABNORMALITYCODESVS#Depth
     DataValue only concept
     DataValue[concept] from DepthVS
 
@@ -123,7 +125,7 @@ Description: "When breast cancer is surgically removed (during a surgical biopsy
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#Margin
+    Code = BREASTABNORMALITYCODESVS#Margin
     DataValue only concept
     DataValue[concept] from MarginVS
 
@@ -135,7 +137,7 @@ Description: "Mass Types.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#MassTypes
+    Code = BREASTABNORMALITYCODESVS#MassTypes
     DataValue only concept
     DataValue[concept] from MassTypesVS
 
@@ -147,7 +149,7 @@ Description: "Node Types.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#NodeTypes
+    Code = BREASTABNORMALITYCODESVS#NodeTypes
     DataValue only concept
     DataValue[concept] from NodeTypesVS
 
@@ -159,7 +161,7 @@ Description: "Shape.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#Shape
+    Code = BREASTABNORMALITYCODESVS#Shape
     DataValue only concept
     DataValue[concept] from ShapeVS
 
@@ -171,7 +173,7 @@ Description: "Vascularity.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#Vascularity
+    Code = BREASTABNORMALITYCODESVS#Vascularity
     DataValue only concept
     DataValue[concept] from VascularityVS
 
@@ -183,7 +185,7 @@ Description: "Wall.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#Wall
+    Code = BREASTABNORMALITYCODESVS#Wall
     DataValue only concept
     DataValue[concept] from WallVS
 
@@ -197,7 +199,7 @@ Description: "Max Length Description
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#MaxLength
+    Code = BREASTABNORMALITYCODESVS#MaxLength
     DataValue only Quantity
     DataValue[Quantity].Units from UnitsOfLengthVS
 
@@ -209,7 +211,7 @@ Description: "Max Width
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
-    Code = TEST#MaxWidth
+    Code = BREASTABNORMALITYCODESVS#MaxWidth
     DataValue only Quantity
     DataValue[Quantity].Units from UnitsOfLengthVS
 

@@ -1,0 +1,9 @@
+Grammar: ValueSet 6.0
+Namespace: breastrad
+
+//
+//  Breast Radiology  Codes
+// These codes are placeholders until the correct terminology can be determined./
+// 
+ValueSet: BreastAbnormalityCodesVS
+Description: "Breast Abnormality  Codes"
