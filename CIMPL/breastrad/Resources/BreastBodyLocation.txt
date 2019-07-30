@@ -27,4 +27,4 @@ Property: BreastDepth 0..1
 //
 Element: BreastDepth
 Description: "Depth in breast of abnormality."
-Value: Code from BreastDepthVS (required)
+Value: Code from DepthVS (required)

@@ -15,21 +15,21 @@ Parent: Observation
     BodyLocation substitute BreastBodyLocation                    // BodyLocation is constrained to be only BreastBodyLocation
     BreastBodyLocation 0..1                           // Constrain BreastBodyLocation cardinality
     Components.ObservationComponent
-    includes breastrad.AbnormalityDensity 0..1
-    includes breastrad.AbnormalityType 0..1
-    includes breastrad.AsymmetryTypes 0..1
-    includes breastrad.BiRadCode 0..1
-    includes breastrad.Change 0..1
-    includes breastrad.CystTypes 0..1
-    includes breastrad.Depth 0..1
-    includes breastrad.Margin 0..1
-    includes breastrad.MassTypes 0..1
-    includes breastrad.NodeTypes 0..1
-    includes breastrad.Shape 0..1
-    includes breastrad.Vascularity 0..1
-    includes breastrad.Wall 0..1
-    includes breastrad.MaxLength 0..1
-    includes breastrad.MaxWidth 0..1
+    includes AbnormalityDensity 0..1
+    includes AbnormalityType 0..1
+    includes AsymmetryTypes 0..1
+    includes BiRadCode 0..1
+    includes Change 0..1
+    includes CystTypes 0..1
+    includes Margin 0..1
+    includes MassTypes 0..1
+    includes NodeTypes 0..1
+    includes Shape 0..1
+    includes Vascularity 0..1
+    includes Wall 0..1
+    includes MaxLength 0..1
+    includes MaxWidth 0..1
+    //Ignore-Property Depth
 
 
 
@@ -104,18 +104,6 @@ Description: "Cyst Types.
     Code = BREASTABNORMALITYCODESVS#CystTypes
     DataValue only concept
     DataValue[concept] from CystTypesVS
-
-//ConceptComponent-Entry
-Group: Depth
-Parent: CodedObservationComponent
-Description: "Depth.
-<br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code.
-<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
-"
-    Code = BREASTABNORMALITYCODESVS#Depth
-    DataValue only concept
-    DataValue[concept] from DepthVS
 
 //ConceptComponent-Entry
 Group: Margin
@@ -216,3 +204,5 @@ Description: "Max Width
     DataValue[Quantity].Units from UnitsOfLengthVS
 
 
+
+//Ignore-Entry Depth

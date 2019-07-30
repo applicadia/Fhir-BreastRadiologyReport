@@ -32,6 +32,9 @@ Parent: Observation
 //+ *QuantityComponent-Property
     includes %elementname% %min%..%max%
 //- *QuantityComponent-Property
+//+ *Ignore-Property
+    //Ignore-Property %elementname%
+//- *Ignore-Property
 
 //+ *Default-Entry
 %element%
@@ -83,3 +86,7 @@ Description: "%elementdescription%
 
 //+ *Substitute-Entry
 //- *Substitute-Entry
+
+//+ *Ignore-Entry
+//Ignore-Entry %elementname%
+//- *Ignore-Entry

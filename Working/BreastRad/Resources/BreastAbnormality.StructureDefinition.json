@@ -236,7 +236,7 @@
           {
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
-            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[],\"Commands\":[]}"
+            "map": "{\"Target\":\"Ignore\",\"Arguments\":[],\"Commands\":[]}"
           }
         ]
       },
