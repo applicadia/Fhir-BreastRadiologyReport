@@ -7,6 +7,7 @@ Namespace: breastrad
 // 
 ValueSet: BreastAbnormalityCodesVS
 Description: "Breast Abnormality  Codes"
+    #BreastAbnormalityObservationCode "BreastAbnormality Observation code"
     #AbnormalityDensity "BreastAbnormality Component code"
     #AbnormalityType "BreastAbnormality Component code"
     #AsymmetryTypes "BreastAbnormality Component code"

@@ -16,7 +16,7 @@ Parent: Observation
 //- *Default-Property
     Specimen 0..0                                   // dont have specimen
     DataValue 0..0
-    Code = %observationCode%
+    Code = %LocalCode("%classname%CodesVS", "%classname% Observation code", "%classname%ObservationCode")%
 //+ *Substitute-Property
     %Source% substitute %Target%                    // %Source% is constrained to be only %Target%
     %Target% %min%..%max%                           // Constrain %Target% cardinality

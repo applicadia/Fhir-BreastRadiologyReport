@@ -4,8 +4,7 @@ Namespace: breastrad
 Uses: obf,
     shr.base,
     shr.core
-CodeSystem: TEST = http://www.test.com/test-codes
-CodeSystem: BREASTABNORMALITYCODESVS = http://hl7.org/fhir/us/breast-radiology/breastrad/cs/breastabnormalitycodesvs
+CodeSystem: BREASTABNORMALITYCODESVS = http://hl7.org/fhir/us/breast-radiology/breastrad/vs/breastabnormalitycodesvs
 
 Entry: BreastAbnormality
 Parent: Observation
@@ -13,7 +12,7 @@ Description: "Breast Abnormality Form"
 Parent: Observation
     Specimen 0..0                                   // dont have specimen
     DataValue 0..0
-    Code = TEST#BreastAbnormality
+    Code = BREASTABNORMALITYCODESVS#BreastAbnormalityObservationCode
     BodyLocation substitute BreastBodyLocation                    // BodyLocation is constrained to be only BreastBodyLocation
     BreastBodyLocation 0..1                           // Constrain BreastBodyLocation cardinality
     Components.ObservationComponent
