@@ -1,8 +1,9 @@
 
+ 
 Grammar: DataElement 6.0
 Namespace: breastrad
+Uses: obf, obf.datatype
 CodeSystem: BREASTABNORMALITYCODESVS = http://hl7.org/fhir/us/breast-radiology/breastrad/vs/breastabnormalitycodesvs
-Uses: obf.datatype, obf
 
 Entry: BreastAbnormality
 Parent: Observation
@@ -10,7 +11,7 @@ Description: "Breast Abnormality Form"
 Parent: Observation
     Specimen 0..0                                   // dont have specimen
     DataValue 0..0
-    Code = TEST#BreastAbnormality
+    Code = BREASTABNORMALITYCODESVS#BreastAbnormalityObservationCode
     BodyLocation substitute BreastBodyLocation                    // BodyLocation is constrained to be only BreastBodyLocation
     BreastBodyLocation 0..1                           // Constrain BreastBodyLocation cardinality
     Components.ObservationComponent
