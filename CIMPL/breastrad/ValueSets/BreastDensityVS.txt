@@ -1,0 +1,10 @@
+Grammar: ValueSet 6.0
+Namespace: breastrad
+
+//
+//  BreastDensityVS
+// Values for breast density.
+// 
+ValueSet: BreastDensityVS
+Description: "Breast density values"
+    #PredominatelyFatty "Predominately Fatty"

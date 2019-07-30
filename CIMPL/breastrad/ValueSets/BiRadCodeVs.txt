@@ -1,0 +1,15 @@
+Grammar: ValueSet 6.0
+Namespace: breastrad
+
+ValueSet: BiRadCodeVS
+Description: "Bi-Rad code value
+"
+    #BIRAD5HighlySuggestive "Highly Suggestive of Malignancy"
+    #BIRAD0Incomplete "Need Additional Imaging Evaluation and/or Prior Mammograms for Comparison"
+    #BIRAD1Negative "Negative Finding"
+    #BIRAD2Benign "Non cancerous finding"
+    #BIRAD3ProbablyBenign "Probably non-cancerous."
+    #BIRAD4ALowSuspicion "Low suspicion for Malignancy"
+    #BIRAD4BModerateSuspicion "Moderate Suspicion for Malignancy"
+    #BIRAD4CHighSuspicion "High Suspicion of Malignancy"
+    #BIRAD6ProvenMalignancy "Known Biopsy-Proven Malignancy"
