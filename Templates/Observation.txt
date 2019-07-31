@@ -26,49 +26,28 @@ Parent: Observation
 //+ *ConceptComponent-Property
     includes %elementname% %min%..%max%
 //- *ConceptComponent-Property
-//+ *TypeComponent-Property
-    includes %elementname% %min%..%max%
-//- *TypeComponent-Property
 //+ *QuantityComponent-Property
     includes %elementname% %min%..%max%
 //- *QuantityComponent-Property
 //+ *Ignore-Property
-    //Ignore-Property %elementname%
 //- *Ignore-Property
 
 //+ *Default-Entry
 %element%
 //- *Default-Entry
-
 //+ *ConceptComponent-Entry
 
 //ConceptComponent-Entry
 Group: %elementname%
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "%elementdescription%.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
-    DataValue only %ElementTypes()%
     DataValue[concept] from %External("%elementname%VS")%
 //- *ConceptComponent-Entry
-
-//+ *TypeComponent-Entry
-
-// TypeComponent-Entry
-Group: %elementname%
-Parent: ObservationComponent
-Description: "%elementdescription%
-<br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code.
-<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
-"
-    Code = %LocalCode("%classname%CodesVS", "%classname% Component code", "%elementname%")%
-    DataValue only %ElementTypes()%
-//- *TypeComponent-Entry
-
 //+ *QuantityComponent-Entry
 
 //QuantityComponent-Entry
@@ -83,10 +62,8 @@ Description: "%elementdescription%
     DataValue only Quantity
     DataValue[Quantity].Units from %units%
 //- *QuantityComponent-Entry
-
 //+ *Substitute-Entry
 //- *Substitute-Entry
-
 //+ *Ignore-Entry
 //Ignore-Entry %elementname%
 //- *Ignore-Entry

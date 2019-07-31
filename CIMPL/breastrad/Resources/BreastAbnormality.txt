@@ -3,7 +3,7 @@
 Grammar: DataElement 6.0
 Namespace: breastrad
 Uses: obf, obf.datatype
-CodeSystem: BREASTABNORMALITYCODESVS = http://hl7.org/fhir/us/breast-radiology/breastrad/vs/breastabnormalitycodesvs
+CodeSystem: BREASTABNORMALITYCODESVS = http://hl7.org/fhir/us/breast-radiology/breastrad/vs/BreastAbnormalityCodesVS
 
 Entry: BreastAbnormality
 Parent: Observation
@@ -29,155 +29,140 @@ Parent: Observation
     includes Wall 0..1
     includes MaxLength 0..1
     includes MaxWidth 0..1
-    //Ignore-Property Depth
 
 
 
 //ConceptComponent-Entry
 Group: AbnormalityDensity
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Visually estimated content of fibroglandular-density tissue within the breast.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#AbnormalityDensity
-    DataValue only concept
     DataValue[concept] from AbnormalityDensityVS
 
 //ConceptComponent-Entry
 Group: AbnormalityType
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Abnormality Type value.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#AbnormalityType
-    DataValue only concept
     DataValue[concept] from AbnormalityTypeVS
 
 //ConceptComponent-Entry
 Group: AsymmetryTypes
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Currently many studies utilize cortical thickening and hilum absence as criteria for definition of the risk for metastasis(11,12-16). ... Metastatic deposits accumulate in the lymph node peripheral area, causing enlargement of the cortex, usually focal (at early stages), or uniform..
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#AsymmetryTypes
-    DataValue only concept
     DataValue[concept] from AsymmetryTypesVS
 
 //ConceptComponent-Entry
 Group: BiRadCode
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Bi-Rad code value.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#BiRadCode
-    DataValue only concept
     DataValue[concept] from BiRadCodeVS
 
 //ConceptComponent-Entry
 Group: Change
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Change value.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#Change
-    DataValue only concept
     DataValue[concept] from ChangeVS
 
 //ConceptComponent-Entry
 Group: CystTypes
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Cyst Types.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#CystTypes
-    DataValue only concept
     DataValue[concept] from CystTypesVS
 
 //ConceptComponent-Entry
 Group: Margin
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "When breast cancer is surgically removed (during a surgical biopsy, lumpectomy or mastectomy), a rim of normal tissue surrounding the tumor is also removed. This rim is called a margin. Margins help show whether or not all of the tumor was removed..
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#Margin
-    DataValue only concept
     DataValue[concept] from MarginVS
 
 //ConceptComponent-Entry
 Group: MassTypes
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Mass Types.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#MassTypes
-    DataValue only concept
     DataValue[concept] from MassTypesVS
 
 //ConceptComponent-Entry
 Group: NodeTypes
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Node Types.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#NodeTypes
-    DataValue only concept
     DataValue[concept] from NodeTypesVS
 
 //ConceptComponent-Entry
 Group: Shape
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Shape.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#Shape
-    DataValue only concept
     DataValue[concept] from ShapeVS
 
 //ConceptComponent-Entry
 Group: Vascularity
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Vascularity.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#Vascularity
-    DataValue only concept
     DataValue[concept] from VascularityVS
 
 //ConceptComponent-Entry
 Group: Wall
-Parent: CodedObservationComponent
+Parent: BreastCodedObservationComponent
 Description: "Wall.
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESVS#Wall
-    DataValue only concept
     DataValue[concept] from WallVS
-
-
 
 //QuantityComponent-Entry
 Group: MaxLength
@@ -202,7 +187,5 @@ Description: "Max Width
     Code = BREASTABNORMALITYCODESVS#MaxWidth
     DataValue only Quantity
     DataValue[Quantity].Units from UnitsOfLengthVS
-
-
 
 //Ignore-Entry Depth
