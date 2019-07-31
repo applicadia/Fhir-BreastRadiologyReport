@@ -40,7 +40,7 @@ Group: Findings
 Description: "Findings section"
 Parent: Section
 	Title = "Findings"											// Set section name to fixed value
-	Code = LOINC#34117-2										// is this correct code for section
+	Code = LOINC#32422-8										// is this correct code for section
 	Section
 	includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
 	includes FindingsRightBreast 0..1							// Composition.Section Findings right  breast Splice
