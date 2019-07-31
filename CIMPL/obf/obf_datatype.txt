@@ -567,7 +567,7 @@ Value:             dateTime
 
 Group:             PhotographicImage
 Parent:            Attachment
-Concept:           LNC#72170-4 "Photographic image	[Attachment]"
+Concept:           LNC#72170-4 "Photographic image"   // description must match or get publisher error 
 Description:       "An attachment of a photographic type. The mime type should be either bmp, gif, jpeg, png, svg, or tiff."
                    // ContentType from ImageMimeTypeVS if covered  // can't do, conflict with required value set
 

@@ -522,4 +522,4 @@ Entry:             ClinicalNote
 Parent:            DocumentReference
 Description:       "An entry concerning a patient where the result is a narrative text."
                    Category 1..1
-                   Category from http://fhir.org/guides/argonaut-clinicalnotes/ValueSet/documentreference-category (required)
+// R4 only                   Category from http://fhir.org/guides/argonaut-clinicalnotes/ValueSet/documentreference-category (required)

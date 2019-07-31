@@ -44,10 +44,10 @@ Property:          PartOf 0..1
                    // US Core v3 requires at least 1 Encounter type
                    Type 1..*
                    //Type from http://hl7.org/fhir/ValueSet/v3-ActEncounterCode (extensible)
-                   Type from http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type (extensible)
+// R4 only         Type from http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type (extensible)
                    BasedOn substitute ReferralBasedOn
                    //PriorityCode from http://hl7.org/fhir/ValueSet/v3-ActPriority (example)
-                   PriorityCode from http://terminology.hl7.org/ValueSet/v3-ActPriority (example)
+// R4 only                   PriorityCode from http://terminology.hl7.org/ValueSet/v3-ActPriority (example)
                    Participation.ParticipationType from http://hl7.org/fhir/ValueSet/encounter-participant-type (extensible)
                    ReasonCode from http://hl7.org/fhir/ValueSet/encounter-reason (preferred)
 
@@ -174,7 +174,7 @@ Property:          StatementDateTime 0..1
                    Status 1..1
                    Status from http://hl7.org/fhir/ValueSet/appointmentstatus (required)
                    //Type from http://hl7.org/fhir/ValueSet/v2-0276 (preferred)
-                   Type from http://terminology.hl7.org/ValueSet/v2-0276 (preferred)
+                   // R4 only  Type from http://terminology.hl7.org/ValueSet/v2-0276 (preferred)
 
 Element:           ServiceCategory
 Description:       "A broad categorization of the service (ordered, planned, or performed)."

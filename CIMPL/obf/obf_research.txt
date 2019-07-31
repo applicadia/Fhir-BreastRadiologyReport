@@ -31,13 +31,13 @@ Property:          StudyObjective 0..*
                    Status from http://hl7.org/fhir/ValueSet/research-study-status (required)
                    Identifier 1..1
                    PartOf[Resource] substitute ResearchStudy
-                   Purpose from http://hl7.org/fhir/ValueSet/research-study-prim-purp-type (extensible)
+// R4 only                   Purpose from http://hl7.org/fhir/ValueSet/research-study-prim-purp-type (extensible)
                    FocalSubject only concept
 
                    // 0..*			ref(PlanDefinition) // not implemented
 Element:           ResearchStudyPhase
 Description:       "The stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation."
-Value:             concept from http://hl7.org/fhir/ValueSet/research-study-phase (example)
+Value:             concept // R4 only // from http://hl7.org/fhir/ValueSet/research-study-phase (example)
 
 Element:           ConditionStudied
 Description:       "The condition that is the focus of the study. For example, In a study to examine risk factors for Lupus, might have as an inclusion criterion 'healthy volunteer', but the target condition code would be a Lupus SNOMED code."
@@ -71,7 +71,7 @@ Group:             StudyObjective
 Description:       "A goal that the study is aiming to achieve in terms of a scientific question to be answered by the analysis of data collected during the study."
 Property:          Name 0..1
 Property:          Type 0..1
-                   Type from http://hl7.org/fhir/ValueSet/research-study-objective-type (preferred)
+// R4 only       // Type from http://hl7.org/fhir/ValueSet/research-study-objective-type (preferred)
 
 Entry:             ResearchSubject
 Parent:            Role

@@ -423,25 +423,7 @@ EntryElement:	BreastTNMPathologicDistantMetastasesCategory
 Parent:		TNMPathologicDistantMetastasesCategory
 // Concept inherited from parent class, was not breast-specific in BrCa ballot.
 Description:	"Category describing the presence or absence of metastases in remote anatomical locations relative to the breast, assessed through pathologic analysis of a specimen."
-
-*/
-/************* LEGACY BEGIN ************		 
-
-EntryElement:	BreastTumor
-Parent:		FindingSiteConditionPresenceStatement
-Description:	"An abnormal mass of tissue that results when cells divide more than they should or do not die when they should. Tumors may be benign (not cancer), or malignant (cancer). Also called neoplasm. (source: NCI)"
-1..1			TopicCode is SCT#395557000 "Tumor finding (finding)"
-1..1			Category is OBSCAT#exam
-0..1			FindingSiteConditionTopic.AnatomicalLocation is type BreastSite
-0..0			FindingSiteConditionTopic.AlleviatingFactor
-0..0			FindingSiteConditionTopic.ExacerbatingFactor
-				FindingSiteConditionTopic.FindingSiteIdentifier is type TumorIdentifier
-0..0			ConditionPresenceContext.Severity
-				FindingSiteConditionTopic.FindingMethod should be from BreastCancerDetectionVS
-0..0			ConditionPresenceContext.Stage  // already covered under BreastCancerPrimaryTumorCategory
-
-********** LEGACY END ************/
-/*	
+	
 
  additional components from CAP form
 includes	StainingControl  0..1
