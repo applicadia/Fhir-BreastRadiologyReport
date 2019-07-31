@@ -6,6 +6,7 @@
   "fhirTarget": "FHIR_STU_3",
   "implementationGuide": {
     "indexContent": "Pages/index.html",
+    "examples": "Examples",
     "npmName": "hl7.fhir.us.breast-radiology",
     "version": "0.1.0",
     "primarySelectionStrategy": {
@@ -40,7 +41,7 @@
   ],
   "provenanceInfo": {
     "leadAuthor": {
-      "name": "Kurt W. Allen",
+      "name": "Richard Esmond",
       "organization": "Penrad Technologies",
       "email": "info@Penrad.org"
     },
