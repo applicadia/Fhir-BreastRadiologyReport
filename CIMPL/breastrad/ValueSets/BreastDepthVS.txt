@@ -1,0 +1,10 @@
+Grammar: ValueSet 6.0
+Namespace: breastrad
+
+ValueSet: BreastDepthVS
+Description: "Breast Depth
+"
+    #Anterior "Anterior"
+    #Middle "Middle"
+    #Posterior "Posterior"
+    #SubAreolar "SubAreolar"
