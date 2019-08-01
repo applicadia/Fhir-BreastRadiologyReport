@@ -1,20 +1,20 @@
 {
   "resourceType": "ValueSet",
-  "id": "Depth",
+  "id": "BreastDepth",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
       "valueUri": "breastrad"
     }
   ],
-  "url": "http://hl7.org/fhir/us/breast-radiology/ValueSet/Depth",
+  "url": "http://hl7.org/fhir/us/breast-radiology/ValueSet/BreastDepth",
   "version": "4.0.0",
-  "name": "Depth",
-  "title": "Depth",
+  "name": "BreastDepth",
+  "title": "Breast Depth",
   "status": "draft",
   "date": "2001-01-01T01:01:01+00:00",
   "publisher": "HL7 International - Clinical Interoperability Council",
-  "description": "Depth",
+  "description": "Breast Depth",
   "compose": {
     "include": [
       {
@@ -22,19 +22,19 @@
         "concept": [
           {
             "code": "Anterior",
-            "display": "The frontal third of the breast."
+            "display": "Anterior"
           },
           {
             "code": "Middle",
-            "display": "The middle third of the breast."
+            "display": "Middle"
           },
           {
             "code": "Posterior",
-            "display": "The rear third of the breast."
+            "display": "Posterior"
           },
           {
             "code": "SubAreolar",
-            "display": "Subareolar abscess is an abscess, or growth, on the areolar gland. The areolar gland is located in the breast under or below the areola (colored area around the nipple)."
+            "display": "SubAreolar"
           }
         ]
       }

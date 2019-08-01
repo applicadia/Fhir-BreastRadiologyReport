@@ -1,0 +1,28 @@
+Grammar: ValueSet 5.1
+Namespace: breastrad
+
+ValueSet: CalcificationTypeVS
+Description: "Calcification Type
+"
+    #Amorphous "Amorphous"
+    #Spherical "Spherical"
+    #Skin "Skin"
+    #Round "Round"
+    #Rim "Rim"
+    #Punctate "Punctate"
+    #PleomorphicADDFine "PleomorphicADDFine"
+    #None "None"
+    #MilkOfCalcium "MilkOfCalcium"
+    #LucentCentered "LucentCentered"
+    #LinearADDFine "LinearADDFine"
+    #Layering "Layering"
+    #LargeRodLike "LargeRodLike"
+    #Indistinct "Indistinct"
+    #Heterogeneous "Heterogeneous"
+    #GenericCalcification "GenericCalcification"
+    #Fine "Fine"
+    #Eggshell "Eggshell"
+    #Dystrophic "Dystrophic"
+    #Coarse "Coarse"
+    #Suture "Suture"
+    #Vascular "Vascular"

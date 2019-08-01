@@ -7,7 +7,7 @@
   "implementationGuide": {
     "indexContent": "Pages",
     "npmName": "hl7.fhir.us.breast-radiology",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "primarySelectionStrategy": {
       "strategy": "namespace",
       "primary": [
@@ -16,9 +16,8 @@
       "hideSupporting": true
     },
     "packageList": "ig-breastRad-plist.json",
-    "includeLogicalModels": false,
-    "includeModelDoc": false,
-    "historyLink": "http://hl7.org/fhir/us/breast-radiology/fhir/history.html"
+    "includeLogicalModels": true,
+    "includeModelDoc": true
   },
   "filterStrategy": {
     "strategy": "namespace",

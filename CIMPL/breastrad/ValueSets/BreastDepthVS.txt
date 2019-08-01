@@ -1,15 +1,10 @@
 Grammar: ValueSet 5.1
 Namespace: breastrad
-CodeSystem: SCT = http://snomed.info/sct
 
 ValueSet: BreastDepthVS
-Description: "Depth in breast of abnormality"
-//    SCT#65124004 "Anterior"
-//    SCT#65958008 "Middle"
-//    SCT#88610006 "Posterior"
-//    SCT#264205002 "Subareolar"
-    
-    #Anterior "The frontal third of the breast."
-    #Middle "The middle third of the breast."
-    #Posterior "The rear third of the breast."
-    #SubAreolar "Subareolar abscess is an abscess, or growth, on the areolar gland. The areolar gland is located in the breast under or below the areola (colored area around the nipple)."
+Description: "Breast Depth
+"
+    #Anterior "Anterior"
+    #Middle "Middle"
+    #Posterior "Posterior"
+    #SubAreolar "SubAreolar"

@@ -1,0 +1,14 @@
+Grammar: ValueSet 5.1
+Namespace: breastrad
+
+ValueSet: LymphNodeQualifiersVS
+Description: "Lymph Node Qualifiers
+"
+    #LevelILymphNode "LevelILymphNode"
+    #LevelIILymphNode "LevelIILymphNode"
+    #LevelIIILymphNode "LevelIIILymphNode"
+    #NormalLymphNode "NormalLymphNode"
+    #WithEccentricThickeningCortex "WithEccentricThickeningCortex"
+    #WithEnlargementOfNode "WithEnlargementOfNode"
+    #WithFocalThickeningCortex "WithFocalThickeningCortex"
+    #WithUniformThickeningCortex "WithUniformThickeningCortex"

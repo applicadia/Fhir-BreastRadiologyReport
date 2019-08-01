@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ForeignBody",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "breastrad"
+    }
+  ],
+  "url": "http://hl7.org/fhir/us/breast-radiology/ValueSet/ForeignBody",
+  "version": "4.0.0",
+  "name": "ForeignBody",
+  "title": "Foreign Body",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "HL7 International - Clinical Interoperability Council",
+  "description": "Foreign Body",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "BiopsyClip",
+            "display": "BiopsyClip"
+          },
+          {
+            "code": "BreastMarker",
+            "display": "BreastMarker"
+          },
+          {
+            "code": "Calcification",
+            "display": "Calcification"
+          },
+          {
+            "code": "GunshotWound",
+            "display": "GunshotWound"
+          },
+          {
+            "code": "None",
+            "display": "None"
+          },
+          {
+            "code": "Pacemaker",
+            "display": "Pacemaker"
+          },
+          {
+            "code": "SurgicalClip",
+            "display": "SurgicalClip"
+          },
+          {
+            "code": "Wire",
+            "display": "Wire"
+          }
+        ]
+      }
+    ]
+  }
+}
