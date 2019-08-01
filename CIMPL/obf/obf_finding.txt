@@ -298,7 +298,8 @@ Property:          PresentedForm 0..*
                    SubjectOfRecord substitute ObservationSubjectOfRecord
                    CareContext only Encounter
                    StatementDateTime 1..1
-                   Code from http://hl7.org/fhir/us/core/ValueSet/us-core-diagnosticreport-report-and-note-codes (extensible)
+// In US Core v2 (FHIR STU 3), the VS is http://hl7.org/fhir/ValueSet/report-codes
+                 Code from http://hl7.org/fhir/us/core/ValueSet/us-core-diagnosticreport-report-and-note-codes (extensible)
 
 Entry:             LaboratoryReport
 Parent:            DiagnosticReport

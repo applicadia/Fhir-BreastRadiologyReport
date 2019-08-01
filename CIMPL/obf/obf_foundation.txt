@@ -69,8 +69,9 @@ Property:          Setting 0..1
 Property:          Patient 0..1
                    // related
 Property:          SupportingInformation 0..*
-                   // event
                    Code from http://terminology.hl7.org/ValueSet/v3-ActCode (example)
+// STU 3 -- different value set
+//                   Code from http://hl7.org/fhir/v3/ActCode (example)
 
 Entry:             Composition
 Parent:            InformationItem
