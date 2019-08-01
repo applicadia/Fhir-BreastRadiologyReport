@@ -1,0 +1,8 @@
+Grammar: ValueSet 6.0
+Namespace: breastrad
+
+ValueSet: HilumVS
+Description: "Hilum
+"
+    #HilumFatty "HilumFatty"
+    #HilumNotFatty "HilumNotFatty"

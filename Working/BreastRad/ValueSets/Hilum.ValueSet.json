@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Hilum",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "breastrad"
+    }
+  ],
+  "url": "http://hl7.org/fhir/us/breast-radiology/ValueSet/Hilum",
+  "version": "4.0.0",
+  "name": "Hilum",
+  "title": "Hilum",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "HL7 International - Clinical Interoperability Council",
+  "description": "Hilum",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "HilumFatty",
+            "display": "HilumFatty"
+          },
+          {
+            "code": "HilumNotFatty",
+            "display": "HilumNotFatty"
+          }
+        ]
+      }
+    ]
+  }
+}
