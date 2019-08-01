@@ -5,8 +5,7 @@
   "fhirURL": "http://hl7.org/fhir/us/breast-radiology/fhir",
   "fhirTarget": "FHIR_R4",
   "implementationGuide": {
-    "indexContent": "Pages/index.html",
-    "examples": "Examples_brr",
+    "indexContent": "Pages",
     "npmName": "hl7.fhir.us.breast-radiology",
     "version": "1.0.0",
     "primarySelectionStrategy": {
