@@ -6,6 +6,7 @@
   "fhirTarget": "FHIR_R4",
   "implementationGuide": {
     "indexContent": "Pages",
+    "examples": "Examples_brr",
     "npmName": "hl7.fhir.us.breast-radiology",
     "version": "1.0.0",
     "primarySelectionStrategy": {
