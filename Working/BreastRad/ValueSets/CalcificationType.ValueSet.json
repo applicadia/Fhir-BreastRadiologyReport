@@ -1,0 +1,115 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CalcificationType",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "breastrad"
+    }
+  ],
+  "url": "http://hl7.org/fhir/us/breast-radiology/ValueSet/CalcificationType",
+  "version": "4.0.0",
+  "name": "CalcificationType",
+  "title": "Calcification Type",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "HL7 International - Clinical Interoperability Council",
+  "description": "Calcification Type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "Amorphous",
+            "display": "Amorphous"
+          },
+          {
+            "code": "Spherical",
+            "display": "Spherical"
+          },
+          {
+            "code": "Skin",
+            "display": "Skin"
+          },
+          {
+            "code": "Round",
+            "display": "Round"
+          },
+          {
+            "code": "Rim",
+            "display": "Rim"
+          },
+          {
+            "code": "Punctate",
+            "display": "Punctate"
+          },
+          {
+            "code": "PleomorphicADDFine",
+            "display": "PleomorphicADDFine"
+          },
+          {
+            "code": "None",
+            "display": "None"
+          },
+          {
+            "code": "MilkOfCalcium",
+            "display": "MilkOfCalcium"
+          },
+          {
+            "code": "LucentCentered",
+            "display": "LucentCentered"
+          },
+          {
+            "code": "LinearADDFine",
+            "display": "LinearADDFine"
+          },
+          {
+            "code": "Layering",
+            "display": "Layering"
+          },
+          {
+            "code": "LargeRodLike",
+            "display": "LargeRodLike"
+          },
+          {
+            "code": "Indistinct",
+            "display": "Indistinct"
+          },
+          {
+            "code": "Heterogeneous",
+            "display": "Heterogeneous"
+          },
+          {
+            "code": "GenericCalcification",
+            "display": "GenericCalcification"
+          },
+          {
+            "code": "Fine",
+            "display": "Fine"
+          },
+          {
+            "code": "Eggshell",
+            "display": "Eggshell"
+          },
+          {
+            "code": "Dystrophic",
+            "display": "Dystrophic"
+          },
+          {
+            "code": "Coarse",
+            "display": "Coarse"
+          },
+          {
+            "code": "Suture",
+            "display": "Suture"
+          },
+          {
+            "code": "Vascular",
+            "display": "Vascular"
+          }
+        ]
+      }
+    ]
+  }
+}

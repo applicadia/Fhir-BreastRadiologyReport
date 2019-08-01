@@ -1,0 +1,14 @@
+Grammar: ValueSet 6.0
+Namespace: breastrad
+
+ValueSet: ForeignBodyVS
+Description: "Foreign Body
+"
+    #BiopsyClip "BiopsyClip"
+    #BreastMarker "BreastMarker"
+    #Calcification "Calcification"
+    #GunshotWound "GunshotWound"
+    #None "None"
+    #Pacemaker "Pacemaker"
+    #SurgicalClip "SurgicalClip"
+    #Wire "Wire"

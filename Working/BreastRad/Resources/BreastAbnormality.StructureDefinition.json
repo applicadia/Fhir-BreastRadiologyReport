@@ -166,6 +166,31 @@
         ]
       },
       {
+        "id": "BreastAbnormality.calcificationType",
+        "path": "BreastAbnormality.calcificationType",
+        "short": "Calcification Type",
+        "definition": "Calcification Type",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Calcification Type",
+          "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/CalcificationType"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
         "id": "BreastAbnormality.change",
         "path": "BreastAbnormality.change",
         "short": "Change",
@@ -237,6 +262,81 @@
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
             "map": "{\"Target\":\"Ignore\",\"Arguments\":[],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.foreignBody",
+        "path": "BreastAbnormality.foreignBody",
+        "short": "Foreign Body",
+        "definition": "Foreign Body",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Foreign Body",
+          "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/ForeignBody"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.hilum",
+        "path": "BreastAbnormality.hilum",
+        "short": "Hilum",
+        "definition": "Hilum",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Hilum",
+          "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/Hilum"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.lymphNodeQualifiers",
+        "path": "BreastAbnormality.lymphNodeQualifiers",
+        "short": "Lymph Node Qualifiers",
+        "definition": "Lymph Node Qualifiers",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Lymph Node Qualifiers",
+          "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/LymphNodeQualifiers"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[],\"Commands\":[]}"
           }
         ]
       },
@@ -346,6 +446,31 @@
           "strength": "required",
           "description": "Node Types",
           "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/NodeTypes"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.orientation",
+        "path": "BreastAbnormality.orientation",
+        "short": "Orientation",
+        "definition": "Orientation",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Orientation",
+          "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/Orientation"
         },
         "mapping": [
           {

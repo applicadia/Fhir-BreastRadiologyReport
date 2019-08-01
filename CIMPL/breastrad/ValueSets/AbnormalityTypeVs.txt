@@ -22,7 +22,7 @@ Description: "Abnormality Type value
     #FatNecrosis "Fat necrosis is a lump of dead or damaged breast tissue that sometimes appears after breast surgery, radiation, or another trauma. Fat necrosis is harmless and doesn't increase your cancer risk. It usually isn't painful, but it can cause anxiety. You should tell your doctor about any lumps you feel in your breast."
     #DuctEctasia "Mammary duct ectasia occurs when a milk duct beneath the nipple becomes wider (dilated) and filled with fluid. The milk duct can then become blocked or clogged with a thick, sticky substance."
     #DuctDialated "Expanded normally or abnormally in all dimensions."
-    #Cyst "Circumscribed, round or oval, fluid-filled mass with an imperceptible wall; usually bright on T2W images"
+    #Cyst "Circumscribed, round or oval, fluid-filled mass with an imperceptible wall; usually bright on T2W images."
     #Calcification "Typically benign"
     #BrachytherapyCatheter "Brachytherapy is seldom used in children. ... Temporary brachytherapy places radioactive material inside a catheter for a specific amount of time and then removes it. It is given at a low-dose rate (LDR) or high-dose rate (HDR). Permanent brachytherapy is also called seed implantation."
     #Asymmetry "Involve a spectrum of mammographic findings that represent unilateral deposits of fibroglandular tissue not conforming to the definition of a radiodense mass."

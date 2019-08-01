@@ -2,7 +2,7 @@
   "BaseUrl": "http://hl7.org/fhir/us/breast-radiology",
   "ImplementationGuideUrl": "http://hl7.org/fhir/us/breast-radiology",
   "AbbreviatedProjectName": "BreastRad",
-  "LongProjectName": "Breast Radiology Reporting",
+  "LongProjectName": "Breast Radiology Reporting - 1st for comment ballot",
   "PublicationStatus": "draft",
   "ProjectVersion": "0.1.0",
   "NameOfPublishingEntity": "HL7 International - Clinical Interoperability Council",
