@@ -69,7 +69,7 @@ Property:          Setting 0..1
 Property:          Patient 0..1
                    // related
 Property:          SupportingInformation 0..*
-// FHIR R4         Code from http://terminology.hl7.org/ValueSet/v3-ActCode (example)
+                   Code from http://terminology.hl7.org/ValueSet/v3-ActCode (example)
 // STU 3 -- different value set
 //                   Code from http://hl7.org/fhir/v3/ActCode (example)
 
@@ -176,8 +176,7 @@ Property:          EventContext 0..1
                    Status 1..1
                    StatementDateTime 1..1
                    Status from http://hl7.org/fhir/ValueSet/document-reference-status (required)
-                   DocumentStatus from http://hl7.org/fhir/ValueSet/composition-status (required)
-// R4 only                                      Type from http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type (required)
+                   DocumentStatus from http://hl7.org/fhir/ValueSet/composition-status (required)                                     Type from http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type (required)
                    //Type from http://hl7.org/fhir/ValueSet/c80-doc-typecodes (preferred)
                    //Category from http://hl7.org/fhir/ValueSet/c80-doc-classcodes (required)
                    // US Core v3 restriction
@@ -213,7 +212,7 @@ Property:          LastUpdated 0..1
 Property:          Profile 0..*
                    // added in R4, extensions in STU 3
 // Commented out to avoid build error 
-// Property:          SourceSystem 0..1
+Property:          SourceSystem 0..1
 Property:          SecurityLabel 0..*
 Property:          Tag 0..*
 
@@ -229,12 +228,12 @@ Element:           Profile
 Description:       "The name of the FHIR profile this resource claims to conform to."
                    // Canonical in R4
 Value:             uri
-/*
+
 Element:           SourceSystem
 Description:       "FHIR: This provides a minimal amount of Provenance information that can be used to track or differentiate the source of information in the resource. The source may identify another FHIR server, document, message, database, etc.
 FHIM: Identifies the computer system that created the medical record. This optional field may also be used to indicate that the medical record was originally created by a different organization from the one that is currently storing or utilizing the record in that the assigning authority of the Id could be set to that originating organization. This property is optional, as some systems will assume that all records that it contains originated in that system, however it is anticipated that it will become increasingly commonplace for records from multiple systems and organizations will be comingled in order to provide a complete picture of the patient's health record."
 Value:             uri
-*/
+
 Element:           Tag
 Concept:           MTH#C4280044 "Metatags"
 Description:       "A code used to relate entries to categories or workflows. Applications are not required to consider the tags when interpreting the meaning of an entry."

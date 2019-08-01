@@ -53,7 +53,7 @@ Value:             string
 
 Element:           BeneficiaryRelationship
 Description:       "The relationship of beneficiary (patient) to the subscriber."
-Value:             concept // R4 only // from http://hl7.org/fhir/ValueSet/subscriber-relationship (extensible)
+Value:             concept from http://hl7.org/fhir/ValueSet/subscriber-relationship (extensible)
 
 Element:           Payor
 Description:       "The program or plan underwriter or payor including both insurance and non-insurance agreements, such as patient-pay agreements."
@@ -64,14 +64,14 @@ Description:       "A suite of underwriter specific classifiers."
 Property:          Type 1..1
 Property:          IdentifierString 1..1
 Property:          Name 0..1
-                   Type // R4 only from http://hl7.org/fhir/ValueSet/coverage-class (extensible)
+                   Type from http://hl7.org/fhir/ValueSet/coverage-class (extensible)
 
 Group:             CostToBeneficiary
 Description:       "A suite of codes indicating the cost category and associated amount which have been detailed in the policy and may have been included on the health card. Alternate names include co-pay, deductible, exceptions."
 Property:          Type 0..1
 Property:          CostOrPercentage 1..1
 Property:          Exception 0..*
-// R4 only                   Type from http://hl7.org/fhir/ValueSet/coverage-copay-type (extensible)
+                   Type from http://hl7.org/fhir/ValueSet/coverage-copay-type (extensible)
 
 Element:           CostOrPercentage
 Description:       "The amount due from the patient for the cost category."
@@ -81,7 +81,7 @@ Group:             Exception
 Description:       "A suite of codes indicating exceptions or reductions to patient costs and their effective periods."
 Property:          Type 1..1
 Property:          EffectiveTimePeriod 0..1
-// R4 only                   Type from http://hl7.org/fhir/ValueSet/coverage-financial-exception (example)
+                   Type from http://hl7.org/fhir/ValueSet/coverage-financial-exception (example)
 
 Element:           InsurerNetwork
 Description:       "The insurer-specific identifier for the insurer-defined network of providers to which the beneficiary may seek treatment which will be covered at the 'in-network' rate, otherwise 'out of network' terms and conditions apply."
