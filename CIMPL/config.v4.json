@@ -1,14 +1,14 @@
 {
-  "projectName": "Breast Radiology Reporting",
+  "projectName": "Breast Radiology Reporting - 1'st for comment ballot",
   "projectShorthand": "BreastRad",
   "projectURL": "http://hl7.org/fhir/us/breast-radiology",
   "fhirURL": "http://hl7.org/fhir/us/breast-radiology/fhir",
   "fhirTarget": "FHIR_R4",
   "implementationGuide": {
-    "indexContent": "Pages",
+    "indexContent": "Pages/index.html",
     "examples": "Examples_brr",
     "npmName": "hl7.fhir.us.breast-radiology",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "primarySelectionStrategy": {
       "strategy": "namespace",
       "primary": [
@@ -28,13 +28,13 @@
       "breastrad"
     ]
   },
-  "publisher": "Hl7",
+  "publisher": "Hl7 - Clinical Interoperability Council",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "http://BreastRadReport.com"
+          "value": "http://www.hl7.org/Special/committees/cic"
         }
       ]
     }
@@ -42,10 +42,10 @@
   "provenanceInfo": {
     "leadAuthor": {
       "name": "Richard Esmond",
-      "organization": "Penrad Technologies",
+      "organization": "Cancer Interoperability",
       "email": "Richard.Esmond@gmail.com"
     },
     "license": "Creative Commons CC-BY <https://creativecommons.org/licenses/by/3.0/>",
-    "copyright": "Copyright (c) The Example Organization <http://example.org>"
+    "copyright": "Copyright (c) HL7 <http://hl7.org>"
   }
 }

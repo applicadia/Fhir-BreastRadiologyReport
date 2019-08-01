@@ -3,7 +3,7 @@
 Grammar: DataElement 6.0
 Namespace: breastrad
 Uses: obf, obf.datatype
-CodeSystem: BREASTABNORMALITYCODESVS = http://hl7.org/fhir/us/breast-radiology/breastrad/vs/BreastAbnormalityCodesVS
+CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/breastrad/cs/BreastAbnormalityCodesCS
 
 Entry: BreastAbnormality
 Parent: Observation
