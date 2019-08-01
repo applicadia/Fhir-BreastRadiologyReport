@@ -1,8 +1,8 @@
 {
-  "projectName": "Breast Radiology Reporting - 1'st for comment ballot",
+  "projectName": "Breast Radiology Reporting - 1st for comment ballot",
   "projectShorthand": "BreastRad",
   "projectURL": "http://hl7.org/fhir/us/breast-radiology",
-  "fhirURL": "http://hl7.org/fhir/us/breast-radiology/fhir",
+  "fhirURL": "http://hl7.org/fhir/us/breast-radiology",
   "fhirTarget": "FHIR_STU_3",
   "implementationGuide": {
     "indexContent": "Pages",
@@ -17,8 +17,7 @@
     },
     "packageList": "ig-breastRad-plist.json",
     "includeLogicalModels": true,
-    "includeModelDoc": true,
-    "historyLink": "http://hl7.org/fhir/us/breast-radiology/fhir/history.html"
+    "includeModelDoc": true
   },
   "filterStrategy": {
     "strategy": "namespace",
