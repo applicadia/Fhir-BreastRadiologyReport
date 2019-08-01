@@ -9,12 +9,16 @@ CodeSystem: LISTORDER = http://terminology.hl7.org/CodeSystem/list-order
 // BreastRadiologyReport Definition
 // The contains the breast study sections and assocaited details. It is referenced by the BreastRadiologyDocument.
 // This is derived from Composition.
-//
+// Mods:
+// Fixed type to LOING#..
+// Fixed Title to "Breast Radiology Document"
 Entry: BreastRadiologyDocument
 Parent: Composition
 Description: "Breast Radiology Document. This Composition contains the details of a specific Breast Radiology Report."
 Property: SummaryBiRadCode 1..1									// Worst BiRad code in document
 Property: BreastExamTechnique 1..*								// Breast exam technique
+    Type=LOINC#10193-1 	                            			// Physical findings of Breasts Narrative. Is this correct code ??
+	Title ="Breast Radiology Document"							// fix title to this string.
 	Section
 	includes PatientHistory 0..1								// Composition.Section Patient History Splice
 	includes Findings 0..1										// Composition.Section Findings  Splice
