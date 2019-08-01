@@ -1,0 +1,8 @@
+Grammar: DataElement 6.0
+Namespace: breastrad
+Uses: obf, obf.datatype
+
+Group: BreastCodedObservationComponent
+Parent: CodedObservationComponent
+    Code from BreastAbnormalityCodesVS
+    DataValue only concept

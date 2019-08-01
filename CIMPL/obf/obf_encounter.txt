@@ -44,7 +44,7 @@ Property:          PartOf 0..1
                    // US Core v3 requires at least 1 Encounter type
                    Type 1..*
                    //Type from http://hl7.org/fhir/ValueSet/v3-ActEncounterCode (extensible)
-                  Type from http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type (extensible)
+                   Type from http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type (extensible)
                    BasedOn substitute ReferralBasedOn
                    //PriorityCode from http://hl7.org/fhir/ValueSet/v3-ActPriority (example)
                    PriorityCode from http://terminology.hl7.org/ValueSet/v3-ActPriority (example)

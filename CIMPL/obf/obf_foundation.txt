@@ -176,7 +176,8 @@ Property:          EventContext 0..1
                    Status 1..1
                    StatementDateTime 1..1
                    Status from http://hl7.org/fhir/ValueSet/document-reference-status (required)
-                   DocumentStatus from http://hl7.org/fhir/ValueSet/composition-status (required)                                     Type from http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type (required)
+                   DocumentStatus from http://hl7.org/fhir/ValueSet/composition-status (required)
+                   Type from http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type (required)
                    //Type from http://hl7.org/fhir/ValueSet/c80-doc-typecodes (preferred)
                    //Category from http://hl7.org/fhir/ValueSet/c80-doc-classcodes (required)
                    // US Core v3 restriction
@@ -210,8 +211,7 @@ Description:       "Elements that belong to all information items."
 Property:          VersionId 0..1
 Property:          LastUpdated 0..1
 Property:          Profile 0..*
-                   // added in R4, extensions in STU 3
-// Commented out to avoid build error 
+                   // added in R4
 Property:          SourceSystem 0..1
 Property:          SecurityLabel 0..*
 Property:          Tag 0..*
