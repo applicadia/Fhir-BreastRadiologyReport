@@ -3,7 +3,7 @@ Namespace: breastrad
 Description: "Breast Radiology Report"
 Uses: obf, obf.datatype
 CodeSystem: LOINC = http://loinc.org
-CodeSystem: DIAGSVCSECTS = "http://terminology.hl7.org/CodeSystem/v2-0074"
+CodeSystem: DIAGSVCSECTS = http://terminology.hl7.org/CodeSystem/v2-0074
 
 //
 // BreastRadiologyReport
