@@ -6,5 +6,5 @@ Description: "Breast Depth
 "
     #Anterior "Anterior"
     #Middle "Middle"
-    #Posterior "Posterior"
-    #SubAreolar "SubAreolar"
+    #Posterior "The rear third of the breast."
+    #SubAreolar "Subareolar abscess is an abscess, or growth, on the areolar gland. The areolar gland is located in the breast under or below the areola (colored area around the nipple)."

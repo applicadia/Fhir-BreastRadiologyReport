@@ -14,7 +14,7 @@
   "status": "draft",
   "date": "2001-01-01T01:01:01+00:00",
   "publisher": "HL7 International - Clinical Interoperability Council",
-  "description": "Visually estimated content of fibroglandular-density tissue within the breast",
+  "description": "Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast.\nDCIS is considered the earliest form of breast cancer. DCIS is noninvasive, meaning it hasn't spread out of the milk duct and has a low risk of becoming invasive.",
   "compose": {
     "include": [
       {

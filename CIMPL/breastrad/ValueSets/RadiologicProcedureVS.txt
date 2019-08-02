@@ -1,0 +1,9 @@
+Grammar: ValueSet 5.1
+Namespace: breastrad
+
+ValueSet: RadiologicProcedureVS
+Description: "Radiologic Procedure
+"
+    #BreastMRIWithContrast "BreastMRIWithContrast"
+    #BreastUltrasound "BreastUltrasound"
+    #ScreeningMammography "ScreeningMammography"

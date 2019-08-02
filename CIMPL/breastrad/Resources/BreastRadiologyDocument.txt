@@ -18,7 +18,6 @@ Description: "Breast Radiology Document. This Composition contains the details o
 Property: SummaryBiRadCode 1..1									// Worst BiRad code in document
 Property: BreastExamTechnique 1..*								// Breast exam technique
     Type=LOINC#10193-1 	                            			// Physical findings of Breasts Narrative. Is this correct code ??
-	Title ="Breast Radiology Document"							// fix title to this string.
 	Section
 	includes PatientHistory 0..1								// Composition.Section Patient History Splice
 	includes Findings 0..1										// Composition.Section Findings  Splice
@@ -45,6 +44,7 @@ Description: "Findings section"
 Parent: Section
 	Title = "Findings"											// Set section name to fixed value
 	Code = LOINC#32422-8										// is this correct code for section
+	Section 0..*
 	Section
 	includes FindingsLeftBreast 0..1							// Composition.Section Findings left breast Splice
 	includes FindingsRightBreast 0..1							// Composition.Section Findings right  breast Splice
@@ -112,7 +112,7 @@ Description: "Recommendations Section"
 Group: PatientRisk
 Parent: Section
 Description: "Patient Risk Section"
-	Title[string] = "Patient Rick"								// Set section name to fixed value
+	Title[string] = "Patient Risk"								// Set section name to fixed value
 	Code = LOINC#76546-1										// is this correct code for section
 	Resource 0..*
 	Resource substitute Observation								// Only Observations allowed in this section
@@ -126,7 +126,7 @@ Group: PriorReports
 Parent: Section
 Description: "Prior Report Section"
 	Title[string] = "Prior Reports"								// Set section name to fixed value
-	Code = LOINC#76546-1										// is this correct code for section
+	Code = LOINC#11329-0										// is this correct code for section
 	Resource 0..*
 	Resource substitute BreastRadiologyReport					// Only Breast Radiology reports allowed in this section
 	Section 0..0												// Child sections not allowed in this section
@@ -151,4 +151,4 @@ Value: concept from BreastDensityVS
 // Technique used for observation.
 Element: BreastExamTechnique
 Description: "Technique used during breast examination."
-Value: concept from DiagnosticTechniqueVS
+Value: concept from RadiologicProcedureVS

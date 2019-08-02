@@ -21,6 +21,7 @@ Parent: Observation
     includes BiRadCode 0..1
     includes CalcificationType 0..1
     includes Change 0..1
+    includes ConsistentWith 0..1
     includes CystTypes 0..1
     includes ForeignBody 0..1
     includes Hilum 0..1
@@ -36,10 +37,12 @@ Parent: Observation
 
 
 
+
 //ConceptComponent-Entry
 Group: AbnormalityDensity
 Parent: BreastCodedObservationComponent
-Description: "Visually estimated content of fibroglandular-density tissue within the breast.
+Description: "Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast.
+DCIS is considered the earliest form of breast cancer. DCIS is noninvasive, meaning it hasn't spread out of the milk duct and has a low risk of becoming invasive..
 <br>This item will be a slice of Observation.Component.
 <br>The slice will be on  Observation.Component.Code.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
@@ -101,6 +104,17 @@ Description: "Change value.
 "
     Code = BREASTABNORMALITYCODESCS#Change
     DataValue[concept] from ChangeVS
+
+//ConceptComponent-Entry
+Group: ConsistentWith
+Parent: BreastCodedObservationComponent
+Description: "Consistent With.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code.
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
+    Code = BREASTABNORMALITYCODESCS#ConsistentWith
+    DataValue[concept] from ConsistentWithVS
 
 //ConceptComponent-Entry
 Group: CystTypes
@@ -237,3 +251,4 @@ Description: "Max Width
     DataValue[Quantity].Units from UnitsOfLengthVS
 
 //Ignore-Entry BreastDepth
+//Ignore-Entry RadiologicProcedure

@@ -28,4 +28,3 @@ Property: ResultComposition 1..1                    // Details of report are sto
 Element: ResultComposition
 Description:	"Reference to the document containing detailed information about the breast radiology report, including assocated sections"
 Value: BreastRadiologyDocument
-

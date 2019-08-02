@@ -2,7 +2,8 @@ Grammar: ValueSet 5.1
 Namespace: breastrad
 
 ValueSet: AbnormalityDensityVS
-Description: "Visually estimated content of fibroglandular-density tissue within the breast
+Description: "Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast.
+DCIS is considered the earliest form of breast cancer. DCIS is noninvasive, meaning it hasn't spread out of the milk duct and has a low risk of becoming invasive.
 "
     #CentralLucent "These are rounded calcifications with a lucent center usually representing dermal calcifications. Larger calcifications with lucent centers may be due to oil cysts/fat necrosis and may follow surgery or trauma."
     #EqualDensity "X-ray attenuation of the mass is the same as the expected attenuation of an equal volume of fibroglandular breast tissue."

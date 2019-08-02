@@ -49,7 +49,7 @@
         "id": "BreastAbnormality.abnormalityDensity",
         "path": "BreastAbnormality.abnormalityDensity",
         "short": "Abnormality Density",
-        "definition": "Visually estimated content of fibroglandular-density tissue within the breast",
+        "definition": "Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast.\nDCIS is considered the earliest form of breast cancer. DCIS is noninvasive, meaning it hasn't spread out of the milk duct and has a low risk of becoming invasive.",
         "min": 0,
         "max": "1",
         "type": [
@@ -59,7 +59,7 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "Visually estimated content of fibroglandular-density tissue within the breast",
+          "description": "Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast.\nDCIS is considered the earliest form of breast cancer. DCIS is noninvasive, meaning it hasn't spread out of the milk duct and has a low risk of becoming invasive.",
           "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/AbnormalityDensity"
         },
         "mapping": [
@@ -231,6 +231,31 @@
           "strength": "required",
           "description": "Change value",
           "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/Change"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.consistentWith",
+        "path": "BreastAbnormality.consistentWith",
+        "short": "Consistent With",
+        "definition": "Consistent With",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Consistent With",
+          "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/ConsistentWith"
         },
         "mapping": [
           {
@@ -452,6 +477,31 @@
             "identity": "ModelDef.CIMPLMap",
             "language": "text/json",
             "map": "{\"Target\":\"ConceptComponent\",\"Arguments\":[],\"Commands\":[]}"
+          }
+        ]
+      },
+      {
+        "id": "BreastAbnormality.radiologicProcedure",
+        "path": "BreastAbnormality.radiologicProcedure",
+        "short": "Radiologic Procedure",
+        "definition": "Radiologic Procedure",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Radiologic Procedure",
+          "valueSet": "http://hl7.org/fhir/us/breast-radiology/ValueSet/RadiologicProcedure"
+        },
+        "mapping": [
+          {
+            "identity": "ModelDef.CIMPLMap",
+            "language": "text/json",
+            "map": "{\"Target\":\"Ignore\",\"Arguments\":[],\"Commands\":[]}"
           }
         ]
       },
