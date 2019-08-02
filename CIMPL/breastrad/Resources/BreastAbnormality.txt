@@ -28,7 +28,6 @@ Parent: Observation
     includes Margin 0..1
     includes MassTypes 0..1
     includes NodeTypes 0..1
-    includes Orientation 0..1
     includes Shape 0..1
     includes Vascularity 0..1
     includes Wall 0..1
@@ -179,17 +178,6 @@ Description: "Node Types.
 "
     Code = BREASTABNORMALITYCODESCS#NodeTypes
     DataValue[concept] from NodeTypesVS
-
-//ConceptComponent-Entry
-Group: Orientation
-Parent: BreastCodedObservationComponent
-Description: "Orientation.
-<br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code.
-<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
-"
-    Code = BREASTABNORMALITYCODESCS#Orientation
-    DataValue[concept] from OrientationVS
 
 //ConceptComponent-Entry
 Group: Shape

@@ -1,4 +1,4 @@
-Grammar: ValueSet 6.0
+Grammar: ValueSet 5.1
 Namespace: breastrad
 
 ValueSet: ForeignBodyVS
@@ -8,7 +8,7 @@ Description: "Foreign Body
     #BreastMarker "BreastMarker"
     #Calcification "Calcification"
     #GunshotWound "GunshotWound"
-    #None "None"
+    #None "No foreign body present."
     #Pacemaker "Pacemaker"
     #SurgicalClip "SurgicalClip"
     #Wire "Wire"
