@@ -1,0 +1,10 @@
+Grammar: ValueSet 5.1
+Namespace: breastrad
+
+ValueSet: OrientationVS
+Description: "Orientation
+"
+    #ParallelToSkin "ParallelToSkin"
+    #PerpendicularToSkin "PerpendicularToSkin"
+    #TallerThanWide "TallerThanWide"
+    #WiderThanTall "WiderThanTall"

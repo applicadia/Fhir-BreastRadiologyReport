@@ -1,0 +1,11 @@
+Grammar: ValueSet 5.1
+Namespace: breastrad
+
+ValueSet: ShapeVS
+Description: "Shape
+"
+    #IrregularShape "Neither round nor oval"
+    #LobulatedShape "The presence of greater than three lobulations is an indeterminate feature. Irregular shape is suspicious of malignancy. The margin of the lesion reflects the demarcation of the mass with surrounding tissue. It can be smooth, micro lobulated, irregular or spiculated."
+    #OvalShape "Elliptical or egg-shaped (may include 2 or 3 undulations, i.e., 'gently lobulated' or 'macrolobulated')"
+    #Reniform "No definition found."
+    #Round "Spherical, ball-shaped, circular, or globular."

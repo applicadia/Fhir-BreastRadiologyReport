@@ -82,15 +82,15 @@
           },
           {
             "code": "GenericCalcification",
-            "display": "GenericCalcification"
+            "display": "Breast calcifications are small calcium deposits that develop in a woman's breast tissue. They are very common and are usually benign (noncancerous). In some instances, certain types of breast calcifications may suggest early breast cancer."
           },
           {
             "code": "Fine",
-            "display": "Fine"
+            "display": "Although breast calcifications are usually noncancerous (benign), certain patterns of calcifications — such as tight clusters with irregular shapes and fine appearance — may indicate breast cancer or precancerous changes to breast tissue."
           },
           {
             "code": "Eggshell",
-            "display": "Eggshell"
+            "display": "These are very thin benign calcifications that appear as calcium is deposited on the surface of a sphere."
           },
           {
             "code": "Dystrophic",
