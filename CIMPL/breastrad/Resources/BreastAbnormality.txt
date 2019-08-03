@@ -17,6 +17,7 @@ Parent: Observation
     Components.ObservationComponent
     includes AbnormalityDensity 0..1
     includes AbnormalityType 0..1
+    includes AssociatedFindings 0..1
     includes AsymmetryTypes 0..1
     includes BiRadCode 0..1
     includes CalcificationType 0..1
@@ -60,6 +61,17 @@ Description: "Abnormality Type value.
 "
     Code = BREASTABNORMALITYCODESCS#AbnormalityType
     DataValue[concept] from AbnormalityTypeVS
+
+//ConceptComponent-Entry
+Group: AssociatedFindings
+Parent: BreastCodedObservationComponent
+Description: "Associated Findings.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code.
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
+    Code = BREASTABNORMALITYCODESCS#AssociatedFindings
+    DataValue[concept] from AssociatedFindingsVS
 
 //ConceptComponent-Entry
 Group: AsymmetryTypes

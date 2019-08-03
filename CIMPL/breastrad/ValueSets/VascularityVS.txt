@@ -7,6 +7,8 @@ Description: "Vascularity
     #Adjacent "Adjacent"
     #Increased "Increased"
     #IncreasedInSurroundArea "IncreasedInSurroundArea"
+    #Internal "Internal"
     #NoIncrease "NoIncrease"
     #NotPresent "NotPresent"
     #Present "Present"
+    #Rim "Rim"

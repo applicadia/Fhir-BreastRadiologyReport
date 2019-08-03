@@ -1,0 +1,32 @@
+Grammar: ValueSet 5.1
+Namespace: breastrad
+
+ValueSet: AssociatedFindingsVS
+Description: "Associated Findings
+"
+    #BiopsyClips "BiopsyClips"
+    #SurgicalClip "SurgicalClip"
+    #SkinThickening "SkinThickening"
+    #SkinRetraction "SkinRetraction"
+    #SkinLesion "SkinLesion"
+    #SkinInvolvement "SkinInvolvement"
+    #Seroma "Seroma"
+    #PostSurgicalScar "PostSurgicalScar"
+    #PectoralisMuscleTenting "PectoralisMuscleTenting"
+    #PectoralisMuscleInvolvement "PectoralisMuscleInvolvement"
+    #PectoralisMuscleInvasion "PectoralisMuscleInvasion"
+    #NoChestWallInvasion "NoChestWallInvasion"
+    #NippleRetraction "NippleRetraction"
+    #NippleInvasion "NippleInvasion"
+    #Hematoma "Hematoma"
+    #GoldSeed "GoldSeed"
+    #EdemaAdjacent "EdemaAdjacent"
+    #Edema "Edema"
+    #CooperThickened "CooperThickened"
+    #CooperDistorted "CooperDistorted"
+    #ChestWallInvasion "ChestWallInvasion"
+    #BrachytherapyTube "BrachytherapyTube"
+    #BiopsyClip "BiopsyClip"
+    #AxillaryAdenopathy "AxillaryAdenopathy"
+    #SurgicalClips "SurgicalClips"
+    #TrabecularThickening "TrabecularThickening"

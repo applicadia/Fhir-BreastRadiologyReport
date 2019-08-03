@@ -33,6 +33,10 @@
             "display": "IncreasedInSurroundArea"
           },
           {
+            "code": "Internal",
+            "display": "Internal"
+          },
+          {
             "code": "NoIncrease",
             "display": "NoIncrease"
           },
@@ -43,6 +47,10 @@
           {
             "code": "Present",
             "display": "Present"
+          },
+          {
+            "code": "Rim",
+            "display": "Rim"
           }
         ]
       }

@@ -1,0 +1,131 @@
+{
+  "resourceType": "ValueSet",
+  "id": "AssociatedFindings",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+      "valueUri": "breastrad"
+    }
+  ],
+  "url": "http://hl7.org/fhir/us/breast-radiology/ValueSet/AssociatedFindings",
+  "version": "4.0.0",
+  "name": "AssociatedFindings",
+  "title": "Associated Findings",
+  "status": "draft",
+  "date": "2001-01-01T01:01:01+00:00",
+  "publisher": "HL7 International - Clinical Interoperability Council",
+  "description": "Associated Findings",
+  "compose": {
+    "include": [
+      {
+        "system": "http://test.com",
+        "concept": [
+          {
+            "code": "BiopsyClips",
+            "display": "BiopsyClips"
+          },
+          {
+            "code": "SurgicalClip",
+            "display": "SurgicalClip"
+          },
+          {
+            "code": "SkinThickening",
+            "display": "SkinThickening"
+          },
+          {
+            "code": "SkinRetraction",
+            "display": "SkinRetraction"
+          },
+          {
+            "code": "SkinLesion",
+            "display": "SkinLesion"
+          },
+          {
+            "code": "SkinInvolvement",
+            "display": "SkinInvolvement"
+          },
+          {
+            "code": "Seroma",
+            "display": "Seroma"
+          },
+          {
+            "code": "PostSurgicalScar",
+            "display": "PostSurgicalScar"
+          },
+          {
+            "code": "PectoralisMuscleTenting",
+            "display": "PectoralisMuscleTenting"
+          },
+          {
+            "code": "PectoralisMuscleInvolvement",
+            "display": "PectoralisMuscleInvolvement"
+          },
+          {
+            "code": "PectoralisMuscleInvasion",
+            "display": "PectoralisMuscleInvasion"
+          },
+          {
+            "code": "NoChestWallInvasion",
+            "display": "NoChestWallInvasion"
+          },
+          {
+            "code": "NippleRetraction",
+            "display": "NippleRetraction"
+          },
+          {
+            "code": "NippleInvasion",
+            "display": "NippleInvasion"
+          },
+          {
+            "code": "Hematoma",
+            "display": "Hematoma"
+          },
+          {
+            "code": "GoldSeed",
+            "display": "GoldSeed"
+          },
+          {
+            "code": "EdemaAdjacent",
+            "display": "EdemaAdjacent"
+          },
+          {
+            "code": "Edema",
+            "display": "Edema"
+          },
+          {
+            "code": "CooperThickened",
+            "display": "CooperThickened"
+          },
+          {
+            "code": "CooperDistorted",
+            "display": "CooperDistorted"
+          },
+          {
+            "code": "ChestWallInvasion",
+            "display": "ChestWallInvasion"
+          },
+          {
+            "code": "BrachytherapyTube",
+            "display": "BrachytherapyTube"
+          },
+          {
+            "code": "BiopsyClip",
+            "display": "BiopsyClip"
+          },
+          {
+            "code": "AxillaryAdenopathy",
+            "display": "AxillaryAdenopathy"
+          },
+          {
+            "code": "SurgicalClips",
+            "display": "SurgicalClips"
+          },
+          {
+            "code": "TrabecularThickening",
+            "display": "TrabecularThickening"
+          }
+        ]
+      }
+    ]
+  }
+}
