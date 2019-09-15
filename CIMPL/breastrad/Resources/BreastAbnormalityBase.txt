@@ -2,8 +2,9 @@ Grammar: DataElement 6.0
 Namespace: breastrad
 Uses: obf, obf.datatype
 CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/CodeSystem/breastrad-BreastAbnormalityCodesCS
+CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
 
-Entry: BreastAbnormalityObservation
+Entry: Brr_BreastAbnormalityObservation
 Parent: Observation
 Description: "Breast Abnormality Observation base entry"
     Code from BreastAbnormalityCodesVS
@@ -11,19 +12,20 @@ Description: "Breast Abnormality Observation base entry"
     Components 0..0
     DataValue 1..1
 
-Entry: BreastAbnormalityObservationConcept
-Parent: BreastAbnormalityObservation
+
+Entry: Brr_BreastAbnormalityObservationConcept
+Parent: Brr_BreastAbnormalityObservation
 Description: "Breast Abnormality Observation concept base entry
 "
     DataValue only concept
 
-Entry: BreastAbnormalityObservationQuantity
-Parent: BreastAbnormalityObservation
+Entry: Brr_BreastAbnormalityObservationQuantity
+Parent: Brr_BreastAbnormalityObservation
 Description: "Breast Abnormality Observation integer base entry"
     DataValue only Quantity
 
-Entry: BreastAbnormalityDensity
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_BreastAbnormalityDensity
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast.
 DCIS is considered the earliest form of breast cancer. DCIS is noninvasive, meaning it hasn't spread out of the milk duct and 
 has a low risk of becoming invasive.
@@ -31,20 +33,22 @@ has a low risk of becoming invasive.
 The code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#AbnormalityDensity
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from AbnormalityDensityVS
 
 
-Entry: AbnormalityType
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_AbnormalityType
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Abnormality Type value.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#AbnormalityType
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from AbnormalityTypeVS
 
 
-Entry: AssociatedFindings
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_AssociatedFindings
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Associated Findings.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
@@ -52,17 +56,18 @@ Description: "Associated Findings.
     DataValue[concept] from AssociatedFindingsVS
 
 
-Entry: AsymmetryTypes
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_AsymmetryTypes
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Currently many studies utilize cortical thickening and hilum absence as criteria for definition of the risk for metastasis(11,12-16). ... Metastatic deposits accumulate in the lymph node peripheral area, causing enlargement of the cortex, usually focal (at early stages), or uniform..
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#AsymmetryTypes
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from AsymmetryTypesVS
 
 
-Entry: BiRadCode
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_BiRadCode
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Bi-Rad code value.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
@@ -70,26 +75,28 @@ Description: "Bi-Rad code value.
     DataValue[concept] from BiRadCodeVS
 
 
-Entry: CalcificationType
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_CalcificationType
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Calcification Type.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#CalcificationType
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from CalcificationTypeVS
 
 
-Entry: Change
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_Change
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Change value.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#Change
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from ChangeVS
 
 
-Entry: ConsistentWith
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_ConsistentWith
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Consistent With.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
@@ -97,109 +104,121 @@ Description: "Consistent With.
     DataValue[concept] from ConsistentWithVS
 
 
-Entry: CystTypes
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_CystTypes
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Cyst Types.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#CystTypes
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from CystTypesVS
 
 
-Entry: ForeignBody
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_ForeignBody
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Foreign Body.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#ForeignBody
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from ForeignBodyVS
 
 
-Entry: Hilum
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_Hilum
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Hilum.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#Hilum
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from HilumVS
 
 
-Entry: LymphNodeQualifiers
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_LymphNodeQualifiers
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Lymph Node Qualifiers.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#LymphNodeQualifiers
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from LymphNodeQualifiersVS
 
 
-Entry: Margin
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_Margin
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "When breast cancer is surgically removed (during a surgical biopsy, lumpectomy or mastectomy), a rim of normal tissue surrounding the tumor is also removed. This rim is called a margin. Margins help show whether or not all of the tumor was removed..
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#Margin
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from MarginVS
 
 
-Entry: MassTypes
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_MassTypes
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Mass Types.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#MassTypes
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from MassTypesVS
 
 
-Entry: NodeTypes
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_NodeTypes
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Node Types.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#NodeTypes
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from NodeTypesVS
 
 
-Entry: Shape
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_Shape
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Shape.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#Shape
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from ShapeVS
 
 
-Entry: Vascularity
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_Vascularity
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Vascularity.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#Vascularity
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from VascularityVS
 
 
-Entry: Wall
-Parent: BreastAbnormalityObservationConcept
+Entry: Brr_Wall
+Parent: Brr_BreastAbnormalityObservationConcept
 Description: "Wall.
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#Wall
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[concept] from WallVS
 
 
-Entry: MaxLength
-Parent: BreastAbnormalityObservationQuantity
+Entry: Brr_MaxLength
+Parent: Brr_BreastAbnormalityObservationQuantity
 Description: "Max Length Description
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#MaxLength
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[Quantity].Units from UnitsOfLengthVS
 
 
-Entry: MaxWidth
-Parent: BreastAbnormalityObservationQuantity
+Entry: Brr_MaxWidth
+Parent: Brr_BreastAbnormalityObservationQuantity
 Description: "Max Width
 <br>This slice code will be modified in a future  versions to be a suitable public terminology value.
 "
     Code = BREASTABNORMALITYCODESCS#MaxWidth
+    Category=OBSERVATIONCATEGORY#imaging
     DataValue[Quantity].Units from UnitsOfLengthVS
