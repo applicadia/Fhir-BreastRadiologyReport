@@ -20,6 +20,7 @@
     "includeLogicalModels": false,
     "includeModelDoc": false
   },
+  "contentProfile": "ig-breastRad-cp.txt",
   "filterStrategy": {
     "strategy": "namespace",
     "filter": true,
