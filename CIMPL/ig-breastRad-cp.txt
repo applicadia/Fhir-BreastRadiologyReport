@@ -1,4 +1,5 @@
     Grammar: ContentProfile 1.0
 
     Namespace: obf.datatype NP
+	Namespace: breastrad *
 	
