@@ -39,19 +39,6 @@ Parent: Observation
 
 
 
-//ConceptComponent-Entry
-Group: AbnormalityDensity
-Parent: BreastCodedObservationComponent
-Description: "Ductal carcinoma in situ (DCIS) is the presence of abnormal cells inside a milk duct in the breast.
-DCIS is considered the earliest form of breast cancer. DCIS is noninvasive, meaning it hasn't spread out of the milk duct and has a low risk of becoming invasive..
-<br>This item will be a slice of Observation.Component.
-<br>The slice will be on  Observation.Component.Code.
-<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
-"
-    Code = BREASTABNORMALITYCODESCS#AbnormalityDensity
-    DataValue[concept] from AbnormalityDensityVS
-
-//ConceptComponent-Entry
 Group: AbnormalityType
 Parent: BreastCodedObservationComponent
 Description: "Abnormality Type value.
