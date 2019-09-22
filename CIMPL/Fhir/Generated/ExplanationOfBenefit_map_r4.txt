@@ -1,0 +1,232 @@
+Grammar: Map 5.1
+Namespace: fhir.explanationofbenefit
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ExplanationOfBenefit maps to ExplanationOfBenefit:                                                                                          // ConvertFhirClass.cs:118
+    ExplanationOfBenefit.Identifier maps to ExplanationOfBenefit.identifier
+    ExplanationOfBenefit.Status maps to ExplanationOfBenefit.status
+    ExplanationOfBenefit.Type maps to ExplanationOfBenefit.type
+    ExplanationOfBenefit.SubType maps to ExplanationOfBenefit.subType
+    ExplanationOfBenefit.Use maps to ExplanationOfBenefit.use
+    ExplanationOfBenefit.Patient maps to ExplanationOfBenefit.patient
+    ExplanationOfBenefit.BillablePeriod maps to ExplanationOfBenefit.billablePeriod
+    ExplanationOfBenefit.Created maps to ExplanationOfBenefit.created
+    ExplanationOfBenefit.Enterer maps to ExplanationOfBenefit.enterer
+    ExplanationOfBenefit.Insurer maps to ExplanationOfBenefit.insurer
+    ExplanationOfBenefit.Provider maps to ExplanationOfBenefit.provider
+    ExplanationOfBenefit.Priority maps to ExplanationOfBenefit.priority
+    ExplanationOfBenefit.FundsReserveRequested maps to ExplanationOfBenefit.fundsReserveRequested
+    ExplanationOfBenefit.FundsReserve maps to ExplanationOfBenefit.fundsReserve
+    ExplanationOfBenefit.Related maps to ExplanationOfBenefit.related
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.RelatedGroup maps to ExplanationOfBenefit.related                                                                  // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.RelatedGroup.Claim maps to ExplanationOfBenefit.related.claim
+        ExplanationOfBenefit.RelatedGroup.Relationship maps to ExplanationOfBenefit.related.relationship
+        ExplanationOfBenefit.RelatedGroup.Reference maps to ExplanationOfBenefit.related.reference
+    ExplanationOfBenefit.Prescription maps to ExplanationOfBenefit.prescription
+    ExplanationOfBenefit.OriginalPrescription maps to ExplanationOfBenefit.originalPrescription
+    ExplanationOfBenefit.Payee maps to ExplanationOfBenefit.payee
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.PayeeGroup maps to ExplanationOfBenefit.payee                                                                      // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.PayeeGroup.Type maps to ExplanationOfBenefit.payee.type
+        ExplanationOfBenefit.PayeeGroup.Party maps to ExplanationOfBenefit.payee.party
+    ExplanationOfBenefit.Referral maps to ExplanationOfBenefit.referral
+    ExplanationOfBenefit.Facility maps to ExplanationOfBenefit.facility
+    ExplanationOfBenefit.Claim maps to ExplanationOfBenefit.claim
+    ExplanationOfBenefit.ClaimResponse maps to ExplanationOfBenefit.claimResponse
+    ExplanationOfBenefit.Outcome maps to ExplanationOfBenefit.outcome
+    ExplanationOfBenefit.Disposition maps to ExplanationOfBenefit.disposition
+    ExplanationOfBenefit.PreAuthRef maps to ExplanationOfBenefit.preAuthRef
+    ExplanationOfBenefit.PreAuthRefPeriod maps to ExplanationOfBenefit.preAuthRefPeriod
+    ExplanationOfBenefit.CareTeam maps to ExplanationOfBenefit.careTeam
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.CareTeamGroup maps to ExplanationOfBenefit.careTeam                                                                // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.CareTeamGroup.Sequence maps to ExplanationOfBenefit.careTeam.sequence
+        ExplanationOfBenefit.CareTeamGroup.Provider maps to ExplanationOfBenefit.careTeam.provider
+        ExplanationOfBenefit.CareTeamGroup.Responsible maps to ExplanationOfBenefit.careTeam.responsible
+        ExplanationOfBenefit.CareTeamGroup.Role maps to ExplanationOfBenefit.careTeam.role
+        ExplanationOfBenefit.CareTeamGroup.Qualification maps to ExplanationOfBenefit.careTeam.qualification
+    ExplanationOfBenefit.SupportingInfo maps to ExplanationOfBenefit.supportingInfo
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.SupportingInfoGroup maps to ExplanationOfBenefit.supportingInfo                                                    // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.SupportingInfoGroup.Sequence maps to ExplanationOfBenefit.supportingInfo.sequence
+        ExplanationOfBenefit.SupportingInfoGroup.Category maps to ExplanationOfBenefit.supportingInfo.category
+        ExplanationOfBenefit.SupportingInfoGroup.Code maps to ExplanationOfBenefit.supportingInfo.code
+        ExplanationOfBenefit.SupportingInfoGroup.TimingX maps to ExplanationOfBenefit.supportingInfo.timing[x]
+        ExplanationOfBenefit.SupportingInfoGroup.ValueX maps to ExplanationOfBenefit.supportingInfo.value[x]
+        ExplanationOfBenefit.SupportingInfoGroup.Reason maps to ExplanationOfBenefit.supportingInfo.reason
+    ExplanationOfBenefit.Diagnosis maps to ExplanationOfBenefit.diagnosis
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.DiagnosisGroup maps to ExplanationOfBenefit.diagnosis                                                              // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.DiagnosisGroup.Sequence maps to ExplanationOfBenefit.diagnosis.sequence
+        ExplanationOfBenefit.DiagnosisGroup.DiagnosisX maps to ExplanationOfBenefit.diagnosis.diagnosis[x]
+        ExplanationOfBenefit.DiagnosisGroup.Type maps to ExplanationOfBenefit.diagnosis.type
+        ExplanationOfBenefit.DiagnosisGroup.OnAdmission maps to ExplanationOfBenefit.diagnosis.onAdmission
+        ExplanationOfBenefit.DiagnosisGroup.PackageCode maps to ExplanationOfBenefit.diagnosis.packageCode
+    ExplanationOfBenefit.Procedure maps to ExplanationOfBenefit.procedure
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.ProcedureGroup maps to ExplanationOfBenefit.procedure                                                              // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.ProcedureGroup.Sequence maps to ExplanationOfBenefit.procedure.sequence
+        ExplanationOfBenefit.ProcedureGroup.Type maps to ExplanationOfBenefit.procedure.type
+        ExplanationOfBenefit.ProcedureGroup.Date maps to ExplanationOfBenefit.procedure.date
+        ExplanationOfBenefit.ProcedureGroup.ProcedureX maps to ExplanationOfBenefit.procedure.procedure[x]
+        ExplanationOfBenefit.ProcedureGroup.Udi maps to ExplanationOfBenefit.procedure.udi
+    ExplanationOfBenefit.Precedence maps to ExplanationOfBenefit.precedence
+    ExplanationOfBenefit.Insurance maps to ExplanationOfBenefit.insurance
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.InsuranceGroup maps to ExplanationOfBenefit.insurance                                                              // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.InsuranceGroup.Focal maps to ExplanationOfBenefit.insurance.focal
+        ExplanationOfBenefit.InsuranceGroup.Coverage maps to ExplanationOfBenefit.insurance.coverage
+        ExplanationOfBenefit.InsuranceGroup.PreAuthRef maps to ExplanationOfBenefit.insurance.preAuthRef
+    ExplanationOfBenefit.Accident maps to ExplanationOfBenefit.accident
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.AccidentGroup maps to ExplanationOfBenefit.accident                                                                // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.AccidentGroup.Date maps to ExplanationOfBenefit.accident.date
+        ExplanationOfBenefit.AccidentGroup.Type maps to ExplanationOfBenefit.accident.type
+        ExplanationOfBenefit.AccidentGroup.LocationX maps to ExplanationOfBenefit.accident.location[x]
+    ExplanationOfBenefit.Item maps to ExplanationOfBenefit.item
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.ItemGroup maps to ExplanationOfBenefit.item                                                                        // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.ItemGroup.Sequence maps to ExplanationOfBenefit.item.sequence
+        ExplanationOfBenefit.ItemGroup.CareTeamSequence maps to ExplanationOfBenefit.item.careTeamSequence
+        ExplanationOfBenefit.ItemGroup.DiagnosisSequence maps to ExplanationOfBenefit.item.diagnosisSequence
+        ExplanationOfBenefit.ItemGroup.ProcedureSequence maps to ExplanationOfBenefit.item.procedureSequence
+        ExplanationOfBenefit.ItemGroup.InformationSequence maps to ExplanationOfBenefit.item.informationSequence
+        ExplanationOfBenefit.ItemGroup.Revenue maps to ExplanationOfBenefit.item.revenue
+        ExplanationOfBenefit.ItemGroup.Category maps to ExplanationOfBenefit.item.category
+        ExplanationOfBenefit.ItemGroup.ProductOrService maps to ExplanationOfBenefit.item.productOrService
+        ExplanationOfBenefit.ItemGroup.Modifier maps to ExplanationOfBenefit.item.modifier
+        ExplanationOfBenefit.ItemGroup.ProgramCode maps to ExplanationOfBenefit.item.programCode
+        ExplanationOfBenefit.ItemGroup.ServicedX maps to ExplanationOfBenefit.item.serviced[x]
+        ExplanationOfBenefit.ItemGroup.LocationX maps to ExplanationOfBenefit.item.location[x]
+        ExplanationOfBenefit.ItemGroup.Quantity maps to ExplanationOfBenefit.item.quantity
+        ExplanationOfBenefit.ItemGroup.UnitPrice maps to ExplanationOfBenefit.item.unitPrice
+        ExplanationOfBenefit.ItemGroup.Factor maps to ExplanationOfBenefit.item.factor
+        ExplanationOfBenefit.ItemGroup.Net maps to ExplanationOfBenefit.item.net
+        ExplanationOfBenefit.ItemGroup.Udi maps to ExplanationOfBenefit.item.udi
+        ExplanationOfBenefit.ItemGroup.BodySite maps to ExplanationOfBenefit.item.bodySite
+        ExplanationOfBenefit.ItemGroup.SubSite maps to ExplanationOfBenefit.item.subSite
+        ExplanationOfBenefit.ItemGroup.Encounter maps to ExplanationOfBenefit.item.encounter
+        ExplanationOfBenefit.ItemGroup.NoteNumber maps to ExplanationOfBenefit.item.noteNumber
+        ExplanationOfBenefit.ItemGroup.Adjudication maps to ExplanationOfBenefit.item.adjudication
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ExplanationOfBenefit.ItemGroup.AdjudicationGroup maps to ExplanationOfBenefit.item.adjudication                                     // ConvertFhirClass.cs:118
+            ExplanationOfBenefit.ItemGroup.AdjudicationGroup.Category maps to ExplanationOfBenefit.item.adjudication.category
+            ExplanationOfBenefit.ItemGroup.AdjudicationGroup.Reason maps to ExplanationOfBenefit.item.adjudication.reason
+            ExplanationOfBenefit.ItemGroup.AdjudicationGroup.Amount maps to ExplanationOfBenefit.item.adjudication.amount
+            ExplanationOfBenefit.ItemGroup.AdjudicationGroup.ValueZ maps to ExplanationOfBenefit.item.adjudication.value
+        ExplanationOfBenefit.ItemGroup.Detail maps to ExplanationOfBenefit.item.detail
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ExplanationOfBenefit.ItemGroup.DetailGroup maps to ExplanationOfBenefit.item.detail                                                 // ConvertFhirClass.cs:118
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Sequence maps to ExplanationOfBenefit.item.detail.sequence
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Revenue maps to ExplanationOfBenefit.item.detail.revenue
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Category maps to ExplanationOfBenefit.item.detail.category
+            ExplanationOfBenefit.ItemGroup.DetailGroup.ProductOrService maps to ExplanationOfBenefit.item.detail.productOrService
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Modifier maps to ExplanationOfBenefit.item.detail.modifier
+            ExplanationOfBenefit.ItemGroup.DetailGroup.ProgramCode maps to ExplanationOfBenefit.item.detail.programCode
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Quantity maps to ExplanationOfBenefit.item.detail.quantity
+            ExplanationOfBenefit.ItemGroup.DetailGroup.UnitPrice maps to ExplanationOfBenefit.item.detail.unitPrice
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Factor maps to ExplanationOfBenefit.item.detail.factor
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Net maps to ExplanationOfBenefit.item.detail.net
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Udi maps to ExplanationOfBenefit.item.detail.udi
+            ExplanationOfBenefit.ItemGroup.DetailGroup.NoteNumber maps to ExplanationOfBenefit.item.detail.noteNumber
+            ExplanationOfBenefit.ItemGroup.DetailGroup.Adjudication maps to ExplanationOfBenefit.item.detail.adjudication
+            ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetail maps to ExplanationOfBenefit.item.detail.subDetail
+                                                                                                                                            // ConvertFhirClass.cs:117
+            ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup maps to ExplanationOfBenefit.item.detail.subDetail                    // ConvertFhirClass.cs:118
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Sequence maps to ExplanationOfBenefit.item.detail.subDetail.sequence
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Revenue maps to ExplanationOfBenefit.item.detail.subDetail.revenue
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Category maps to ExplanationOfBenefit.item.detail.subDetail.category
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.ProductOrService maps to ExplanationOfBenefit.item.detail.subDetail.productOrService
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Modifier maps to ExplanationOfBenefit.item.detail.subDetail.modifier
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.ProgramCode maps to ExplanationOfBenefit.item.detail.subDetail.programCode
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Quantity maps to ExplanationOfBenefit.item.detail.subDetail.quantity
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.UnitPrice maps to ExplanationOfBenefit.item.detail.subDetail.unitPrice
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Factor maps to ExplanationOfBenefit.item.detail.subDetail.factor
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Net maps to ExplanationOfBenefit.item.detail.subDetail.net
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Udi maps to ExplanationOfBenefit.item.detail.subDetail.udi
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.NoteNumber maps to ExplanationOfBenefit.item.detail.subDetail.noteNumber
+                ExplanationOfBenefit.ItemGroup.DetailGroup.SubDetailGroup.Adjudication maps to ExplanationOfBenefit.item.detail.subDetail.adjudication
+    ExplanationOfBenefit.AddItem maps to ExplanationOfBenefit.addItem
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.AddItemGroup maps to ExplanationOfBenefit.addItem                                                                  // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.AddItemGroup.ItemSequence maps to ExplanationOfBenefit.addItem.itemSequence
+        ExplanationOfBenefit.AddItemGroup.DetailSequence maps to ExplanationOfBenefit.addItem.detailSequence
+        ExplanationOfBenefit.AddItemGroup.SubDetailSequence maps to ExplanationOfBenefit.addItem.subDetailSequence
+        ExplanationOfBenefit.AddItemGroup.Provider maps to ExplanationOfBenefit.addItem.provider
+        ExplanationOfBenefit.AddItemGroup.ProductOrService maps to ExplanationOfBenefit.addItem.productOrService
+        ExplanationOfBenefit.AddItemGroup.Modifier maps to ExplanationOfBenefit.addItem.modifier
+        ExplanationOfBenefit.AddItemGroup.ProgramCode maps to ExplanationOfBenefit.addItem.programCode
+        ExplanationOfBenefit.AddItemGroup.ServicedX maps to ExplanationOfBenefit.addItem.serviced[x]
+        ExplanationOfBenefit.AddItemGroup.LocationX maps to ExplanationOfBenefit.addItem.location[x]
+        ExplanationOfBenefit.AddItemGroup.Quantity maps to ExplanationOfBenefit.addItem.quantity
+        ExplanationOfBenefit.AddItemGroup.UnitPrice maps to ExplanationOfBenefit.addItem.unitPrice
+        ExplanationOfBenefit.AddItemGroup.Factor maps to ExplanationOfBenefit.addItem.factor
+        ExplanationOfBenefit.AddItemGroup.Net maps to ExplanationOfBenefit.addItem.net
+        ExplanationOfBenefit.AddItemGroup.BodySite maps to ExplanationOfBenefit.addItem.bodySite
+        ExplanationOfBenefit.AddItemGroup.SubSite maps to ExplanationOfBenefit.addItem.subSite
+        ExplanationOfBenefit.AddItemGroup.NoteNumber maps to ExplanationOfBenefit.addItem.noteNumber
+        ExplanationOfBenefit.AddItemGroup.Adjudication maps to ExplanationOfBenefit.addItem.adjudication
+        ExplanationOfBenefit.AddItemGroup.Detail maps to ExplanationOfBenefit.addItem.detail
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ExplanationOfBenefit.AddItemGroup.DetailGroup maps to ExplanationOfBenefit.addItem.detail                                           // ConvertFhirClass.cs:118
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.ProductOrService maps to ExplanationOfBenefit.addItem.detail.productOrService
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.Modifier maps to ExplanationOfBenefit.addItem.detail.modifier
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.Quantity maps to ExplanationOfBenefit.addItem.detail.quantity
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.UnitPrice maps to ExplanationOfBenefit.addItem.detail.unitPrice
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.Factor maps to ExplanationOfBenefit.addItem.detail.factor
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.Net maps to ExplanationOfBenefit.addItem.detail.net
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.NoteNumber maps to ExplanationOfBenefit.addItem.detail.noteNumber
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.Adjudication maps to ExplanationOfBenefit.addItem.detail.adjudication
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetail maps to ExplanationOfBenefit.addItem.detail.subDetail
+                                                                                                                                            // ConvertFhirClass.cs:117
+            ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup maps to ExplanationOfBenefit.addItem.detail.subDetail              // ConvertFhirClass.cs:118
+                ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup.ProductOrService maps to ExplanationOfBenefit.addItem.detail.subDetail.productOrService
+                ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup.Modifier maps to ExplanationOfBenefit.addItem.detail.subDetail.modifier
+                ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup.Quantity maps to ExplanationOfBenefit.addItem.detail.subDetail.quantity
+                ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup.UnitPrice maps to ExplanationOfBenefit.addItem.detail.subDetail.unitPrice
+                ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup.Factor maps to ExplanationOfBenefit.addItem.detail.subDetail.factor
+                ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup.Net maps to ExplanationOfBenefit.addItem.detail.subDetail.net
+                ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup.NoteNumber maps to ExplanationOfBenefit.addItem.detail.subDetail.noteNumber
+                ExplanationOfBenefit.AddItemGroup.DetailGroup.SubDetailGroup.Adjudication maps to ExplanationOfBenefit.addItem.detail.subDetail.adjudication
+    ExplanationOfBenefit.Adjudication maps to ExplanationOfBenefit.adjudication
+    ExplanationOfBenefit.Total maps to ExplanationOfBenefit.total
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.TotalGroup maps to ExplanationOfBenefit.total                                                                      // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.TotalGroup.Category maps to ExplanationOfBenefit.total.category
+        ExplanationOfBenefit.TotalGroup.Amount maps to ExplanationOfBenefit.total.amount
+    ExplanationOfBenefit.Payment maps to ExplanationOfBenefit.payment
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.PaymentGroup maps to ExplanationOfBenefit.payment                                                                  // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.PaymentGroup.Type maps to ExplanationOfBenefit.payment.type
+        ExplanationOfBenefit.PaymentGroup.Adjustment maps to ExplanationOfBenefit.payment.adjustment
+        ExplanationOfBenefit.PaymentGroup.AdjustmentReason maps to ExplanationOfBenefit.payment.adjustmentReason
+        ExplanationOfBenefit.PaymentGroup.Date maps to ExplanationOfBenefit.payment.date
+        ExplanationOfBenefit.PaymentGroup.Amount maps to ExplanationOfBenefit.payment.amount
+        ExplanationOfBenefit.PaymentGroup.Identifier maps to ExplanationOfBenefit.payment.identifier
+    ExplanationOfBenefit.FormCode maps to ExplanationOfBenefit.formCode
+    ExplanationOfBenefit.Form maps to ExplanationOfBenefit.form
+    ExplanationOfBenefit.ProcessNote maps to ExplanationOfBenefit.processNote
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.ProcessNoteGroup maps to ExplanationOfBenefit.processNote                                                          // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.ProcessNoteGroup.Number maps to ExplanationOfBenefit.processNote.number
+        ExplanationOfBenefit.ProcessNoteGroup.Type maps to ExplanationOfBenefit.processNote.type
+        ExplanationOfBenefit.ProcessNoteGroup.Text maps to ExplanationOfBenefit.processNote.text
+        ExplanationOfBenefit.ProcessNoteGroup.Language maps to ExplanationOfBenefit.processNote.language
+    ExplanationOfBenefit.BenefitPeriod maps to ExplanationOfBenefit.benefitPeriod
+    ExplanationOfBenefit.BenefitBalance maps to ExplanationOfBenefit.benefitBalance
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExplanationOfBenefit.BenefitBalanceGroup maps to ExplanationOfBenefit.benefitBalance                                                    // ConvertFhirClass.cs:118
+        ExplanationOfBenefit.BenefitBalanceGroup.Category maps to ExplanationOfBenefit.benefitBalance.category
+        ExplanationOfBenefit.BenefitBalanceGroup.Excluded maps to ExplanationOfBenefit.benefitBalance.excluded
+        ExplanationOfBenefit.BenefitBalanceGroup.Name maps to ExplanationOfBenefit.benefitBalance.name
+        ExplanationOfBenefit.BenefitBalanceGroup.Description maps to ExplanationOfBenefit.benefitBalance.description
+        ExplanationOfBenefit.BenefitBalanceGroup.Network maps to ExplanationOfBenefit.benefitBalance.network
+        ExplanationOfBenefit.BenefitBalanceGroup.Unit maps to ExplanationOfBenefit.benefitBalance.unit
+        ExplanationOfBenefit.BenefitBalanceGroup.Term maps to ExplanationOfBenefit.benefitBalance.term
+        ExplanationOfBenefit.BenefitBalanceGroup.Financial maps to ExplanationOfBenefit.benefitBalance.financial
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ExplanationOfBenefit.BenefitBalanceGroup.FinancialGroup maps to ExplanationOfBenefit.benefitBalance.financial                       // ConvertFhirClass.cs:118
+            ExplanationOfBenefit.BenefitBalanceGroup.FinancialGroup.Type maps to ExplanationOfBenefit.benefitBalance.financial.type
+            ExplanationOfBenefit.BenefitBalanceGroup.FinancialGroup.AllowedX maps to ExplanationOfBenefit.benefitBalance.financial.allowed[x]
+            ExplanationOfBenefit.BenefitBalanceGroup.FinancialGroup.UsedX maps to ExplanationOfBenefit.benefitBalance.financial.used[x]

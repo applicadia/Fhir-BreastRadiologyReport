@@ -1,0 +1,14 @@
+Grammar: Map 5.1
+Namespace: fhir.operationoutcome
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+OperationOutcome maps to OperationOutcome:                                                                                                  // ConvertFhirClass.cs:118
+    OperationOutcome.Issue maps to OperationOutcome.issue
+                                                                                                                                            // ConvertFhirClass.cs:117
+    OperationOutcome.IssueGroup maps to OperationOutcome.issue                                                                              // ConvertFhirClass.cs:118
+        OperationOutcome.IssueGroup.Severity maps to OperationOutcome.issue.severity
+        OperationOutcome.IssueGroup.Code maps to OperationOutcome.issue.code
+        OperationOutcome.IssueGroup.Details maps to OperationOutcome.issue.details
+        OperationOutcome.IssueGroup.Diagnostics maps to OperationOutcome.issue.diagnostics
+        OperationOutcome.IssueGroup.Location maps to OperationOutcome.issue.location
+        OperationOutcome.IssueGroup.Expression maps to OperationOutcome.issue.expression

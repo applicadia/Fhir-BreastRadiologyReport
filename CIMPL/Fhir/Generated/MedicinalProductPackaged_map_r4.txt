@@ -1,0 +1,32 @@
+Grammar: Map 5.1
+Namespace: fhir.medicinalproductpackaged
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MedicinalProductPackaged maps to MedicinalProductPackaged:                                                                                  // ConvertFhirClass.cs:118
+    MedicinalProductPackaged.Identifier maps to MedicinalProductPackaged.identifier
+    MedicinalProductPackaged.Subject maps to MedicinalProductPackaged.subject
+    MedicinalProductPackaged.Description maps to MedicinalProductPackaged.description
+    MedicinalProductPackaged.LegalStatusOfSupply maps to MedicinalProductPackaged.legalStatusOfSupply
+    MedicinalProductPackaged.MarketingStatus maps to MedicinalProductPackaged.marketingStatus
+    MedicinalProductPackaged.MarketingAuthorization maps to MedicinalProductPackaged.marketingAuthorization
+    MedicinalProductPackaged.Manufacturer maps to MedicinalProductPackaged.manufacturer
+    MedicinalProductPackaged.BatchIdentifier maps to MedicinalProductPackaged.batchIdentifier
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MedicinalProductPackaged.BatchIdentifierGroup maps to MedicinalProductPackaged.batchIdentifier                                          // ConvertFhirClass.cs:118
+        MedicinalProductPackaged.BatchIdentifierGroup.OuterPackaging maps to MedicinalProductPackaged.batchIdentifier.outerPackaging
+        MedicinalProductPackaged.BatchIdentifierGroup.ImmediatePackaging maps to MedicinalProductPackaged.batchIdentifier.immediatePackaging
+    MedicinalProductPackaged.PackageItem maps to MedicinalProductPackaged.packageItem
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MedicinalProductPackaged.PackageItemGroup maps to MedicinalProductPackaged.packageItem                                                  // ConvertFhirClass.cs:118
+        MedicinalProductPackaged.PackageItemGroup.Identifier maps to MedicinalProductPackaged.packageItem.identifier
+        MedicinalProductPackaged.PackageItemGroup.Type maps to MedicinalProductPackaged.packageItem.type
+        MedicinalProductPackaged.PackageItemGroup.Quantity maps to MedicinalProductPackaged.packageItem.quantity
+        MedicinalProductPackaged.PackageItemGroup.Material maps to MedicinalProductPackaged.packageItem.material
+        MedicinalProductPackaged.PackageItemGroup.AlternateMaterial maps to MedicinalProductPackaged.packageItem.alternateMaterial
+        MedicinalProductPackaged.PackageItemGroup.Device maps to MedicinalProductPackaged.packageItem.device
+        MedicinalProductPackaged.PackageItemGroup.ManufacturedItem maps to MedicinalProductPackaged.packageItem.manufacturedItem
+        MedicinalProductPackaged.PackageItemGroup.PackageItem maps to MedicinalProductPackaged.packageItem.packageItem
+        MedicinalProductPackaged.PackageItemGroup.PhysicalCharacteristics maps to MedicinalProductPackaged.packageItem.physicalCharacteristics
+        MedicinalProductPackaged.PackageItemGroup.OtherCharacteristics maps to MedicinalProductPackaged.packageItem.otherCharacteristics
+        MedicinalProductPackaged.PackageItemGroup.ShelfLifeStorage maps to MedicinalProductPackaged.packageItem.shelfLifeStorage
+        MedicinalProductPackaged.PackageItemGroup.Manufacturer maps to MedicinalProductPackaged.packageItem.manufacturer

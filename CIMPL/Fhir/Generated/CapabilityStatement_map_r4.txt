@@ -1,0 +1,113 @@
+Grammar: Map 5.1
+Namespace: fhir.capabilitystatement
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+CapabilityStatement maps to CapabilityStatement:                                                                                            // ConvertFhirClass.cs:118
+    CapabilityStatement.Url maps to CapabilityStatement.url
+    CapabilityStatement.Version maps to CapabilityStatement.version
+    CapabilityStatement.Name maps to CapabilityStatement.name
+    CapabilityStatement.Title maps to CapabilityStatement.title
+    CapabilityStatement.Status maps to CapabilityStatement.status
+    CapabilityStatement.Experimental maps to CapabilityStatement.experimental
+    CapabilityStatement.Date maps to CapabilityStatement.date
+    CapabilityStatement.Publisher maps to CapabilityStatement.publisher
+    CapabilityStatement.Contact maps to CapabilityStatement.contact
+    CapabilityStatement.Description maps to CapabilityStatement.description
+    CapabilityStatement.UseContext maps to CapabilityStatement.useContext
+    CapabilityStatement.Jurisdiction maps to CapabilityStatement.jurisdiction
+    CapabilityStatement.Purpose maps to CapabilityStatement.purpose
+    CapabilityStatement.Copyright maps to CapabilityStatement.copyright
+    CapabilityStatement.Kind maps to CapabilityStatement.kind
+    CapabilityStatement.Instantiates maps to CapabilityStatement.instantiates
+    CapabilityStatement.Imports maps to CapabilityStatement.imports
+    CapabilityStatement.Software maps to CapabilityStatement.software
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CapabilityStatement.SoftwareGroup maps to CapabilityStatement.software                                                                  // ConvertFhirClass.cs:118
+        CapabilityStatement.SoftwareGroup.Name maps to CapabilityStatement.software.name
+        CapabilityStatement.SoftwareGroup.Version maps to CapabilityStatement.software.version
+        CapabilityStatement.SoftwareGroup.ReleaseDate maps to CapabilityStatement.software.releaseDate
+    CapabilityStatement.Implementation maps to CapabilityStatement.implementation
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CapabilityStatement.ImplementationGroup maps to CapabilityStatement.implementation                                                      // ConvertFhirClass.cs:118
+        CapabilityStatement.ImplementationGroup.Description maps to CapabilityStatement.implementation.description
+        CapabilityStatement.ImplementationGroup.Url maps to CapabilityStatement.implementation.url
+        CapabilityStatement.ImplementationGroup.Custodian maps to CapabilityStatement.implementation.custodian
+    CapabilityStatement.FhirVersion maps to CapabilityStatement.fhirVersion
+    CapabilityStatement.Format maps to CapabilityStatement.format
+    CapabilityStatement.PatchFormat maps to CapabilityStatement.patchFormat
+    CapabilityStatement.ImplementationGuide maps to CapabilityStatement.implementationGuide
+    CapabilityStatement.Rest maps to CapabilityStatement.rest
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CapabilityStatement.RestGroup maps to CapabilityStatement.rest                                                                          // ConvertFhirClass.cs:118
+        CapabilityStatement.RestGroup.Mode maps to CapabilityStatement.rest.mode
+        CapabilityStatement.RestGroup.Documentation maps to CapabilityStatement.rest.documentation
+        CapabilityStatement.RestGroup.Security maps to CapabilityStatement.rest.security
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CapabilityStatement.RestGroup.SecurityGroup maps to CapabilityStatement.rest.security                                               // ConvertFhirClass.cs:118
+            CapabilityStatement.RestGroup.SecurityGroup.Cors maps to CapabilityStatement.rest.security.cors
+            CapabilityStatement.RestGroup.SecurityGroup.Service maps to CapabilityStatement.rest.security.service
+            CapabilityStatement.RestGroup.SecurityGroup.Description maps to CapabilityStatement.rest.security.description
+        CapabilityStatement.RestGroup.Resource maps to CapabilityStatement.rest.resource
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CapabilityStatement.RestGroup.ResourceGroup maps to CapabilityStatement.rest.resource                                               // ConvertFhirClass.cs:118
+            CapabilityStatement.RestGroup.ResourceGroup.Type maps to CapabilityStatement.rest.resource.type
+            CapabilityStatement.RestGroup.ResourceGroup.Profile maps to CapabilityStatement.rest.resource.profile
+            CapabilityStatement.RestGroup.ResourceGroup.SupportedProfile maps to CapabilityStatement.rest.resource.supportedProfile
+            CapabilityStatement.RestGroup.ResourceGroup.Documentation maps to CapabilityStatement.rest.resource.documentation
+            CapabilityStatement.RestGroup.ResourceGroup.Interaction maps to CapabilityStatement.rest.resource.interaction
+                                                                                                                                            // ConvertFhirClass.cs:117
+            CapabilityStatement.RestGroup.ResourceGroup.InteractionGroup maps to CapabilityStatement.rest.resource.interaction              // ConvertFhirClass.cs:118
+                CapabilityStatement.RestGroup.ResourceGroup.InteractionGroup.Code maps to CapabilityStatement.rest.resource.interaction.code
+                CapabilityStatement.RestGroup.ResourceGroup.InteractionGroup.Documentation maps to CapabilityStatement.rest.resource.interaction.documentation
+            CapabilityStatement.RestGroup.ResourceGroup.Versioning maps to CapabilityStatement.rest.resource.versioning
+            CapabilityStatement.RestGroup.ResourceGroup.ReadHistory maps to CapabilityStatement.rest.resource.readHistory
+            CapabilityStatement.RestGroup.ResourceGroup.UpdateCreate maps to CapabilityStatement.rest.resource.updateCreate
+            CapabilityStatement.RestGroup.ResourceGroup.ConditionalCreate maps to CapabilityStatement.rest.resource.conditionalCreate
+            CapabilityStatement.RestGroup.ResourceGroup.ConditionalRead maps to CapabilityStatement.rest.resource.conditionalRead
+            CapabilityStatement.RestGroup.ResourceGroup.ConditionalUpdate maps to CapabilityStatement.rest.resource.conditionalUpdate
+            CapabilityStatement.RestGroup.ResourceGroup.ConditionalDelete maps to CapabilityStatement.rest.resource.conditionalDelete
+            CapabilityStatement.RestGroup.ResourceGroup.ReferencePolicy maps to CapabilityStatement.rest.resource.referencePolicy
+            CapabilityStatement.RestGroup.ResourceGroup.SearchInclude maps to CapabilityStatement.rest.resource.searchInclude
+            CapabilityStatement.RestGroup.ResourceGroup.SearchRevInclude maps to CapabilityStatement.rest.resource.searchRevInclude
+            CapabilityStatement.RestGroup.ResourceGroup.SearchParam maps to CapabilityStatement.rest.resource.searchParam
+                                                                                                                                            // ConvertFhirClass.cs:117
+            CapabilityStatement.RestGroup.ResourceGroup.SearchParamGroup maps to CapabilityStatement.rest.resource.searchParam              // ConvertFhirClass.cs:118
+                CapabilityStatement.RestGroup.ResourceGroup.SearchParamGroup.Name maps to CapabilityStatement.rest.resource.searchParam.name
+                CapabilityStatement.RestGroup.ResourceGroup.SearchParamGroup.Definition maps to CapabilityStatement.rest.resource.searchParam.definition
+                CapabilityStatement.RestGroup.ResourceGroup.SearchParamGroup.Type maps to CapabilityStatement.rest.resource.searchParam.type
+                CapabilityStatement.RestGroup.ResourceGroup.SearchParamGroup.Documentation maps to CapabilityStatement.rest.resource.searchParam.documentation
+            CapabilityStatement.RestGroup.ResourceGroup.Operation maps to CapabilityStatement.rest.resource.operation
+                                                                                                                                            // ConvertFhirClass.cs:117
+            CapabilityStatement.RestGroup.ResourceGroup.OperationGroup maps to CapabilityStatement.rest.resource.operation                  // ConvertFhirClass.cs:118
+                CapabilityStatement.RestGroup.ResourceGroup.OperationGroup.Name maps to CapabilityStatement.rest.resource.operation.name
+                CapabilityStatement.RestGroup.ResourceGroup.OperationGroup.Definition maps to CapabilityStatement.rest.resource.operation.definition
+                CapabilityStatement.RestGroup.ResourceGroup.OperationGroup.Documentation maps to CapabilityStatement.rest.resource.operation.documentation
+        CapabilityStatement.RestGroup.Interaction maps to CapabilityStatement.rest.interaction
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CapabilityStatement.RestGroup.InteractionGroup maps to CapabilityStatement.rest.interaction                                         // ConvertFhirClass.cs:118
+            CapabilityStatement.RestGroup.InteractionGroup.Code maps to CapabilityStatement.rest.interaction.code
+            CapabilityStatement.RestGroup.InteractionGroup.Documentation maps to CapabilityStatement.rest.interaction.documentation
+        CapabilityStatement.RestGroup.SearchParam maps to CapabilityStatement.rest.searchParam
+        CapabilityStatement.RestGroup.Operation maps to CapabilityStatement.rest.operation
+        CapabilityStatement.RestGroup.Compartment maps to CapabilityStatement.rest.compartment
+    CapabilityStatement.Messaging maps to CapabilityStatement.messaging
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CapabilityStatement.MessagingGroup maps to CapabilityStatement.messaging                                                                // ConvertFhirClass.cs:118
+        CapabilityStatement.MessagingGroup.Endpoint maps to CapabilityStatement.messaging.endpoint
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CapabilityStatement.MessagingGroup.EndpointGroup maps to CapabilityStatement.messaging.endpoint                                     // ConvertFhirClass.cs:118
+            CapabilityStatement.MessagingGroup.EndpointGroup.Protocol maps to CapabilityStatement.messaging.endpoint.protocol
+            CapabilityStatement.MessagingGroup.EndpointGroup.Address maps to CapabilityStatement.messaging.endpoint.address
+        CapabilityStatement.MessagingGroup.ReliableCache maps to CapabilityStatement.messaging.reliableCache
+        CapabilityStatement.MessagingGroup.Documentation maps to CapabilityStatement.messaging.documentation
+        CapabilityStatement.MessagingGroup.SupportedMessage maps to CapabilityStatement.messaging.supportedMessage
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CapabilityStatement.MessagingGroup.SupportedMessageGroup maps to CapabilityStatement.messaging.supportedMessage                     // ConvertFhirClass.cs:118
+            CapabilityStatement.MessagingGroup.SupportedMessageGroup.Mode maps to CapabilityStatement.messaging.supportedMessage.mode
+            CapabilityStatement.MessagingGroup.SupportedMessageGroup.Definition maps to CapabilityStatement.messaging.supportedMessage.definition
+    CapabilityStatement.Document maps to CapabilityStatement.document
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CapabilityStatement.DocumentGroup maps to CapabilityStatement.document                                                                  // ConvertFhirClass.cs:118
+        CapabilityStatement.DocumentGroup.Mode maps to CapabilityStatement.document.mode
+        CapabilityStatement.DocumentGroup.Documentation maps to CapabilityStatement.document.documentation
+        CapabilityStatement.DocumentGroup.Profile maps to CapabilityStatement.document.profile

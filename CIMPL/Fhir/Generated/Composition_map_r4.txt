@@ -1,0 +1,46 @@
+Grammar: Map 5.1
+Namespace: fhir.composition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Composition maps to Composition:                                                                                                            // ConvertFhirClass.cs:118
+    Composition.Identifier maps to Composition.identifier
+    Composition.Status maps to Composition.status
+    Composition.Type maps to Composition.type
+    Composition.Category maps to Composition.category
+    Composition.Subject maps to Composition.subject
+    Composition.Encounter maps to Composition.encounter
+    Composition.Date maps to Composition.date
+    Composition.Author maps to Composition.author
+    Composition.Title maps to Composition.title
+    Composition.Confidentiality maps to Composition.confidentiality
+    Composition.Attester maps to Composition.attester
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Composition.AttesterGroup maps to Composition.attester                                                                                  // ConvertFhirClass.cs:118
+        Composition.AttesterGroup.Mode maps to Composition.attester.mode
+        Composition.AttesterGroup.Time maps to Composition.attester.time
+        Composition.AttesterGroup.Party maps to Composition.attester.party
+    Composition.Custodian maps to Composition.custodian
+    Composition.RelatesTo maps to Composition.relatesTo
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Composition.RelatesToGroup maps to Composition.relatesTo                                                                                // ConvertFhirClass.cs:118
+        Composition.RelatesToGroup.Code maps to Composition.relatesTo.code
+        Composition.RelatesToGroup.TargetX maps to Composition.relatesTo.target[x]
+    Composition.Event maps to Composition.event
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Composition.EventGroup maps to Composition.event                                                                                        // ConvertFhirClass.cs:118
+        Composition.EventGroup.Code maps to Composition.event.code
+        Composition.EventGroup.Period maps to Composition.event.period
+        Composition.EventGroup.Detail maps to Composition.event.detail
+    Composition.Section maps to Composition.section
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Composition.SectionGroup maps to Composition.section                                                                                    // ConvertFhirClass.cs:118
+        Composition.SectionGroup.Title maps to Composition.section.title
+        Composition.SectionGroup.Code maps to Composition.section.code
+        Composition.SectionGroup.Author maps to Composition.section.author
+        Composition.SectionGroup.Focus maps to Composition.section.focus
+        Composition.SectionGroup.Text maps to Composition.section.text
+        Composition.SectionGroup.Mode maps to Composition.section.mode
+        Composition.SectionGroup.OrderedBy maps to Composition.section.orderedBy
+        Composition.SectionGroup.Entry maps to Composition.section.entry
+        Composition.SectionGroup.EmptyReason maps to Composition.section.emptyReason
+        Composition.SectionGroup.Section maps to Composition.section.section

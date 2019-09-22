@@ -1,0 +1,31 @@
+Grammar: Map 5.1
+Namespace: fhir.substancenucleicacid
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+SubstanceNucleicAcid maps to SubstanceNucleicAcid:                                                                                          // ConvertFhirClass.cs:118
+    SubstanceNucleicAcid.SequenceType maps to SubstanceNucleicAcid.sequenceType
+    SubstanceNucleicAcid.NumberOfSubunits maps to SubstanceNucleicAcid.numberOfSubunits
+    SubstanceNucleicAcid.AreaOfHybridisation maps to SubstanceNucleicAcid.areaOfHybridisation
+    SubstanceNucleicAcid.OligoNucleotideType maps to SubstanceNucleicAcid.oligoNucleotideType
+    SubstanceNucleicAcid.Subunit maps to SubstanceNucleicAcid.subunit
+                                                                                                                                            // ConvertFhirClass.cs:117
+    SubstanceNucleicAcid.SubunitGroup maps to SubstanceNucleicAcid.subunit                                                                  // ConvertFhirClass.cs:118
+        SubstanceNucleicAcid.SubunitGroup.Subunit maps to SubstanceNucleicAcid.subunit.subunit
+        SubstanceNucleicAcid.SubunitGroup.Sequence maps to SubstanceNucleicAcid.subunit.sequence
+        SubstanceNucleicAcid.SubunitGroup.Length maps to SubstanceNucleicAcid.subunit.length
+        SubstanceNucleicAcid.SubunitGroup.SequenceAttachment maps to SubstanceNucleicAcid.subunit.sequenceAttachment
+        SubstanceNucleicAcid.SubunitGroup.FivePrime maps to SubstanceNucleicAcid.subunit.fivePrime
+        SubstanceNucleicAcid.SubunitGroup.ThreePrime maps to SubstanceNucleicAcid.subunit.threePrime
+        SubstanceNucleicAcid.SubunitGroup.Linkage maps to SubstanceNucleicAcid.subunit.linkage
+                                                                                                                                            // ConvertFhirClass.cs:117
+        SubstanceNucleicAcid.SubunitGroup.LinkageGroup maps to SubstanceNucleicAcid.subunit.linkage                                         // ConvertFhirClass.cs:118
+            SubstanceNucleicAcid.SubunitGroup.LinkageGroup.Connectivity maps to SubstanceNucleicAcid.subunit.linkage.connectivity
+            SubstanceNucleicAcid.SubunitGroup.LinkageGroup.Identifier maps to SubstanceNucleicAcid.subunit.linkage.identifier
+            SubstanceNucleicAcid.SubunitGroup.LinkageGroup.Name maps to SubstanceNucleicAcid.subunit.linkage.name
+            SubstanceNucleicAcid.SubunitGroup.LinkageGroup.ResidueSite maps to SubstanceNucleicAcid.subunit.linkage.residueSite
+        SubstanceNucleicAcid.SubunitGroup.Sugar maps to SubstanceNucleicAcid.subunit.sugar
+                                                                                                                                            // ConvertFhirClass.cs:117
+        SubstanceNucleicAcid.SubunitGroup.SugarGroup maps to SubstanceNucleicAcid.subunit.sugar                                             // ConvertFhirClass.cs:118
+            SubstanceNucleicAcid.SubunitGroup.SugarGroup.Identifier maps to SubstanceNucleicAcid.subunit.sugar.identifier
+            SubstanceNucleicAcid.SubunitGroup.SugarGroup.Name maps to SubstanceNucleicAcid.subunit.sugar.name
+            SubstanceNucleicAcid.SubunitGroup.SugarGroup.ResidueSite maps to SubstanceNucleicAcid.subunit.sugar.residueSite

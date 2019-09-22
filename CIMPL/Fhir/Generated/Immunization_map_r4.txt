@@ -1,0 +1,55 @@
+Grammar: Map 5.1
+Namespace: fhir.immunization
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Immunization maps to Immunization:                                                                                                          // ConvertFhirClass.cs:118
+    Immunization.Identifier maps to Immunization.identifier
+    Immunization.Status maps to Immunization.status
+    Immunization.StatusReason maps to Immunization.statusReason
+    Immunization.VaccineCode maps to Immunization.vaccineCode
+    Immunization.Patient maps to Immunization.patient
+    Immunization.Encounter maps to Immunization.encounter
+    Immunization.OccurrenceX maps to Immunization.occurrence[x]
+    Immunization.Recorded maps to Immunization.recorded
+    Immunization.PrimarySource maps to Immunization.primarySource
+    Immunization.ReportOrigin maps to Immunization.reportOrigin
+    Immunization.Location maps to Immunization.location
+    Immunization.Manufacturer maps to Immunization.manufacturer
+    Immunization.LotNumber maps to Immunization.lotNumber
+    Immunization.ExpirationDate maps to Immunization.expirationDate
+    Immunization.Site maps to Immunization.site
+    Immunization.Route maps to Immunization.route
+    Immunization.DoseQuantity maps to Immunization.doseQuantity
+    Immunization.Performer maps to Immunization.performer
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Immunization.PerformerGroup maps to Immunization.performer                                                                              // ConvertFhirClass.cs:118
+        Immunization.PerformerGroup.Function maps to Immunization.performer.function
+        Immunization.PerformerGroup.Actor maps to Immunization.performer.actor
+    Immunization.Note maps to Immunization.note
+    Immunization.ReasonCode maps to Immunization.reasonCode
+    Immunization.ReasonReference maps to Immunization.reasonReference
+    Immunization.IsSubpotent maps to Immunization.isSubpotent
+    Immunization.SubpotentReason maps to Immunization.subpotentReason
+    Immunization.Education maps to Immunization.education
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Immunization.EducationGroup maps to Immunization.education                                                                              // ConvertFhirClass.cs:118
+        Immunization.EducationGroup.DocumentType maps to Immunization.education.documentType
+        Immunization.EducationGroup.Reference maps to Immunization.education.reference
+        Immunization.EducationGroup.PublicationDate maps to Immunization.education.publicationDate
+        Immunization.EducationGroup.PresentationDate maps to Immunization.education.presentationDate
+    Immunization.ProgramEligibility maps to Immunization.programEligibility
+    Immunization.FundingSource maps to Immunization.fundingSource
+    Immunization.Reaction maps to Immunization.reaction
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Immunization.ReactionGroup maps to Immunization.reaction                                                                                // ConvertFhirClass.cs:118
+        Immunization.ReactionGroup.Date maps to Immunization.reaction.date
+        Immunization.ReactionGroup.Detail maps to Immunization.reaction.detail
+        Immunization.ReactionGroup.Reported maps to Immunization.reaction.reported
+    Immunization.ProtocolApplied maps to Immunization.protocolApplied
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Immunization.ProtocolAppliedGroup maps to Immunization.protocolApplied                                                                  // ConvertFhirClass.cs:118
+        Immunization.ProtocolAppliedGroup.Series maps to Immunization.protocolApplied.series
+        Immunization.ProtocolAppliedGroup.Authority maps to Immunization.protocolApplied.authority
+        Immunization.ProtocolAppliedGroup.TargetDisease maps to Immunization.protocolApplied.targetDisease
+        Immunization.ProtocolAppliedGroup.DoseNumberX maps to Immunization.protocolApplied.doseNumber[x]
+        Immunization.ProtocolAppliedGroup.SeriesDosesX maps to Immunization.protocolApplied.seriesDoses[x]

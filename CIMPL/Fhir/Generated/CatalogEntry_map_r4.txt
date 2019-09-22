@@ -1,0 +1,22 @@
+Grammar: Map 5.1
+Namespace: fhir.catalogentry
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+CatalogEntry maps to CatalogEntry:                                                                                                          // ConvertFhirClass.cs:118
+    CatalogEntry.Identifier maps to CatalogEntry.identifier
+    CatalogEntry.Type maps to CatalogEntry.type
+    CatalogEntry.Orderable maps to CatalogEntry.orderable
+    CatalogEntry.ReferencedItem maps to CatalogEntry.referencedItem
+    CatalogEntry.AdditionalIdentifier maps to CatalogEntry.additionalIdentifier
+    CatalogEntry.Classification maps to CatalogEntry.classification
+    CatalogEntry.Status maps to CatalogEntry.status
+    CatalogEntry.ValidityPeriod maps to CatalogEntry.validityPeriod
+    CatalogEntry.ValidTo maps to CatalogEntry.validTo
+    CatalogEntry.LastUpdated maps to CatalogEntry.lastUpdated
+    CatalogEntry.AdditionalCharacteristic maps to CatalogEntry.additionalCharacteristic
+    CatalogEntry.AdditionalClassification maps to CatalogEntry.additionalClassification
+    CatalogEntry.RelatedEntry maps to CatalogEntry.relatedEntry
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CatalogEntry.RelatedEntryGroup maps to CatalogEntry.relatedEntry                                                                        // ConvertFhirClass.cs:118
+        CatalogEntry.RelatedEntryGroup.Relationtype maps to CatalogEntry.relatedEntry.relationtype
+        CatalogEntry.RelatedEntryGroup.Item maps to CatalogEntry.relatedEntry.item

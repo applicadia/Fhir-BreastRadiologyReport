@@ -1,0 +1,34 @@
+Grammar: Map 5.1
+Namespace: fhir.messageheader
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MessageHeader maps to MessageHeader:                                                                                                        // ConvertFhirClass.cs:118
+    MessageHeader.EventX maps to MessageHeader.event[x]
+    MessageHeader.Destination maps to MessageHeader.destination
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MessageHeader.DestinationGroup maps to MessageHeader.destination                                                                        // ConvertFhirClass.cs:118
+        MessageHeader.DestinationGroup.Name maps to MessageHeader.destination.name
+        MessageHeader.DestinationGroup.Target maps to MessageHeader.destination.target
+        MessageHeader.DestinationGroup.Endpoint maps to MessageHeader.destination.endpoint
+        MessageHeader.DestinationGroup.Receiver maps to MessageHeader.destination.receiver
+    MessageHeader.Sender maps to MessageHeader.sender
+    MessageHeader.Enterer maps to MessageHeader.enterer
+    MessageHeader.Author maps to MessageHeader.author
+    MessageHeader.Source maps to MessageHeader.source
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MessageHeader.SourceGroup maps to MessageHeader.source                                                                                  // ConvertFhirClass.cs:118
+        MessageHeader.SourceGroup.Name maps to MessageHeader.source.name
+        MessageHeader.SourceGroup.Software maps to MessageHeader.source.software
+        MessageHeader.SourceGroup.Version maps to MessageHeader.source.version
+        MessageHeader.SourceGroup.Contact maps to MessageHeader.source.contact
+        MessageHeader.SourceGroup.Endpoint maps to MessageHeader.source.endpoint
+    MessageHeader.Responsible maps to MessageHeader.responsible
+    MessageHeader.Reason maps to MessageHeader.reason
+    MessageHeader.Response maps to MessageHeader.response
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MessageHeader.ResponseGroup maps to MessageHeader.response                                                                              // ConvertFhirClass.cs:118
+        MessageHeader.ResponseGroup.Identifier maps to MessageHeader.response.identifier
+        MessageHeader.ResponseGroup.Code maps to MessageHeader.response.code
+        MessageHeader.ResponseGroup.Details maps to MessageHeader.response.details
+    MessageHeader.Focus maps to MessageHeader.focus
+    MessageHeader.Definition maps to MessageHeader.definition

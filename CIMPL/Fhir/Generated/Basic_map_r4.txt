@@ -1,0 +1,10 @@
+Grammar: Map 5.1
+Namespace: fhir.basic
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Basic maps to Basic:                                                                                                                        // ConvertFhirClass.cs:118
+    Basic.Identifier maps to Basic.identifier
+    Basic.Code maps to Basic.code
+    Basic.Subject maps to Basic.subject
+    Basic.Created maps to Basic.created
+    Basic.Author maps to Basic.author

@@ -1,0 +1,28 @@
+Grammar: Map 5.1
+Namespace: fhir.immunizationrecommendation
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ImmunizationRecommendation maps to ImmunizationRecommendation:                                                                              // ConvertFhirClass.cs:118
+    ImmunizationRecommendation.Identifier maps to ImmunizationRecommendation.identifier
+    ImmunizationRecommendation.Patient maps to ImmunizationRecommendation.patient
+    ImmunizationRecommendation.Date maps to ImmunizationRecommendation.date
+    ImmunizationRecommendation.Authority maps to ImmunizationRecommendation.authority
+    ImmunizationRecommendation.Recommendation maps to ImmunizationRecommendation.recommendation
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ImmunizationRecommendation.RecommendationGroup maps to ImmunizationRecommendation.recommendation                                        // ConvertFhirClass.cs:118
+        ImmunizationRecommendation.RecommendationGroup.VaccineCode maps to ImmunizationRecommendation.recommendation.vaccineCode
+        ImmunizationRecommendation.RecommendationGroup.TargetDisease maps to ImmunizationRecommendation.recommendation.targetDisease
+        ImmunizationRecommendation.RecommendationGroup.ContraindicatedVaccineCode maps to ImmunizationRecommendation.recommendation.contraindicatedVaccineCode
+        ImmunizationRecommendation.RecommendationGroup.ForecastStatus maps to ImmunizationRecommendation.recommendation.forecastStatus
+        ImmunizationRecommendation.RecommendationGroup.ForecastReason maps to ImmunizationRecommendation.recommendation.forecastReason
+        ImmunizationRecommendation.RecommendationGroup.DateCriterion maps to ImmunizationRecommendation.recommendation.dateCriterion
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImmunizationRecommendation.RecommendationGroup.DateCriterionGroup maps to ImmunizationRecommendation.recommendation.dateCriterion   // ConvertFhirClass.cs:118
+            ImmunizationRecommendation.RecommendationGroup.DateCriterionGroup.Code maps to ImmunizationRecommendation.recommendation.dateCriterion.code
+            ImmunizationRecommendation.RecommendationGroup.DateCriterionGroup.ValueZ maps to ImmunizationRecommendation.recommendation.dateCriterion.value
+        ImmunizationRecommendation.RecommendationGroup.Description maps to ImmunizationRecommendation.recommendation.description
+        ImmunizationRecommendation.RecommendationGroup.Series maps to ImmunizationRecommendation.recommendation.series
+        ImmunizationRecommendation.RecommendationGroup.DoseNumberX maps to ImmunizationRecommendation.recommendation.doseNumber[x]
+        ImmunizationRecommendation.RecommendationGroup.SeriesDosesX maps to ImmunizationRecommendation.recommendation.seriesDoses[x]
+        ImmunizationRecommendation.RecommendationGroup.SupportingImmunization maps to ImmunizationRecommendation.recommendation.supportingImmunization
+        ImmunizationRecommendation.RecommendationGroup.SupportingPatientInformation maps to ImmunizationRecommendation.recommendation.supportingPatientInformation

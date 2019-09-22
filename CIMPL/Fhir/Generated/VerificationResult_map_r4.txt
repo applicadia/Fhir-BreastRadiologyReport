@@ -1,0 +1,43 @@
+Grammar: Map 5.1
+Namespace: fhir.verificationresult
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+VerificationResult maps to VerificationResult:                                                                                              // ConvertFhirClass.cs:118
+    VerificationResult.Target maps to VerificationResult.target
+    VerificationResult.TargetLocation maps to VerificationResult.targetLocation
+    VerificationResult.Need maps to VerificationResult.need
+    VerificationResult.Status maps to VerificationResult.status
+    VerificationResult.StatusDate maps to VerificationResult.statusDate
+    VerificationResult.ValidationType maps to VerificationResult.validationType
+    VerificationResult.ValidationProcess maps to VerificationResult.validationProcess
+    VerificationResult.Frequency maps to VerificationResult.frequency
+    VerificationResult.LastPerformed maps to VerificationResult.lastPerformed
+    VerificationResult.NextScheduled maps to VerificationResult.nextScheduled
+    VerificationResult.FailureAction maps to VerificationResult.failureAction
+    VerificationResult.PrimarySource maps to VerificationResult.primarySource
+                                                                                                                                            // ConvertFhirClass.cs:117
+    VerificationResult.PrimarySourceGroup maps to VerificationResult.primarySource                                                          // ConvertFhirClass.cs:118
+        VerificationResult.PrimarySourceGroup.Who maps to VerificationResult.primarySource.who
+        VerificationResult.PrimarySourceGroup.Type maps to VerificationResult.primarySource.type
+        VerificationResult.PrimarySourceGroup.CommunicationMethod maps to VerificationResult.primarySource.communicationMethod
+        VerificationResult.PrimarySourceGroup.ValidationStatus maps to VerificationResult.primarySource.validationStatus
+        VerificationResult.PrimarySourceGroup.ValidationDate maps to VerificationResult.primarySource.validationDate
+        VerificationResult.PrimarySourceGroup.CanPushUpdates maps to VerificationResult.primarySource.canPushUpdates
+        VerificationResult.PrimarySourceGroup.PushTypeAvailable maps to VerificationResult.primarySource.pushTypeAvailable
+    VerificationResult.Attestation maps to VerificationResult.attestation
+                                                                                                                                            // ConvertFhirClass.cs:117
+    VerificationResult.AttestationGroup maps to VerificationResult.attestation                                                              // ConvertFhirClass.cs:118
+        VerificationResult.AttestationGroup.Who maps to VerificationResult.attestation.who
+        VerificationResult.AttestationGroup.OnBehalfOf maps to VerificationResult.attestation.onBehalfOf
+        VerificationResult.AttestationGroup.CommunicationMethod maps to VerificationResult.attestation.communicationMethod
+        VerificationResult.AttestationGroup.Date maps to VerificationResult.attestation.date
+        VerificationResult.AttestationGroup.SourceIdentityCertificate maps to VerificationResult.attestation.sourceIdentityCertificate
+        VerificationResult.AttestationGroup.ProxyIdentityCertificate maps to VerificationResult.attestation.proxyIdentityCertificate
+        VerificationResult.AttestationGroup.ProxySignature maps to VerificationResult.attestation.proxySignature
+        VerificationResult.AttestationGroup.SourceSignature maps to VerificationResult.attestation.sourceSignature
+    VerificationResult.Validator maps to VerificationResult.validator
+                                                                                                                                            // ConvertFhirClass.cs:117
+    VerificationResult.ValidatorGroup maps to VerificationResult.validator                                                                  // ConvertFhirClass.cs:118
+        VerificationResult.ValidatorGroup.Organization maps to VerificationResult.validator.organization
+        VerificationResult.ValidatorGroup.IdentityCertificate maps to VerificationResult.validator.identityCertificate
+        VerificationResult.ValidatorGroup.AttestationSignature maps to VerificationResult.validator.attestationSignature

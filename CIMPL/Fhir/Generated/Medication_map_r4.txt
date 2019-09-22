@@ -1,0 +1,22 @@
+Grammar: Map 5.1
+Namespace: fhir.medication
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Medication maps to Medication:                                                                                                              // ConvertFhirClass.cs:118
+    Medication.Identifier maps to Medication.identifier
+    Medication.Code maps to Medication.code
+    Medication.Status maps to Medication.status
+    Medication.Manufacturer maps to Medication.manufacturer
+    Medication.Form maps to Medication.form
+    Medication.Amount maps to Medication.amount
+    Medication.Ingredient maps to Medication.ingredient
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Medication.IngredientGroup maps to Medication.ingredient                                                                                // ConvertFhirClass.cs:118
+        Medication.IngredientGroup.ItemX maps to Medication.ingredient.item[x]
+        Medication.IngredientGroup.IsActive maps to Medication.ingredient.isActive
+        Medication.IngredientGroup.Strength maps to Medication.ingredient.strength
+    Medication.Batch maps to Medication.batch
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Medication.BatchGroup maps to Medication.batch                                                                                          // ConvertFhirClass.cs:118
+        Medication.BatchGroup.LotNumber maps to Medication.batch.lotNumber
+        Medication.BatchGroup.ExpirationDate maps to Medication.batch.expirationDate

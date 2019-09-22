@@ -1,0 +1,74 @@
+Grammar: Map 5.1
+Namespace: fhir.examplescenario
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ExampleScenario maps to ExampleScenario:                                                                                                    // ConvertFhirClass.cs:118
+    ExampleScenario.Url maps to ExampleScenario.url
+    ExampleScenario.Identifier maps to ExampleScenario.identifier
+    ExampleScenario.Version maps to ExampleScenario.version
+    ExampleScenario.Name maps to ExampleScenario.name
+    ExampleScenario.Status maps to ExampleScenario.status
+    ExampleScenario.Experimental maps to ExampleScenario.experimental
+    ExampleScenario.Date maps to ExampleScenario.date
+    ExampleScenario.Publisher maps to ExampleScenario.publisher
+    ExampleScenario.Contact maps to ExampleScenario.contact
+    ExampleScenario.UseContext maps to ExampleScenario.useContext
+    ExampleScenario.Jurisdiction maps to ExampleScenario.jurisdiction
+    ExampleScenario.Copyright maps to ExampleScenario.copyright
+    ExampleScenario.Purpose maps to ExampleScenario.purpose
+    ExampleScenario.Actor maps to ExampleScenario.actor
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExampleScenario.ActorGroup maps to ExampleScenario.actor                                                                                // ConvertFhirClass.cs:118
+        ExampleScenario.ActorGroup.ActorId maps to ExampleScenario.actor.actorId
+        ExampleScenario.ActorGroup.Type maps to ExampleScenario.actor.type
+        ExampleScenario.ActorGroup.Name maps to ExampleScenario.actor.name
+        ExampleScenario.ActorGroup.Description maps to ExampleScenario.actor.description
+    ExampleScenario.Instance maps to ExampleScenario.instance
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExampleScenario.InstanceGroup maps to ExampleScenario.instance                                                                          // ConvertFhirClass.cs:118
+        ExampleScenario.InstanceGroup.ResourceId maps to ExampleScenario.instance.resourceId
+        ExampleScenario.InstanceGroup.ResourceType maps to ExampleScenario.instance.resourceType
+        ExampleScenario.InstanceGroup.Name maps to ExampleScenario.instance.name
+        ExampleScenario.InstanceGroup.Description maps to ExampleScenario.instance.description
+        ExampleScenario.InstanceGroup.Version maps to ExampleScenario.instance.version
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ExampleScenario.InstanceGroup.VersionGroup maps to ExampleScenario.instance.version                                                 // ConvertFhirClass.cs:118
+            ExampleScenario.InstanceGroup.VersionGroup.VersionId maps to ExampleScenario.instance.version.versionId
+            ExampleScenario.InstanceGroup.VersionGroup.Description maps to ExampleScenario.instance.version.description
+        ExampleScenario.InstanceGroup.ContainedInstance maps to ExampleScenario.instance.containedInstance
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ExampleScenario.InstanceGroup.ContainedInstanceGroup maps to ExampleScenario.instance.containedInstance                             // ConvertFhirClass.cs:118
+            ExampleScenario.InstanceGroup.ContainedInstanceGroup.ResourceId maps to ExampleScenario.instance.containedInstance.resourceId
+            ExampleScenario.InstanceGroup.ContainedInstanceGroup.VersionId maps to ExampleScenario.instance.containedInstance.versionId
+    ExampleScenario.Process maps to ExampleScenario.process
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ExampleScenario.ProcessGroup maps to ExampleScenario.process                                                                            // ConvertFhirClass.cs:118
+        ExampleScenario.ProcessGroup.Title maps to ExampleScenario.process.title
+        ExampleScenario.ProcessGroup.Description maps to ExampleScenario.process.description
+        ExampleScenario.ProcessGroup.PreConditions maps to ExampleScenario.process.preConditions
+        ExampleScenario.ProcessGroup.PostConditions maps to ExampleScenario.process.postConditions
+        ExampleScenario.ProcessGroup.Step maps to ExampleScenario.process.step
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ExampleScenario.ProcessGroup.StepGroup maps to ExampleScenario.process.step                                                         // ConvertFhirClass.cs:118
+            ExampleScenario.ProcessGroup.StepGroup.Process maps to ExampleScenario.process.step.process
+            ExampleScenario.ProcessGroup.StepGroup.Pause maps to ExampleScenario.process.step.pause
+            ExampleScenario.ProcessGroup.StepGroup.Operation maps to ExampleScenario.process.step.operation
+                                                                                                                                            // ConvertFhirClass.cs:117
+            ExampleScenario.ProcessGroup.StepGroup.OperationGroup maps to ExampleScenario.process.step.operation                            // ConvertFhirClass.cs:118
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.Number maps to ExampleScenario.process.step.operation.number
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.Type maps to ExampleScenario.process.step.operation.type
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.Name maps to ExampleScenario.process.step.operation.name
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.Initiator maps to ExampleScenario.process.step.operation.initiator
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.Receiver maps to ExampleScenario.process.step.operation.receiver
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.Description maps to ExampleScenario.process.step.operation.description
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.InitiatorActive maps to ExampleScenario.process.step.operation.initiatorActive
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.ReceiverActive maps to ExampleScenario.process.step.operation.receiverActive
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.Request maps to ExampleScenario.process.step.operation.request
+                ExampleScenario.ProcessGroup.StepGroup.OperationGroup.Response maps to ExampleScenario.process.step.operation.response
+            ExampleScenario.ProcessGroup.StepGroup.Alternative maps to ExampleScenario.process.step.alternative
+                                                                                                                                            // ConvertFhirClass.cs:117
+            ExampleScenario.ProcessGroup.StepGroup.AlternativeGroup maps to ExampleScenario.process.step.alternative                        // ConvertFhirClass.cs:118
+                ExampleScenario.ProcessGroup.StepGroup.AlternativeGroup.Title maps to ExampleScenario.process.step.alternative.title
+                ExampleScenario.ProcessGroup.StepGroup.AlternativeGroup.Description maps to ExampleScenario.process.step.alternative.description
+                ExampleScenario.ProcessGroup.StepGroup.AlternativeGroup.Step maps to ExampleScenario.process.step.alternative.step
+    ExampleScenario.Workflow maps to ExampleScenario.workflow

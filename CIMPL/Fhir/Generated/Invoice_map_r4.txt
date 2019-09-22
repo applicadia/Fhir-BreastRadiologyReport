@@ -1,0 +1,36 @@
+Grammar: Map 5.1
+Namespace: fhir.invoice
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Invoice maps to Invoice:                                                                                                                    // ConvertFhirClass.cs:118
+    Invoice.Identifier maps to Invoice.identifier
+    Invoice.Status maps to Invoice.status
+    Invoice.CancelledReason maps to Invoice.cancelledReason
+    Invoice.Type maps to Invoice.type
+    Invoice.Subject maps to Invoice.subject
+    Invoice.Recipient maps to Invoice.recipient
+    Invoice.Date maps to Invoice.date
+    Invoice.Participant maps to Invoice.participant
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Invoice.ParticipantGroup maps to Invoice.participant                                                                                    // ConvertFhirClass.cs:118
+        Invoice.ParticipantGroup.Role maps to Invoice.participant.role
+        Invoice.ParticipantGroup.Actor maps to Invoice.participant.actor
+    Invoice.Issuer maps to Invoice.issuer
+    Invoice.Account maps to Invoice.account
+    Invoice.LineItem maps to Invoice.lineItem
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Invoice.LineItemGroup maps to Invoice.lineItem                                                                                          // ConvertFhirClass.cs:118
+        Invoice.LineItemGroup.Sequence maps to Invoice.lineItem.sequence
+        Invoice.LineItemGroup.ChargeItemX maps to Invoice.lineItem.chargeItem[x]
+        Invoice.LineItemGroup.PriceComponent maps to Invoice.lineItem.priceComponent
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Invoice.LineItemGroup.PriceComponentGroup maps to Invoice.lineItem.priceComponent                                                   // ConvertFhirClass.cs:118
+            Invoice.LineItemGroup.PriceComponentGroup.Type maps to Invoice.lineItem.priceComponent.type
+            Invoice.LineItemGroup.PriceComponentGroup.Code maps to Invoice.lineItem.priceComponent.code
+            Invoice.LineItemGroup.PriceComponentGroup.Factor maps to Invoice.lineItem.priceComponent.factor
+            Invoice.LineItemGroup.PriceComponentGroup.Amount maps to Invoice.lineItem.priceComponent.amount
+    Invoice.TotalPriceComponent maps to Invoice.totalPriceComponent
+    Invoice.TotalNet maps to Invoice.totalNet
+    Invoice.TotalGross maps to Invoice.totalGross
+    Invoice.PaymentTerms maps to Invoice.paymentTerms
+    Invoice.Note maps to Invoice.note

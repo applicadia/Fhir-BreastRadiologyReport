@@ -1,0 +1,19 @@
+Grammar: Map 5.1
+Namespace: fhir.person
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Person maps to Person:                                                                                                                      // ConvertFhirClass.cs:118
+    Person.Identifier maps to Person.identifier
+    Person.Name maps to Person.name
+    Person.Telecom maps to Person.telecom
+    Person.Gender maps to Person.gender
+    Person.BirthDate maps to Person.birthDate
+    Person.Address maps to Person.address
+    Person.Photo maps to Person.photo
+    Person.ManagingOrganization maps to Person.managingOrganization
+    Person.Active maps to Person.active
+    Person.Link maps to Person.link
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Person.LinkGroup maps to Person.link                                                                                                    // ConvertFhirClass.cs:118
+        Person.LinkGroup.Target maps to Person.link.target
+        Person.LinkGroup.Assurance maps to Person.link.assurance

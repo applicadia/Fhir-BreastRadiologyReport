@@ -1,0 +1,67 @@
+Grammar: Map 5.1
+Namespace: fhir.insuranceplan
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+InsurancePlan maps to InsurancePlan:                                                                                                        // ConvertFhirClass.cs:118
+    InsurancePlan.Identifier maps to InsurancePlan.identifier
+    InsurancePlan.Status maps to InsurancePlan.status
+    InsurancePlan.Type maps to InsurancePlan.type
+    InsurancePlan.Name maps to InsurancePlan.name
+    InsurancePlan.Alias maps to InsurancePlan.alias
+    InsurancePlan.Period maps to InsurancePlan.period
+    InsurancePlan.OwnedBy maps to InsurancePlan.ownedBy
+    InsurancePlan.AdministeredBy maps to InsurancePlan.administeredBy
+    InsurancePlan.CoverageArea maps to InsurancePlan.coverageArea
+    InsurancePlan.Contact maps to InsurancePlan.contact
+                                                                                                                                            // ConvertFhirClass.cs:117
+    InsurancePlan.ContactGroup maps to InsurancePlan.contact                                                                                // ConvertFhirClass.cs:118
+        InsurancePlan.ContactGroup.Purpose maps to InsurancePlan.contact.purpose
+        InsurancePlan.ContactGroup.Name maps to InsurancePlan.contact.name
+        InsurancePlan.ContactGroup.Telecom maps to InsurancePlan.contact.telecom
+        InsurancePlan.ContactGroup.Address maps to InsurancePlan.contact.address
+    InsurancePlan.Endpoint maps to InsurancePlan.endpoint
+    InsurancePlan.Network maps to InsurancePlan.network
+    InsurancePlan.Coverage maps to InsurancePlan.coverage
+                                                                                                                                            // ConvertFhirClass.cs:117
+    InsurancePlan.CoverageGroup maps to InsurancePlan.coverage                                                                              // ConvertFhirClass.cs:118
+        InsurancePlan.CoverageGroup.Type maps to InsurancePlan.coverage.type
+        InsurancePlan.CoverageGroup.Network maps to InsurancePlan.coverage.network
+        InsurancePlan.CoverageGroup.Benefit maps to InsurancePlan.coverage.benefit
+                                                                                                                                            // ConvertFhirClass.cs:117
+        InsurancePlan.CoverageGroup.BenefitGroup maps to InsurancePlan.coverage.benefit                                                     // ConvertFhirClass.cs:118
+            InsurancePlan.CoverageGroup.BenefitGroup.Type maps to InsurancePlan.coverage.benefit.type
+            InsurancePlan.CoverageGroup.BenefitGroup.Requirement maps to InsurancePlan.coverage.benefit.requirement
+            InsurancePlan.CoverageGroup.BenefitGroup.Limit maps to InsurancePlan.coverage.benefit.limit
+                                                                                                                                            // ConvertFhirClass.cs:117
+            InsurancePlan.CoverageGroup.BenefitGroup.LimitGroup maps to InsurancePlan.coverage.benefit.limit                                // ConvertFhirClass.cs:118
+                InsurancePlan.CoverageGroup.BenefitGroup.LimitGroup.ValueZ maps to InsurancePlan.coverage.benefit.limit.value
+                InsurancePlan.CoverageGroup.BenefitGroup.LimitGroup.Code maps to InsurancePlan.coverage.benefit.limit.code
+    InsurancePlan.Plan maps to InsurancePlan.plan
+                                                                                                                                            // ConvertFhirClass.cs:117
+    InsurancePlan.PlanGroup maps to InsurancePlan.plan                                                                                      // ConvertFhirClass.cs:118
+        InsurancePlan.PlanGroup.Identifier maps to InsurancePlan.plan.identifier
+        InsurancePlan.PlanGroup.Type maps to InsurancePlan.plan.type
+        InsurancePlan.PlanGroup.CoverageArea maps to InsurancePlan.plan.coverageArea
+        InsurancePlan.PlanGroup.Network maps to InsurancePlan.plan.network
+        InsurancePlan.PlanGroup.GeneralCost maps to InsurancePlan.plan.generalCost
+                                                                                                                                            // ConvertFhirClass.cs:117
+        InsurancePlan.PlanGroup.GeneralCostGroup maps to InsurancePlan.plan.generalCost                                                     // ConvertFhirClass.cs:118
+            InsurancePlan.PlanGroup.GeneralCostGroup.Type maps to InsurancePlan.plan.generalCost.type
+            InsurancePlan.PlanGroup.GeneralCostGroup.GroupSize maps to InsurancePlan.plan.generalCost.groupSize
+            InsurancePlan.PlanGroup.GeneralCostGroup.Cost maps to InsurancePlan.plan.generalCost.cost
+            InsurancePlan.PlanGroup.GeneralCostGroup.Comment maps to InsurancePlan.plan.generalCost.comment
+        InsurancePlan.PlanGroup.SpecificCost maps to InsurancePlan.plan.specificCost
+                                                                                                                                            // ConvertFhirClass.cs:117
+        InsurancePlan.PlanGroup.SpecificCostGroup maps to InsurancePlan.plan.specificCost                                                   // ConvertFhirClass.cs:118
+            InsurancePlan.PlanGroup.SpecificCostGroup.Category maps to InsurancePlan.plan.specificCost.category
+            InsurancePlan.PlanGroup.SpecificCostGroup.Benefit maps to InsurancePlan.plan.specificCost.benefit
+                                                                                                                                            // ConvertFhirClass.cs:117
+            InsurancePlan.PlanGroup.SpecificCostGroup.BenefitGroup maps to InsurancePlan.plan.specificCost.benefit                          // ConvertFhirClass.cs:118
+                InsurancePlan.PlanGroup.SpecificCostGroup.BenefitGroup.Type maps to InsurancePlan.plan.specificCost.benefit.type
+                InsurancePlan.PlanGroup.SpecificCostGroup.BenefitGroup.Cost maps to InsurancePlan.plan.specificCost.benefit.cost
+                                                                                                                                            // ConvertFhirClass.cs:117
+                InsurancePlan.PlanGroup.SpecificCostGroup.BenefitGroup.CostGroup maps to InsurancePlan.plan.specificCost.benefit.cost       // ConvertFhirClass.cs:118
+                    InsurancePlan.PlanGroup.SpecificCostGroup.BenefitGroup.CostGroup.Type maps to InsurancePlan.plan.specificCost.benefit.cost.type
+                    InsurancePlan.PlanGroup.SpecificCostGroup.BenefitGroup.CostGroup.Applicability maps to InsurancePlan.plan.specificCost.benefit.cost.applicability
+                    InsurancePlan.PlanGroup.SpecificCostGroup.BenefitGroup.CostGroup.Qualifiers maps to InsurancePlan.plan.specificCost.benefit.cost.qualifiers
+                    InsurancePlan.PlanGroup.SpecificCostGroup.BenefitGroup.CostGroup.ValueZ maps to InsurancePlan.plan.specificCost.benefit.cost.value

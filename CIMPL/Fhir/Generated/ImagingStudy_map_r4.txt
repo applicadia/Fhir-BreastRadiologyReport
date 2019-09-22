@@ -1,0 +1,49 @@
+Grammar: Map 5.1
+Namespace: fhir.imagingstudy
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ImagingStudy maps to ImagingStudy:                                                                                                          // ConvertFhirClass.cs:118
+    ImagingStudy.Identifier maps to ImagingStudy.identifier
+    ImagingStudy.Status maps to ImagingStudy.status
+    ImagingStudy.Modality maps to ImagingStudy.modality
+    ImagingStudy.Subject maps to ImagingStudy.subject
+    ImagingStudy.Encounter maps to ImagingStudy.encounter
+    ImagingStudy.Started maps to ImagingStudy.started
+    ImagingStudy.BasedOn maps to ImagingStudy.basedOn
+    ImagingStudy.Referrer maps to ImagingStudy.referrer
+    ImagingStudy.Interpreter maps to ImagingStudy.interpreter
+    ImagingStudy.Endpoint maps to ImagingStudy.endpoint
+    ImagingStudy.NumberOfSeries maps to ImagingStudy.numberOfSeries
+    ImagingStudy.NumberOfInstances maps to ImagingStudy.numberOfInstances
+    ImagingStudy.ProcedureReference maps to ImagingStudy.procedureReference
+    ImagingStudy.ProcedureCode maps to ImagingStudy.procedureCode
+    ImagingStudy.Location maps to ImagingStudy.location
+    ImagingStudy.ReasonCode maps to ImagingStudy.reasonCode
+    ImagingStudy.ReasonReference maps to ImagingStudy.reasonReference
+    ImagingStudy.Note maps to ImagingStudy.note
+    ImagingStudy.Description maps to ImagingStudy.description
+    ImagingStudy.Series maps to ImagingStudy.series
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ImagingStudy.SeriesGroup maps to ImagingStudy.series                                                                                    // ConvertFhirClass.cs:118
+        ImagingStudy.SeriesGroup.Uid maps to ImagingStudy.series.uid
+        ImagingStudy.SeriesGroup.Number maps to ImagingStudy.series.number
+        ImagingStudy.SeriesGroup.Modality maps to ImagingStudy.series.modality
+        ImagingStudy.SeriesGroup.Description maps to ImagingStudy.series.description
+        ImagingStudy.SeriesGroup.NumberOfInstances maps to ImagingStudy.series.numberOfInstances
+        ImagingStudy.SeriesGroup.Endpoint maps to ImagingStudy.series.endpoint
+        ImagingStudy.SeriesGroup.BodySite maps to ImagingStudy.series.bodySite
+        ImagingStudy.SeriesGroup.Laterality maps to ImagingStudy.series.laterality
+        ImagingStudy.SeriesGroup.Specimen maps to ImagingStudy.series.specimen
+        ImagingStudy.SeriesGroup.Started maps to ImagingStudy.series.started
+        ImagingStudy.SeriesGroup.Performer maps to ImagingStudy.series.performer
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImagingStudy.SeriesGroup.PerformerGroup maps to ImagingStudy.series.performer                                                       // ConvertFhirClass.cs:118
+            ImagingStudy.SeriesGroup.PerformerGroup.Function maps to ImagingStudy.series.performer.function
+            ImagingStudy.SeriesGroup.PerformerGroup.Actor maps to ImagingStudy.series.performer.actor
+        ImagingStudy.SeriesGroup.Instance maps to ImagingStudy.series.instance
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImagingStudy.SeriesGroup.InstanceGroup maps to ImagingStudy.series.instance                                                         // ConvertFhirClass.cs:118
+            ImagingStudy.SeriesGroup.InstanceGroup.Uid maps to ImagingStudy.series.instance.uid
+            ImagingStudy.SeriesGroup.InstanceGroup.SopClass maps to ImagingStudy.series.instance.sopClass
+            ImagingStudy.SeriesGroup.InstanceGroup.Number maps to ImagingStudy.series.instance.number
+            ImagingStudy.SeriesGroup.InstanceGroup.Title maps to ImagingStudy.series.instance.title

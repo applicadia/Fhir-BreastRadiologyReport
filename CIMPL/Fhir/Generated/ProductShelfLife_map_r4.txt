@@ -1,0 +1,9 @@
+Grammar: Map 5.1
+Namespace: fhir.productshelflife
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ProductShelfLife maps to ProductShelfLife:                                                                                                  // ConvertFhirClass.cs:118
+    ProductShelfLife.Identifier maps to ProductShelfLife.identifier
+    ProductShelfLife.Type maps to ProductShelfLife.type
+    ProductShelfLife.Period maps to ProductShelfLife.period
+    ProductShelfLife.SpecialPrecautionsForStorage maps to ProductShelfLife.specialPrecautionsForStorage

@@ -1,0 +1,33 @@
+Grammar: Map 5.1
+Namespace: fhir.devicerequest
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+DeviceRequest maps to DeviceRequest:                                                                                                        // ConvertFhirClass.cs:118
+    DeviceRequest.Identifier maps to DeviceRequest.identifier
+    DeviceRequest.InstantiatesCanonical maps to DeviceRequest.instantiatesCanonical
+    DeviceRequest.InstantiatesUri maps to DeviceRequest.instantiatesUri
+    DeviceRequest.BasedOn maps to DeviceRequest.basedOn
+    DeviceRequest.PriorRequest maps to DeviceRequest.priorRequest
+    DeviceRequest.GroupIdentifier maps to DeviceRequest.groupIdentifier
+    DeviceRequest.Status maps to DeviceRequest.status
+    DeviceRequest.Intent maps to DeviceRequest.intent
+    DeviceRequest.Priority maps to DeviceRequest.priority
+    DeviceRequest.CodeX maps to DeviceRequest.code[x]
+    DeviceRequest.Parameter maps to DeviceRequest.parameter
+                                                                                                                                            // ConvertFhirClass.cs:117
+    DeviceRequest.ParameterGroup maps to DeviceRequest.parameter                                                                            // ConvertFhirClass.cs:118
+        DeviceRequest.ParameterGroup.Code maps to DeviceRequest.parameter.code
+        DeviceRequest.ParameterGroup.ValueX maps to DeviceRequest.parameter.value[x]
+    DeviceRequest.Subject maps to DeviceRequest.subject
+    DeviceRequest.Encounter maps to DeviceRequest.encounter
+    DeviceRequest.OccurrenceX maps to DeviceRequest.occurrence[x]
+    DeviceRequest.AuthoredOn maps to DeviceRequest.authoredOn
+    DeviceRequest.Requester maps to DeviceRequest.requester
+    DeviceRequest.PerformerType maps to DeviceRequest.performerType
+    DeviceRequest.Performer maps to DeviceRequest.performer
+    DeviceRequest.ReasonCode maps to DeviceRequest.reasonCode
+    DeviceRequest.ReasonReference maps to DeviceRequest.reasonReference
+    DeviceRequest.Insurance maps to DeviceRequest.insurance
+    DeviceRequest.SupportingInfo maps to DeviceRequest.supportingInfo
+    DeviceRequest.Note maps to DeviceRequest.note
+    DeviceRequest.RelevantHistory maps to DeviceRequest.relevantHistory

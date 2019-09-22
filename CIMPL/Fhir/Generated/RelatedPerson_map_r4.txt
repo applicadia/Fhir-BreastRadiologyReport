@@ -1,0 +1,21 @@
+Grammar: Map 5.1
+Namespace: fhir.relatedperson
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+RelatedPerson maps to RelatedPerson:                                                                                                        // ConvertFhirClass.cs:118
+    RelatedPerson.Identifier maps to RelatedPerson.identifier
+    RelatedPerson.Active maps to RelatedPerson.active
+    RelatedPerson.Patient maps to RelatedPerson.patient
+    RelatedPerson.Relationship maps to RelatedPerson.relationship
+    RelatedPerson.Name maps to RelatedPerson.name
+    RelatedPerson.Telecom maps to RelatedPerson.telecom
+    RelatedPerson.Gender maps to RelatedPerson.gender
+    RelatedPerson.BirthDate maps to RelatedPerson.birthDate
+    RelatedPerson.Address maps to RelatedPerson.address
+    RelatedPerson.Photo maps to RelatedPerson.photo
+    RelatedPerson.Period maps to RelatedPerson.period
+    RelatedPerson.Communication maps to RelatedPerson.communication
+                                                                                                                                            // ConvertFhirClass.cs:117
+    RelatedPerson.CommunicationGroup maps to RelatedPerson.communication                                                                    // ConvertFhirClass.cs:118
+        RelatedPerson.CommunicationGroup.Language maps to RelatedPerson.communication.language
+        RelatedPerson.CommunicationGroup.Preferred maps to RelatedPerson.communication.preferred

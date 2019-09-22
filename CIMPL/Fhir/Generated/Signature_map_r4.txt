@@ -1,0 +1,12 @@
+Grammar: Map 5.1
+Namespace: fhir.signature
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Signature maps to Signature:                                                                                                                // ConvertFhirClass.cs:118
+    Signature.Type maps to Signature.type
+    Signature.When maps to Signature.when
+    Signature.Who maps to Signature.who
+    Signature.OnBehalfOf maps to Signature.onBehalfOf
+    Signature.TargetFormat maps to Signature.targetFormat
+    Signature.SigFormat maps to Signature.sigFormat
+    Signature.Data maps to Signature.data

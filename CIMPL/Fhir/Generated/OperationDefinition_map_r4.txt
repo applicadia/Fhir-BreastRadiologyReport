@@ -1,0 +1,56 @@
+Grammar: Map 5.1
+Namespace: fhir.operationdefinition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+OperationDefinition maps to OperationDefinition:                                                                                            // ConvertFhirClass.cs:118
+    OperationDefinition.Url maps to OperationDefinition.url
+    OperationDefinition.Version maps to OperationDefinition.version
+    OperationDefinition.Name maps to OperationDefinition.name
+    OperationDefinition.Title maps to OperationDefinition.title
+    OperationDefinition.Status maps to OperationDefinition.status
+    OperationDefinition.Kind maps to OperationDefinition.kind
+    OperationDefinition.Experimental maps to OperationDefinition.experimental
+    OperationDefinition.Date maps to OperationDefinition.date
+    OperationDefinition.Publisher maps to OperationDefinition.publisher
+    OperationDefinition.Contact maps to OperationDefinition.contact
+    OperationDefinition.Description maps to OperationDefinition.description
+    OperationDefinition.UseContext maps to OperationDefinition.useContext
+    OperationDefinition.Jurisdiction maps to OperationDefinition.jurisdiction
+    OperationDefinition.Purpose maps to OperationDefinition.purpose
+    OperationDefinition.AffectsState maps to OperationDefinition.affectsState
+    OperationDefinition.Code maps to OperationDefinition.code
+    OperationDefinition.Comment maps to OperationDefinition.comment
+    OperationDefinition.Base maps to OperationDefinition.base
+    OperationDefinition.Resource maps to OperationDefinition.resource
+    OperationDefinition.System maps to OperationDefinition.system
+    OperationDefinition.Type maps to OperationDefinition.type
+    OperationDefinition.Instance maps to OperationDefinition.instance
+    OperationDefinition.InputProfile maps to OperationDefinition.inputProfile
+    OperationDefinition.OutputProfile maps to OperationDefinition.outputProfile
+    OperationDefinition.Parameter maps to OperationDefinition.parameter
+                                                                                                                                            // ConvertFhirClass.cs:117
+    OperationDefinition.ParameterGroup maps to OperationDefinition.parameter                                                                // ConvertFhirClass.cs:118
+        OperationDefinition.ParameterGroup.Name maps to OperationDefinition.parameter.name
+        OperationDefinition.ParameterGroup.Use maps to OperationDefinition.parameter.use
+        OperationDefinition.ParameterGroup.Min maps to OperationDefinition.parameter.min
+        OperationDefinition.ParameterGroup.Max maps to OperationDefinition.parameter.max
+        OperationDefinition.ParameterGroup.Documentation maps to OperationDefinition.parameter.documentation
+        OperationDefinition.ParameterGroup.Type maps to OperationDefinition.parameter.type
+        OperationDefinition.ParameterGroup.TargetProfile maps to OperationDefinition.parameter.targetProfile
+        OperationDefinition.ParameterGroup.SearchType maps to OperationDefinition.parameter.searchType
+        OperationDefinition.ParameterGroup.Binding maps to OperationDefinition.parameter.binding
+                                                                                                                                            // ConvertFhirClass.cs:117
+        OperationDefinition.ParameterGroup.BindingGroup maps to OperationDefinition.parameter.binding                                       // ConvertFhirClass.cs:118
+            OperationDefinition.ParameterGroup.BindingGroup.Strength maps to OperationDefinition.parameter.binding.strength
+            OperationDefinition.ParameterGroup.BindingGroup.ValueSet maps to OperationDefinition.parameter.binding.valueSet
+        OperationDefinition.ParameterGroup.ReferencedFrom maps to OperationDefinition.parameter.referencedFrom
+                                                                                                                                            // ConvertFhirClass.cs:117
+        OperationDefinition.ParameterGroup.ReferencedFromGroup maps to OperationDefinition.parameter.referencedFrom                         // ConvertFhirClass.cs:118
+            OperationDefinition.ParameterGroup.ReferencedFromGroup.Source maps to OperationDefinition.parameter.referencedFrom.source
+            OperationDefinition.ParameterGroup.ReferencedFromGroup.SourceId maps to OperationDefinition.parameter.referencedFrom.sourceId
+        OperationDefinition.ParameterGroup.Part maps to OperationDefinition.parameter.part
+    OperationDefinition.Overload maps to OperationDefinition.overload
+                                                                                                                                            // ConvertFhirClass.cs:117
+    OperationDefinition.OverloadGroup maps to OperationDefinition.overload                                                                  // ConvertFhirClass.cs:118
+        OperationDefinition.OverloadGroup.ParameterName maps to OperationDefinition.overload.parameterName
+        OperationDefinition.OverloadGroup.Comment maps to OperationDefinition.overload.comment

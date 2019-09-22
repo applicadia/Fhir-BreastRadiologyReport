@@ -1,0 +1,60 @@
+Grammar: Map 5.1
+Namespace: fhir.codesystem
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+CodeSystem maps to CodeSystem:                                                                                                              // ConvertFhirClass.cs:118
+    CodeSystem.Url maps to CodeSystem.url
+    CodeSystem.Identifier maps to CodeSystem.identifier
+    CodeSystem.Version maps to CodeSystem.version
+    CodeSystem.Name maps to CodeSystem.name
+    CodeSystem.Title maps to CodeSystem.title
+    CodeSystem.Status maps to CodeSystem.status
+    CodeSystem.Experimental maps to CodeSystem.experimental
+    CodeSystem.Date maps to CodeSystem.date
+    CodeSystem.Publisher maps to CodeSystem.publisher
+    CodeSystem.Contact maps to CodeSystem.contact
+    CodeSystem.Description maps to CodeSystem.description
+    CodeSystem.UseContext maps to CodeSystem.useContext
+    CodeSystem.Jurisdiction maps to CodeSystem.jurisdiction
+    CodeSystem.Purpose maps to CodeSystem.purpose
+    CodeSystem.Copyright maps to CodeSystem.copyright
+    CodeSystem.CaseSensitive maps to CodeSystem.caseSensitive
+    CodeSystem.ValueSet maps to CodeSystem.valueSet
+    CodeSystem.HierarchyMeaning maps to CodeSystem.hierarchyMeaning
+    CodeSystem.Compositional maps to CodeSystem.compositional
+    CodeSystem.VersionNeeded maps to CodeSystem.versionNeeded
+    CodeSystem.Content maps to CodeSystem.content
+    CodeSystem.Supplements maps to CodeSystem.supplements
+    CodeSystem.Count maps to CodeSystem.count
+    CodeSystem.Filter maps to CodeSystem.filter
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CodeSystem.FilterGroup maps to CodeSystem.filter                                                                                        // ConvertFhirClass.cs:118
+        CodeSystem.FilterGroup.Code maps to CodeSystem.filter.code
+        CodeSystem.FilterGroup.Description maps to CodeSystem.filter.description
+        CodeSystem.FilterGroup.Operator maps to CodeSystem.filter.operator
+        CodeSystem.FilterGroup.ValueZ maps to CodeSystem.filter.value
+    CodeSystem.Property maps to CodeSystem.property
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CodeSystem.PropertyGroup maps to CodeSystem.property                                                                                    // ConvertFhirClass.cs:118
+        CodeSystem.PropertyGroup.Code maps to CodeSystem.property.code
+        CodeSystem.PropertyGroup.Uri maps to CodeSystem.property.uri
+        CodeSystem.PropertyGroup.Description maps to CodeSystem.property.description
+        CodeSystem.PropertyGroup.Type maps to CodeSystem.property.type
+    CodeSystem.Concept maps to CodeSystem.concept
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CodeSystem.ConceptGroup maps to CodeSystem.concept                                                                                      // ConvertFhirClass.cs:118
+        CodeSystem.ConceptGroup.Code maps to CodeSystem.concept.code
+        CodeSystem.ConceptGroup.Display maps to CodeSystem.concept.display
+        CodeSystem.ConceptGroup.Definition maps to CodeSystem.concept.definition
+        CodeSystem.ConceptGroup.Designation maps to CodeSystem.concept.designation
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CodeSystem.ConceptGroup.DesignationGroup maps to CodeSystem.concept.designation                                                     // ConvertFhirClass.cs:118
+            CodeSystem.ConceptGroup.DesignationGroup.Language maps to CodeSystem.concept.designation.language
+            CodeSystem.ConceptGroup.DesignationGroup.Use maps to CodeSystem.concept.designation.use
+            CodeSystem.ConceptGroup.DesignationGroup.ValueZ maps to CodeSystem.concept.designation.value
+        CodeSystem.ConceptGroup.Property maps to CodeSystem.concept.property
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CodeSystem.ConceptGroup.PropertyGroup maps to CodeSystem.concept.property                                                           // ConvertFhirClass.cs:118
+            CodeSystem.ConceptGroup.PropertyGroup.Code maps to CodeSystem.concept.property.code
+            CodeSystem.ConceptGroup.PropertyGroup.ValueX maps to CodeSystem.concept.property.value[x]
+        CodeSystem.ConceptGroup.Concept maps to CodeSystem.concept.concept

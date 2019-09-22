@@ -1,0 +1,20 @@
+Grammar: Map 5.1
+Namespace: fhir.supplydelivery
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+SupplyDelivery maps to SupplyDelivery:                                                                                                      // ConvertFhirClass.cs:118
+    SupplyDelivery.Identifier maps to SupplyDelivery.identifier
+    SupplyDelivery.BasedOn maps to SupplyDelivery.basedOn
+    SupplyDelivery.PartOf maps to SupplyDelivery.partOf
+    SupplyDelivery.Status maps to SupplyDelivery.status
+    SupplyDelivery.Patient maps to SupplyDelivery.patient
+    SupplyDelivery.Type maps to SupplyDelivery.type
+    SupplyDelivery.SuppliedItem maps to SupplyDelivery.suppliedItem
+                                                                                                                                            // ConvertFhirClass.cs:117
+    SupplyDelivery.SuppliedItemGroup maps to SupplyDelivery.suppliedItem                                                                    // ConvertFhirClass.cs:118
+        SupplyDelivery.SuppliedItemGroup.Quantity maps to SupplyDelivery.suppliedItem.quantity
+        SupplyDelivery.SuppliedItemGroup.ItemX maps to SupplyDelivery.suppliedItem.item[x]
+    SupplyDelivery.OccurrenceX maps to SupplyDelivery.occurrence[x]
+    SupplyDelivery.Supplier maps to SupplyDelivery.supplier
+    SupplyDelivery.Destination maps to SupplyDelivery.destination
+    SupplyDelivery.Receiver maps to SupplyDelivery.receiver

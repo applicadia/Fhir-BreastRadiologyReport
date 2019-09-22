@@ -1,0 +1,21 @@
+Grammar: Map 5.1
+Namespace: fhir.documentmanifest
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+DocumentManifest maps to DocumentManifest:                                                                                                  // ConvertFhirClass.cs:118
+    DocumentManifest.MasterIdentifier maps to DocumentManifest.masterIdentifier
+    DocumentManifest.Identifier maps to DocumentManifest.identifier
+    DocumentManifest.Status maps to DocumentManifest.status
+    DocumentManifest.Type maps to DocumentManifest.type
+    DocumentManifest.Subject maps to DocumentManifest.subject
+    DocumentManifest.Created maps to DocumentManifest.created
+    DocumentManifest.Author maps to DocumentManifest.author
+    DocumentManifest.Recipient maps to DocumentManifest.recipient
+    DocumentManifest.Source maps to DocumentManifest.source
+    DocumentManifest.Description maps to DocumentManifest.description
+    DocumentManifest.Content maps to DocumentManifest.content
+    DocumentManifest.Related maps to DocumentManifest.related
+                                                                                                                                            // ConvertFhirClass.cs:117
+    DocumentManifest.RelatedGroup maps to DocumentManifest.related                                                                          // ConvertFhirClass.cs:118
+        DocumentManifest.RelatedGroup.Identifier maps to DocumentManifest.related.identifier
+        DocumentManifest.RelatedGroup.Ref maps to DocumentManifest.related.ref

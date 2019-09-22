@@ -1,0 +1,43 @@
+Grammar: Map 5.1
+Namespace: fhir.healthcareservice
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+HealthcareService maps to HealthcareService:                                                                                                // ConvertFhirClass.cs:118
+    HealthcareService.Identifier maps to HealthcareService.identifier
+    HealthcareService.Active maps to HealthcareService.active
+    HealthcareService.ProvidedBy maps to HealthcareService.providedBy
+    HealthcareService.Category maps to HealthcareService.category
+    HealthcareService.Type maps to HealthcareService.type
+    HealthcareService.Specialty maps to HealthcareService.specialty
+    HealthcareService.Location maps to HealthcareService.location
+    HealthcareService.Name maps to HealthcareService.name
+    HealthcareService.Comment maps to HealthcareService.comment
+    HealthcareService.ExtraDetails maps to HealthcareService.extraDetails
+    HealthcareService.Photo maps to HealthcareService.photo
+    HealthcareService.Telecom maps to HealthcareService.telecom
+    HealthcareService.CoverageArea maps to HealthcareService.coverageArea
+    HealthcareService.ServiceProvisionCode maps to HealthcareService.serviceProvisionCode
+    HealthcareService.Eligibility maps to HealthcareService.eligibility
+                                                                                                                                            // ConvertFhirClass.cs:117
+    HealthcareService.EligibilityGroup maps to HealthcareService.eligibility                                                                // ConvertFhirClass.cs:118
+        HealthcareService.EligibilityGroup.Code maps to HealthcareService.eligibility.code
+        HealthcareService.EligibilityGroup.Comment maps to HealthcareService.eligibility.comment
+    HealthcareService.Program maps to HealthcareService.program
+    HealthcareService.Characteristic maps to HealthcareService.characteristic
+    HealthcareService.Communication maps to HealthcareService.communication
+    HealthcareService.ReferralMethod maps to HealthcareService.referralMethod
+    HealthcareService.AppointmentRequired maps to HealthcareService.appointmentRequired
+    HealthcareService.AvailableTime maps to HealthcareService.availableTime
+                                                                                                                                            // ConvertFhirClass.cs:117
+    HealthcareService.AvailableTimeGroup maps to HealthcareService.availableTime                                                            // ConvertFhirClass.cs:118
+        HealthcareService.AvailableTimeGroup.DaysOfWeek maps to HealthcareService.availableTime.daysOfWeek
+        HealthcareService.AvailableTimeGroup.AllDay maps to HealthcareService.availableTime.allDay
+        HealthcareService.AvailableTimeGroup.AvailableStartTime maps to HealthcareService.availableTime.availableStartTime
+        HealthcareService.AvailableTimeGroup.AvailableEndTime maps to HealthcareService.availableTime.availableEndTime
+    HealthcareService.NotAvailable maps to HealthcareService.notAvailable
+                                                                                                                                            // ConvertFhirClass.cs:117
+    HealthcareService.NotAvailableGroup maps to HealthcareService.notAvailable                                                              // ConvertFhirClass.cs:118
+        HealthcareService.NotAvailableGroup.Description maps to HealthcareService.notAvailable.description
+        HealthcareService.NotAvailableGroup.During maps to HealthcareService.notAvailable.during
+    HealthcareService.AvailabilityExceptions maps to HealthcareService.availabilityExceptions
+    HealthcareService.Endpoint maps to HealthcareService.endpoint

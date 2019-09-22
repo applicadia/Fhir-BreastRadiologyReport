@@ -1,0 +1,35 @@
+Grammar: Map 5.1
+Namespace: fhir.adverseevent
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+AdverseEvent maps to AdverseEvent:                                                                                                          // ConvertFhirClass.cs:118
+    AdverseEvent.Identifier maps to AdverseEvent.identifier
+    AdverseEvent.Actuality maps to AdverseEvent.actuality
+    AdverseEvent.Category maps to AdverseEvent.category
+    AdverseEvent.Event maps to AdverseEvent.event
+    AdverseEvent.Subject maps to AdverseEvent.subject
+    AdverseEvent.Encounter maps to AdverseEvent.encounter
+    AdverseEvent.Date maps to AdverseEvent.date
+    AdverseEvent.Detected maps to AdverseEvent.detected
+    AdverseEvent.RecordedDate maps to AdverseEvent.recordedDate
+    AdverseEvent.ResultingCondition maps to AdverseEvent.resultingCondition
+    AdverseEvent.Location maps to AdverseEvent.location
+    AdverseEvent.Seriousness maps to AdverseEvent.seriousness
+    AdverseEvent.Severity maps to AdverseEvent.severity
+    AdverseEvent.Outcome maps to AdverseEvent.outcome
+    AdverseEvent.Recorder maps to AdverseEvent.recorder
+    AdverseEvent.Contributor maps to AdverseEvent.contributor
+    AdverseEvent.SuspectEntity maps to AdverseEvent.suspectEntity
+                                                                                                                                            // ConvertFhirClass.cs:117
+    AdverseEvent.SuspectEntityGroup maps to AdverseEvent.suspectEntity                                                                      // ConvertFhirClass.cs:118
+        AdverseEvent.SuspectEntityGroup.Instance maps to AdverseEvent.suspectEntity.instance
+        AdverseEvent.SuspectEntityGroup.Causality maps to AdverseEvent.suspectEntity.causality
+                                                                                                                                            // ConvertFhirClass.cs:117
+        AdverseEvent.SuspectEntityGroup.CausalityGroup maps to AdverseEvent.suspectEntity.causality                                         // ConvertFhirClass.cs:118
+            AdverseEvent.SuspectEntityGroup.CausalityGroup.Assessment maps to AdverseEvent.suspectEntity.causality.assessment
+            AdverseEvent.SuspectEntityGroup.CausalityGroup.ProductRelatedness maps to AdverseEvent.suspectEntity.causality.productRelatedness
+            AdverseEvent.SuspectEntityGroup.CausalityGroup.Author maps to AdverseEvent.suspectEntity.causality.author
+            AdverseEvent.SuspectEntityGroup.CausalityGroup.Method maps to AdverseEvent.suspectEntity.causality.method
+    AdverseEvent.SubjectMedicalHistory maps to AdverseEvent.subjectMedicalHistory
+    AdverseEvent.ReferenceDocument maps to AdverseEvent.referenceDocument
+    AdverseEvent.Study maps to AdverseEvent.study

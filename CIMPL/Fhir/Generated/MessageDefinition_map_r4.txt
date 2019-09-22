@@ -1,0 +1,39 @@
+Grammar: Map 5.1
+Namespace: fhir.messagedefinition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MessageDefinition maps to MessageDefinition:                                                                                                // ConvertFhirClass.cs:118
+    MessageDefinition.Url maps to MessageDefinition.url
+    MessageDefinition.Identifier maps to MessageDefinition.identifier
+    MessageDefinition.Version maps to MessageDefinition.version
+    MessageDefinition.Name maps to MessageDefinition.name
+    MessageDefinition.Title maps to MessageDefinition.title
+    MessageDefinition.Replaces maps to MessageDefinition.replaces
+    MessageDefinition.Status maps to MessageDefinition.status
+    MessageDefinition.Experimental maps to MessageDefinition.experimental
+    MessageDefinition.Date maps to MessageDefinition.date
+    MessageDefinition.Publisher maps to MessageDefinition.publisher
+    MessageDefinition.Contact maps to MessageDefinition.contact
+    MessageDefinition.Description maps to MessageDefinition.description
+    MessageDefinition.UseContext maps to MessageDefinition.useContext
+    MessageDefinition.Jurisdiction maps to MessageDefinition.jurisdiction
+    MessageDefinition.Purpose maps to MessageDefinition.purpose
+    MessageDefinition.Copyright maps to MessageDefinition.copyright
+    MessageDefinition.Base maps to MessageDefinition.base
+    MessageDefinition.Parent maps to MessageDefinition.parent
+    MessageDefinition.EventX maps to MessageDefinition.event[x]
+    MessageDefinition.Category maps to MessageDefinition.category
+    MessageDefinition.Focus maps to MessageDefinition.focus
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MessageDefinition.FocusGroup maps to MessageDefinition.focus                                                                            // ConvertFhirClass.cs:118
+        MessageDefinition.FocusGroup.Code maps to MessageDefinition.focus.code
+        MessageDefinition.FocusGroup.Profile maps to MessageDefinition.focus.profile
+        MessageDefinition.FocusGroup.Min maps to MessageDefinition.focus.min
+        MessageDefinition.FocusGroup.Max maps to MessageDefinition.focus.max
+    MessageDefinition.ResponseRequired maps to MessageDefinition.responseRequired
+    MessageDefinition.AllowedResponse maps to MessageDefinition.allowedResponse
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MessageDefinition.AllowedResponseGroup maps to MessageDefinition.allowedResponse                                                        // ConvertFhirClass.cs:118
+        MessageDefinition.AllowedResponseGroup.Message maps to MessageDefinition.allowedResponse.message
+        MessageDefinition.AllowedResponseGroup.Situation maps to MessageDefinition.allowedResponse.situation
+    MessageDefinition.Graph maps to MessageDefinition.graph

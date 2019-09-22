@@ -1,0 +1,56 @@
+Grammar: Map 5.1
+Namespace: fhir.conceptmap
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ConceptMap maps to ConceptMap:                                                                                                              // ConvertFhirClass.cs:118
+    ConceptMap.Url maps to ConceptMap.url
+    ConceptMap.Identifier maps to ConceptMap.identifier
+    ConceptMap.Version maps to ConceptMap.version
+    ConceptMap.Name maps to ConceptMap.name
+    ConceptMap.Title maps to ConceptMap.title
+    ConceptMap.Status maps to ConceptMap.status
+    ConceptMap.Experimental maps to ConceptMap.experimental
+    ConceptMap.Date maps to ConceptMap.date
+    ConceptMap.Publisher maps to ConceptMap.publisher
+    ConceptMap.Contact maps to ConceptMap.contact
+    ConceptMap.Description maps to ConceptMap.description
+    ConceptMap.UseContext maps to ConceptMap.useContext
+    ConceptMap.Jurisdiction maps to ConceptMap.jurisdiction
+    ConceptMap.Purpose maps to ConceptMap.purpose
+    ConceptMap.Copyright maps to ConceptMap.copyright
+    ConceptMap.SourceX maps to ConceptMap.source[x]
+    ConceptMap.TargetX maps to ConceptMap.target[x]
+    ConceptMap.Group maps to ConceptMap.group
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ConceptMap.GroupGroup maps to ConceptMap.group                                                                                          // ConvertFhirClass.cs:118
+        ConceptMap.GroupGroup.Source maps to ConceptMap.group.source
+        ConceptMap.GroupGroup.SourceVersion maps to ConceptMap.group.sourceVersion
+        ConceptMap.GroupGroup.Target maps to ConceptMap.group.target
+        ConceptMap.GroupGroup.TargetVersion maps to ConceptMap.group.targetVersion
+        ConceptMap.GroupGroup.Element maps to ConceptMap.group.element
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ConceptMap.GroupGroup.ElementGroup maps to ConceptMap.group.element                                                                 // ConvertFhirClass.cs:118
+            ConceptMap.GroupGroup.ElementGroup.Code maps to ConceptMap.group.element.code
+            ConceptMap.GroupGroup.ElementGroup.Display maps to ConceptMap.group.element.display
+            ConceptMap.GroupGroup.ElementGroup.Target maps to ConceptMap.group.element.target
+                                                                                                                                            // ConvertFhirClass.cs:117
+            ConceptMap.GroupGroup.ElementGroup.TargetGroup maps to ConceptMap.group.element.target                                          // ConvertFhirClass.cs:118
+                ConceptMap.GroupGroup.ElementGroup.TargetGroup.Code maps to ConceptMap.group.element.target.code
+                ConceptMap.GroupGroup.ElementGroup.TargetGroup.Display maps to ConceptMap.group.element.target.display
+                ConceptMap.GroupGroup.ElementGroup.TargetGroup.Equivalence maps to ConceptMap.group.element.target.equivalence
+                ConceptMap.GroupGroup.ElementGroup.TargetGroup.Comment maps to ConceptMap.group.element.target.comment
+                ConceptMap.GroupGroup.ElementGroup.TargetGroup.DependsOn maps to ConceptMap.group.element.target.dependsOn
+                                                                                                                                            // ConvertFhirClass.cs:117
+                ConceptMap.GroupGroup.ElementGroup.TargetGroup.DependsOnGroup maps to ConceptMap.group.element.target.dependsOn             // ConvertFhirClass.cs:118
+                    ConceptMap.GroupGroup.ElementGroup.TargetGroup.DependsOnGroup.Property maps to ConceptMap.group.element.target.dependsOn.property
+                    ConceptMap.GroupGroup.ElementGroup.TargetGroup.DependsOnGroup.System maps to ConceptMap.group.element.target.dependsOn.system
+                    ConceptMap.GroupGroup.ElementGroup.TargetGroup.DependsOnGroup.ValueZ maps to ConceptMap.group.element.target.dependsOn.value
+                    ConceptMap.GroupGroup.ElementGroup.TargetGroup.DependsOnGroup.Display maps to ConceptMap.group.element.target.dependsOn.display
+                ConceptMap.GroupGroup.ElementGroup.TargetGroup.Product maps to ConceptMap.group.element.target.product
+        ConceptMap.GroupGroup.Unmapped maps to ConceptMap.group.unmapped
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ConceptMap.GroupGroup.UnmappedGroup maps to ConceptMap.group.unmapped                                                               // ConvertFhirClass.cs:118
+            ConceptMap.GroupGroup.UnmappedGroup.Mode maps to ConceptMap.group.unmapped.mode
+            ConceptMap.GroupGroup.UnmappedGroup.Code maps to ConceptMap.group.unmapped.code
+            ConceptMap.GroupGroup.UnmappedGroup.Display maps to ConceptMap.group.unmapped.display
+            ConceptMap.GroupGroup.UnmappedGroup.Url maps to ConceptMap.group.unmapped.url

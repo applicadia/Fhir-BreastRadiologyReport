@@ -1,0 +1,18 @@
+Grammar: Map 5.1
+Namespace: fhir.immunizationevaluation
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ImmunizationEvaluation maps to ImmunizationEvaluation:                                                                                      // ConvertFhirClass.cs:118
+    ImmunizationEvaluation.Identifier maps to ImmunizationEvaluation.identifier
+    ImmunizationEvaluation.Status maps to ImmunizationEvaluation.status
+    ImmunizationEvaluation.Patient maps to ImmunizationEvaluation.patient
+    ImmunizationEvaluation.Date maps to ImmunizationEvaluation.date
+    ImmunizationEvaluation.Authority maps to ImmunizationEvaluation.authority
+    ImmunizationEvaluation.TargetDisease maps to ImmunizationEvaluation.targetDisease
+    ImmunizationEvaluation.ImmunizationEvent maps to ImmunizationEvaluation.immunizationEvent
+    ImmunizationEvaluation.DoseStatus maps to ImmunizationEvaluation.doseStatus
+    ImmunizationEvaluation.DoseStatusReason maps to ImmunizationEvaluation.doseStatusReason
+    ImmunizationEvaluation.Description maps to ImmunizationEvaluation.description
+    ImmunizationEvaluation.Series maps to ImmunizationEvaluation.series
+    ImmunizationEvaluation.DoseNumberX maps to ImmunizationEvaluation.doseNumber[x]
+    ImmunizationEvaluation.SeriesDosesX maps to ImmunizationEvaluation.seriesDoses[x]

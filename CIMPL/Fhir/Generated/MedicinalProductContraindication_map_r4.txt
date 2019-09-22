@@ -1,0 +1,16 @@
+Grammar: Map 5.1
+Namespace: fhir.medicinalproductcontraindication
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MedicinalProductContraindication maps to MedicinalProductContraindication:                                                                  // ConvertFhirClass.cs:118
+    MedicinalProductContraindication.Subject maps to MedicinalProductContraindication.subject
+    MedicinalProductContraindication.Disease maps to MedicinalProductContraindication.disease
+    MedicinalProductContraindication.DiseaseStatus maps to MedicinalProductContraindication.diseaseStatus
+    MedicinalProductContraindication.Comorbidity maps to MedicinalProductContraindication.comorbidity
+    MedicinalProductContraindication.TherapeuticIndication maps to MedicinalProductContraindication.therapeuticIndication
+    MedicinalProductContraindication.OtherTherapy maps to MedicinalProductContraindication.otherTherapy
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MedicinalProductContraindication.OtherTherapyGroup maps to MedicinalProductContraindication.otherTherapy                                // ConvertFhirClass.cs:118
+        MedicinalProductContraindication.OtherTherapyGroup.TherapyRelationshipType maps to MedicinalProductContraindication.otherTherapy.therapyRelationshipType
+        MedicinalProductContraindication.OtherTherapyGroup.MedicationX maps to MedicinalProductContraindication.otherTherapy.medication[x]
+    MedicinalProductContraindication.Population maps to MedicinalProductContraindication.population

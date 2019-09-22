@@ -1,0 +1,37 @@
+Grammar: Map 5.1
+Namespace: fhir.biologicallyderivedproduct
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+BiologicallyDerivedProduct maps to BiologicallyDerivedProduct:                                                                              // ConvertFhirClass.cs:118
+    BiologicallyDerivedProduct.Identifier maps to BiologicallyDerivedProduct.identifier
+    BiologicallyDerivedProduct.ProductCategory maps to BiologicallyDerivedProduct.productCategory
+    BiologicallyDerivedProduct.ProductCode maps to BiologicallyDerivedProduct.productCode
+    BiologicallyDerivedProduct.Status maps to BiologicallyDerivedProduct.status
+    BiologicallyDerivedProduct.Request maps to BiologicallyDerivedProduct.request
+    BiologicallyDerivedProduct.Quantity maps to BiologicallyDerivedProduct.quantity
+    BiologicallyDerivedProduct.Parent maps to BiologicallyDerivedProduct.parent
+    BiologicallyDerivedProduct.Collection maps to BiologicallyDerivedProduct.collection
+                                                                                                                                            // ConvertFhirClass.cs:117
+    BiologicallyDerivedProduct.CollectionGroup maps to BiologicallyDerivedProduct.collection                                                // ConvertFhirClass.cs:118
+        BiologicallyDerivedProduct.CollectionGroup.Collector maps to BiologicallyDerivedProduct.collection.collector
+        BiologicallyDerivedProduct.CollectionGroup.Source maps to BiologicallyDerivedProduct.collection.source
+        BiologicallyDerivedProduct.CollectionGroup.CollectedX maps to BiologicallyDerivedProduct.collection.collected[x]
+    BiologicallyDerivedProduct.Processing maps to BiologicallyDerivedProduct.processing
+                                                                                                                                            // ConvertFhirClass.cs:117
+    BiologicallyDerivedProduct.ProcessingGroup maps to BiologicallyDerivedProduct.processing                                                // ConvertFhirClass.cs:118
+        BiologicallyDerivedProduct.ProcessingGroup.Description maps to BiologicallyDerivedProduct.processing.description
+        BiologicallyDerivedProduct.ProcessingGroup.Procedure maps to BiologicallyDerivedProduct.processing.procedure
+        BiologicallyDerivedProduct.ProcessingGroup.Additive maps to BiologicallyDerivedProduct.processing.additive
+        BiologicallyDerivedProduct.ProcessingGroup.TimeX maps to BiologicallyDerivedProduct.processing.time[x]
+    BiologicallyDerivedProduct.Manipulation maps to BiologicallyDerivedProduct.manipulation
+                                                                                                                                            // ConvertFhirClass.cs:117
+    BiologicallyDerivedProduct.ManipulationGroup maps to BiologicallyDerivedProduct.manipulation                                            // ConvertFhirClass.cs:118
+        BiologicallyDerivedProduct.ManipulationGroup.Description maps to BiologicallyDerivedProduct.manipulation.description
+        BiologicallyDerivedProduct.ManipulationGroup.TimeX maps to BiologicallyDerivedProduct.manipulation.time[x]
+    BiologicallyDerivedProduct.Storage maps to BiologicallyDerivedProduct.storage
+                                                                                                                                            // ConvertFhirClass.cs:117
+    BiologicallyDerivedProduct.StorageGroup maps to BiologicallyDerivedProduct.storage                                                      // ConvertFhirClass.cs:118
+        BiologicallyDerivedProduct.StorageGroup.Description maps to BiologicallyDerivedProduct.storage.description
+        BiologicallyDerivedProduct.StorageGroup.Temperature maps to BiologicallyDerivedProduct.storage.temperature
+        BiologicallyDerivedProduct.StorageGroup.Scale maps to BiologicallyDerivedProduct.storage.scale
+        BiologicallyDerivedProduct.StorageGroup.Duration maps to BiologicallyDerivedProduct.storage.duration

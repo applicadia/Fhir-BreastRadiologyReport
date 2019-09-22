@@ -1,0 +1,7 @@
+Grammar: Map 5.1
+Namespace: fhir.usagecontext
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+UsageContext maps to UsageContext:                                                                                                          // ConvertFhirClass.cs:118
+    UsageContext.Code maps to UsageContext.code
+    UsageContext.ValueX maps to UsageContext.value[x]

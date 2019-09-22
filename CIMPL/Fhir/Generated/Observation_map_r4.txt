@@ -1,0 +1,44 @@
+Grammar: Map 5.1
+Namespace: fhir.observation
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Observation maps to Observation:                                                                                                            // ConvertFhirClass.cs:118
+    Observation.Identifier maps to Observation.identifier
+    Observation.BasedOn maps to Observation.basedOn
+    Observation.PartOf maps to Observation.partOf
+    Observation.Status maps to Observation.status
+    Observation.Category maps to Observation.category
+    Observation.Code maps to Observation.code
+    Observation.Subject maps to Observation.subject
+    Observation.Focus maps to Observation.focus
+    Observation.Encounter maps to Observation.encounter
+    Observation.EffectiveX maps to Observation.effective[x]
+    Observation.Issued maps to Observation.issued
+    Observation.Performer maps to Observation.performer
+    Observation.ValueX maps to Observation.value[x]
+    Observation.DataAbsentReason maps to Observation.dataAbsentReason
+    Observation.Interpretation maps to Observation.interpretation
+    Observation.Note maps to Observation.note
+    Observation.BodySite maps to Observation.bodySite
+    Observation.Method maps to Observation.method
+    Observation.Specimen maps to Observation.specimen
+    Observation.Device maps to Observation.device
+    Observation.ReferenceRange maps to Observation.referenceRange
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Observation.ReferenceRangeGroup maps to Observation.referenceRange                                                                      // ConvertFhirClass.cs:118
+        Observation.ReferenceRangeGroup.Low maps to Observation.referenceRange.low
+        Observation.ReferenceRangeGroup.High maps to Observation.referenceRange.high
+        Observation.ReferenceRangeGroup.Type maps to Observation.referenceRange.type
+        Observation.ReferenceRangeGroup.AppliesTo maps to Observation.referenceRange.appliesTo
+        Observation.ReferenceRangeGroup.Age maps to Observation.referenceRange.age
+        Observation.ReferenceRangeGroup.Text maps to Observation.referenceRange.text
+    Observation.HasMember maps to Observation.hasMember
+    Observation.DerivedFrom maps to Observation.derivedFrom
+    Observation.Component maps to Observation.component
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Observation.ComponentGroup maps to Observation.component                                                                                // ConvertFhirClass.cs:118
+        Observation.ComponentGroup.Code maps to Observation.component.code
+        Observation.ComponentGroup.ValueX maps to Observation.component.value[x]
+        Observation.ComponentGroup.DataAbsentReason maps to Observation.component.dataAbsentReason
+        Observation.ComponentGroup.Interpretation maps to Observation.component.interpretation
+        Observation.ComponentGroup.ReferenceRange maps to Observation.component.referenceRange

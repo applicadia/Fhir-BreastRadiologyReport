@@ -1,0 +1,85 @@
+Grammar: Map 5.1
+Namespace: fhir.implementationguide
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ImplementationGuide maps to ImplementationGuide:                                                                                            // ConvertFhirClass.cs:118
+    ImplementationGuide.Url maps to ImplementationGuide.url
+    ImplementationGuide.Version maps to ImplementationGuide.version
+    ImplementationGuide.Name maps to ImplementationGuide.name
+    ImplementationGuide.Title maps to ImplementationGuide.title
+    ImplementationGuide.Status maps to ImplementationGuide.status
+    ImplementationGuide.Experimental maps to ImplementationGuide.experimental
+    ImplementationGuide.Date maps to ImplementationGuide.date
+    ImplementationGuide.Publisher maps to ImplementationGuide.publisher
+    ImplementationGuide.Contact maps to ImplementationGuide.contact
+    ImplementationGuide.Description maps to ImplementationGuide.description
+    ImplementationGuide.UseContext maps to ImplementationGuide.useContext
+    ImplementationGuide.Jurisdiction maps to ImplementationGuide.jurisdiction
+    ImplementationGuide.Copyright maps to ImplementationGuide.copyright
+    ImplementationGuide.PackageId maps to ImplementationGuide.packageId
+    ImplementationGuide.License maps to ImplementationGuide.license
+    ImplementationGuide.FhirVersion maps to ImplementationGuide.fhirVersion
+    ImplementationGuide.DependsOn maps to ImplementationGuide.dependsOn
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ImplementationGuide.DependsOnGroup maps to ImplementationGuide.dependsOn                                                                // ConvertFhirClass.cs:118
+        ImplementationGuide.DependsOnGroup.Uri maps to ImplementationGuide.dependsOn.uri
+        ImplementationGuide.DependsOnGroup.PackageId maps to ImplementationGuide.dependsOn.packageId
+        ImplementationGuide.DependsOnGroup.Version maps to ImplementationGuide.dependsOn.version
+    ImplementationGuide.Global maps to ImplementationGuide.global
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ImplementationGuide.GlobalGroup maps to ImplementationGuide.global                                                                      // ConvertFhirClass.cs:118
+        ImplementationGuide.GlobalGroup.Type maps to ImplementationGuide.global.type
+        ImplementationGuide.GlobalGroup.Profile maps to ImplementationGuide.global.profile
+    ImplementationGuide.Definition maps to ImplementationGuide.definition
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ImplementationGuide.DefinitionGroup maps to ImplementationGuide.definition                                                              // ConvertFhirClass.cs:118
+        ImplementationGuide.DefinitionGroup.Grouping maps to ImplementationGuide.definition.grouping
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImplementationGuide.DefinitionGroup.GroupingGroup maps to ImplementationGuide.definition.grouping                                   // ConvertFhirClass.cs:118
+            ImplementationGuide.DefinitionGroup.GroupingGroup.Name maps to ImplementationGuide.definition.grouping.name
+            ImplementationGuide.DefinitionGroup.GroupingGroup.Description maps to ImplementationGuide.definition.grouping.description
+        ImplementationGuide.DefinitionGroup.Resource maps to ImplementationGuide.definition.resource
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImplementationGuide.DefinitionGroup.ResourceGroup maps to ImplementationGuide.definition.resource                                   // ConvertFhirClass.cs:118
+            ImplementationGuide.DefinitionGroup.ResourceGroup.Reference maps to ImplementationGuide.definition.resource.reference
+            ImplementationGuide.DefinitionGroup.ResourceGroup.FhirVersion maps to ImplementationGuide.definition.resource.fhirVersion
+            ImplementationGuide.DefinitionGroup.ResourceGroup.Name maps to ImplementationGuide.definition.resource.name
+            ImplementationGuide.DefinitionGroup.ResourceGroup.Description maps to ImplementationGuide.definition.resource.description
+            ImplementationGuide.DefinitionGroup.ResourceGroup.ExampleX maps to ImplementationGuide.definition.resource.example[x]
+            ImplementationGuide.DefinitionGroup.ResourceGroup.GroupingId maps to ImplementationGuide.definition.resource.groupingId
+        ImplementationGuide.DefinitionGroup.Page maps to ImplementationGuide.definition.page
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImplementationGuide.DefinitionGroup.PageGroup maps to ImplementationGuide.definition.page                                           // ConvertFhirClass.cs:118
+            ImplementationGuide.DefinitionGroup.PageGroup.NameX maps to ImplementationGuide.definition.page.name[x]
+            ImplementationGuide.DefinitionGroup.PageGroup.Title maps to ImplementationGuide.definition.page.title
+            ImplementationGuide.DefinitionGroup.PageGroup.Generation maps to ImplementationGuide.definition.page.generation
+            ImplementationGuide.DefinitionGroup.PageGroup.Page maps to ImplementationGuide.definition.page.page
+        ImplementationGuide.DefinitionGroup.Parameter maps to ImplementationGuide.definition.parameter
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImplementationGuide.DefinitionGroup.ParameterGroup maps to ImplementationGuide.definition.parameter                                 // ConvertFhirClass.cs:118
+            ImplementationGuide.DefinitionGroup.ParameterGroup.Code maps to ImplementationGuide.definition.parameter.code
+            ImplementationGuide.DefinitionGroup.ParameterGroup.ValueZ maps to ImplementationGuide.definition.parameter.value
+        ImplementationGuide.DefinitionGroup.Template maps to ImplementationGuide.definition.template
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImplementationGuide.DefinitionGroup.TemplateGroup maps to ImplementationGuide.definition.template                                   // ConvertFhirClass.cs:118
+            ImplementationGuide.DefinitionGroup.TemplateGroup.Code maps to ImplementationGuide.definition.template.code
+            ImplementationGuide.DefinitionGroup.TemplateGroup.Source maps to ImplementationGuide.definition.template.source
+            ImplementationGuide.DefinitionGroup.TemplateGroup.Scope maps to ImplementationGuide.definition.template.scope
+    ImplementationGuide.Manifest maps to ImplementationGuide.manifest
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ImplementationGuide.ManifestGroup maps to ImplementationGuide.manifest                                                                  // ConvertFhirClass.cs:118
+        ImplementationGuide.ManifestGroup.Rendering maps to ImplementationGuide.manifest.rendering
+        ImplementationGuide.ManifestGroup.Resource maps to ImplementationGuide.manifest.resource
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImplementationGuide.ManifestGroup.ResourceGroup maps to ImplementationGuide.manifest.resource                                       // ConvertFhirClass.cs:118
+            ImplementationGuide.ManifestGroup.ResourceGroup.Reference maps to ImplementationGuide.manifest.resource.reference
+            ImplementationGuide.ManifestGroup.ResourceGroup.ExampleX maps to ImplementationGuide.manifest.resource.example[x]
+            ImplementationGuide.ManifestGroup.ResourceGroup.RelativePath maps to ImplementationGuide.manifest.resource.relativePath
+        ImplementationGuide.ManifestGroup.Page maps to ImplementationGuide.manifest.page
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ImplementationGuide.ManifestGroup.PageGroup maps to ImplementationGuide.manifest.page                                               // ConvertFhirClass.cs:118
+            ImplementationGuide.ManifestGroup.PageGroup.Name maps to ImplementationGuide.manifest.page.name
+            ImplementationGuide.ManifestGroup.PageGroup.Title maps to ImplementationGuide.manifest.page.title
+            ImplementationGuide.ManifestGroup.PageGroup.Anchor maps to ImplementationGuide.manifest.page.anchor
+        ImplementationGuide.ManifestGroup.Image maps to ImplementationGuide.manifest.image
+        ImplementationGuide.ManifestGroup.Other maps to ImplementationGuide.manifest.other

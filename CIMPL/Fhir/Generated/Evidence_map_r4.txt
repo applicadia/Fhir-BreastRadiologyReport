@@ -1,0 +1,33 @@
+Grammar: Map 5.1
+Namespace: fhir.evidence
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Evidence maps to Evidence:                                                                                                                  // ConvertFhirClass.cs:118
+    Evidence.Url maps to Evidence.url
+    Evidence.Identifier maps to Evidence.identifier
+    Evidence.Version maps to Evidence.version
+    Evidence.Name maps to Evidence.name
+    Evidence.Title maps to Evidence.title
+    Evidence.ShortTitle maps to Evidence.shortTitle
+    Evidence.Subtitle maps to Evidence.subtitle
+    Evidence.Status maps to Evidence.status
+    Evidence.Date maps to Evidence.date
+    Evidence.Publisher maps to Evidence.publisher
+    Evidence.Contact maps to Evidence.contact
+    Evidence.Description maps to Evidence.description
+    Evidence.Note maps to Evidence.note
+    Evidence.UseContext maps to Evidence.useContext
+    Evidence.Jurisdiction maps to Evidence.jurisdiction
+    Evidence.Copyright maps to Evidence.copyright
+    Evidence.ApprovalDate maps to Evidence.approvalDate
+    Evidence.LastReviewDate maps to Evidence.lastReviewDate
+    Evidence.EffectivePeriod maps to Evidence.effectivePeriod
+    Evidence.Topic maps to Evidence.topic
+    Evidence.Author maps to Evidence.author
+    Evidence.Editor maps to Evidence.editor
+    Evidence.Reviewer maps to Evidence.reviewer
+    Evidence.Endorser maps to Evidence.endorser
+    Evidence.RelatedArtifact maps to Evidence.relatedArtifact
+    Evidence.ExposureBackground maps to Evidence.exposureBackground
+    Evidence.ExposureVariant maps to Evidence.exposureVariant
+    Evidence.Outcome maps to Evidence.outcome

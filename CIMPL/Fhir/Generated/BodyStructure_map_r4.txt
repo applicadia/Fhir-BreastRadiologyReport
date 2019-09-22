@@ -1,0 +1,13 @@
+Grammar: Map 5.1
+Namespace: fhir.bodystructure
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+BodyStructure maps to BodyStructure:                                                                                                        // ConvertFhirClass.cs:118
+    BodyStructure.Identifier maps to BodyStructure.identifier
+    BodyStructure.Active maps to BodyStructure.active
+    BodyStructure.Morphology maps to BodyStructure.morphology
+    BodyStructure.Location maps to BodyStructure.location
+    BodyStructure.LocationQualifier maps to BodyStructure.locationQualifier
+    BodyStructure.Description maps to BodyStructure.description
+    BodyStructure.Image maps to BodyStructure.image
+    BodyStructure.Patient maps to BodyStructure.patient

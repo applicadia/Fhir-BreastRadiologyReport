@@ -1,0 +1,138 @@
+Grammar: Map 5.1
+Namespace: fhir.testscript
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+TestScript maps to TestScript:                                                                                                              // ConvertFhirClass.cs:118
+    TestScript.Url maps to TestScript.url
+    TestScript.Identifier maps to TestScript.identifier
+    TestScript.Version maps to TestScript.version
+    TestScript.Name maps to TestScript.name
+    TestScript.Title maps to TestScript.title
+    TestScript.Status maps to TestScript.status
+    TestScript.Experimental maps to TestScript.experimental
+    TestScript.Date maps to TestScript.date
+    TestScript.Publisher maps to TestScript.publisher
+    TestScript.Contact maps to TestScript.contact
+    TestScript.Description maps to TestScript.description
+    TestScript.UseContext maps to TestScript.useContext
+    TestScript.Jurisdiction maps to TestScript.jurisdiction
+    TestScript.Purpose maps to TestScript.purpose
+    TestScript.Copyright maps to TestScript.copyright
+    TestScript.Origin maps to TestScript.origin
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestScript.OriginGroup maps to TestScript.origin                                                                                        // ConvertFhirClass.cs:118
+        TestScript.OriginGroup.Index maps to TestScript.origin.index
+        TestScript.OriginGroup.Profile maps to TestScript.origin.profile
+    TestScript.Destination maps to TestScript.destination
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestScript.DestinationGroup maps to TestScript.destination                                                                              // ConvertFhirClass.cs:118
+        TestScript.DestinationGroup.Index maps to TestScript.destination.index
+        TestScript.DestinationGroup.Profile maps to TestScript.destination.profile
+    TestScript.Metadata maps to TestScript.metadata
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestScript.MetadataGroup maps to TestScript.metadata                                                                                    // ConvertFhirClass.cs:118
+        TestScript.MetadataGroup.Link maps to TestScript.metadata.link
+                                                                                                                                            // ConvertFhirClass.cs:117
+        TestScript.MetadataGroup.LinkGroup maps to TestScript.metadata.link                                                                 // ConvertFhirClass.cs:118
+            TestScript.MetadataGroup.LinkGroup.Url maps to TestScript.metadata.link.url
+            TestScript.MetadataGroup.LinkGroup.Description maps to TestScript.metadata.link.description
+        TestScript.MetadataGroup.Capability maps to TestScript.metadata.capability
+                                                                                                                                            // ConvertFhirClass.cs:117
+        TestScript.MetadataGroup.CapabilityGroup maps to TestScript.metadata.capability                                                     // ConvertFhirClass.cs:118
+            TestScript.MetadataGroup.CapabilityGroup.Required maps to TestScript.metadata.capability.required
+            TestScript.MetadataGroup.CapabilityGroup.Validated maps to TestScript.metadata.capability.validated
+            TestScript.MetadataGroup.CapabilityGroup.Description maps to TestScript.metadata.capability.description
+            TestScript.MetadataGroup.CapabilityGroup.Origin maps to TestScript.metadata.capability.origin
+            TestScript.MetadataGroup.CapabilityGroup.Destination maps to TestScript.metadata.capability.destination
+            TestScript.MetadataGroup.CapabilityGroup.Link maps to TestScript.metadata.capability.link
+            TestScript.MetadataGroup.CapabilityGroup.Capabilities maps to TestScript.metadata.capability.capabilities
+    TestScript.Fixture maps to TestScript.fixture
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestScript.FixtureGroup maps to TestScript.fixture                                                                                      // ConvertFhirClass.cs:118
+        TestScript.FixtureGroup.Autocreate maps to TestScript.fixture.autocreate
+        TestScript.FixtureGroup.Autodelete maps to TestScript.fixture.autodelete
+        TestScript.FixtureGroup.Resource maps to TestScript.fixture.resource
+    TestScript.Profile maps to TestScript.profile
+    TestScript.Variable maps to TestScript.variable
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestScript.VariableGroup maps to TestScript.variable                                                                                    // ConvertFhirClass.cs:118
+        TestScript.VariableGroup.Name maps to TestScript.variable.name
+        TestScript.VariableGroup.DefaultValue maps to TestScript.variable.defaultValue
+        TestScript.VariableGroup.Description maps to TestScript.variable.description
+        TestScript.VariableGroup.Expression maps to TestScript.variable.expression
+        TestScript.VariableGroup.HeaderField maps to TestScript.variable.headerField
+        TestScript.VariableGroup.Hint maps to TestScript.variable.hint
+        TestScript.VariableGroup.Path maps to TestScript.variable.path
+        TestScript.VariableGroup.SourceId maps to TestScript.variable.sourceId
+    TestScript.Setup maps to TestScript.setup
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestScript.SetupGroup maps to TestScript.setup                                                                                          // ConvertFhirClass.cs:118
+        TestScript.SetupGroup.Action maps to TestScript.setup.action
+                                                                                                                                            // ConvertFhirClass.cs:117
+        TestScript.SetupGroup.ActionGroup maps to TestScript.setup.action                                                                   // ConvertFhirClass.cs:118
+            TestScript.SetupGroup.ActionGroup.Operation maps to TestScript.setup.action.operation
+                                                                                                                                            // ConvertFhirClass.cs:117
+            TestScript.SetupGroup.ActionGroup.OperationGroup maps to TestScript.setup.action.operation                                      // ConvertFhirClass.cs:118
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Type maps to TestScript.setup.action.operation.type
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Resource maps to TestScript.setup.action.operation.resource
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Label maps to TestScript.setup.action.operation.label
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Description maps to TestScript.setup.action.operation.description
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Accept maps to TestScript.setup.action.operation.accept
+                TestScript.SetupGroup.ActionGroup.OperationGroup.ContentType maps to TestScript.setup.action.operation.contentType
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Destination maps to TestScript.setup.action.operation.destination
+                TestScript.SetupGroup.ActionGroup.OperationGroup.EncodeRequestUrl maps to TestScript.setup.action.operation.encodeRequestUrl
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Method maps to TestScript.setup.action.operation.method
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Origin maps to TestScript.setup.action.operation.origin
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Params maps to TestScript.setup.action.operation.params
+                TestScript.SetupGroup.ActionGroup.OperationGroup.RequestHeader maps to TestScript.setup.action.operation.requestHeader
+                                                                                                                                            // ConvertFhirClass.cs:117
+                TestScript.SetupGroup.ActionGroup.OperationGroup.RequestHeaderGroup maps to TestScript.setup.action.operation.requestHeader // ConvertFhirClass.cs:118
+                    TestScript.SetupGroup.ActionGroup.OperationGroup.RequestHeaderGroup.Field maps to TestScript.setup.action.operation.requestHeader.field
+                    TestScript.SetupGroup.ActionGroup.OperationGroup.RequestHeaderGroup.ValueZ maps to TestScript.setup.action.operation.requestHeader.value
+                TestScript.SetupGroup.ActionGroup.OperationGroup.RequestId maps to TestScript.setup.action.operation.requestId
+                TestScript.SetupGroup.ActionGroup.OperationGroup.ResponseId maps to TestScript.setup.action.operation.responseId
+                TestScript.SetupGroup.ActionGroup.OperationGroup.SourceId maps to TestScript.setup.action.operation.sourceId
+                TestScript.SetupGroup.ActionGroup.OperationGroup.TargetId maps to TestScript.setup.action.operation.targetId
+                TestScript.SetupGroup.ActionGroup.OperationGroup.Url maps to TestScript.setup.action.operation.url
+            TestScript.SetupGroup.ActionGroup.Assert maps to TestScript.setup.action.assert
+                                                                                                                                            // ConvertFhirClass.cs:117
+            TestScript.SetupGroup.ActionGroup.AssertGroup maps to TestScript.setup.action.assert                                            // ConvertFhirClass.cs:118
+                TestScript.SetupGroup.ActionGroup.AssertGroup.Label maps to TestScript.setup.action.assert.label
+                TestScript.SetupGroup.ActionGroup.AssertGroup.Description maps to TestScript.setup.action.assert.description
+                TestScript.SetupGroup.ActionGroup.AssertGroup.Direction maps to TestScript.setup.action.assert.direction
+                TestScript.SetupGroup.ActionGroup.AssertGroup.CompareToSourceId maps to TestScript.setup.action.assert.compareToSourceId
+                TestScript.SetupGroup.ActionGroup.AssertGroup.CompareToSourceExpression maps to TestScript.setup.action.assert.compareToSourceExpression
+                TestScript.SetupGroup.ActionGroup.AssertGroup.CompareToSourcePath maps to TestScript.setup.action.assert.compareToSourcePath
+                TestScript.SetupGroup.ActionGroup.AssertGroup.ContentType maps to TestScript.setup.action.assert.contentType
+                TestScript.SetupGroup.ActionGroup.AssertGroup.Expression maps to TestScript.setup.action.assert.expression
+                TestScript.SetupGroup.ActionGroup.AssertGroup.HeaderField maps to TestScript.setup.action.assert.headerField
+                TestScript.SetupGroup.ActionGroup.AssertGroup.MinimumId maps to TestScript.setup.action.assert.minimumId
+                TestScript.SetupGroup.ActionGroup.AssertGroup.NavigationLinks maps to TestScript.setup.action.assert.navigationLinks
+                TestScript.SetupGroup.ActionGroup.AssertGroup.Operator maps to TestScript.setup.action.assert.operator
+                TestScript.SetupGroup.ActionGroup.AssertGroup.Path maps to TestScript.setup.action.assert.path
+                TestScript.SetupGroup.ActionGroup.AssertGroup.RequestMethod maps to TestScript.setup.action.assert.requestMethod
+                TestScript.SetupGroup.ActionGroup.AssertGroup.RequestURL maps to TestScript.setup.action.assert.requestURL
+                TestScript.SetupGroup.ActionGroup.AssertGroup.Resource maps to TestScript.setup.action.assert.resource
+                TestScript.SetupGroup.ActionGroup.AssertGroup.Response maps to TestScript.setup.action.assert.response
+                TestScript.SetupGroup.ActionGroup.AssertGroup.ResponseCode maps to TestScript.setup.action.assert.responseCode
+                TestScript.SetupGroup.ActionGroup.AssertGroup.SourceId maps to TestScript.setup.action.assert.sourceId
+                TestScript.SetupGroup.ActionGroup.AssertGroup.ValidateProfileId maps to TestScript.setup.action.assert.validateProfileId
+                TestScript.SetupGroup.ActionGroup.AssertGroup.ValueZ maps to TestScript.setup.action.assert.value
+                TestScript.SetupGroup.ActionGroup.AssertGroup.WarningOnly maps to TestScript.setup.action.assert.warningOnly
+    TestScript.Test maps to TestScript.test
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestScript.TestGroup maps to TestScript.test                                                                                            // ConvertFhirClass.cs:118
+        TestScript.TestGroup.Name maps to TestScript.test.name
+        TestScript.TestGroup.Description maps to TestScript.test.description
+        TestScript.TestGroup.Action maps to TestScript.test.action
+                                                                                                                                            // ConvertFhirClass.cs:117
+        TestScript.TestGroup.ActionGroup maps to TestScript.test.action                                                                     // ConvertFhirClass.cs:118
+            TestScript.TestGroup.ActionGroup.Operation maps to TestScript.test.action.operation
+            TestScript.TestGroup.ActionGroup.Assert maps to TestScript.test.action.assert
+    TestScript.Teardown maps to TestScript.teardown
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestScript.TeardownGroup maps to TestScript.teardown                                                                                    // ConvertFhirClass.cs:118
+        TestScript.TeardownGroup.Action maps to TestScript.teardown.action
+                                                                                                                                            // ConvertFhirClass.cs:117
+        TestScript.TeardownGroup.ActionGroup maps to TestScript.teardown.action                                                             // ConvertFhirClass.cs:118
+            TestScript.TeardownGroup.ActionGroup.Operation maps to TestScript.teardown.action.operation

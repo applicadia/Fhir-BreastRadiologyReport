@@ -1,0 +1,30 @@
+Grammar: Map 5.1
+Namespace: fhir.allergyintolerance
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+AllergyIntolerance maps to AllergyIntolerance:                                                                                              // ConvertFhirClass.cs:118
+    AllergyIntolerance.Identifier maps to AllergyIntolerance.identifier
+    AllergyIntolerance.ClinicalStatus maps to AllergyIntolerance.clinicalStatus
+    AllergyIntolerance.VerificationStatus maps to AllergyIntolerance.verificationStatus
+    AllergyIntolerance.Type maps to AllergyIntolerance.type
+    AllergyIntolerance.Category maps to AllergyIntolerance.category
+    AllergyIntolerance.Criticality maps to AllergyIntolerance.criticality
+    AllergyIntolerance.Code maps to AllergyIntolerance.code
+    AllergyIntolerance.Patient maps to AllergyIntolerance.patient
+    AllergyIntolerance.Encounter maps to AllergyIntolerance.encounter
+    AllergyIntolerance.OnsetX maps to AllergyIntolerance.onset[x]
+    AllergyIntolerance.RecordedDate maps to AllergyIntolerance.recordedDate
+    AllergyIntolerance.Recorder maps to AllergyIntolerance.recorder
+    AllergyIntolerance.Asserter maps to AllergyIntolerance.asserter
+    AllergyIntolerance.LastOccurrence maps to AllergyIntolerance.lastOccurrence
+    AllergyIntolerance.Note maps to AllergyIntolerance.note
+    AllergyIntolerance.Reaction maps to AllergyIntolerance.reaction
+                                                                                                                                            // ConvertFhirClass.cs:117
+    AllergyIntolerance.ReactionGroup maps to AllergyIntolerance.reaction                                                                    // ConvertFhirClass.cs:118
+        AllergyIntolerance.ReactionGroup.Substance maps to AllergyIntolerance.reaction.substance
+        AllergyIntolerance.ReactionGroup.Manifestation maps to AllergyIntolerance.reaction.manifestation
+        AllergyIntolerance.ReactionGroup.Description maps to AllergyIntolerance.reaction.description
+        AllergyIntolerance.ReactionGroup.Onset maps to AllergyIntolerance.reaction.onset
+        AllergyIntolerance.ReactionGroup.Severity maps to AllergyIntolerance.reaction.severity
+        AllergyIntolerance.ReactionGroup.ExposureRoute maps to AllergyIntolerance.reaction.exposureRoute
+        AllergyIntolerance.ReactionGroup.Note maps to AllergyIntolerance.reaction.note

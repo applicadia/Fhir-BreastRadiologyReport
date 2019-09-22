@@ -1,0 +1,12 @@
+Grammar: Map 5.1
+Namespace: fhir.relatedartifact
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+RelatedArtifact maps to RelatedArtifact:                                                                                                    // ConvertFhirClass.cs:118
+    RelatedArtifact.Type maps to RelatedArtifact.type
+    RelatedArtifact.Label maps to RelatedArtifact.label
+    RelatedArtifact.Display maps to RelatedArtifact.display
+    RelatedArtifact.Citation maps to RelatedArtifact.citation
+    RelatedArtifact.Url maps to RelatedArtifact.url
+    RelatedArtifact.Document maps to RelatedArtifact.document
+    RelatedArtifact.Resource maps to RelatedArtifact.resource

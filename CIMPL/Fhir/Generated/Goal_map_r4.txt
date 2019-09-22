@@ -1,0 +1,26 @@
+Grammar: Map 5.1
+Namespace: fhir.goal
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Goal maps to Goal:                                                                                                                          // ConvertFhirClass.cs:118
+    Goal.Identifier maps to Goal.identifier
+    Goal.LifecycleStatus maps to Goal.lifecycleStatus
+    Goal.AchievementStatus maps to Goal.achievementStatus
+    Goal.Category maps to Goal.category
+    Goal.Priority maps to Goal.priority
+    Goal.Description maps to Goal.description
+    Goal.Subject maps to Goal.subject
+    Goal.StartX maps to Goal.start[x]
+    Goal.Target maps to Goal.target
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Goal.TargetGroup maps to Goal.target                                                                                                    // ConvertFhirClass.cs:118
+        Goal.TargetGroup.Measure maps to Goal.target.measure
+        Goal.TargetGroup.DetailX maps to Goal.target.detail[x]
+        Goal.TargetGroup.DueX maps to Goal.target.due[x]
+    Goal.StatusDate maps to Goal.statusDate
+    Goal.StatusReason maps to Goal.statusReason
+    Goal.ExpressedBy maps to Goal.expressedBy
+    Goal.Addresses maps to Goal.addresses
+    Goal.Note maps to Goal.note
+    Goal.OutcomeCode maps to Goal.outcomeCode
+    Goal.OutcomeReference maps to Goal.outcomeReference

@@ -1,0 +1,127 @@
+Grammar: Map 5.1
+Namespace: fhir.claimresponse
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ClaimResponse maps to ClaimResponse:                                                                                                        // ConvertFhirClass.cs:118
+    ClaimResponse.Identifier maps to ClaimResponse.identifier
+    ClaimResponse.Status maps to ClaimResponse.status
+    ClaimResponse.Type maps to ClaimResponse.type
+    ClaimResponse.SubType maps to ClaimResponse.subType
+    ClaimResponse.Use maps to ClaimResponse.use
+    ClaimResponse.Patient maps to ClaimResponse.patient
+    ClaimResponse.Created maps to ClaimResponse.created
+    ClaimResponse.Insurer maps to ClaimResponse.insurer
+    ClaimResponse.Requestor maps to ClaimResponse.requestor
+    ClaimResponse.Request maps to ClaimResponse.request
+    ClaimResponse.Outcome maps to ClaimResponse.outcome
+    ClaimResponse.Disposition maps to ClaimResponse.disposition
+    ClaimResponse.PreAuthRef maps to ClaimResponse.preAuthRef
+    ClaimResponse.PreAuthPeriod maps to ClaimResponse.preAuthPeriod
+    ClaimResponse.PayeeType maps to ClaimResponse.payeeType
+    ClaimResponse.Item maps to ClaimResponse.item
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ClaimResponse.ItemGroup maps to ClaimResponse.item                                                                                      // ConvertFhirClass.cs:118
+        ClaimResponse.ItemGroup.ItemSequence maps to ClaimResponse.item.itemSequence
+        ClaimResponse.ItemGroup.NoteNumber maps to ClaimResponse.item.noteNumber
+        ClaimResponse.ItemGroup.Adjudication maps to ClaimResponse.item.adjudication
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ClaimResponse.ItemGroup.AdjudicationGroup maps to ClaimResponse.item.adjudication                                                   // ConvertFhirClass.cs:118
+            ClaimResponse.ItemGroup.AdjudicationGroup.Category maps to ClaimResponse.item.adjudication.category
+            ClaimResponse.ItemGroup.AdjudicationGroup.Reason maps to ClaimResponse.item.adjudication.reason
+            ClaimResponse.ItemGroup.AdjudicationGroup.Amount maps to ClaimResponse.item.adjudication.amount
+            ClaimResponse.ItemGroup.AdjudicationGroup.ValueZ maps to ClaimResponse.item.adjudication.value
+        ClaimResponse.ItemGroup.Detail maps to ClaimResponse.item.detail
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ClaimResponse.ItemGroup.DetailGroup maps to ClaimResponse.item.detail                                                               // ConvertFhirClass.cs:118
+            ClaimResponse.ItemGroup.DetailGroup.DetailSequence maps to ClaimResponse.item.detail.detailSequence
+            ClaimResponse.ItemGroup.DetailGroup.NoteNumber maps to ClaimResponse.item.detail.noteNumber
+            ClaimResponse.ItemGroup.DetailGroup.Adjudication maps to ClaimResponse.item.detail.adjudication
+            ClaimResponse.ItemGroup.DetailGroup.SubDetail maps to ClaimResponse.item.detail.subDetail
+                                                                                                                                            // ConvertFhirClass.cs:117
+            ClaimResponse.ItemGroup.DetailGroup.SubDetailGroup maps to ClaimResponse.item.detail.subDetail                                  // ConvertFhirClass.cs:118
+                ClaimResponse.ItemGroup.DetailGroup.SubDetailGroup.SubDetailSequence maps to ClaimResponse.item.detail.subDetail.subDetailSequence
+                ClaimResponse.ItemGroup.DetailGroup.SubDetailGroup.NoteNumber maps to ClaimResponse.item.detail.subDetail.noteNumber
+                ClaimResponse.ItemGroup.DetailGroup.SubDetailGroup.Adjudication maps to ClaimResponse.item.detail.subDetail.adjudication
+    ClaimResponse.AddItem maps to ClaimResponse.addItem
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ClaimResponse.AddItemGroup maps to ClaimResponse.addItem                                                                                // ConvertFhirClass.cs:118
+        ClaimResponse.AddItemGroup.ItemSequence maps to ClaimResponse.addItem.itemSequence
+        ClaimResponse.AddItemGroup.DetailSequence maps to ClaimResponse.addItem.detailSequence
+        ClaimResponse.AddItemGroup.SubdetailSequence maps to ClaimResponse.addItem.subdetailSequence
+        ClaimResponse.AddItemGroup.Provider maps to ClaimResponse.addItem.provider
+        ClaimResponse.AddItemGroup.ProductOrService maps to ClaimResponse.addItem.productOrService
+        ClaimResponse.AddItemGroup.Modifier maps to ClaimResponse.addItem.modifier
+        ClaimResponse.AddItemGroup.ProgramCode maps to ClaimResponse.addItem.programCode
+        ClaimResponse.AddItemGroup.ServicedX maps to ClaimResponse.addItem.serviced[x]
+        ClaimResponse.AddItemGroup.LocationX maps to ClaimResponse.addItem.location[x]
+        ClaimResponse.AddItemGroup.Quantity maps to ClaimResponse.addItem.quantity
+        ClaimResponse.AddItemGroup.UnitPrice maps to ClaimResponse.addItem.unitPrice
+        ClaimResponse.AddItemGroup.Factor maps to ClaimResponse.addItem.factor
+        ClaimResponse.AddItemGroup.Net maps to ClaimResponse.addItem.net
+        ClaimResponse.AddItemGroup.BodySite maps to ClaimResponse.addItem.bodySite
+        ClaimResponse.AddItemGroup.SubSite maps to ClaimResponse.addItem.subSite
+        ClaimResponse.AddItemGroup.NoteNumber maps to ClaimResponse.addItem.noteNumber
+        ClaimResponse.AddItemGroup.Adjudication maps to ClaimResponse.addItem.adjudication
+        ClaimResponse.AddItemGroup.Detail maps to ClaimResponse.addItem.detail
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ClaimResponse.AddItemGroup.DetailGroup maps to ClaimResponse.addItem.detail                                                         // ConvertFhirClass.cs:118
+            ClaimResponse.AddItemGroup.DetailGroup.ProductOrService maps to ClaimResponse.addItem.detail.productOrService
+            ClaimResponse.AddItemGroup.DetailGroup.Modifier maps to ClaimResponse.addItem.detail.modifier
+            ClaimResponse.AddItemGroup.DetailGroup.Quantity maps to ClaimResponse.addItem.detail.quantity
+            ClaimResponse.AddItemGroup.DetailGroup.UnitPrice maps to ClaimResponse.addItem.detail.unitPrice
+            ClaimResponse.AddItemGroup.DetailGroup.Factor maps to ClaimResponse.addItem.detail.factor
+            ClaimResponse.AddItemGroup.DetailGroup.Net maps to ClaimResponse.addItem.detail.net
+            ClaimResponse.AddItemGroup.DetailGroup.NoteNumber maps to ClaimResponse.addItem.detail.noteNumber
+            ClaimResponse.AddItemGroup.DetailGroup.Adjudication maps to ClaimResponse.addItem.detail.adjudication
+            ClaimResponse.AddItemGroup.DetailGroup.SubDetail maps to ClaimResponse.addItem.detail.subDetail
+                                                                                                                                            // ConvertFhirClass.cs:117
+            ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup maps to ClaimResponse.addItem.detail.subDetail                            // ConvertFhirClass.cs:118
+                ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup.ProductOrService maps to ClaimResponse.addItem.detail.subDetail.productOrService
+                ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup.Modifier maps to ClaimResponse.addItem.detail.subDetail.modifier
+                ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup.Quantity maps to ClaimResponse.addItem.detail.subDetail.quantity
+                ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup.UnitPrice maps to ClaimResponse.addItem.detail.subDetail.unitPrice
+                ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup.Factor maps to ClaimResponse.addItem.detail.subDetail.factor
+                ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup.Net maps to ClaimResponse.addItem.detail.subDetail.net
+                ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup.NoteNumber maps to ClaimResponse.addItem.detail.subDetail.noteNumber
+                ClaimResponse.AddItemGroup.DetailGroup.SubDetailGroup.Adjudication maps to ClaimResponse.addItem.detail.subDetail.adjudication
+    ClaimResponse.Adjudication maps to ClaimResponse.adjudication
+    ClaimResponse.Total maps to ClaimResponse.total
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ClaimResponse.TotalGroup maps to ClaimResponse.total                                                                                    // ConvertFhirClass.cs:118
+        ClaimResponse.TotalGroup.Category maps to ClaimResponse.total.category
+        ClaimResponse.TotalGroup.Amount maps to ClaimResponse.total.amount
+    ClaimResponse.Payment maps to ClaimResponse.payment
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ClaimResponse.PaymentGroup maps to ClaimResponse.payment                                                                                // ConvertFhirClass.cs:118
+        ClaimResponse.PaymentGroup.Type maps to ClaimResponse.payment.type
+        ClaimResponse.PaymentGroup.Adjustment maps to ClaimResponse.payment.adjustment
+        ClaimResponse.PaymentGroup.AdjustmentReason maps to ClaimResponse.payment.adjustmentReason
+        ClaimResponse.PaymentGroup.Date maps to ClaimResponse.payment.date
+        ClaimResponse.PaymentGroup.Amount maps to ClaimResponse.payment.amount
+        ClaimResponse.PaymentGroup.Identifier maps to ClaimResponse.payment.identifier
+    ClaimResponse.FundsReserve maps to ClaimResponse.fundsReserve
+    ClaimResponse.FormCode maps to ClaimResponse.formCode
+    ClaimResponse.Form maps to ClaimResponse.form
+    ClaimResponse.ProcessNote maps to ClaimResponse.processNote
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ClaimResponse.ProcessNoteGroup maps to ClaimResponse.processNote                                                                        // ConvertFhirClass.cs:118
+        ClaimResponse.ProcessNoteGroup.Number maps to ClaimResponse.processNote.number
+        ClaimResponse.ProcessNoteGroup.Type maps to ClaimResponse.processNote.type
+        ClaimResponse.ProcessNoteGroup.Text maps to ClaimResponse.processNote.text
+        ClaimResponse.ProcessNoteGroup.Language maps to ClaimResponse.processNote.language
+    ClaimResponse.CommunicationRequest maps to ClaimResponse.communicationRequest
+    ClaimResponse.Insurance maps to ClaimResponse.insurance
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ClaimResponse.InsuranceGroup maps to ClaimResponse.insurance                                                                            // ConvertFhirClass.cs:118
+        ClaimResponse.InsuranceGroup.Sequence maps to ClaimResponse.insurance.sequence
+        ClaimResponse.InsuranceGroup.Focal maps to ClaimResponse.insurance.focal
+        ClaimResponse.InsuranceGroup.Coverage maps to ClaimResponse.insurance.coverage
+        ClaimResponse.InsuranceGroup.BusinessArrangement maps to ClaimResponse.insurance.businessArrangement
+        ClaimResponse.InsuranceGroup.ClaimResponse maps to ClaimResponse.insurance.claimResponse
+    ClaimResponse.Error maps to ClaimResponse.error
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ClaimResponse.ErrorGroup maps to ClaimResponse.error                                                                                    // ConvertFhirClass.cs:118
+        ClaimResponse.ErrorGroup.ItemSequence maps to ClaimResponse.error.itemSequence
+        ClaimResponse.ErrorGroup.DetailSequence maps to ClaimResponse.error.detailSequence
+        ClaimResponse.ErrorGroup.SubDetailSequence maps to ClaimResponse.error.subDetailSequence
+        ClaimResponse.ErrorGroup.Code maps to ClaimResponse.error.code

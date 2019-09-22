@@ -1,0 +1,13 @@
+Grammar: Map 5.1
+Namespace: fhir.appointmentresponse
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+AppointmentResponse maps to AppointmentResponse:                                                                                            // ConvertFhirClass.cs:118
+    AppointmentResponse.Identifier maps to AppointmentResponse.identifier
+    AppointmentResponse.Appointment maps to AppointmentResponse.appointment
+    AppointmentResponse.Start maps to AppointmentResponse.start
+    AppointmentResponse.End maps to AppointmentResponse.end
+    AppointmentResponse.ParticipantType maps to AppointmentResponse.participantType
+    AppointmentResponse.Actor maps to AppointmentResponse.actor
+    AppointmentResponse.ParticipantStatus maps to AppointmentResponse.participantStatus
+    AppointmentResponse.Comment maps to AppointmentResponse.comment

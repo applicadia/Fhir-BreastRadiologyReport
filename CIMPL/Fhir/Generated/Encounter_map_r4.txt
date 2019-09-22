@@ -1,0 +1,63 @@
+Grammar: Map 5.1
+Namespace: fhir.encounter
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Encounter maps to Encounter:                                                                                                                // ConvertFhirClass.cs:118
+    Encounter.Identifier maps to Encounter.identifier
+    Encounter.Status maps to Encounter.status
+    Encounter.StatusHistory maps to Encounter.statusHistory
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Encounter.StatusHistoryGroup maps to Encounter.statusHistory                                                                            // ConvertFhirClass.cs:118
+        Encounter.StatusHistoryGroup.Status maps to Encounter.statusHistory.status
+        Encounter.StatusHistoryGroup.Period maps to Encounter.statusHistory.period
+    Encounter.Class maps to Encounter.class
+    Encounter.ClassHistory maps to Encounter.classHistory
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Encounter.ClassHistoryGroup maps to Encounter.classHistory                                                                              // ConvertFhirClass.cs:118
+        Encounter.ClassHistoryGroup.Class maps to Encounter.classHistory.class
+        Encounter.ClassHistoryGroup.Period maps to Encounter.classHistory.period
+    Encounter.Type maps to Encounter.type
+    Encounter.ServiceType maps to Encounter.serviceType
+    Encounter.Priority maps to Encounter.priority
+    Encounter.Subject maps to Encounter.subject
+    Encounter.EpisodeOfCare maps to Encounter.episodeOfCare
+    Encounter.BasedOn maps to Encounter.basedOn
+    Encounter.Participant maps to Encounter.participant
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Encounter.ParticipantGroup maps to Encounter.participant                                                                                // ConvertFhirClass.cs:118
+        Encounter.ParticipantGroup.Type maps to Encounter.participant.type
+        Encounter.ParticipantGroup.Period maps to Encounter.participant.period
+        Encounter.ParticipantGroup.Individual maps to Encounter.participant.individual
+    Encounter.Appointment maps to Encounter.appointment
+    Encounter.Period maps to Encounter.period
+    Encounter.Length maps to Encounter.length
+    Encounter.ReasonCode maps to Encounter.reasonCode
+    Encounter.ReasonReference maps to Encounter.reasonReference
+    Encounter.Diagnosis maps to Encounter.diagnosis
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Encounter.DiagnosisGroup maps to Encounter.diagnosis                                                                                    // ConvertFhirClass.cs:118
+        Encounter.DiagnosisGroup.Condition maps to Encounter.diagnosis.condition
+        Encounter.DiagnosisGroup.Use maps to Encounter.diagnosis.use
+        Encounter.DiagnosisGroup.Rank maps to Encounter.diagnosis.rank
+    Encounter.Account maps to Encounter.account
+    Encounter.Hospitalization maps to Encounter.hospitalization
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Encounter.HospitalizationGroup maps to Encounter.hospitalization                                                                        // ConvertFhirClass.cs:118
+        Encounter.HospitalizationGroup.PreAdmissionIdentifier maps to Encounter.hospitalization.preAdmissionIdentifier
+        Encounter.HospitalizationGroup.Origin maps to Encounter.hospitalization.origin
+        Encounter.HospitalizationGroup.AdmitSource maps to Encounter.hospitalization.admitSource
+        Encounter.HospitalizationGroup.ReAdmission maps to Encounter.hospitalization.reAdmission
+        Encounter.HospitalizationGroup.DietPreference maps to Encounter.hospitalization.dietPreference
+        Encounter.HospitalizationGroup.SpecialCourtesy maps to Encounter.hospitalization.specialCourtesy
+        Encounter.HospitalizationGroup.SpecialArrangement maps to Encounter.hospitalization.specialArrangement
+        Encounter.HospitalizationGroup.Destination maps to Encounter.hospitalization.destination
+        Encounter.HospitalizationGroup.DischargeDisposition maps to Encounter.hospitalization.dischargeDisposition
+    Encounter.Location maps to Encounter.location
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Encounter.LocationGroup maps to Encounter.location                                                                                      // ConvertFhirClass.cs:118
+        Encounter.LocationGroup.Location maps to Encounter.location.location
+        Encounter.LocationGroup.Status maps to Encounter.location.status
+        Encounter.LocationGroup.PhysicalType maps to Encounter.location.physicalType
+        Encounter.LocationGroup.Period maps to Encounter.location.period
+    Encounter.ServiceProvider maps to Encounter.serviceProvider
+    Encounter.PartOf maps to Encounter.partOf

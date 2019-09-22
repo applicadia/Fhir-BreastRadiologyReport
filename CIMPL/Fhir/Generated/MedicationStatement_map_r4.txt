@@ -1,0 +1,22 @@
+Grammar: Map 5.1
+Namespace: fhir.medicationstatement
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MedicationStatement maps to MedicationStatement:                                                                                            // ConvertFhirClass.cs:118
+    MedicationStatement.Identifier maps to MedicationStatement.identifier
+    MedicationStatement.BasedOn maps to MedicationStatement.basedOn
+    MedicationStatement.PartOf maps to MedicationStatement.partOf
+    MedicationStatement.Status maps to MedicationStatement.status
+    MedicationStatement.StatusReason maps to MedicationStatement.statusReason
+    MedicationStatement.Category maps to MedicationStatement.category
+    MedicationStatement.MedicationX maps to MedicationStatement.medication[x]
+    MedicationStatement.Subject maps to MedicationStatement.subject
+    MedicationStatement.Context maps to MedicationStatement.context
+    MedicationStatement.EffectiveX maps to MedicationStatement.effective[x]
+    MedicationStatement.DateAsserted maps to MedicationStatement.dateAsserted
+    MedicationStatement.InformationSource maps to MedicationStatement.informationSource
+    MedicationStatement.DerivedFrom maps to MedicationStatement.derivedFrom
+    MedicationStatement.ReasonCode maps to MedicationStatement.reasonCode
+    MedicationStatement.ReasonReference maps to MedicationStatement.reasonReference
+    MedicationStatement.Note maps to MedicationStatement.note
+    MedicationStatement.Dosage maps to MedicationStatement.dosage

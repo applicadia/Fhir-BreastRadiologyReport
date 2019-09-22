@@ -1,0 +1,25 @@
+Grammar: Map 5.1
+Namespace: fhir.namingsystem
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+NamingSystem maps to NamingSystem:                                                                                                          // ConvertFhirClass.cs:118
+    NamingSystem.Name maps to NamingSystem.name
+    NamingSystem.Status maps to NamingSystem.status
+    NamingSystem.Kind maps to NamingSystem.kind
+    NamingSystem.Date maps to NamingSystem.date
+    NamingSystem.Publisher maps to NamingSystem.publisher
+    NamingSystem.Contact maps to NamingSystem.contact
+    NamingSystem.Responsible maps to NamingSystem.responsible
+    NamingSystem.Type maps to NamingSystem.type
+    NamingSystem.Description maps to NamingSystem.description
+    NamingSystem.UseContext maps to NamingSystem.useContext
+    NamingSystem.Jurisdiction maps to NamingSystem.jurisdiction
+    NamingSystem.Usage maps to NamingSystem.usage
+    NamingSystem.UniqueId maps to NamingSystem.uniqueId
+                                                                                                                                            // ConvertFhirClass.cs:117
+    NamingSystem.UniqueIdGroup maps to NamingSystem.uniqueId                                                                                // ConvertFhirClass.cs:118
+        NamingSystem.UniqueIdGroup.Type maps to NamingSystem.uniqueId.type
+        NamingSystem.UniqueIdGroup.ValueZ maps to NamingSystem.uniqueId.value
+        NamingSystem.UniqueIdGroup.Preferred maps to NamingSystem.uniqueId.preferred
+        NamingSystem.UniqueIdGroup.Comment maps to NamingSystem.uniqueId.comment
+        NamingSystem.UniqueIdGroup.Period maps to NamingSystem.uniqueId.period

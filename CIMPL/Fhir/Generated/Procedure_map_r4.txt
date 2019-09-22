@@ -1,0 +1,42 @@
+Grammar: Map 5.1
+Namespace: fhir.procedure
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Procedure maps to Procedure:                                                                                                                // ConvertFhirClass.cs:118
+    Procedure.Identifier maps to Procedure.identifier
+    Procedure.InstantiatesCanonical maps to Procedure.instantiatesCanonical
+    Procedure.InstantiatesUri maps to Procedure.instantiatesUri
+    Procedure.BasedOn maps to Procedure.basedOn
+    Procedure.PartOf maps to Procedure.partOf
+    Procedure.Status maps to Procedure.status
+    Procedure.StatusReason maps to Procedure.statusReason
+    Procedure.Category maps to Procedure.category
+    Procedure.Code maps to Procedure.code
+    Procedure.Subject maps to Procedure.subject
+    Procedure.Encounter maps to Procedure.encounter
+    Procedure.PerformedX maps to Procedure.performed[x]
+    Procedure.Recorder maps to Procedure.recorder
+    Procedure.Asserter maps to Procedure.asserter
+    Procedure.Performer maps to Procedure.performer
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Procedure.PerformerGroup maps to Procedure.performer                                                                                    // ConvertFhirClass.cs:118
+        Procedure.PerformerGroup.Function maps to Procedure.performer.function
+        Procedure.PerformerGroup.Actor maps to Procedure.performer.actor
+        Procedure.PerformerGroup.OnBehalfOf maps to Procedure.performer.onBehalfOf
+    Procedure.Location maps to Procedure.location
+    Procedure.ReasonCode maps to Procedure.reasonCode
+    Procedure.ReasonReference maps to Procedure.reasonReference
+    Procedure.BodySite maps to Procedure.bodySite
+    Procedure.Outcome maps to Procedure.outcome
+    Procedure.Report maps to Procedure.report
+    Procedure.Complication maps to Procedure.complication
+    Procedure.ComplicationDetail maps to Procedure.complicationDetail
+    Procedure.FollowUp maps to Procedure.followUp
+    Procedure.Note maps to Procedure.note
+    Procedure.FocalDevice maps to Procedure.focalDevice
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Procedure.FocalDeviceGroup maps to Procedure.focalDevice                                                                                // ConvertFhirClass.cs:118
+        Procedure.FocalDeviceGroup.Action maps to Procedure.focalDevice.action
+        Procedure.FocalDeviceGroup.Manipulated maps to Procedure.focalDevice.manipulated
+    Procedure.UsedReference maps to Procedure.usedReference
+    Procedure.UsedCode maps to Procedure.usedCode

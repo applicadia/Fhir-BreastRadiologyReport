@@ -1,0 +1,54 @@
+Grammar: Map 5.1
+Namespace: fhir.careplan
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+CarePlan maps to CarePlan:                                                                                                                  // ConvertFhirClass.cs:118
+    CarePlan.Identifier maps to CarePlan.identifier
+    CarePlan.InstantiatesCanonical maps to CarePlan.instantiatesCanonical
+    CarePlan.InstantiatesUri maps to CarePlan.instantiatesUri
+    CarePlan.BasedOn maps to CarePlan.basedOn
+    CarePlan.Replaces maps to CarePlan.replaces
+    CarePlan.PartOf maps to CarePlan.partOf
+    CarePlan.Status maps to CarePlan.status
+    CarePlan.Intent maps to CarePlan.intent
+    CarePlan.Category maps to CarePlan.category
+    CarePlan.Title maps to CarePlan.title
+    CarePlan.Description maps to CarePlan.description
+    CarePlan.Subject maps to CarePlan.subject
+    CarePlan.Encounter maps to CarePlan.encounter
+    CarePlan.Period maps to CarePlan.period
+    CarePlan.Created maps to CarePlan.created
+    CarePlan.Author maps to CarePlan.author
+    CarePlan.Contributor maps to CarePlan.contributor
+    CarePlan.CareTeam maps to CarePlan.careTeam
+    CarePlan.Addresses maps to CarePlan.addresses
+    CarePlan.SupportingInfo maps to CarePlan.supportingInfo
+    CarePlan.Goal maps to CarePlan.goal
+    CarePlan.Activity maps to CarePlan.activity
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CarePlan.ActivityGroup maps to CarePlan.activity                                                                                        // ConvertFhirClass.cs:118
+        CarePlan.ActivityGroup.OutcomeCodeableConcept maps to CarePlan.activity.outcomeCodeableConcept
+        CarePlan.ActivityGroup.OutcomeReference maps to CarePlan.activity.outcomeReference
+        CarePlan.ActivityGroup.Progress maps to CarePlan.activity.progress
+        CarePlan.ActivityGroup.Reference maps to CarePlan.activity.reference
+        CarePlan.ActivityGroup.Detail maps to CarePlan.activity.detail
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CarePlan.ActivityGroup.DetailGroup maps to CarePlan.activity.detail                                                                 // ConvertFhirClass.cs:118
+            CarePlan.ActivityGroup.DetailGroup.Kind maps to CarePlan.activity.detail.kind
+            CarePlan.ActivityGroup.DetailGroup.InstantiatesCanonical maps to CarePlan.activity.detail.instantiatesCanonical
+            CarePlan.ActivityGroup.DetailGroup.InstantiatesUri maps to CarePlan.activity.detail.instantiatesUri
+            CarePlan.ActivityGroup.DetailGroup.Code maps to CarePlan.activity.detail.code
+            CarePlan.ActivityGroup.DetailGroup.ReasonCode maps to CarePlan.activity.detail.reasonCode
+            CarePlan.ActivityGroup.DetailGroup.ReasonReference maps to CarePlan.activity.detail.reasonReference
+            CarePlan.ActivityGroup.DetailGroup.Goal maps to CarePlan.activity.detail.goal
+            CarePlan.ActivityGroup.DetailGroup.Status maps to CarePlan.activity.detail.status
+            CarePlan.ActivityGroup.DetailGroup.StatusReason maps to CarePlan.activity.detail.statusReason
+            CarePlan.ActivityGroup.DetailGroup.DoNotPerform maps to CarePlan.activity.detail.doNotPerform
+            CarePlan.ActivityGroup.DetailGroup.ScheduledX maps to CarePlan.activity.detail.scheduled[x]
+            CarePlan.ActivityGroup.DetailGroup.Location maps to CarePlan.activity.detail.location
+            CarePlan.ActivityGroup.DetailGroup.Performer maps to CarePlan.activity.detail.performer
+            CarePlan.ActivityGroup.DetailGroup.ProductX maps to CarePlan.activity.detail.product[x]
+            CarePlan.ActivityGroup.DetailGroup.DailyAmount maps to CarePlan.activity.detail.dailyAmount
+            CarePlan.ActivityGroup.DetailGroup.Quantity maps to CarePlan.activity.detail.quantity
+            CarePlan.ActivityGroup.DetailGroup.Description maps to CarePlan.activity.detail.description
+    CarePlan.Note maps to CarePlan.note

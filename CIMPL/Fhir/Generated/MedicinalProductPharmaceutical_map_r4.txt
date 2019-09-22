@@ -1,0 +1,34 @@
+Grammar: Map 5.1
+Namespace: fhir.medicinalproductpharmaceutical
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MedicinalProductPharmaceutical maps to MedicinalProductPharmaceutical:                                                                      // ConvertFhirClass.cs:118
+    MedicinalProductPharmaceutical.Identifier maps to MedicinalProductPharmaceutical.identifier
+    MedicinalProductPharmaceutical.AdministrableDoseForm maps to MedicinalProductPharmaceutical.administrableDoseForm
+    MedicinalProductPharmaceutical.UnitOfPresentation maps to MedicinalProductPharmaceutical.unitOfPresentation
+    MedicinalProductPharmaceutical.Ingredient maps to MedicinalProductPharmaceutical.ingredient
+    MedicinalProductPharmaceutical.Device maps to MedicinalProductPharmaceutical.device
+    MedicinalProductPharmaceutical.Characteristics maps to MedicinalProductPharmaceutical.characteristics
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MedicinalProductPharmaceutical.CharacteristicsGroup maps to MedicinalProductPharmaceutical.characteristics                              // ConvertFhirClass.cs:118
+        MedicinalProductPharmaceutical.CharacteristicsGroup.Code maps to MedicinalProductPharmaceutical.characteristics.code
+        MedicinalProductPharmaceutical.CharacteristicsGroup.Status maps to MedicinalProductPharmaceutical.characteristics.status
+    MedicinalProductPharmaceutical.RouteOfAdministration maps to MedicinalProductPharmaceutical.routeOfAdministration
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MedicinalProductPharmaceutical.RouteOfAdministrationGroup maps to MedicinalProductPharmaceutical.routeOfAdministration                  // ConvertFhirClass.cs:118
+        MedicinalProductPharmaceutical.RouteOfAdministrationGroup.Code maps to MedicinalProductPharmaceutical.routeOfAdministration.code
+        MedicinalProductPharmaceutical.RouteOfAdministrationGroup.FirstDose maps to MedicinalProductPharmaceutical.routeOfAdministration.firstDose
+        MedicinalProductPharmaceutical.RouteOfAdministrationGroup.MaxSingleDose maps to MedicinalProductPharmaceutical.routeOfAdministration.maxSingleDose
+        MedicinalProductPharmaceutical.RouteOfAdministrationGroup.MaxDosePerDay maps to MedicinalProductPharmaceutical.routeOfAdministration.maxDosePerDay
+        MedicinalProductPharmaceutical.RouteOfAdministrationGroup.MaxDosePerTreatmentPeriod maps to MedicinalProductPharmaceutical.routeOfAdministration.maxDosePerTreatmentPeriod
+        MedicinalProductPharmaceutical.RouteOfAdministrationGroup.MaxTreatmentPeriod maps to MedicinalProductPharmaceutical.routeOfAdministration.maxTreatmentPeriod
+        MedicinalProductPharmaceutical.RouteOfAdministrationGroup.TargetSpecies maps to MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies
+                                                                                                                                            // ConvertFhirClass.cs:117
+        MedicinalProductPharmaceutical.RouteOfAdministrationGroup.TargetSpeciesGroup maps to MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies// ConvertFhirClass.cs:118
+            MedicinalProductPharmaceutical.RouteOfAdministrationGroup.TargetSpeciesGroup.Code maps to MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies.code
+            MedicinalProductPharmaceutical.RouteOfAdministrationGroup.TargetSpeciesGroup.WithdrawalPeriod maps to MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies.withdrawalPeriod
+                                                                                                                                            // ConvertFhirClass.cs:117
+            MedicinalProductPharmaceutical.RouteOfAdministrationGroup.TargetSpeciesGroup.WithdrawalPeriodGroup maps to MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies.withdrawalPeriod// ConvertFhirClass.cs:118
+                MedicinalProductPharmaceutical.RouteOfAdministrationGroup.TargetSpeciesGroup.WithdrawalPeriodGroup.Tissue maps to MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies.withdrawalPeriod.tissue
+                MedicinalProductPharmaceutical.RouteOfAdministrationGroup.TargetSpeciesGroup.WithdrawalPeriodGroup.ValueZ maps to MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies.withdrawalPeriod.value
+                MedicinalProductPharmaceutical.RouteOfAdministrationGroup.TargetSpeciesGroup.WithdrawalPeriodGroup.SupportingInformation maps to MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies.withdrawalPeriod.supportingInformation

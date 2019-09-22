@@ -1,0 +1,7 @@
+Grammar: Map 5.1
+Namespace: fhir.codeableconcept
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+CodeableConcept maps to CodeableConcept:                                                                                                    // ConvertFhirClass.cs:118
+    CodeableConcept.Coding maps to CodeableConcept.coding
+    CodeableConcept.Text maps to CodeableConcept.text

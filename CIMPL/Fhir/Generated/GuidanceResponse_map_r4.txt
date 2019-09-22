@@ -1,0 +1,20 @@
+Grammar: Map 5.1
+Namespace: fhir.guidanceresponse
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+GuidanceResponse maps to GuidanceResponse:                                                                                                  // ConvertFhirClass.cs:118
+    GuidanceResponse.RequestIdentifier maps to GuidanceResponse.requestIdentifier
+    GuidanceResponse.Identifier maps to GuidanceResponse.identifier
+    GuidanceResponse.ModuleX maps to GuidanceResponse.module[x]
+    GuidanceResponse.Status maps to GuidanceResponse.status
+    GuidanceResponse.Subject maps to GuidanceResponse.subject
+    GuidanceResponse.Encounter maps to GuidanceResponse.encounter
+    GuidanceResponse.OccurrenceDateTime maps to GuidanceResponse.occurrenceDateTime
+    GuidanceResponse.Performer maps to GuidanceResponse.performer
+    GuidanceResponse.ReasonCode maps to GuidanceResponse.reasonCode
+    GuidanceResponse.ReasonReference maps to GuidanceResponse.reasonReference
+    GuidanceResponse.Note maps to GuidanceResponse.note
+    GuidanceResponse.EvaluationMessage maps to GuidanceResponse.evaluationMessage
+    GuidanceResponse.OutputParameters maps to GuidanceResponse.outputParameters
+    GuidanceResponse.Result maps to GuidanceResponse.result
+    GuidanceResponse.DataRequirement maps to GuidanceResponse.dataRequirement

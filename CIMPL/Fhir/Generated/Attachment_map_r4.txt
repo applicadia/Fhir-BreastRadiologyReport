@@ -1,0 +1,13 @@
+Grammar: Map 5.1
+Namespace: fhir.attachment
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Attachment maps to Attachment:                                                                                                              // ConvertFhirClass.cs:118
+    Attachment.ContentType maps to Attachment.contentType
+    Attachment.Language maps to Attachment.language
+    Attachment.Data maps to Attachment.data
+    Attachment.Url maps to Attachment.url
+    Attachment.Size maps to Attachment.size
+    Attachment.Hash maps to Attachment.hash
+    Attachment.Title maps to Attachment.title
+    Attachment.Creation maps to Attachment.creation

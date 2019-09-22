@@ -1,0 +1,26 @@
+Grammar: Map 5.1
+Namespace: fhir.detectedissue
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+DetectedIssue maps to DetectedIssue:                                                                                                        // ConvertFhirClass.cs:118
+    DetectedIssue.Identifier maps to DetectedIssue.identifier
+    DetectedIssue.Status maps to DetectedIssue.status
+    DetectedIssue.Code maps to DetectedIssue.code
+    DetectedIssue.Severity maps to DetectedIssue.severity
+    DetectedIssue.Patient maps to DetectedIssue.patient
+    DetectedIssue.IdentifiedX maps to DetectedIssue.identified[x]
+    DetectedIssue.Author maps to DetectedIssue.author
+    DetectedIssue.Implicated maps to DetectedIssue.implicated
+    DetectedIssue.Evidence maps to DetectedIssue.evidence
+                                                                                                                                            // ConvertFhirClass.cs:117
+    DetectedIssue.EvidenceGroup maps to DetectedIssue.evidence                                                                              // ConvertFhirClass.cs:118
+        DetectedIssue.EvidenceGroup.Code maps to DetectedIssue.evidence.code
+        DetectedIssue.EvidenceGroup.Detail maps to DetectedIssue.evidence.detail
+    DetectedIssue.Detail maps to DetectedIssue.detail
+    DetectedIssue.Reference maps to DetectedIssue.reference
+    DetectedIssue.Mitigation maps to DetectedIssue.mitigation
+                                                                                                                                            // ConvertFhirClass.cs:117
+    DetectedIssue.MitigationGroup maps to DetectedIssue.mitigation                                                                          // ConvertFhirClass.cs:118
+        DetectedIssue.MitigationGroup.Action maps to DetectedIssue.mitigation.action
+        DetectedIssue.MitigationGroup.Date maps to DetectedIssue.mitigation.date
+        DetectedIssue.MitigationGroup.Author maps to DetectedIssue.mitigation.author

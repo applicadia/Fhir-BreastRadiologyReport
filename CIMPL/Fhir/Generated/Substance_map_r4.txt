@@ -1,0 +1,21 @@
+Grammar: Map 5.1
+Namespace: fhir.substance
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Substance maps to Substance:                                                                                                                // ConvertFhirClass.cs:118
+    Substance.Identifier maps to Substance.identifier
+    Substance.Status maps to Substance.status
+    Substance.Category maps to Substance.category
+    Substance.Code maps to Substance.code
+    Substance.Description maps to Substance.description
+    Substance.Instance maps to Substance.instance
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Substance.InstanceGroup maps to Substance.instance                                                                                      // ConvertFhirClass.cs:118
+        Substance.InstanceGroup.Identifier maps to Substance.instance.identifier
+        Substance.InstanceGroup.Expiry maps to Substance.instance.expiry
+        Substance.InstanceGroup.Quantity maps to Substance.instance.quantity
+    Substance.Ingredient maps to Substance.ingredient
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Substance.IngredientGroup maps to Substance.ingredient                                                                                  // ConvertFhirClass.cs:118
+        Substance.IngredientGroup.Quantity maps to Substance.ingredient.quantity
+        Substance.IngredientGroup.SubstanceX maps to Substance.ingredient.substance[x]

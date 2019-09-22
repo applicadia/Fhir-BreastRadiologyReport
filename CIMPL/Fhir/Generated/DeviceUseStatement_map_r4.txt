@@ -1,0 +1,18 @@
+Grammar: Map 5.1
+Namespace: fhir.deviceusestatement
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+DeviceUseStatement maps to DeviceUseStatement:                                                                                              // ConvertFhirClass.cs:118
+    DeviceUseStatement.Identifier maps to DeviceUseStatement.identifier
+    DeviceUseStatement.BasedOn maps to DeviceUseStatement.basedOn
+    DeviceUseStatement.Status maps to DeviceUseStatement.status
+    DeviceUseStatement.Subject maps to DeviceUseStatement.subject
+    DeviceUseStatement.DerivedFrom maps to DeviceUseStatement.derivedFrom
+    DeviceUseStatement.TimingX maps to DeviceUseStatement.timing[x]
+    DeviceUseStatement.RecordedOn maps to DeviceUseStatement.recordedOn
+    DeviceUseStatement.Source maps to DeviceUseStatement.source
+    DeviceUseStatement.Device maps to DeviceUseStatement.device
+    DeviceUseStatement.ReasonCode maps to DeviceUseStatement.reasonCode
+    DeviceUseStatement.ReasonReference maps to DeviceUseStatement.reasonReference
+    DeviceUseStatement.BodySite maps to DeviceUseStatement.bodySite
+    DeviceUseStatement.Note maps to DeviceUseStatement.note

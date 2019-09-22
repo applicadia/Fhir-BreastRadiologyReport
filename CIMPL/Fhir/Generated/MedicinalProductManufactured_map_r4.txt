@@ -1,0 +1,12 @@
+Grammar: Map 5.1
+Namespace: fhir.medicinalproductmanufactured
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MedicinalProductManufactured maps to MedicinalProductManufactured:                                                                          // ConvertFhirClass.cs:118
+    MedicinalProductManufactured.ManufacturedDoseForm maps to MedicinalProductManufactured.manufacturedDoseForm
+    MedicinalProductManufactured.UnitOfPresentation maps to MedicinalProductManufactured.unitOfPresentation
+    MedicinalProductManufactured.Quantity maps to MedicinalProductManufactured.quantity
+    MedicinalProductManufactured.Manufacturer maps to MedicinalProductManufactured.manufacturer
+    MedicinalProductManufactured.Ingredient maps to MedicinalProductManufactured.ingredient
+    MedicinalProductManufactured.PhysicalCharacteristics maps to MedicinalProductManufactured.physicalCharacteristics
+    MedicinalProductManufactured.OtherCharacteristics maps to MedicinalProductManufactured.otherCharacteristics

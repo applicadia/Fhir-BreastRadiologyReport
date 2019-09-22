@@ -1,0 +1,39 @@
+Grammar: Map 5.1
+Namespace: fhir.researchdefinition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ResearchDefinition maps to ResearchDefinition:                                                                                              // ConvertFhirClass.cs:118
+    ResearchDefinition.Url maps to ResearchDefinition.url
+    ResearchDefinition.Identifier maps to ResearchDefinition.identifier
+    ResearchDefinition.Version maps to ResearchDefinition.version
+    ResearchDefinition.Name maps to ResearchDefinition.name
+    ResearchDefinition.Title maps to ResearchDefinition.title
+    ResearchDefinition.ShortTitle maps to ResearchDefinition.shortTitle
+    ResearchDefinition.Subtitle maps to ResearchDefinition.subtitle
+    ResearchDefinition.Status maps to ResearchDefinition.status
+    ResearchDefinition.Experimental maps to ResearchDefinition.experimental
+    ResearchDefinition.SubjectX maps to ResearchDefinition.subject[x]
+    ResearchDefinition.Date maps to ResearchDefinition.date
+    ResearchDefinition.Publisher maps to ResearchDefinition.publisher
+    ResearchDefinition.Contact maps to ResearchDefinition.contact
+    ResearchDefinition.Description maps to ResearchDefinition.description
+    ResearchDefinition.Comment maps to ResearchDefinition.comment
+    ResearchDefinition.UseContext maps to ResearchDefinition.useContext
+    ResearchDefinition.Jurisdiction maps to ResearchDefinition.jurisdiction
+    ResearchDefinition.Purpose maps to ResearchDefinition.purpose
+    ResearchDefinition.Usage maps to ResearchDefinition.usage
+    ResearchDefinition.Copyright maps to ResearchDefinition.copyright
+    ResearchDefinition.ApprovalDate maps to ResearchDefinition.approvalDate
+    ResearchDefinition.LastReviewDate maps to ResearchDefinition.lastReviewDate
+    ResearchDefinition.EffectivePeriod maps to ResearchDefinition.effectivePeriod
+    ResearchDefinition.Topic maps to ResearchDefinition.topic
+    ResearchDefinition.Author maps to ResearchDefinition.author
+    ResearchDefinition.Editor maps to ResearchDefinition.editor
+    ResearchDefinition.Reviewer maps to ResearchDefinition.reviewer
+    ResearchDefinition.Endorser maps to ResearchDefinition.endorser
+    ResearchDefinition.RelatedArtifact maps to ResearchDefinition.relatedArtifact
+    ResearchDefinition.Library maps to ResearchDefinition.library
+    ResearchDefinition.Population maps to ResearchDefinition.population
+    ResearchDefinition.Exposure maps to ResearchDefinition.exposure
+    ResearchDefinition.ExposureAlternative maps to ResearchDefinition.exposureAlternative
+    ResearchDefinition.Outcome maps to ResearchDefinition.outcome

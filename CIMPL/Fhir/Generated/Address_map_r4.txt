@@ -1,0 +1,15 @@
+Grammar: Map 5.1
+Namespace: fhir.address
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Address maps to Address:                                                                                                                    // ConvertFhirClass.cs:118
+    Address.Use maps to Address.use
+    Address.Type maps to Address.type
+    Address.Text maps to Address.text
+    Address.Line maps to Address.line
+    Address.City maps to Address.city
+    Address.District maps to Address.district
+    Address.State maps to Address.state
+    Address.PostalCode maps to Address.postalCode
+    Address.Country maps to Address.country
+    Address.Period maps to Address.period

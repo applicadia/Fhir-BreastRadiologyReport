@@ -1,0 +1,164 @@
+Grammar: Map 5.1
+Namespace: fhir.contract
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Contract maps to Contract:                                                                                                                  // ConvertFhirClass.cs:118
+    Contract.Identifier maps to Contract.identifier
+    Contract.Url maps to Contract.url
+    Contract.Version maps to Contract.version
+    Contract.Status maps to Contract.status
+    Contract.LegalState maps to Contract.legalState
+    Contract.InstantiatesCanonical maps to Contract.instantiatesCanonical
+    Contract.InstantiatesUri maps to Contract.instantiatesUri
+    Contract.ContentDerivative maps to Contract.contentDerivative
+    Contract.Issued maps to Contract.issued
+    Contract.Applies maps to Contract.applies
+    Contract.ExpirationType maps to Contract.expirationType
+    Contract.Subject maps to Contract.subject
+    Contract.Authority maps to Contract.authority
+    Contract.Domain maps to Contract.domain
+    Contract.Site maps to Contract.site
+    Contract.Name maps to Contract.name
+    Contract.Title maps to Contract.title
+    Contract.Subtitle maps to Contract.subtitle
+    Contract.Alias maps to Contract.alias
+    Contract.Author maps to Contract.author
+    Contract.Scope maps to Contract.scope
+    Contract.TopicX maps to Contract.topic[x]
+    Contract.Type maps to Contract.type
+    Contract.SubType maps to Contract.subType
+    Contract.ContentDefinition maps to Contract.contentDefinition
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Contract.ContentDefinitionGroup maps to Contract.contentDefinition                                                                      // ConvertFhirClass.cs:118
+        Contract.ContentDefinitionGroup.Type maps to Contract.contentDefinition.type
+        Contract.ContentDefinitionGroup.SubType maps to Contract.contentDefinition.subType
+        Contract.ContentDefinitionGroup.Publisher maps to Contract.contentDefinition.publisher
+        Contract.ContentDefinitionGroup.PublicationDate maps to Contract.contentDefinition.publicationDate
+        Contract.ContentDefinitionGroup.PublicationStatus maps to Contract.contentDefinition.publicationStatus
+        Contract.ContentDefinitionGroup.Copyright maps to Contract.contentDefinition.copyright
+    Contract.Term maps to Contract.term
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Contract.TermGroup maps to Contract.term                                                                                                // ConvertFhirClass.cs:118
+        Contract.TermGroup.Identifier maps to Contract.term.identifier
+        Contract.TermGroup.Issued maps to Contract.term.issued
+        Contract.TermGroup.Applies maps to Contract.term.applies
+        Contract.TermGroup.TopicX maps to Contract.term.topic[x]
+        Contract.TermGroup.Type maps to Contract.term.type
+        Contract.TermGroup.SubType maps to Contract.term.subType
+        Contract.TermGroup.Text maps to Contract.term.text
+        Contract.TermGroup.SecurityLabel maps to Contract.term.securityLabel
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Contract.TermGroup.SecurityLabelGroup maps to Contract.term.securityLabel                                                           // ConvertFhirClass.cs:118
+            Contract.TermGroup.SecurityLabelGroup.Number maps to Contract.term.securityLabel.number
+            Contract.TermGroup.SecurityLabelGroup.Classification maps to Contract.term.securityLabel.classification
+            Contract.TermGroup.SecurityLabelGroup.Category maps to Contract.term.securityLabel.category
+            Contract.TermGroup.SecurityLabelGroup.Control maps to Contract.term.securityLabel.control
+        Contract.TermGroup.Offer maps to Contract.term.offer
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Contract.TermGroup.OfferGroup maps to Contract.term.offer                                                                           // ConvertFhirClass.cs:118
+            Contract.TermGroup.OfferGroup.Identifier maps to Contract.term.offer.identifier
+            Contract.TermGroup.OfferGroup.Party maps to Contract.term.offer.party
+                                                                                                                                            // ConvertFhirClass.cs:117
+            Contract.TermGroup.OfferGroup.PartyGroup maps to Contract.term.offer.party                                                      // ConvertFhirClass.cs:118
+                Contract.TermGroup.OfferGroup.PartyGroup.Reference maps to Contract.term.offer.party.reference
+                Contract.TermGroup.OfferGroup.PartyGroup.Role maps to Contract.term.offer.party.role
+            Contract.TermGroup.OfferGroup.Topic maps to Contract.term.offer.topic
+            Contract.TermGroup.OfferGroup.Type maps to Contract.term.offer.type
+            Contract.TermGroup.OfferGroup.Decision maps to Contract.term.offer.decision
+            Contract.TermGroup.OfferGroup.DecisionMode maps to Contract.term.offer.decisionMode
+            Contract.TermGroup.OfferGroup.Answer maps to Contract.term.offer.answer
+                                                                                                                                            // ConvertFhirClass.cs:117
+            Contract.TermGroup.OfferGroup.AnswerGroup maps to Contract.term.offer.answer                                                    // ConvertFhirClass.cs:118
+                Contract.TermGroup.OfferGroup.AnswerGroup.ValueX maps to Contract.term.offer.answer.value[x]
+            Contract.TermGroup.OfferGroup.Text maps to Contract.term.offer.text
+            Contract.TermGroup.OfferGroup.LinkId maps to Contract.term.offer.linkId
+            Contract.TermGroup.OfferGroup.SecurityLabelNumber maps to Contract.term.offer.securityLabelNumber
+        Contract.TermGroup.Asset maps to Contract.term.asset
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Contract.TermGroup.AssetGroup maps to Contract.term.asset                                                                           // ConvertFhirClass.cs:118
+            Contract.TermGroup.AssetGroup.Scope maps to Contract.term.asset.scope
+            Contract.TermGroup.AssetGroup.Type maps to Contract.term.asset.type
+            Contract.TermGroup.AssetGroup.TypeReference maps to Contract.term.asset.typeReference
+            Contract.TermGroup.AssetGroup.Subtype maps to Contract.term.asset.subtype
+            Contract.TermGroup.AssetGroup.Relationship maps to Contract.term.asset.relationship
+            Contract.TermGroup.AssetGroup.Context maps to Contract.term.asset.context
+                                                                                                                                            // ConvertFhirClass.cs:117
+            Contract.TermGroup.AssetGroup.ContextGroup maps to Contract.term.asset.context                                                  // ConvertFhirClass.cs:118
+                Contract.TermGroup.AssetGroup.ContextGroup.Reference maps to Contract.term.asset.context.reference
+                Contract.TermGroup.AssetGroup.ContextGroup.Code maps to Contract.term.asset.context.code
+                Contract.TermGroup.AssetGroup.ContextGroup.Text maps to Contract.term.asset.context.text
+            Contract.TermGroup.AssetGroup.Condition maps to Contract.term.asset.condition
+            Contract.TermGroup.AssetGroup.PeriodType maps to Contract.term.asset.periodType
+            Contract.TermGroup.AssetGroup.Period maps to Contract.term.asset.period
+            Contract.TermGroup.AssetGroup.UsePeriod maps to Contract.term.asset.usePeriod
+            Contract.TermGroup.AssetGroup.Text maps to Contract.term.asset.text
+            Contract.TermGroup.AssetGroup.LinkId maps to Contract.term.asset.linkId
+            Contract.TermGroup.AssetGroup.Answer maps to Contract.term.asset.answer
+            Contract.TermGroup.AssetGroup.SecurityLabelNumber maps to Contract.term.asset.securityLabelNumber
+            Contract.TermGroup.AssetGroup.ValuedItem maps to Contract.term.asset.valuedItem
+                                                                                                                                            // ConvertFhirClass.cs:117
+            Contract.TermGroup.AssetGroup.ValuedItemGroup maps to Contract.term.asset.valuedItem                                            // ConvertFhirClass.cs:118
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.EntityX maps to Contract.term.asset.valuedItem.entity[x]
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.Identifier maps to Contract.term.asset.valuedItem.identifier
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.EffectiveTime maps to Contract.term.asset.valuedItem.effectiveTime
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.Quantity maps to Contract.term.asset.valuedItem.quantity
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.UnitPrice maps to Contract.term.asset.valuedItem.unitPrice
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.Factor maps to Contract.term.asset.valuedItem.factor
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.Points maps to Contract.term.asset.valuedItem.points
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.Net maps to Contract.term.asset.valuedItem.net
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.Payment maps to Contract.term.asset.valuedItem.payment
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.PaymentDate maps to Contract.term.asset.valuedItem.paymentDate
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.Responsible maps to Contract.term.asset.valuedItem.responsible
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.Recipient maps to Contract.term.asset.valuedItem.recipient
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.LinkId maps to Contract.term.asset.valuedItem.linkId
+                Contract.TermGroup.AssetGroup.ValuedItemGroup.SecurityLabelNumber maps to Contract.term.asset.valuedItem.securityLabelNumber
+        Contract.TermGroup.Action maps to Contract.term.action
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Contract.TermGroup.ActionGroup maps to Contract.term.action                                                                         // ConvertFhirClass.cs:118
+            Contract.TermGroup.ActionGroup.DoNotPerform maps to Contract.term.action.doNotPerform
+            Contract.TermGroup.ActionGroup.Type maps to Contract.term.action.type
+            Contract.TermGroup.ActionGroup.Subject maps to Contract.term.action.subject
+                                                                                                                                            // ConvertFhirClass.cs:117
+            Contract.TermGroup.ActionGroup.SubjectGroup maps to Contract.term.action.subject                                                // ConvertFhirClass.cs:118
+                Contract.TermGroup.ActionGroup.SubjectGroup.Reference maps to Contract.term.action.subject.reference
+                Contract.TermGroup.ActionGroup.SubjectGroup.Role maps to Contract.term.action.subject.role
+            Contract.TermGroup.ActionGroup.Intent maps to Contract.term.action.intent
+            Contract.TermGroup.ActionGroup.LinkId maps to Contract.term.action.linkId
+            Contract.TermGroup.ActionGroup.Status maps to Contract.term.action.status
+            Contract.TermGroup.ActionGroup.Context maps to Contract.term.action.context
+            Contract.TermGroup.ActionGroup.ContextLinkId maps to Contract.term.action.contextLinkId
+            Contract.TermGroup.ActionGroup.OccurrenceX maps to Contract.term.action.occurrence[x]
+            Contract.TermGroup.ActionGroup.Requester maps to Contract.term.action.requester
+            Contract.TermGroup.ActionGroup.RequesterLinkId maps to Contract.term.action.requesterLinkId
+            Contract.TermGroup.ActionGroup.PerformerType maps to Contract.term.action.performerType
+            Contract.TermGroup.ActionGroup.PerformerRole maps to Contract.term.action.performerRole
+            Contract.TermGroup.ActionGroup.Performer maps to Contract.term.action.performer
+            Contract.TermGroup.ActionGroup.PerformerLinkId maps to Contract.term.action.performerLinkId
+            Contract.TermGroup.ActionGroup.ReasonCode maps to Contract.term.action.reasonCode
+            Contract.TermGroup.ActionGroup.ReasonReference maps to Contract.term.action.reasonReference
+            Contract.TermGroup.ActionGroup.Reason maps to Contract.term.action.reason
+            Contract.TermGroup.ActionGroup.ReasonLinkId maps to Contract.term.action.reasonLinkId
+            Contract.TermGroup.ActionGroup.Note maps to Contract.term.action.note
+            Contract.TermGroup.ActionGroup.SecurityLabelNumber maps to Contract.term.action.securityLabelNumber
+        Contract.TermGroup.Group maps to Contract.term.group
+    Contract.SupportingInfo maps to Contract.supportingInfo
+    Contract.RelevantHistory maps to Contract.relevantHistory
+    Contract.Signer maps to Contract.signer
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Contract.SignerGroup maps to Contract.signer                                                                                            // ConvertFhirClass.cs:118
+        Contract.SignerGroup.Type maps to Contract.signer.type
+        Contract.SignerGroup.Party maps to Contract.signer.party
+        Contract.SignerGroup.Signature maps to Contract.signer.signature
+    Contract.Friendly maps to Contract.friendly
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Contract.FriendlyGroup maps to Contract.friendly                                                                                        // ConvertFhirClass.cs:118
+        Contract.FriendlyGroup.ContentX maps to Contract.friendly.content[x]
+    Contract.Legal maps to Contract.legal
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Contract.LegalGroup maps to Contract.legal                                                                                              // ConvertFhirClass.cs:118
+        Contract.LegalGroup.ContentX maps to Contract.legal.content[x]
+    Contract.Rule maps to Contract.rule
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Contract.RuleGroup maps to Contract.rule                                                                                                // ConvertFhirClass.cs:118
+        Contract.RuleGroup.ContentX maps to Contract.rule.content[x]
+    Contract.LegallyBindingX maps to Contract.legallyBinding[x]

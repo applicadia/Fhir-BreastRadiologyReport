@@ -1,0 +1,24 @@
+Grammar: Map 5.1
+Namespace: fhir.compartmentdefinition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+CompartmentDefinition maps to CompartmentDefinition:                                                                                        // ConvertFhirClass.cs:118
+    CompartmentDefinition.Url maps to CompartmentDefinition.url
+    CompartmentDefinition.Version maps to CompartmentDefinition.version
+    CompartmentDefinition.Name maps to CompartmentDefinition.name
+    CompartmentDefinition.Status maps to CompartmentDefinition.status
+    CompartmentDefinition.Experimental maps to CompartmentDefinition.experimental
+    CompartmentDefinition.Date maps to CompartmentDefinition.date
+    CompartmentDefinition.Publisher maps to CompartmentDefinition.publisher
+    CompartmentDefinition.Contact maps to CompartmentDefinition.contact
+    CompartmentDefinition.Description maps to CompartmentDefinition.description
+    CompartmentDefinition.UseContext maps to CompartmentDefinition.useContext
+    CompartmentDefinition.Purpose maps to CompartmentDefinition.purpose
+    CompartmentDefinition.Code maps to CompartmentDefinition.code
+    CompartmentDefinition.Search maps to CompartmentDefinition.search
+    CompartmentDefinition.Resource maps to CompartmentDefinition.resource
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CompartmentDefinition.ResourceGroup maps to CompartmentDefinition.resource                                                              // ConvertFhirClass.cs:118
+        CompartmentDefinition.ResourceGroup.Code maps to CompartmentDefinition.resource.code
+        CompartmentDefinition.ResourceGroup.Param maps to CompartmentDefinition.resource.param
+        CompartmentDefinition.ResourceGroup.Documentation maps to CompartmentDefinition.resource.documentation

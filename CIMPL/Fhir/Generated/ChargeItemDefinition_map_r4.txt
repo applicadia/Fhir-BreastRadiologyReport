@@ -1,0 +1,43 @@
+Grammar: Map 5.1
+Namespace: fhir.chargeitemdefinition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ChargeItemDefinition maps to ChargeItemDefinition:                                                                                          // ConvertFhirClass.cs:118
+    ChargeItemDefinition.Url maps to ChargeItemDefinition.url
+    ChargeItemDefinition.Identifier maps to ChargeItemDefinition.identifier
+    ChargeItemDefinition.Version maps to ChargeItemDefinition.version
+    ChargeItemDefinition.Title maps to ChargeItemDefinition.title
+    ChargeItemDefinition.DerivedFromUri maps to ChargeItemDefinition.derivedFromUri
+    ChargeItemDefinition.PartOf maps to ChargeItemDefinition.partOf
+    ChargeItemDefinition.Replaces maps to ChargeItemDefinition.replaces
+    ChargeItemDefinition.Status maps to ChargeItemDefinition.status
+    ChargeItemDefinition.Experimental maps to ChargeItemDefinition.experimental
+    ChargeItemDefinition.Date maps to ChargeItemDefinition.date
+    ChargeItemDefinition.Publisher maps to ChargeItemDefinition.publisher
+    ChargeItemDefinition.Contact maps to ChargeItemDefinition.contact
+    ChargeItemDefinition.Description maps to ChargeItemDefinition.description
+    ChargeItemDefinition.UseContext maps to ChargeItemDefinition.useContext
+    ChargeItemDefinition.Jurisdiction maps to ChargeItemDefinition.jurisdiction
+    ChargeItemDefinition.Copyright maps to ChargeItemDefinition.copyright
+    ChargeItemDefinition.ApprovalDate maps to ChargeItemDefinition.approvalDate
+    ChargeItemDefinition.LastReviewDate maps to ChargeItemDefinition.lastReviewDate
+    ChargeItemDefinition.EffectivePeriod maps to ChargeItemDefinition.effectivePeriod
+    ChargeItemDefinition.Code maps to ChargeItemDefinition.code
+    ChargeItemDefinition.Instance maps to ChargeItemDefinition.instance
+    ChargeItemDefinition.Applicability maps to ChargeItemDefinition.applicability
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ChargeItemDefinition.ApplicabilityGroup maps to ChargeItemDefinition.applicability                                                      // ConvertFhirClass.cs:118
+        ChargeItemDefinition.ApplicabilityGroup.Description maps to ChargeItemDefinition.applicability.description
+        ChargeItemDefinition.ApplicabilityGroup.Language maps to ChargeItemDefinition.applicability.language
+        ChargeItemDefinition.ApplicabilityGroup.Expression maps to ChargeItemDefinition.applicability.expression
+    ChargeItemDefinition.PropertyGroup maps to ChargeItemDefinition.propertyGroup
+                                                                                                                                            // ConvertFhirClass.cs:117
+    ChargeItemDefinition.PropertyGroupGroup maps to ChargeItemDefinition.propertyGroup                                                      // ConvertFhirClass.cs:118
+        ChargeItemDefinition.PropertyGroupGroup.Applicability maps to ChargeItemDefinition.propertyGroup.applicability
+        ChargeItemDefinition.PropertyGroupGroup.PriceComponent maps to ChargeItemDefinition.propertyGroup.priceComponent
+                                                                                                                                            // ConvertFhirClass.cs:117
+        ChargeItemDefinition.PropertyGroupGroup.PriceComponentGroup maps to ChargeItemDefinition.propertyGroup.priceComponent               // ConvertFhirClass.cs:118
+            ChargeItemDefinition.PropertyGroupGroup.PriceComponentGroup.Type maps to ChargeItemDefinition.propertyGroup.priceComponent.type
+            ChargeItemDefinition.PropertyGroupGroup.PriceComponentGroup.Code maps to ChargeItemDefinition.propertyGroup.priceComponent.code
+            ChargeItemDefinition.PropertyGroupGroup.PriceComponentGroup.Factor maps to ChargeItemDefinition.propertyGroup.priceComponent.factor
+            ChargeItemDefinition.PropertyGroupGroup.PriceComponentGroup.Amount maps to ChargeItemDefinition.propertyGroup.priceComponent.amount

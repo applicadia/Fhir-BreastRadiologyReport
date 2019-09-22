@@ -1,0 +1,8 @@
+Grammar: Map 5.1
+Namespace: fhir.binary
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Binary maps to Binary:                                                                                                                      // ConvertFhirClass.cs:118
+    Binary.ContentType maps to Binary.contentType
+    Binary.SecurityContext maps to Binary.securityContext
+    Binary.Data maps to Binary.data

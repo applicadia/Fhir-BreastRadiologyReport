@@ -1,0 +1,38 @@
+Grammar: Map 5.1
+Namespace: fhir.servicerequest
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ServiceRequest maps to ServiceRequest:                                                                                                      // ConvertFhirClass.cs:118
+    ServiceRequest.Identifier maps to ServiceRequest.identifier
+    ServiceRequest.InstantiatesCanonical maps to ServiceRequest.instantiatesCanonical
+    ServiceRequest.InstantiatesUri maps to ServiceRequest.instantiatesUri
+    ServiceRequest.BasedOn maps to ServiceRequest.basedOn
+    ServiceRequest.Replaces maps to ServiceRequest.replaces
+    ServiceRequest.Requisition maps to ServiceRequest.requisition
+    ServiceRequest.Status maps to ServiceRequest.status
+    ServiceRequest.Intent maps to ServiceRequest.intent
+    ServiceRequest.Category maps to ServiceRequest.category
+    ServiceRequest.Priority maps to ServiceRequest.priority
+    ServiceRequest.DoNotPerform maps to ServiceRequest.doNotPerform
+    ServiceRequest.Code maps to ServiceRequest.code
+    ServiceRequest.OrderDetail maps to ServiceRequest.orderDetail
+    ServiceRequest.QuantityX maps to ServiceRequest.quantity[x]
+    ServiceRequest.Subject maps to ServiceRequest.subject
+    ServiceRequest.Encounter maps to ServiceRequest.encounter
+    ServiceRequest.OccurrenceX maps to ServiceRequest.occurrence[x]
+    ServiceRequest.AsNeededX maps to ServiceRequest.asNeeded[x]
+    ServiceRequest.AuthoredOn maps to ServiceRequest.authoredOn
+    ServiceRequest.Requester maps to ServiceRequest.requester
+    ServiceRequest.PerformerType maps to ServiceRequest.performerType
+    ServiceRequest.Performer maps to ServiceRequest.performer
+    ServiceRequest.LocationCode maps to ServiceRequest.locationCode
+    ServiceRequest.LocationReference maps to ServiceRequest.locationReference
+    ServiceRequest.ReasonCode maps to ServiceRequest.reasonCode
+    ServiceRequest.ReasonReference maps to ServiceRequest.reasonReference
+    ServiceRequest.Insurance maps to ServiceRequest.insurance
+    ServiceRequest.SupportingInfo maps to ServiceRequest.supportingInfo
+    ServiceRequest.Specimen maps to ServiceRequest.specimen
+    ServiceRequest.BodySite maps to ServiceRequest.bodySite
+    ServiceRequest.Note maps to ServiceRequest.note
+    ServiceRequest.PatientInstruction maps to ServiceRequest.patientInstruction
+    ServiceRequest.RelevantHistory maps to ServiceRequest.relevantHistory

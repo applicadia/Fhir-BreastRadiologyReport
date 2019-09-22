@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: fhir.decimal
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+decimal maps to decimal:                                                                                                                    // ConvertFhirClass.cs:118
+    decimal.ValueZ maps to decimal.value

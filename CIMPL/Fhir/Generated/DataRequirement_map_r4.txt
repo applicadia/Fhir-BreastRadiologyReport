@@ -1,0 +1,28 @@
+Grammar: Map 5.1
+Namespace: fhir.datarequirement
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+DataRequirement maps to DataRequirement:                                                                                                    // ConvertFhirClass.cs:118
+    DataRequirement.Type maps to DataRequirement.type
+    DataRequirement.Profile maps to DataRequirement.profile
+    DataRequirement.SubjectX maps to DataRequirement.subject[x]
+    DataRequirement.MustSupport maps to DataRequirement.mustSupport
+    DataRequirement.CodeFilter maps to DataRequirement.codeFilter
+                                                                                                                                            // ConvertFhirClass.cs:117
+    DataRequirement.CodeFilterGroup maps to DataRequirement.codeFilter                                                                      // ConvertFhirClass.cs:118
+        DataRequirement.CodeFilterGroup.Path maps to DataRequirement.codeFilter.path
+        DataRequirement.CodeFilterGroup.SearchParam maps to DataRequirement.codeFilter.searchParam
+        DataRequirement.CodeFilterGroup.ValueSet maps to DataRequirement.codeFilter.valueSet
+        DataRequirement.CodeFilterGroup.Code maps to DataRequirement.codeFilter.code
+    DataRequirement.DateFilter maps to DataRequirement.dateFilter
+                                                                                                                                            // ConvertFhirClass.cs:117
+    DataRequirement.DateFilterGroup maps to DataRequirement.dateFilter                                                                      // ConvertFhirClass.cs:118
+        DataRequirement.DateFilterGroup.Path maps to DataRequirement.dateFilter.path
+        DataRequirement.DateFilterGroup.SearchParam maps to DataRequirement.dateFilter.searchParam
+        DataRequirement.DateFilterGroup.ValueX maps to DataRequirement.dateFilter.value[x]
+    DataRequirement.Limit maps to DataRequirement.limit
+    DataRequirement.Sort maps to DataRequirement.sort
+                                                                                                                                            // ConvertFhirClass.cs:117
+    DataRequirement.SortGroup maps to DataRequirement.sort                                                                                  // ConvertFhirClass.cs:118
+        DataRequirement.SortGroup.Path maps to DataRequirement.sort.path
+        DataRequirement.SortGroup.Direction maps to DataRequirement.sort.direction

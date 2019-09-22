@@ -1,0 +1,5 @@
+Grammar: Map 5.1
+Namespace: fhir.distance
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Distance maps to Distance:                                                                                                                  // ConvertFhirClass.cs:118

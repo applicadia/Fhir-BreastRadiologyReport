@@ -1,0 +1,57 @@
+Grammar: Map 5.1
+Namespace: fhir.device
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Device maps to Device:                                                                                                                      // ConvertFhirClass.cs:118
+    Device.Identifier maps to Device.identifier
+    Device.Definition maps to Device.definition
+    Device.UdiCarrier maps to Device.udiCarrier
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Device.UdiCarrierGroup maps to Device.udiCarrier                                                                                        // ConvertFhirClass.cs:118
+        Device.UdiCarrierGroup.DeviceIdentifier maps to Device.udiCarrier.deviceIdentifier
+        Device.UdiCarrierGroup.Issuer maps to Device.udiCarrier.issuer
+        Device.UdiCarrierGroup.Jurisdiction maps to Device.udiCarrier.jurisdiction
+        Device.UdiCarrierGroup.CarrierAIDC maps to Device.udiCarrier.carrierAIDC
+        Device.UdiCarrierGroup.CarrierHRF maps to Device.udiCarrier.carrierHRF
+        Device.UdiCarrierGroup.EntryType maps to Device.udiCarrier.entryType
+    Device.Status maps to Device.status
+    Device.StatusReason maps to Device.statusReason
+    Device.DistinctIdentifier maps to Device.distinctIdentifier
+    Device.Manufacturer maps to Device.manufacturer
+    Device.ManufactureDate maps to Device.manufactureDate
+    Device.ExpirationDate maps to Device.expirationDate
+    Device.LotNumber maps to Device.lotNumber
+    Device.SerialNumber maps to Device.serialNumber
+    Device.DeviceName maps to Device.deviceName
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Device.DeviceNameGroup maps to Device.deviceName                                                                                        // ConvertFhirClass.cs:118
+        Device.DeviceNameGroup.Name maps to Device.deviceName.name
+        Device.DeviceNameGroup.Type maps to Device.deviceName.type
+    Device.ModelNumber maps to Device.modelNumber
+    Device.PartNumber maps to Device.partNumber
+    Device.Type maps to Device.type
+    Device.Specialization maps to Device.specialization
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Device.SpecializationGroup maps to Device.specialization                                                                                // ConvertFhirClass.cs:118
+        Device.SpecializationGroup.SystemType maps to Device.specialization.systemType
+        Device.SpecializationGroup.Version maps to Device.specialization.version
+    Device.Version maps to Device.version
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Device.VersionGroup maps to Device.version                                                                                              // ConvertFhirClass.cs:118
+        Device.VersionGroup.Type maps to Device.version.type
+        Device.VersionGroup.Component maps to Device.version.component
+        Device.VersionGroup.ValueZ maps to Device.version.value
+    Device.Property maps to Device.property
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Device.PropertyGroup maps to Device.property                                                                                            // ConvertFhirClass.cs:118
+        Device.PropertyGroup.Type maps to Device.property.type
+        Device.PropertyGroup.ValueQuantity maps to Device.property.valueQuantity
+        Device.PropertyGroup.ValueCode maps to Device.property.valueCode
+    Device.Patient maps to Device.patient
+    Device.Owner maps to Device.owner
+    Device.Contact maps to Device.contact
+    Device.Location maps to Device.location
+    Device.Url maps to Device.url
+    Device.Note maps to Device.note
+    Device.Safety maps to Device.safety
+    Device.Parent maps to Device.parent

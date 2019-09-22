@@ -1,0 +1,50 @@
+Grammar: Map 5.1
+Namespace: fhir.coverageeligibilityresponse
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+CoverageEligibilityResponse maps to CoverageEligibilityResponse:                                                                            // ConvertFhirClass.cs:118
+    CoverageEligibilityResponse.Identifier maps to CoverageEligibilityResponse.identifier
+    CoverageEligibilityResponse.Status maps to CoverageEligibilityResponse.status
+    CoverageEligibilityResponse.Purpose maps to CoverageEligibilityResponse.purpose
+    CoverageEligibilityResponse.Patient maps to CoverageEligibilityResponse.patient
+    CoverageEligibilityResponse.ServicedX maps to CoverageEligibilityResponse.serviced[x]
+    CoverageEligibilityResponse.Created maps to CoverageEligibilityResponse.created
+    CoverageEligibilityResponse.Requestor maps to CoverageEligibilityResponse.requestor
+    CoverageEligibilityResponse.Request maps to CoverageEligibilityResponse.request
+    CoverageEligibilityResponse.Outcome maps to CoverageEligibilityResponse.outcome
+    CoverageEligibilityResponse.Disposition maps to CoverageEligibilityResponse.disposition
+    CoverageEligibilityResponse.Insurer maps to CoverageEligibilityResponse.insurer
+    CoverageEligibilityResponse.Insurance maps to CoverageEligibilityResponse.insurance
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CoverageEligibilityResponse.InsuranceGroup maps to CoverageEligibilityResponse.insurance                                                // ConvertFhirClass.cs:118
+        CoverageEligibilityResponse.InsuranceGroup.Coverage maps to CoverageEligibilityResponse.insurance.coverage
+        CoverageEligibilityResponse.InsuranceGroup.Inforce maps to CoverageEligibilityResponse.insurance.inforce
+        CoverageEligibilityResponse.InsuranceGroup.BenefitPeriod maps to CoverageEligibilityResponse.insurance.benefitPeriod
+        CoverageEligibilityResponse.InsuranceGroup.Item maps to CoverageEligibilityResponse.insurance.item
+                                                                                                                                            // ConvertFhirClass.cs:117
+        CoverageEligibilityResponse.InsuranceGroup.ItemGroup maps to CoverageEligibilityResponse.insurance.item                             // ConvertFhirClass.cs:118
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Category maps to CoverageEligibilityResponse.insurance.item.category
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.ProductOrService maps to CoverageEligibilityResponse.insurance.item.productOrService
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Modifier maps to CoverageEligibilityResponse.insurance.item.modifier
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Provider maps to CoverageEligibilityResponse.insurance.item.provider
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Excluded maps to CoverageEligibilityResponse.insurance.item.excluded
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Name maps to CoverageEligibilityResponse.insurance.item.name
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Description maps to CoverageEligibilityResponse.insurance.item.description
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Network maps to CoverageEligibilityResponse.insurance.item.network
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Unit maps to CoverageEligibilityResponse.insurance.item.unit
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Term maps to CoverageEligibilityResponse.insurance.item.term
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.Benefit maps to CoverageEligibilityResponse.insurance.item.benefit
+                                                                                                                                            // ConvertFhirClass.cs:117
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.BenefitGroup maps to CoverageEligibilityResponse.insurance.item.benefit    // ConvertFhirClass.cs:118
+                CoverageEligibilityResponse.InsuranceGroup.ItemGroup.BenefitGroup.Type maps to CoverageEligibilityResponse.insurance.item.benefit.type
+                CoverageEligibilityResponse.InsuranceGroup.ItemGroup.BenefitGroup.AllowedX maps to CoverageEligibilityResponse.insurance.item.benefit.allowed[x]
+                CoverageEligibilityResponse.InsuranceGroup.ItemGroup.BenefitGroup.UsedX maps to CoverageEligibilityResponse.insurance.item.benefit.used[x]
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.AuthorizationRequired maps to CoverageEligibilityResponse.insurance.item.authorizationRequired
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.AuthorizationSupporting maps to CoverageEligibilityResponse.insurance.item.authorizationSupporting
+            CoverageEligibilityResponse.InsuranceGroup.ItemGroup.AuthorizationUrl maps to CoverageEligibilityResponse.insurance.item.authorizationUrl
+    CoverageEligibilityResponse.PreAuthRef maps to CoverageEligibilityResponse.preAuthRef
+    CoverageEligibilityResponse.Form maps to CoverageEligibilityResponse.form
+    CoverageEligibilityResponse.Error maps to CoverageEligibilityResponse.error
+                                                                                                                                            // ConvertFhirClass.cs:117
+    CoverageEligibilityResponse.ErrorGroup maps to CoverageEligibilityResponse.error                                                        // ConvertFhirClass.cs:118
+        CoverageEligibilityResponse.ErrorGroup.Code maps to CoverageEligibilityResponse.error.code

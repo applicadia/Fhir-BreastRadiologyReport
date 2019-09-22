@@ -1,0 +1,57 @@
+Grammar: Map 5.1
+Namespace: fhir.questionnaire
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Questionnaire maps to Questionnaire:                                                                                                        // ConvertFhirClass.cs:118
+    Questionnaire.Url maps to Questionnaire.url
+    Questionnaire.Identifier maps to Questionnaire.identifier
+    Questionnaire.Version maps to Questionnaire.version
+    Questionnaire.Name maps to Questionnaire.name
+    Questionnaire.Title maps to Questionnaire.title
+    Questionnaire.DerivedFrom maps to Questionnaire.derivedFrom
+    Questionnaire.Status maps to Questionnaire.status
+    Questionnaire.Experimental maps to Questionnaire.experimental
+    Questionnaire.SubjectType maps to Questionnaire.subjectType
+    Questionnaire.Date maps to Questionnaire.date
+    Questionnaire.Publisher maps to Questionnaire.publisher
+    Questionnaire.Contact maps to Questionnaire.contact
+    Questionnaire.Description maps to Questionnaire.description
+    Questionnaire.UseContext maps to Questionnaire.useContext
+    Questionnaire.Jurisdiction maps to Questionnaire.jurisdiction
+    Questionnaire.Purpose maps to Questionnaire.purpose
+    Questionnaire.Copyright maps to Questionnaire.copyright
+    Questionnaire.ApprovalDate maps to Questionnaire.approvalDate
+    Questionnaire.LastReviewDate maps to Questionnaire.lastReviewDate
+    Questionnaire.EffectivePeriod maps to Questionnaire.effectivePeriod
+    Questionnaire.Code maps to Questionnaire.code
+    Questionnaire.Item maps to Questionnaire.item
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Questionnaire.ItemGroup maps to Questionnaire.item                                                                                      // ConvertFhirClass.cs:118
+        Questionnaire.ItemGroup.LinkId maps to Questionnaire.item.linkId
+        Questionnaire.ItemGroup.Definition maps to Questionnaire.item.definition
+        Questionnaire.ItemGroup.Code maps to Questionnaire.item.code
+        Questionnaire.ItemGroup.Prefix maps to Questionnaire.item.prefix
+        Questionnaire.ItemGroup.Text maps to Questionnaire.item.text
+        Questionnaire.ItemGroup.Type maps to Questionnaire.item.type
+        Questionnaire.ItemGroup.EnableWhen maps to Questionnaire.item.enableWhen
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Questionnaire.ItemGroup.EnableWhenGroup maps to Questionnaire.item.enableWhen                                                       // ConvertFhirClass.cs:118
+            Questionnaire.ItemGroup.EnableWhenGroup.Question maps to Questionnaire.item.enableWhen.question
+            Questionnaire.ItemGroup.EnableWhenGroup.Operator maps to Questionnaire.item.enableWhen.operator
+            Questionnaire.ItemGroup.EnableWhenGroup.AnswerX maps to Questionnaire.item.enableWhen.answer[x]
+        Questionnaire.ItemGroup.EnableBehavior maps to Questionnaire.item.enableBehavior
+        Questionnaire.ItemGroup.Required maps to Questionnaire.item.required
+        Questionnaire.ItemGroup.Repeats maps to Questionnaire.item.repeats
+        Questionnaire.ItemGroup.ReadOnly maps to Questionnaire.item.readOnly
+        Questionnaire.ItemGroup.MaxLength maps to Questionnaire.item.maxLength
+        Questionnaire.ItemGroup.AnswerValueSet maps to Questionnaire.item.answerValueSet
+        Questionnaire.ItemGroup.AnswerOption maps to Questionnaire.item.answerOption
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Questionnaire.ItemGroup.AnswerOptionGroup maps to Questionnaire.item.answerOption                                                   // ConvertFhirClass.cs:118
+            Questionnaire.ItemGroup.AnswerOptionGroup.ValueX maps to Questionnaire.item.answerOption.value[x]
+            Questionnaire.ItemGroup.AnswerOptionGroup.InitialSelected maps to Questionnaire.item.answerOption.initialSelected
+        Questionnaire.ItemGroup.Initial maps to Questionnaire.item.initial
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Questionnaire.ItemGroup.InitialGroup maps to Questionnaire.item.initial                                                             // ConvertFhirClass.cs:118
+            Questionnaire.ItemGroup.InitialGroup.ValueX maps to Questionnaire.item.initial.value[x]
+        Questionnaire.ItemGroup.Item maps to Questionnaire.item.item

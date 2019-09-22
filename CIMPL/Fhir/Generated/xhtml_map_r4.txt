@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: fhir.xhtml
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+xhtml maps to xhtml:                                                                                                                        // ConvertFhirClass.cs:118
+    xhtml.ValueZ maps to xhtml.value

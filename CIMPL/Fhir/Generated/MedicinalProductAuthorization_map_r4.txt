@@ -1,0 +1,34 @@
+Grammar: Map 5.1
+Namespace: fhir.medicinalproductauthorization
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MedicinalProductAuthorization maps to MedicinalProductAuthorization:                                                                        // ConvertFhirClass.cs:118
+    MedicinalProductAuthorization.Identifier maps to MedicinalProductAuthorization.identifier
+    MedicinalProductAuthorization.Subject maps to MedicinalProductAuthorization.subject
+    MedicinalProductAuthorization.Country maps to MedicinalProductAuthorization.country
+    MedicinalProductAuthorization.Jurisdiction maps to MedicinalProductAuthorization.jurisdiction
+    MedicinalProductAuthorization.Status maps to MedicinalProductAuthorization.status
+    MedicinalProductAuthorization.StatusDate maps to MedicinalProductAuthorization.statusDate
+    MedicinalProductAuthorization.RestoreDate maps to MedicinalProductAuthorization.restoreDate
+    MedicinalProductAuthorization.ValidityPeriod maps to MedicinalProductAuthorization.validityPeriod
+    MedicinalProductAuthorization.DataExclusivityPeriod maps to MedicinalProductAuthorization.dataExclusivityPeriod
+    MedicinalProductAuthorization.DateOfFirstAuthorization maps to MedicinalProductAuthorization.dateOfFirstAuthorization
+    MedicinalProductAuthorization.InternationalBirthDate maps to MedicinalProductAuthorization.internationalBirthDate
+    MedicinalProductAuthorization.LegalBasis maps to MedicinalProductAuthorization.legalBasis
+    MedicinalProductAuthorization.JurisdictionalAuthorization maps to MedicinalProductAuthorization.jurisdictionalAuthorization
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MedicinalProductAuthorization.JurisdictionalAuthorizationGroup maps to MedicinalProductAuthorization.jurisdictionalAuthorization        // ConvertFhirClass.cs:118
+        MedicinalProductAuthorization.JurisdictionalAuthorizationGroup.Identifier maps to MedicinalProductAuthorization.jurisdictionalAuthorization.identifier
+        MedicinalProductAuthorization.JurisdictionalAuthorizationGroup.Country maps to MedicinalProductAuthorization.jurisdictionalAuthorization.country
+        MedicinalProductAuthorization.JurisdictionalAuthorizationGroup.Jurisdiction maps to MedicinalProductAuthorization.jurisdictionalAuthorization.jurisdiction
+        MedicinalProductAuthorization.JurisdictionalAuthorizationGroup.LegalStatusOfSupply maps to MedicinalProductAuthorization.jurisdictionalAuthorization.legalStatusOfSupply
+        MedicinalProductAuthorization.JurisdictionalAuthorizationGroup.ValidityPeriod maps to MedicinalProductAuthorization.jurisdictionalAuthorization.validityPeriod
+    MedicinalProductAuthorization.Holder maps to MedicinalProductAuthorization.holder
+    MedicinalProductAuthorization.Regulator maps to MedicinalProductAuthorization.regulator
+    MedicinalProductAuthorization.Procedure maps to MedicinalProductAuthorization.procedure
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MedicinalProductAuthorization.ProcedureGroup maps to MedicinalProductAuthorization.procedure                                            // ConvertFhirClass.cs:118
+        MedicinalProductAuthorization.ProcedureGroup.Identifier maps to MedicinalProductAuthorization.procedure.identifier
+        MedicinalProductAuthorization.ProcedureGroup.Type maps to MedicinalProductAuthorization.procedure.type
+        MedicinalProductAuthorization.ProcedureGroup.DateX maps to MedicinalProductAuthorization.procedure.date[x]
+        MedicinalProductAuthorization.ProcedureGroup.Application maps to MedicinalProductAuthorization.procedure.application

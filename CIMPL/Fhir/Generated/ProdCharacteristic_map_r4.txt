@@ -1,0 +1,16 @@
+Grammar: Map 5.1
+Namespace: fhir.prodcharacteristic
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ProdCharacteristic maps to ProdCharacteristic:                                                                                              // ConvertFhirClass.cs:118
+    ProdCharacteristic.Height maps to ProdCharacteristic.height
+    ProdCharacteristic.Width maps to ProdCharacteristic.width
+    ProdCharacteristic.Depth maps to ProdCharacteristic.depth
+    ProdCharacteristic.Weight maps to ProdCharacteristic.weight
+    ProdCharacteristic.NominalVolume maps to ProdCharacteristic.nominalVolume
+    ProdCharacteristic.ExternalDiameter maps to ProdCharacteristic.externalDiameter
+    ProdCharacteristic.Shape maps to ProdCharacteristic.shape
+    ProdCharacteristic.Color maps to ProdCharacteristic.color
+    ProdCharacteristic.Imprint maps to ProdCharacteristic.imprint
+    ProdCharacteristic.Image maps to ProdCharacteristic.image
+    ProdCharacteristic.Scoring maps to ProdCharacteristic.scoring

@@ -1,0 +1,27 @@
+Grammar: Map 5.1
+Namespace: fhir.media
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Media maps to Media:                                                                                                                        // ConvertFhirClass.cs:118
+    Media.Identifier maps to Media.identifier
+    Media.BasedOn maps to Media.basedOn
+    Media.PartOf maps to Media.partOf
+    Media.Status maps to Media.status
+    Media.Type maps to Media.type
+    Media.Modality maps to Media.modality
+    Media.View maps to Media.view
+    Media.Subject maps to Media.subject
+    Media.Encounter maps to Media.encounter
+    Media.CreatedX maps to Media.created[x]
+    Media.Issued maps to Media.issued
+    Media.Operator maps to Media.operator
+    Media.ReasonCode maps to Media.reasonCode
+    Media.BodySite maps to Media.bodySite
+    Media.DeviceName maps to Media.deviceName
+    Media.Device maps to Media.device
+    Media.Height maps to Media.height
+    Media.Width maps to Media.width
+    Media.Frames maps to Media.frames
+    Media.Duration maps to Media.duration
+    Media.Content maps to Media.content
+    Media.Note maps to Media.note

@@ -1,0 +1,31 @@
+Grammar: Map 5.1
+Namespace: fhir.condition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Condition maps to Condition:                                                                                                                // ConvertFhirClass.cs:118
+    Condition.Identifier maps to Condition.identifier
+    Condition.ClinicalStatus maps to Condition.clinicalStatus
+    Condition.VerificationStatus maps to Condition.verificationStatus
+    Condition.Category maps to Condition.category
+    Condition.Severity maps to Condition.severity
+    Condition.Code maps to Condition.code
+    Condition.BodySite maps to Condition.bodySite
+    Condition.Subject maps to Condition.subject
+    Condition.Encounter maps to Condition.encounter
+    Condition.OnsetX maps to Condition.onset[x]
+    Condition.AbatementX maps to Condition.abatement[x]
+    Condition.RecordedDate maps to Condition.recordedDate
+    Condition.Recorder maps to Condition.recorder
+    Condition.Asserter maps to Condition.asserter
+    Condition.Stage maps to Condition.stage
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Condition.StageGroup maps to Condition.stage                                                                                            // ConvertFhirClass.cs:118
+        Condition.StageGroup.Summary maps to Condition.stage.summary
+        Condition.StageGroup.Assessment maps to Condition.stage.assessment
+        Condition.StageGroup.Type maps to Condition.stage.type
+    Condition.Evidence maps to Condition.evidence
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Condition.EvidenceGroup maps to Condition.evidence                                                                                      // ConvertFhirClass.cs:118
+        Condition.EvidenceGroup.Code maps to Condition.evidence.code
+        Condition.EvidenceGroup.Detail maps to Condition.evidence.detail
+    Condition.Note maps to Condition.note

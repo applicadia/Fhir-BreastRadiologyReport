@@ -1,0 +1,21 @@
+Grammar: Map 5.1
+Namespace: fhir.practitioner
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Practitioner maps to Practitioner:                                                                                                          // ConvertFhirClass.cs:118
+    Practitioner.Identifier maps to Practitioner.identifier
+    Practitioner.Active maps to Practitioner.active
+    Practitioner.Name maps to Practitioner.name
+    Practitioner.Telecom maps to Practitioner.telecom
+    Practitioner.Address maps to Practitioner.address
+    Practitioner.Gender maps to Practitioner.gender
+    Practitioner.BirthDate maps to Practitioner.birthDate
+    Practitioner.Photo maps to Practitioner.photo
+    Practitioner.Qualification maps to Practitioner.qualification
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Practitioner.QualificationGroup maps to Practitioner.qualification                                                                      // ConvertFhirClass.cs:118
+        Practitioner.QualificationGroup.Identifier maps to Practitioner.qualification.identifier
+        Practitioner.QualificationGroup.Code maps to Practitioner.qualification.code
+        Practitioner.QualificationGroup.Period maps to Practitioner.qualification.period
+        Practitioner.QualificationGroup.Issuer maps to Practitioner.qualification.issuer
+    Practitioner.Communication maps to Practitioner.communication

@@ -1,0 +1,13 @@
+Grammar: Map 5.1
+Namespace: fhir.flag
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Flag maps to Flag:                                                                                                                          // ConvertFhirClass.cs:118
+    Flag.Identifier maps to Flag.identifier
+    Flag.Status maps to Flag.status
+    Flag.Category maps to Flag.category
+    Flag.Code maps to Flag.code
+    Flag.Subject maps to Flag.subject
+    Flag.Period maps to Flag.period
+    Flag.Encounter maps to Flag.encounter
+    Flag.Author maps to Flag.author

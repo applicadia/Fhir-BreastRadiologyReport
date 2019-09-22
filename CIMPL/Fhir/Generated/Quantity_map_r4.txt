@@ -1,0 +1,10 @@
+Grammar: Map 5.1
+Namespace: fhir.quantity
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Quantity maps to Quantity:                                                                                                                  // ConvertFhirClass.cs:118
+    Quantity.ValueZ maps to Quantity.value
+    Quantity.Comparator maps to Quantity.comparator
+    Quantity.Unit maps to Quantity.unit
+    Quantity.System maps to Quantity.system
+    Quantity.Code maps to Quantity.code

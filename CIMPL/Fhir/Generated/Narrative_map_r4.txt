@@ -1,0 +1,7 @@
+Grammar: Map 5.1
+Namespace: fhir.narrative
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Narrative maps to Narrative:                                                                                                                // ConvertFhirClass.cs:118
+    Narrative.Status maps to Narrative.status
+    Narrative.Div maps to Narrative.div

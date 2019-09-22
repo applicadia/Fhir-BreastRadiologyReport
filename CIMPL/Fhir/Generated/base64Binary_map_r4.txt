@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: fhir.base64binary
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+base64Binary maps to base64Binary:                                                                                                          // ConvertFhirClass.cs:118
+    base64Binary.ValueZ maps to base64Binary.value

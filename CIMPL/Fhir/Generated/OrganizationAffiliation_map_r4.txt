@@ -1,0 +1,17 @@
+Grammar: Map 5.1
+Namespace: fhir.organizationaffiliation
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+OrganizationAffiliation maps to OrganizationAffiliation:                                                                                    // ConvertFhirClass.cs:118
+    OrganizationAffiliation.Identifier maps to OrganizationAffiliation.identifier
+    OrganizationAffiliation.Active maps to OrganizationAffiliation.active
+    OrganizationAffiliation.Period maps to OrganizationAffiliation.period
+    OrganizationAffiliation.Organization maps to OrganizationAffiliation.organization
+    OrganizationAffiliation.ParticipatingOrganization maps to OrganizationAffiliation.participatingOrganization
+    OrganizationAffiliation.Network maps to OrganizationAffiliation.network
+    OrganizationAffiliation.Code maps to OrganizationAffiliation.code
+    OrganizationAffiliation.Specialty maps to OrganizationAffiliation.specialty
+    OrganizationAffiliation.Location maps to OrganizationAffiliation.location
+    OrganizationAffiliation.HealthcareService maps to OrganizationAffiliation.healthcareService
+    OrganizationAffiliation.Telecom maps to OrganizationAffiliation.telecom
+    OrganizationAffiliation.Endpoint maps to OrganizationAffiliation.endpoint

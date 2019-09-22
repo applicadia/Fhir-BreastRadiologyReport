@@ -1,0 +1,41 @@
+Grammar: Map 5.1
+Namespace: fhir.evidencevariable
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+EvidenceVariable maps to EvidenceVariable:                                                                                                  // ConvertFhirClass.cs:118
+    EvidenceVariable.Url maps to EvidenceVariable.url
+    EvidenceVariable.Identifier maps to EvidenceVariable.identifier
+    EvidenceVariable.Version maps to EvidenceVariable.version
+    EvidenceVariable.Name maps to EvidenceVariable.name
+    EvidenceVariable.Title maps to EvidenceVariable.title
+    EvidenceVariable.ShortTitle maps to EvidenceVariable.shortTitle
+    EvidenceVariable.Subtitle maps to EvidenceVariable.subtitle
+    EvidenceVariable.Status maps to EvidenceVariable.status
+    EvidenceVariable.Date maps to EvidenceVariable.date
+    EvidenceVariable.Publisher maps to EvidenceVariable.publisher
+    EvidenceVariable.Contact maps to EvidenceVariable.contact
+    EvidenceVariable.Description maps to EvidenceVariable.description
+    EvidenceVariable.Note maps to EvidenceVariable.note
+    EvidenceVariable.UseContext maps to EvidenceVariable.useContext
+    EvidenceVariable.Jurisdiction maps to EvidenceVariable.jurisdiction
+    EvidenceVariable.Copyright maps to EvidenceVariable.copyright
+    EvidenceVariable.ApprovalDate maps to EvidenceVariable.approvalDate
+    EvidenceVariable.LastReviewDate maps to EvidenceVariable.lastReviewDate
+    EvidenceVariable.EffectivePeriod maps to EvidenceVariable.effectivePeriod
+    EvidenceVariable.Topic maps to EvidenceVariable.topic
+    EvidenceVariable.Author maps to EvidenceVariable.author
+    EvidenceVariable.Editor maps to EvidenceVariable.editor
+    EvidenceVariable.Reviewer maps to EvidenceVariable.reviewer
+    EvidenceVariable.Endorser maps to EvidenceVariable.endorser
+    EvidenceVariable.RelatedArtifact maps to EvidenceVariable.relatedArtifact
+    EvidenceVariable.Type maps to EvidenceVariable.type
+    EvidenceVariable.Characteristic maps to EvidenceVariable.characteristic
+                                                                                                                                            // ConvertFhirClass.cs:117
+    EvidenceVariable.CharacteristicGroup maps to EvidenceVariable.characteristic                                                            // ConvertFhirClass.cs:118
+        EvidenceVariable.CharacteristicGroup.Description maps to EvidenceVariable.characteristic.description
+        EvidenceVariable.CharacteristicGroup.DefinitionX maps to EvidenceVariable.characteristic.definition[x]
+        EvidenceVariable.CharacteristicGroup.UsageContext maps to EvidenceVariable.characteristic.usageContext
+        EvidenceVariable.CharacteristicGroup.Exclude maps to EvidenceVariable.characteristic.exclude
+        EvidenceVariable.CharacteristicGroup.ParticipantEffectiveX maps to EvidenceVariable.characteristic.participantEffective[x]
+        EvidenceVariable.CharacteristicGroup.TimeFromStart maps to EvidenceVariable.characteristic.timeFromStart
+        EvidenceVariable.CharacteristicGroup.GroupMeasure maps to EvidenceVariable.characteristic.groupMeasure

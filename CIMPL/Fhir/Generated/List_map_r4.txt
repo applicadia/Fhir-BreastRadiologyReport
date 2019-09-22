@@ -1,0 +1,24 @@
+Grammar: Map 5.1
+Namespace: fhir.list
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+List maps to List:                                                                                                                          // ConvertFhirClass.cs:118
+    List.Identifier maps to List.identifier
+    List.Status maps to List.status
+    List.Mode maps to List.mode
+    List.Title maps to List.title
+    List.Code maps to List.code
+    List.Subject maps to List.subject
+    List.Encounter maps to List.encounter
+    List.Date maps to List.date
+    List.Source maps to List.source
+    List.OrderedBy maps to List.orderedBy
+    List.Note maps to List.note
+    List.Entry maps to List.entry
+                                                                                                                                            // ConvertFhirClass.cs:117
+    List.EntryGroup maps to List.entry                                                                                                      // ConvertFhirClass.cs:118
+        List.EntryGroup.Flag maps to List.entry.flag
+        List.EntryGroup.Deleted maps to List.entry.deleted
+        List.EntryGroup.Date maps to List.entry.date
+        List.EntryGroup.Item maps to List.entry.item
+    List.EmptyReason maps to List.emptyReason

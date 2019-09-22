@@ -1,0 +1,10 @@
+Grammar: Map 5.1
+Namespace: fhir.contactpoint
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+ContactPoint maps to ContactPoint:                                                                                                          // ConvertFhirClass.cs:118
+    ContactPoint.System maps to ContactPoint.system
+    ContactPoint.ValueZ maps to ContactPoint.value
+    ContactPoint.Use maps to ContactPoint.use
+    ContactPoint.Rank maps to ContactPoint.rank
+    ContactPoint.Period maps to ContactPoint.period

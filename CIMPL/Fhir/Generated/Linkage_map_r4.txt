@@ -1,0 +1,12 @@
+Grammar: Map 5.1
+Namespace: fhir.linkage
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Linkage maps to Linkage:                                                                                                                    // ConvertFhirClass.cs:118
+    Linkage.Active maps to Linkage.active
+    Linkage.Author maps to Linkage.author
+    Linkage.Item maps to Linkage.item
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Linkage.ItemGroup maps to Linkage.item                                                                                                  // ConvertFhirClass.cs:118
+        Linkage.ItemGroup.Type maps to Linkage.item.type
+        Linkage.ItemGroup.Resource maps to Linkage.item.resource

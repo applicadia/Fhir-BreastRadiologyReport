@@ -1,0 +1,54 @@
+Grammar: Map 5.1
+Namespace: fhir.testreport
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+TestReport maps to TestReport:                                                                                                              // ConvertFhirClass.cs:118
+    TestReport.Identifier maps to TestReport.identifier
+    TestReport.Name maps to TestReport.name
+    TestReport.Status maps to TestReport.status
+    TestReport.TestScript maps to TestReport.testScript
+    TestReport.Result maps to TestReport.result
+    TestReport.Score maps to TestReport.score
+    TestReport.Tester maps to TestReport.tester
+    TestReport.Issued maps to TestReport.issued
+    TestReport.Participant maps to TestReport.participant
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestReport.ParticipantGroup maps to TestReport.participant                                                                              // ConvertFhirClass.cs:118
+        TestReport.ParticipantGroup.Type maps to TestReport.participant.type
+        TestReport.ParticipantGroup.Uri maps to TestReport.participant.uri
+        TestReport.ParticipantGroup.Display maps to TestReport.participant.display
+    TestReport.Setup maps to TestReport.setup
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestReport.SetupGroup maps to TestReport.setup                                                                                          // ConvertFhirClass.cs:118
+        TestReport.SetupGroup.Action maps to TestReport.setup.action
+                                                                                                                                            // ConvertFhirClass.cs:117
+        TestReport.SetupGroup.ActionGroup maps to TestReport.setup.action                                                                   // ConvertFhirClass.cs:118
+            TestReport.SetupGroup.ActionGroup.Operation maps to TestReport.setup.action.operation
+                                                                                                                                            // ConvertFhirClass.cs:117
+            TestReport.SetupGroup.ActionGroup.OperationGroup maps to TestReport.setup.action.operation                                      // ConvertFhirClass.cs:118
+                TestReport.SetupGroup.ActionGroup.OperationGroup.Result maps to TestReport.setup.action.operation.result
+                TestReport.SetupGroup.ActionGroup.OperationGroup.Message maps to TestReport.setup.action.operation.message
+                TestReport.SetupGroup.ActionGroup.OperationGroup.Detail maps to TestReport.setup.action.operation.detail
+            TestReport.SetupGroup.ActionGroup.Assert maps to TestReport.setup.action.assert
+                                                                                                                                            // ConvertFhirClass.cs:117
+            TestReport.SetupGroup.ActionGroup.AssertGroup maps to TestReport.setup.action.assert                                            // ConvertFhirClass.cs:118
+                TestReport.SetupGroup.ActionGroup.AssertGroup.Result maps to TestReport.setup.action.assert.result
+                TestReport.SetupGroup.ActionGroup.AssertGroup.Message maps to TestReport.setup.action.assert.message
+                TestReport.SetupGroup.ActionGroup.AssertGroup.Detail maps to TestReport.setup.action.assert.detail
+    TestReport.Test maps to TestReport.test
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestReport.TestGroup maps to TestReport.test                                                                                            // ConvertFhirClass.cs:118
+        TestReport.TestGroup.Name maps to TestReport.test.name
+        TestReport.TestGroup.Description maps to TestReport.test.description
+        TestReport.TestGroup.Action maps to TestReport.test.action
+                                                                                                                                            // ConvertFhirClass.cs:117
+        TestReport.TestGroup.ActionGroup maps to TestReport.test.action                                                                     // ConvertFhirClass.cs:118
+            TestReport.TestGroup.ActionGroup.Operation maps to TestReport.test.action.operation
+            TestReport.TestGroup.ActionGroup.Assert maps to TestReport.test.action.assert
+    TestReport.Teardown maps to TestReport.teardown
+                                                                                                                                            // ConvertFhirClass.cs:117
+    TestReport.TeardownGroup maps to TestReport.teardown                                                                                    // ConvertFhirClass.cs:118
+        TestReport.TeardownGroup.Action maps to TestReport.teardown.action
+                                                                                                                                            // ConvertFhirClass.cs:117
+        TestReport.TeardownGroup.ActionGroup maps to TestReport.teardown.action                                                             // ConvertFhirClass.cs:118
+            TestReport.TeardownGroup.ActionGroup.Operation maps to TestReport.teardown.action.operation

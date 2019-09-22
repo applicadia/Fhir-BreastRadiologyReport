@@ -1,0 +1,16 @@
+Grammar: Map 5.1
+Namespace: fhir.slot
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Slot maps to Slot:                                                                                                                          // ConvertFhirClass.cs:118
+    Slot.Identifier maps to Slot.identifier
+    Slot.ServiceCategory maps to Slot.serviceCategory
+    Slot.ServiceType maps to Slot.serviceType
+    Slot.Specialty maps to Slot.specialty
+    Slot.AppointmentType maps to Slot.appointmentType
+    Slot.Schedule maps to Slot.schedule
+    Slot.Status maps to Slot.status
+    Slot.Start maps to Slot.start
+    Slot.End maps to Slot.end
+    Slot.Overbooked maps to Slot.overbooked
+    Slot.Comment maps to Slot.comment

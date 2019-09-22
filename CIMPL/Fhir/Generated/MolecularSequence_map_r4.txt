@@ -1,0 +1,89 @@
+Grammar: Map 5.1
+Namespace: fhir.molecularsequence
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+MolecularSequence maps to MolecularSequence:                                                                                                // ConvertFhirClass.cs:118
+    MolecularSequence.Identifier maps to MolecularSequence.identifier
+    MolecularSequence.Type maps to MolecularSequence.type
+    MolecularSequence.CoordinateSystem maps to MolecularSequence.coordinateSystem
+    MolecularSequence.Patient maps to MolecularSequence.patient
+    MolecularSequence.Specimen maps to MolecularSequence.specimen
+    MolecularSequence.Device maps to MolecularSequence.device
+    MolecularSequence.Performer maps to MolecularSequence.performer
+    MolecularSequence.Quantity maps to MolecularSequence.quantity
+    MolecularSequence.ReferenceSeq maps to MolecularSequence.referenceSeq
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MolecularSequence.ReferenceSeqGroup maps to MolecularSequence.referenceSeq                                                              // ConvertFhirClass.cs:118
+        MolecularSequence.ReferenceSeqGroup.Chromosome maps to MolecularSequence.referenceSeq.chromosome
+        MolecularSequence.ReferenceSeqGroup.GenomeBuild maps to MolecularSequence.referenceSeq.genomeBuild
+        MolecularSequence.ReferenceSeqGroup.Orientation maps to MolecularSequence.referenceSeq.orientation
+        MolecularSequence.ReferenceSeqGroup.ReferenceSeqId maps to MolecularSequence.referenceSeq.referenceSeqId
+        MolecularSequence.ReferenceSeqGroup.ReferenceSeqPointer maps to MolecularSequence.referenceSeq.referenceSeqPointer
+        MolecularSequence.ReferenceSeqGroup.ReferenceSeqString maps to MolecularSequence.referenceSeq.referenceSeqString
+        MolecularSequence.ReferenceSeqGroup.Strand maps to MolecularSequence.referenceSeq.strand
+        MolecularSequence.ReferenceSeqGroup.WindowStart maps to MolecularSequence.referenceSeq.windowStart
+        MolecularSequence.ReferenceSeqGroup.WindowEnd maps to MolecularSequence.referenceSeq.windowEnd
+    MolecularSequence.Variant maps to MolecularSequence.variant
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MolecularSequence.VariantGroup maps to MolecularSequence.variant                                                                        // ConvertFhirClass.cs:118
+        MolecularSequence.VariantGroup.Start maps to MolecularSequence.variant.start
+        MolecularSequence.VariantGroup.End maps to MolecularSequence.variant.end
+        MolecularSequence.VariantGroup.ObservedAllele maps to MolecularSequence.variant.observedAllele
+        MolecularSequence.VariantGroup.ReferenceAllele maps to MolecularSequence.variant.referenceAllele
+        MolecularSequence.VariantGroup.Cigar maps to MolecularSequence.variant.cigar
+        MolecularSequence.VariantGroup.VariantPointer maps to MolecularSequence.variant.variantPointer
+    MolecularSequence.ObservedSeq maps to MolecularSequence.observedSeq
+    MolecularSequence.Quality maps to MolecularSequence.quality
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MolecularSequence.QualityGroup maps to MolecularSequence.quality                                                                        // ConvertFhirClass.cs:118
+        MolecularSequence.QualityGroup.Type maps to MolecularSequence.quality.type
+        MolecularSequence.QualityGroup.StandardSequence maps to MolecularSequence.quality.standardSequence
+        MolecularSequence.QualityGroup.Start maps to MolecularSequence.quality.start
+        MolecularSequence.QualityGroup.End maps to MolecularSequence.quality.end
+        MolecularSequence.QualityGroup.Score maps to MolecularSequence.quality.score
+        MolecularSequence.QualityGroup.Method maps to MolecularSequence.quality.method
+        MolecularSequence.QualityGroup.TruthTP maps to MolecularSequence.quality.truthTP
+        MolecularSequence.QualityGroup.QueryTP maps to MolecularSequence.quality.queryTP
+        MolecularSequence.QualityGroup.TruthFN maps to MolecularSequence.quality.truthFN
+        MolecularSequence.QualityGroup.QueryFP maps to MolecularSequence.quality.queryFP
+        MolecularSequence.QualityGroup.GtFP maps to MolecularSequence.quality.gtFP
+        MolecularSequence.QualityGroup.Precision maps to MolecularSequence.quality.precision
+        MolecularSequence.QualityGroup.Recall maps to MolecularSequence.quality.recall
+        MolecularSequence.QualityGroup.FScore maps to MolecularSequence.quality.fScore
+        MolecularSequence.QualityGroup.Roc maps to MolecularSequence.quality.roc
+                                                                                                                                            // ConvertFhirClass.cs:117
+        MolecularSequence.QualityGroup.RocGroup maps to MolecularSequence.quality.roc                                                       // ConvertFhirClass.cs:118
+            MolecularSequence.QualityGroup.RocGroup.Score maps to MolecularSequence.quality.roc.score
+            MolecularSequence.QualityGroup.RocGroup.NumTP maps to MolecularSequence.quality.roc.numTP
+            MolecularSequence.QualityGroup.RocGroup.NumFP maps to MolecularSequence.quality.roc.numFP
+            MolecularSequence.QualityGroup.RocGroup.NumFN maps to MolecularSequence.quality.roc.numFN
+            MolecularSequence.QualityGroup.RocGroup.Precision maps to MolecularSequence.quality.roc.precision
+            MolecularSequence.QualityGroup.RocGroup.Sensitivity maps to MolecularSequence.quality.roc.sensitivity
+            MolecularSequence.QualityGroup.RocGroup.FMeasure maps to MolecularSequence.quality.roc.fMeasure
+    MolecularSequence.ReadCoverage maps to MolecularSequence.readCoverage
+    MolecularSequence.Repository maps to MolecularSequence.repository
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MolecularSequence.RepositoryGroup maps to MolecularSequence.repository                                                                  // ConvertFhirClass.cs:118
+        MolecularSequence.RepositoryGroup.Type maps to MolecularSequence.repository.type
+        MolecularSequence.RepositoryGroup.Url maps to MolecularSequence.repository.url
+        MolecularSequence.RepositoryGroup.Name maps to MolecularSequence.repository.name
+        MolecularSequence.RepositoryGroup.DatasetId maps to MolecularSequence.repository.datasetId
+        MolecularSequence.RepositoryGroup.VariantsetId maps to MolecularSequence.repository.variantsetId
+        MolecularSequence.RepositoryGroup.ReadsetId maps to MolecularSequence.repository.readsetId
+    MolecularSequence.Pointer maps to MolecularSequence.pointer
+    MolecularSequence.StructureVariant maps to MolecularSequence.structureVariant
+                                                                                                                                            // ConvertFhirClass.cs:117
+    MolecularSequence.StructureVariantGroup maps to MolecularSequence.structureVariant                                                      // ConvertFhirClass.cs:118
+        MolecularSequence.StructureVariantGroup.VariantType maps to MolecularSequence.structureVariant.variantType
+        MolecularSequence.StructureVariantGroup.Exact maps to MolecularSequence.structureVariant.exact
+        MolecularSequence.StructureVariantGroup.Length maps to MolecularSequence.structureVariant.length
+        MolecularSequence.StructureVariantGroup.Outer maps to MolecularSequence.structureVariant.outer
+                                                                                                                                            // ConvertFhirClass.cs:117
+        MolecularSequence.StructureVariantGroup.OuterGroup maps to MolecularSequence.structureVariant.outer                                 // ConvertFhirClass.cs:118
+            MolecularSequence.StructureVariantGroup.OuterGroup.Start maps to MolecularSequence.structureVariant.outer.start
+            MolecularSequence.StructureVariantGroup.OuterGroup.End maps to MolecularSequence.structureVariant.outer.end
+        MolecularSequence.StructureVariantGroup.Inner maps to MolecularSequence.structureVariant.inner
+                                                                                                                                            // ConvertFhirClass.cs:117
+        MolecularSequence.StructureVariantGroup.InnerGroup maps to MolecularSequence.structureVariant.inner                                 // ConvertFhirClass.cs:118
+            MolecularSequence.StructureVariantGroup.InnerGroup.Start maps to MolecularSequence.structureVariant.inner.start
+            MolecularSequence.StructureVariantGroup.InnerGroup.End maps to MolecularSequence.structureVariant.inner.end

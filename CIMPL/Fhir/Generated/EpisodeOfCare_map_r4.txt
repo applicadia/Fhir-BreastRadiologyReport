@@ -1,0 +1,26 @@
+Grammar: Map 5.1
+Namespace: fhir.episodeofcare
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+EpisodeOfCare maps to EpisodeOfCare:                                                                                                        // ConvertFhirClass.cs:118
+    EpisodeOfCare.Identifier maps to EpisodeOfCare.identifier
+    EpisodeOfCare.Status maps to EpisodeOfCare.status
+    EpisodeOfCare.StatusHistory maps to EpisodeOfCare.statusHistory
+                                                                                                                                            // ConvertFhirClass.cs:117
+    EpisodeOfCare.StatusHistoryGroup maps to EpisodeOfCare.statusHistory                                                                    // ConvertFhirClass.cs:118
+        EpisodeOfCare.StatusHistoryGroup.Status maps to EpisodeOfCare.statusHistory.status
+        EpisodeOfCare.StatusHistoryGroup.Period maps to EpisodeOfCare.statusHistory.period
+    EpisodeOfCare.Type maps to EpisodeOfCare.type
+    EpisodeOfCare.Diagnosis maps to EpisodeOfCare.diagnosis
+                                                                                                                                            // ConvertFhirClass.cs:117
+    EpisodeOfCare.DiagnosisGroup maps to EpisodeOfCare.diagnosis                                                                            // ConvertFhirClass.cs:118
+        EpisodeOfCare.DiagnosisGroup.Condition maps to EpisodeOfCare.diagnosis.condition
+        EpisodeOfCare.DiagnosisGroup.Role maps to EpisodeOfCare.diagnosis.role
+        EpisodeOfCare.DiagnosisGroup.Rank maps to EpisodeOfCare.diagnosis.rank
+    EpisodeOfCare.Patient maps to EpisodeOfCare.patient
+    EpisodeOfCare.ManagingOrganization maps to EpisodeOfCare.managingOrganization
+    EpisodeOfCare.Period maps to EpisodeOfCare.period
+    EpisodeOfCare.ReferralRequest maps to EpisodeOfCare.referralRequest
+    EpisodeOfCare.CareManager maps to EpisodeOfCare.careManager
+    EpisodeOfCare.Team maps to EpisodeOfCare.team
+    EpisodeOfCare.Account maps to EpisodeOfCare.account

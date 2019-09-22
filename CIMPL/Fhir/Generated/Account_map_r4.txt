@@ -1,0 +1,25 @@
+Grammar: Map 5.1
+Namespace: fhir.account
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Account maps to Account:                                                                                                                    // ConvertFhirClass.cs:118
+    Account.Identifier maps to Account.identifier
+    Account.Status maps to Account.status
+    Account.Type maps to Account.type
+    Account.Name maps to Account.name
+    Account.Subject maps to Account.subject
+    Account.ServicePeriod maps to Account.servicePeriod
+    Account.Coverage maps to Account.coverage
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Account.CoverageGroup maps to Account.coverage                                                                                          // ConvertFhirClass.cs:118
+        Account.CoverageGroup.Coverage maps to Account.coverage.coverage
+        Account.CoverageGroup.Priority maps to Account.coverage.priority
+    Account.Owner maps to Account.owner
+    Account.Description maps to Account.description
+    Account.Guarantor maps to Account.guarantor
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Account.GuarantorGroup maps to Account.guarantor                                                                                        // ConvertFhirClass.cs:118
+        Account.GuarantorGroup.Party maps to Account.guarantor.party
+        Account.GuarantorGroup.OnHold maps to Account.guarantor.onHold
+        Account.GuarantorGroup.Period maps to Account.guarantor.period
+    Account.PartOf maps to Account.partOf

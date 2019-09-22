@@ -1,0 +1,36 @@
+Grammar: Map 5.1
+Namespace: fhir.coverage
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Coverage maps to Coverage:                                                                                                                  // ConvertFhirClass.cs:118
+    Coverage.Identifier maps to Coverage.identifier
+    Coverage.Status maps to Coverage.status
+    Coverage.Type maps to Coverage.type
+    Coverage.PolicyHolder maps to Coverage.policyHolder
+    Coverage.Subscriber maps to Coverage.subscriber
+    Coverage.SubscriberId maps to Coverage.subscriberId
+    Coverage.Beneficiary maps to Coverage.beneficiary
+    Coverage.Dependent maps to Coverage.dependent
+    Coverage.Relationship maps to Coverage.relationship
+    Coverage.Period maps to Coverage.period
+    Coverage.Payor maps to Coverage.payor
+    Coverage.Class maps to Coverage.class
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Coverage.ClassGroup maps to Coverage.class                                                                                              // ConvertFhirClass.cs:118
+        Coverage.ClassGroup.Type maps to Coverage.class.type
+        Coverage.ClassGroup.ValueZ maps to Coverage.class.value
+        Coverage.ClassGroup.Name maps to Coverage.class.name
+    Coverage.Order maps to Coverage.order
+    Coverage.Network maps to Coverage.network
+    Coverage.CostToBeneficiary maps to Coverage.costToBeneficiary
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Coverage.CostToBeneficiaryGroup maps to Coverage.costToBeneficiary                                                                      // ConvertFhirClass.cs:118
+        Coverage.CostToBeneficiaryGroup.Type maps to Coverage.costToBeneficiary.type
+        Coverage.CostToBeneficiaryGroup.ValueX maps to Coverage.costToBeneficiary.value[x]
+        Coverage.CostToBeneficiaryGroup.Exception maps to Coverage.costToBeneficiary.exception
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Coverage.CostToBeneficiaryGroup.ExceptionGroup maps to Coverage.costToBeneficiary.exception                                         // ConvertFhirClass.cs:118
+            Coverage.CostToBeneficiaryGroup.ExceptionGroup.Type maps to Coverage.costToBeneficiary.exception.type
+            Coverage.CostToBeneficiaryGroup.ExceptionGroup.Period maps to Coverage.costToBeneficiary.exception.period
+    Coverage.Subrogation maps to Coverage.subrogation
+    Coverage.Contract maps to Coverage.contract

@@ -1,0 +1,19 @@
+Grammar: Map 5.1
+Namespace: fhir.substanceprotein
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+SubstanceProtein maps to SubstanceProtein:                                                                                                  // ConvertFhirClass.cs:118
+    SubstanceProtein.SequenceType maps to SubstanceProtein.sequenceType
+    SubstanceProtein.NumberOfSubunits maps to SubstanceProtein.numberOfSubunits
+    SubstanceProtein.DisulfideLinkage maps to SubstanceProtein.disulfideLinkage
+    SubstanceProtein.Subunit maps to SubstanceProtein.subunit
+                                                                                                                                            // ConvertFhirClass.cs:117
+    SubstanceProtein.SubunitGroup maps to SubstanceProtein.subunit                                                                          // ConvertFhirClass.cs:118
+        SubstanceProtein.SubunitGroup.Subunit maps to SubstanceProtein.subunit.subunit
+        SubstanceProtein.SubunitGroup.Sequence maps to SubstanceProtein.subunit.sequence
+        SubstanceProtein.SubunitGroup.Length maps to SubstanceProtein.subunit.length
+        SubstanceProtein.SubunitGroup.SequenceAttachment maps to SubstanceProtein.subunit.sequenceAttachment
+        SubstanceProtein.SubunitGroup.NTerminalModificationId maps to SubstanceProtein.subunit.nTerminalModificationId
+        SubstanceProtein.SubunitGroup.NTerminalModification maps to SubstanceProtein.subunit.nTerminalModification
+        SubstanceProtein.SubunitGroup.CTerminalModificationId maps to SubstanceProtein.subunit.cTerminalModificationId
+        SubstanceProtein.SubunitGroup.CTerminalModification maps to SubstanceProtein.subunit.cTerminalModification

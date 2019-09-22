@@ -1,0 +1,42 @@
+Grammar: Map 5.1
+Namespace: fhir.graphdefinition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+GraphDefinition maps to GraphDefinition:                                                                                                    // ConvertFhirClass.cs:118
+    GraphDefinition.Url maps to GraphDefinition.url
+    GraphDefinition.Version maps to GraphDefinition.version
+    GraphDefinition.Name maps to GraphDefinition.name
+    GraphDefinition.Status maps to GraphDefinition.status
+    GraphDefinition.Experimental maps to GraphDefinition.experimental
+    GraphDefinition.Date maps to GraphDefinition.date
+    GraphDefinition.Publisher maps to GraphDefinition.publisher
+    GraphDefinition.Contact maps to GraphDefinition.contact
+    GraphDefinition.Description maps to GraphDefinition.description
+    GraphDefinition.UseContext maps to GraphDefinition.useContext
+    GraphDefinition.Jurisdiction maps to GraphDefinition.jurisdiction
+    GraphDefinition.Purpose maps to GraphDefinition.purpose
+    GraphDefinition.Start maps to GraphDefinition.start
+    GraphDefinition.Profile maps to GraphDefinition.profile
+    GraphDefinition.Link maps to GraphDefinition.link
+                                                                                                                                            // ConvertFhirClass.cs:117
+    GraphDefinition.LinkGroup maps to GraphDefinition.link                                                                                  // ConvertFhirClass.cs:118
+        GraphDefinition.LinkGroup.Path maps to GraphDefinition.link.path
+        GraphDefinition.LinkGroup.SliceName maps to GraphDefinition.link.sliceName
+        GraphDefinition.LinkGroup.Min maps to GraphDefinition.link.min
+        GraphDefinition.LinkGroup.Max maps to GraphDefinition.link.max
+        GraphDefinition.LinkGroup.Description maps to GraphDefinition.link.description
+        GraphDefinition.LinkGroup.Target maps to GraphDefinition.link.target
+                                                                                                                                            // ConvertFhirClass.cs:117
+        GraphDefinition.LinkGroup.TargetGroup maps to GraphDefinition.link.target                                                           // ConvertFhirClass.cs:118
+            GraphDefinition.LinkGroup.TargetGroup.Type maps to GraphDefinition.link.target.type
+            GraphDefinition.LinkGroup.TargetGroup.Params maps to GraphDefinition.link.target.params
+            GraphDefinition.LinkGroup.TargetGroup.Profile maps to GraphDefinition.link.target.profile
+            GraphDefinition.LinkGroup.TargetGroup.Compartment maps to GraphDefinition.link.target.compartment
+                                                                                                                                            // ConvertFhirClass.cs:117
+            GraphDefinition.LinkGroup.TargetGroup.CompartmentGroup maps to GraphDefinition.link.target.compartment                          // ConvertFhirClass.cs:118
+                GraphDefinition.LinkGroup.TargetGroup.CompartmentGroup.Use maps to GraphDefinition.link.target.compartment.use
+                GraphDefinition.LinkGroup.TargetGroup.CompartmentGroup.Code maps to GraphDefinition.link.target.compartment.code
+                GraphDefinition.LinkGroup.TargetGroup.CompartmentGroup.Rule maps to GraphDefinition.link.target.compartment.rule
+                GraphDefinition.LinkGroup.TargetGroup.CompartmentGroup.Expression maps to GraphDefinition.link.target.compartment.expression
+                GraphDefinition.LinkGroup.TargetGroup.CompartmentGroup.Description maps to GraphDefinition.link.target.compartment.description
+            GraphDefinition.LinkGroup.TargetGroup.Link maps to GraphDefinition.link.target.link

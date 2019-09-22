@@ -1,0 +1,13 @@
+Grammar: Map 5.1
+Namespace: fhir.schedule
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Schedule maps to Schedule:                                                                                                                  // ConvertFhirClass.cs:118
+    Schedule.Identifier maps to Schedule.identifier
+    Schedule.Active maps to Schedule.active
+    Schedule.ServiceCategory maps to Schedule.serviceCategory
+    Schedule.ServiceType maps to Schedule.serviceType
+    Schedule.Specialty maps to Schedule.specialty
+    Schedule.Actor maps to Schedule.actor
+    Schedule.PlanningHorizon maps to Schedule.planningHorizon
+    Schedule.Comment maps to Schedule.comment

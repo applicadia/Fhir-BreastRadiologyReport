@@ -1,0 +1,33 @@
+Grammar: Map 5.1
+Namespace: fhir.visionprescription
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+VisionPrescription maps to VisionPrescription:                                                                                              // ConvertFhirClass.cs:118
+    VisionPrescription.Identifier maps to VisionPrescription.identifier
+    VisionPrescription.Status maps to VisionPrescription.status
+    VisionPrescription.Created maps to VisionPrescription.created
+    VisionPrescription.Patient maps to VisionPrescription.patient
+    VisionPrescription.Encounter maps to VisionPrescription.encounter
+    VisionPrescription.DateWritten maps to VisionPrescription.dateWritten
+    VisionPrescription.Prescriber maps to VisionPrescription.prescriber
+    VisionPrescription.LensSpecification maps to VisionPrescription.lensSpecification
+                                                                                                                                            // ConvertFhirClass.cs:117
+    VisionPrescription.LensSpecificationGroup maps to VisionPrescription.lensSpecification                                                  // ConvertFhirClass.cs:118
+        VisionPrescription.LensSpecificationGroup.Product maps to VisionPrescription.lensSpecification.product
+        VisionPrescription.LensSpecificationGroup.Eye maps to VisionPrescription.lensSpecification.eye
+        VisionPrescription.LensSpecificationGroup.Sphere maps to VisionPrescription.lensSpecification.sphere
+        VisionPrescription.LensSpecificationGroup.Cylinder maps to VisionPrescription.lensSpecification.cylinder
+        VisionPrescription.LensSpecificationGroup.Axis maps to VisionPrescription.lensSpecification.axis
+        VisionPrescription.LensSpecificationGroup.Prism maps to VisionPrescription.lensSpecification.prism
+                                                                                                                                            // ConvertFhirClass.cs:117
+        VisionPrescription.LensSpecificationGroup.PrismGroup maps to VisionPrescription.lensSpecification.prism                             // ConvertFhirClass.cs:118
+            VisionPrescription.LensSpecificationGroup.PrismGroup.Amount maps to VisionPrescription.lensSpecification.prism.amount
+            VisionPrescription.LensSpecificationGroup.PrismGroup.Base maps to VisionPrescription.lensSpecification.prism.base
+        VisionPrescription.LensSpecificationGroup.Add maps to VisionPrescription.lensSpecification.add
+        VisionPrescription.LensSpecificationGroup.Power maps to VisionPrescription.lensSpecification.power
+        VisionPrescription.LensSpecificationGroup.BackCurve maps to VisionPrescription.lensSpecification.backCurve
+        VisionPrescription.LensSpecificationGroup.Diameter maps to VisionPrescription.lensSpecification.diameter
+        VisionPrescription.LensSpecificationGroup.Duration maps to VisionPrescription.lensSpecification.duration
+        VisionPrescription.LensSpecificationGroup.Color maps to VisionPrescription.lensSpecification.color
+        VisionPrescription.LensSpecificationGroup.Brand maps to VisionPrescription.lensSpecification.brand
+        VisionPrescription.LensSpecificationGroup.Note maps to VisionPrescription.lensSpecification.note

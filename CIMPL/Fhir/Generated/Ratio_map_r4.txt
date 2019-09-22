@@ -1,0 +1,7 @@
+Grammar: Map 5.1
+Namespace: fhir.ratio
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Ratio maps to Ratio:                                                                                                                        // ConvertFhirClass.cs:118
+    Ratio.Numerator maps to Ratio.numerator
+    Ratio.Denominator maps to Ratio.denominator

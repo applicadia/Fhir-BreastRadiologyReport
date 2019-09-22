@@ -1,0 +1,7 @@
+Grammar: Map 5.1
+Namespace: fhir.extension
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Extension maps to Extension:                                                                                                                // ConvertFhirClass.cs:118
+    Extension.Url maps to Extension.url
+    Extension.ValueX maps to Extension.value[x]

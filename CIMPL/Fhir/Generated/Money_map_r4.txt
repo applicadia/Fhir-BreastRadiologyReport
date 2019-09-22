@@ -1,0 +1,7 @@
+Grammar: Map 5.1
+Namespace: fhir.money
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Money maps to Money:                                                                                                                        // ConvertFhirClass.cs:118
+    Money.ValueZ maps to Money.value
+    Money.Currency maps to Money.currency

@@ -1,0 +1,12 @@
+Grammar: Map 5.1
+Namespace: fhir.parameters
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Parameters maps to Parameters:                                                                                                              // ConvertFhirClass.cs:118
+    Parameters.Parameter maps to Parameters.parameter
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Parameters.ParameterGroup maps to Parameters.parameter                                                                                  // ConvertFhirClass.cs:118
+        Parameters.ParameterGroup.Name maps to Parameters.parameter.name
+        Parameters.ParameterGroup.ValueX maps to Parameters.parameter.value[x]
+        Parameters.ParameterGroup.Resource maps to Parameters.parameter.resource
+        Parameters.ParameterGroup.Part maps to Parameters.parameter.part

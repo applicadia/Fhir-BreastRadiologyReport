@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: fhir.datetime
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+dateTime maps to dateTime:                                                                                                                  // ConvertFhirClass.cs:118
+    dateTime.ValueZ maps to dateTime.value

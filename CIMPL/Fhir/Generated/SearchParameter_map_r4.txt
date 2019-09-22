@@ -1,0 +1,35 @@
+Grammar: Map 5.1
+Namespace: fhir.searchparameter
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+SearchParameter maps to SearchParameter:                                                                                                    // ConvertFhirClass.cs:118
+    SearchParameter.Url maps to SearchParameter.url
+    SearchParameter.Version maps to SearchParameter.version
+    SearchParameter.Name maps to SearchParameter.name
+    SearchParameter.DerivedFrom maps to SearchParameter.derivedFrom
+    SearchParameter.Status maps to SearchParameter.status
+    SearchParameter.Experimental maps to SearchParameter.experimental
+    SearchParameter.Date maps to SearchParameter.date
+    SearchParameter.Publisher maps to SearchParameter.publisher
+    SearchParameter.Contact maps to SearchParameter.contact
+    SearchParameter.Description maps to SearchParameter.description
+    SearchParameter.UseContext maps to SearchParameter.useContext
+    SearchParameter.Jurisdiction maps to SearchParameter.jurisdiction
+    SearchParameter.Purpose maps to SearchParameter.purpose
+    SearchParameter.Code maps to SearchParameter.code
+    SearchParameter.Base maps to SearchParameter.base
+    SearchParameter.Type maps to SearchParameter.type
+    SearchParameter.Expression maps to SearchParameter.expression
+    SearchParameter.Xpath maps to SearchParameter.xpath
+    SearchParameter.XpathUsage maps to SearchParameter.xpathUsage
+    SearchParameter.Target maps to SearchParameter.target
+    SearchParameter.MultipleOr maps to SearchParameter.multipleOr
+    SearchParameter.MultipleAnd maps to SearchParameter.multipleAnd
+    SearchParameter.Comparator maps to SearchParameter.comparator
+    SearchParameter.Modifier maps to SearchParameter.modifier
+    SearchParameter.Chain maps to SearchParameter.chain
+    SearchParameter.Component maps to SearchParameter.component
+                                                                                                                                            // ConvertFhirClass.cs:117
+    SearchParameter.ComponentGroup maps to SearchParameter.component                                                                        // ConvertFhirClass.cs:118
+        SearchParameter.ComponentGroup.Definition maps to SearchParameter.component.definition
+        SearchParameter.ComponentGroup.Expression maps to SearchParameter.component.expression

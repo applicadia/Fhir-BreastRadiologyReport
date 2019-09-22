@@ -1,0 +1,48 @@
+Grammar: Map 5.1
+Namespace: fhir.consent
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+Consent maps to Consent:                                                                                                                    // ConvertFhirClass.cs:118
+    Consent.Identifier maps to Consent.identifier
+    Consent.Status maps to Consent.status
+    Consent.Scope maps to Consent.scope
+    Consent.Category maps to Consent.category
+    Consent.Patient maps to Consent.patient
+    Consent.DateTime maps to Consent.dateTime
+    Consent.Performer maps to Consent.performer
+    Consent.Organization maps to Consent.organization
+    Consent.SourceX maps to Consent.source[x]
+    Consent.Policy maps to Consent.policy
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Consent.PolicyGroup maps to Consent.policy                                                                                              // ConvertFhirClass.cs:118
+        Consent.PolicyGroup.Authority maps to Consent.policy.authority
+        Consent.PolicyGroup.Uri maps to Consent.policy.uri
+    Consent.PolicyRule maps to Consent.policyRule
+    Consent.Verification maps to Consent.verification
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Consent.VerificationGroup maps to Consent.verification                                                                                  // ConvertFhirClass.cs:118
+        Consent.VerificationGroup.Verified maps to Consent.verification.verified
+        Consent.VerificationGroup.VerifiedWith maps to Consent.verification.verifiedWith
+        Consent.VerificationGroup.VerificationDate maps to Consent.verification.verificationDate
+    Consent.Provision maps to Consent.provision
+                                                                                                                                            // ConvertFhirClass.cs:117
+    Consent.ProvisionGroup maps to Consent.provision                                                                                        // ConvertFhirClass.cs:118
+        Consent.ProvisionGroup.Type maps to Consent.provision.type
+        Consent.ProvisionGroup.Period maps to Consent.provision.period
+        Consent.ProvisionGroup.Actor maps to Consent.provision.actor
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Consent.ProvisionGroup.ActorGroup maps to Consent.provision.actor                                                                   // ConvertFhirClass.cs:118
+            Consent.ProvisionGroup.ActorGroup.Role maps to Consent.provision.actor.role
+            Consent.ProvisionGroup.ActorGroup.Reference maps to Consent.provision.actor.reference
+        Consent.ProvisionGroup.Action maps to Consent.provision.action
+        Consent.ProvisionGroup.SecurityLabel maps to Consent.provision.securityLabel
+        Consent.ProvisionGroup.Purpose maps to Consent.provision.purpose
+        Consent.ProvisionGroup.Class maps to Consent.provision.class
+        Consent.ProvisionGroup.Code maps to Consent.provision.code
+        Consent.ProvisionGroup.DataPeriod maps to Consent.provision.dataPeriod
+        Consent.ProvisionGroup.Data maps to Consent.provision.data
+                                                                                                                                            // ConvertFhirClass.cs:117
+        Consent.ProvisionGroup.DataGroup maps to Consent.provision.data                                                                     // ConvertFhirClass.cs:118
+            Consent.ProvisionGroup.DataGroup.Meaning maps to Consent.provision.data.meaning
+            Consent.ProvisionGroup.DataGroup.Reference maps to Consent.provision.data.reference
+        Consent.ProvisionGroup.Provision maps to Consent.provision.provision

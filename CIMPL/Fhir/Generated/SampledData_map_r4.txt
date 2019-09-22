@@ -1,0 +1,12 @@
+Grammar: Map 5.1
+Namespace: fhir.sampleddata
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+SampledData maps to SampledData:                                                                                                            // ConvertFhirClass.cs:118
+    SampledData.Origin maps to SampledData.origin
+    SampledData.Period maps to SampledData.period
+    SampledData.Factor maps to SampledData.factor
+    SampledData.LowerLimit maps to SampledData.lowerLimit
+    SampledData.UpperLimit maps to SampledData.upperLimit
+    SampledData.Dimensions maps to SampledData.dimensions
+    SampledData.Data maps to SampledData.data

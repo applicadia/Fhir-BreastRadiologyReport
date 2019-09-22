@@ -1,0 +1,48 @@
+Grammar: Map 5.1
+Namespace: fhir.structuredefinition
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:117
+StructureDefinition maps to StructureDefinition:                                                                                            // ConvertFhirClass.cs:118
+    StructureDefinition.Url maps to StructureDefinition.url
+    StructureDefinition.Identifier maps to StructureDefinition.identifier
+    StructureDefinition.Version maps to StructureDefinition.version
+    StructureDefinition.Name maps to StructureDefinition.name
+    StructureDefinition.Title maps to StructureDefinition.title
+    StructureDefinition.Status maps to StructureDefinition.status
+    StructureDefinition.Experimental maps to StructureDefinition.experimental
+    StructureDefinition.Date maps to StructureDefinition.date
+    StructureDefinition.Publisher maps to StructureDefinition.publisher
+    StructureDefinition.Contact maps to StructureDefinition.contact
+    StructureDefinition.Description maps to StructureDefinition.description
+    StructureDefinition.UseContext maps to StructureDefinition.useContext
+    StructureDefinition.Jurisdiction maps to StructureDefinition.jurisdiction
+    StructureDefinition.Purpose maps to StructureDefinition.purpose
+    StructureDefinition.Copyright maps to StructureDefinition.copyright
+    StructureDefinition.Keyword maps to StructureDefinition.keyword
+    StructureDefinition.FhirVersion maps to StructureDefinition.fhirVersion
+    StructureDefinition.Mapping maps to StructureDefinition.mapping
+                                                                                                                                            // ConvertFhirClass.cs:117
+    StructureDefinition.MappingGroup maps to StructureDefinition.mapping                                                                    // ConvertFhirClass.cs:118
+        StructureDefinition.MappingGroup.Identity maps to StructureDefinition.mapping.identity
+        StructureDefinition.MappingGroup.Uri maps to StructureDefinition.mapping.uri
+        StructureDefinition.MappingGroup.Name maps to StructureDefinition.mapping.name
+        StructureDefinition.MappingGroup.Comment maps to StructureDefinition.mapping.comment
+    StructureDefinition.Kind maps to StructureDefinition.kind
+    StructureDefinition.Abstract maps to StructureDefinition.abstract
+    StructureDefinition.Context maps to StructureDefinition.context
+                                                                                                                                            // ConvertFhirClass.cs:117
+    StructureDefinition.ContextGroup maps to StructureDefinition.context                                                                    // ConvertFhirClass.cs:118
+        StructureDefinition.ContextGroup.Type maps to StructureDefinition.context.type
+        StructureDefinition.ContextGroup.Expression maps to StructureDefinition.context.expression
+    StructureDefinition.ContextInvariant maps to StructureDefinition.contextInvariant
+    StructureDefinition.Type maps to StructureDefinition.type
+    StructureDefinition.BaseDefinition maps to StructureDefinition.baseDefinition
+    StructureDefinition.Derivation maps to StructureDefinition.derivation
+    StructureDefinition.Snapshot maps to StructureDefinition.snapshot
+                                                                                                                                            // ConvertFhirClass.cs:117
+    StructureDefinition.SnapshotGroup maps to StructureDefinition.snapshot                                                                  // ConvertFhirClass.cs:118
+        StructureDefinition.SnapshotGroup.Element maps to StructureDefinition.snapshot.element
+    StructureDefinition.Differential maps to StructureDefinition.differential
+                                                                                                                                            // ConvertFhirClass.cs:117
+    StructureDefinition.DifferentialGroup maps to StructureDefinition.differential                                                          // ConvertFhirClass.cs:118
+        StructureDefinition.DifferentialGroup.Element maps to StructureDefinition.differential.element
