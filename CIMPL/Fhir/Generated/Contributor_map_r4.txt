@@ -1,8 +1,0 @@
-Grammar: Map 5.1
-Namespace: fhir.contributor
-Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:117
-Contributor maps to Contributor:                                                                                                            // ConvertFhirClass.cs:118
-    Contributor.Type maps to Contributor.type
-    Contributor.Name maps to Contributor.name
-    Contributor.Contact maps to Contributor.contact

@@ -1,8 +1,0 @@
-Grammar: Map 5.1
-Namespace: fhir.annotation
-Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:117
-Annotation maps to Annotation:                                                                                                              // ConvertFhirClass.cs:118
-    Annotation.AuthorX maps to Annotation.author[x]
-    Annotation.Time maps to Annotation.time
-    Annotation.Text maps to Annotation.text

@@ -1,9 +1,0 @@
-Grammar: Map 5.1
-Namespace: fhir.reference
-Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:117
-Reference maps to Reference:                                                                                                                // ConvertFhirClass.cs:118
-    Reference.ReferenceValue maps to Reference.reference
-    Reference.Type maps to Reference.type
-    Reference.Identifier maps to Reference.identifier
-    Reference.Display maps to Reference.display

@@ -1,7 +1,0 @@
-Grammar: Map 5.1
-Namespace: fhir.contactdetail
-Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:117
-ContactDetail maps to ContactDetail:                                                                                                        // ConvertFhirClass.cs:118
-    ContactDetail.Name maps to ContactDetail.name
-    ContactDetail.Telecom maps to ContactDetail.telecom

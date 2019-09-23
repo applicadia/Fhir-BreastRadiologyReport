@@ -1,9 +1,0 @@
-Grammar: Map 5.1
-Namespace: fhir.population
-Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:117
-Population maps to Population:                                                                                                              // ConvertFhirClass.cs:118
-    Population.AgeX maps to Population.age[x]
-    Population.Gender maps to Population.gender
-    Population.Race maps to Population.race
-    Population.PhysiologicalCondition maps to Population.physiologicalCondition

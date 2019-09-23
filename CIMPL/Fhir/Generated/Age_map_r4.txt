@@ -1,5 +1,0 @@
-Grammar: Map 5.1
-Namespace: fhir.age
-Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:117
-Age maps to Age:                                                                                                                            // ConvertFhirClass.cs:118
