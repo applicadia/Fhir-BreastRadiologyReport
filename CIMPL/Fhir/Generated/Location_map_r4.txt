@@ -1,0 +1,5 @@
+Grammar: Map 5.1
+Namespace: fhir.location
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:270
+Location maps to Location:                                                                                                                  // DirectFhirGenerator.cs:271

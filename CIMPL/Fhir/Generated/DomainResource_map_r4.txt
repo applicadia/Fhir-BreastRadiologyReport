@@ -1,0 +1,7 @@
+Grammar: Map 5.1
+Namespace: fhir.domainresource
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:163
+DomainResource maps to DomainResource:                                                                                                      // ConvertFhirClass.cs:164
+    Text maps to text                                                                                                                       // ConvertFhirClass.cs:299
+    Contained maps to contained                                                                                                             // ConvertFhirClass.cs:299

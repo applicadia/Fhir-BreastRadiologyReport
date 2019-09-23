@@ -1,0 +1,5 @@
+Grammar: Map 5.1
+Namespace: fhir.group
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:270
+Group maps to Group:                                                                                                                        // DirectFhirGenerator.cs:271

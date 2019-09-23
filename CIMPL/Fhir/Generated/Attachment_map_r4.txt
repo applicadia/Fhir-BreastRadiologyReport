@@ -1,0 +1,5 @@
+Grammar: Map 5.1
+Namespace: fhir.attachment
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:270
+Attachment maps to Attachment:                                                                                                              // DirectFhirGenerator.cs:271

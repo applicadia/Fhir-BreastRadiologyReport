@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: fhir.element
+Target: FHIR_R4
+                                                                                                                                            // ConvertFhirClass.cs:163
+Element maps to Element:                                                                                                                    // ConvertFhirClass.cs:164
+    Id maps to id                                                                                                                           // ConvertFhirClass.cs:299

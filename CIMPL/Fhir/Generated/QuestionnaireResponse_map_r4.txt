@@ -1,0 +1,5 @@
+Grammar: Map 5.1
+Namespace: fhir.questionnaireresponse
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:270
+QuestionnaireResponse maps to QuestionnaireResponse:                                                                                        // DirectFhirGenerator.cs:271

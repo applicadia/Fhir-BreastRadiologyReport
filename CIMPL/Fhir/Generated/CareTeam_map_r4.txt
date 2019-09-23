@@ -1,0 +1,5 @@
+Grammar: Map 5.1
+Namespace: fhir.careteam
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:270
+CareTeam maps to CareTeam:                                                                                                                  // DirectFhirGenerator.cs:271
