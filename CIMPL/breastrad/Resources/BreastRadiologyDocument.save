@@ -1,5 +1,5 @@
 Grammar: DataElement 6.0
-Namespace: breastrad
+Namespace: brr
 Description: "Breast Radiology Report"
 Uses: obf, obf.datatype
 CodeSystem: LOINC = http://loinc.org

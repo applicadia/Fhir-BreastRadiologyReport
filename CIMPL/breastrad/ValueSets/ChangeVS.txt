@@ -1,5 +1,5 @@
 Grammar: ValueSet 5.1
-Namespace: breastrad
+Namespace: brr
 
 ValueSet: ChangeVS
 Description: "Change value

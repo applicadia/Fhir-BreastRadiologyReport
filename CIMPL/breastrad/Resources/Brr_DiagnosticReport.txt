@@ -1,0 +1,21 @@
+Grammar: DataElement 6.0
+Namespace: fhir.diagnosticreport
+Description: "Breast Radiology Report"
+Uses: fhir
+CodeSystem: LOINC = http://loinc.org
+CodeSystem: DIAGSVCSECTS = http://terminology.hl7.org/CodeSystem/v2-0074
+CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
+
+//
+// Breast Radiology Diagnostic Report
+// This is the base of the breast radiology study. 
+Entry: Brr_DiagnosticReport
+Parent: DiagnosticReport                            // Derived from Diagnostic Report
+Description:	"Breast Radiology Diagnostic Report.
+<br>This diagnostic report is the base of the Breast Radiology Report, and contains a summary of the report findings.
+<br>Detailed information about the reports document is contained in the Breast Radiology Document linked to by the [resultComposition] field."
+    Code=LOINC#10193-1 	                            // Physical findings of Breasts Narrative. Is this correct code ??
+    Category = DIAGSVCSECTS#RAD                     // Fix category  to radiology   
+    Specimen 0..0                                   // dont have specimen
+    Conclusion 1..1                                 // require conclusion text.
+    ConclusionCode 1..1                             // require conclusion code

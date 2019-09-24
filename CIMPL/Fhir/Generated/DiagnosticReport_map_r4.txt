@@ -17,8 +17,7 @@ DiagnosticReport maps to DiagnosticReport:                                      
     Specimen maps to specimen                                                                                                               // ConvertFhirClass.cs:316
     Result maps to result                                                                                                                   // ConvertFhirClass.cs:316
     ImagingStudy maps to imagingStudy                                                                                                       // ConvertFhirClass.cs:316
-                                                                                                                                            // ConvertFhirClass.cs:179
-    MediaGroup maps to media                                                                                                                // ConvertFhirClass.cs:180
+                                                                                                                                            // ConvertFhirClass.cs:179                                                                                                              // ConvertFhirClass.cs:180
     MediaGroup.Comment maps to media.comment                                                                                                // ConvertFhirClass.cs:316
     MediaGroup.Link maps to media.link                                                                                                      // ConvertFhirClass.cs:316
     Conclusion maps to conclusion                                                                                                           // ConvertFhirClass.cs:316

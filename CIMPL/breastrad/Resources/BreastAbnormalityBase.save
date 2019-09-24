@@ -1,5 +1,5 @@
 Grammar: DataElement 6.0
-Namespace: breastrad
+Namespace: brr
 Uses: obf, obf.datatype
 CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/CodeSystem/breastrad-BreastAbnormalityCodesCS
 CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category

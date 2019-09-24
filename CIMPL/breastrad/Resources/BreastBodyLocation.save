@@ -1,5 +1,5 @@
 Grammar: DataElement 6.0
-Namespace: breastrad
+Namespace: brr
 Uses: obf, obf.datatype
 CodeSystem: SNOMED = http://snomed.info/sct
 
