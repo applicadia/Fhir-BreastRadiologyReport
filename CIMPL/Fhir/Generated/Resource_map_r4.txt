@@ -1,9 +1,9 @@
 Grammar: Map 5.1
 Namespace: fhir.resource
 Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:157
-Resource maps to Resource:                                                                                                                  // ConvertFhirClass.cs:158
-    Id maps to id                                                                                                                           // ConvertFhirClass.cs:301
-    Meta maps to meta                                                                                                                       // ConvertFhirClass.cs:301
-    ImplicitRules maps to implicitRules                                                                                                     // ConvertFhirClass.cs:301
-    Language maps to language                                                                                                               // ConvertFhirClass.cs:301
+                                                                                                                                            // ConvertFhirClass.cs:172
+Resource maps to Resource:                                                                                                                  // ConvertFhirClass.cs:173
+    Id maps to id                                                                                                                           // ConvertFhirClass.cs:316
+    Meta maps to meta                                                                                                                       // ConvertFhirClass.cs:316
+    ImplicitRules maps to implicitRules                                                                                                     // ConvertFhirClass.cs:316
+    Language maps to language                                                                                                               // ConvertFhirClass.cs:316

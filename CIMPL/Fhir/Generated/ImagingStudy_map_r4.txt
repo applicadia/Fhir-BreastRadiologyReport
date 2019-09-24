@@ -1,5 +1,5 @@
 Grammar: Map 5.1
 Namespace: fhir.imagingstudy
 Target: FHIR_R4
-                                                                                                                                            // DirectFhirGenerator.cs:270
-ImagingStudy maps to ImagingStudy:                                                                                                          // DirectFhirGenerator.cs:271
+                                                                                                                                            // DirectFhirGenerator.cs:265
+ImagingStudy maps to ImagingStudy:                                                                                                          // DirectFhirGenerator.cs:266

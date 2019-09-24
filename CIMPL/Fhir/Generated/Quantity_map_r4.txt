@@ -1,5 +1,5 @@
 Grammar: Map 5.1
 Namespace: fhir.quantity
 Target: FHIR_R4
-                                                                                                                                            // DirectFhirGenerator.cs:270
-Quantity maps to Quantity:                                                                                                                  // DirectFhirGenerator.cs:271
+                                                                                                                                            // DirectFhirGenerator.cs:265
+Quantity maps to Quantity:                                                                                                                  // DirectFhirGenerator.cs:266
