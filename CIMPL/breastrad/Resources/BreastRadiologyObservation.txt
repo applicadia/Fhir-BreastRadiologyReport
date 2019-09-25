@@ -13,5 +13,9 @@ Description:	"Breast Radiology Observation.
 "
     Code=LOINC#10193-1 	                            // Physical findings of Breasts Narrative. Is this correct code ??
     ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations
-    HasMember
+    HasMemberGroup
 	//includes BreastRadiologyObservationPatientHistory 0..1	// Patient History splice
+
+Entry: PatientHistoryObservations
+Parent: HasMemberGroup
+        HasMemberItem only BreastRadiologyObservationPatientHistory
