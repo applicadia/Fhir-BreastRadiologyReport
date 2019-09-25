@@ -1,0 +1,17 @@
+Grammar: DataElement 6.0
+Namespace: brr
+Description: "Breast Radiology Report"
+Uses: fhir.observation, fhir.quantity
+
+//
+// Breast Radiology Observation
+// This is the roof of the breast radiology observation. 
+Entry: BreastRadiologyObservation
+Parent: Observation                            // Derived from Observation
+Description:	"Breast Radiology Observation.
+<br>This observation is the root section of the multiple observations that comprise a breast radiology observation.
+"
+    Code=LOINC#10193-1 	                            // Physical findings of Breasts Narrative. Is this correct code ??
+    ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations
+    HasMember
+	includes BreastRadiologyObservationPatientHistory 0..1	// Patient History splice

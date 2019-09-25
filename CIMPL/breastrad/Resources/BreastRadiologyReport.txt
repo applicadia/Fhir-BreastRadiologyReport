@@ -20,3 +20,6 @@ Description:	"Breast Radiology Diagnostic Report.
     Specimen 0..0                                   // dont have specimen
     Conclusion 1..1                                 // require conclusion text.
     ConclusionCode 1..1                             // require conclusion code
+    Result 1..1                                     // require result observation
+    Result only BreastRadiologyObservation          // result observation always is a BreastRadiologyObservation
+ 

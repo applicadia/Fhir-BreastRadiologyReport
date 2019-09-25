@@ -2,7 +2,7 @@ Grammar: Map 5.1
 Namespace: fhir.domainresource
 Target: FHIR_R4
                                                                                                                                             // DirectFhirGenerator.cs:131
-                                                                                                                                            // ConvertFhirClass.cs:211
-DomainResource maps to DomainResource:                                                                                                      // ConvertFhirClass.cs:212
-    Text maps to text                                                                                                                       // ConvertFhirClass.cs:351
-    Contained maps to contained                                                                                                             // ConvertFhirClass.cs:351
+                                                                                                                                            // ConvertFhirClass.cs:212
+DomainResource maps to DomainResource:                                                                                                      // ConvertFhirClass.cs:213
+    Text maps to text                                                                                                                       // ConvertFhirClass.cs:352
+    Contained maps to contained                                                                                                             // ConvertFhirClass.cs:352
