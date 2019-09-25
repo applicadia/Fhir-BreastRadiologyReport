@@ -1,0 +1,15 @@
+Grammar: DataElement 6.0
+Namespace: brr
+Description: "Breast Radiology Report"
+Uses: fhir.observation
+
+//
+// Breast Radiology Findings Section
+Entry: BreastRadiologyObservationImpressions
+Parent: Observation                            // Derived from Observation
+Description:	"Breast Radiology Impressions Section.
+<br>This observation is the root section of the multiple observations that comprise
+a breast radiology impressions section.
+"
+   Code=LOINC#LOINC#34117-2                        // Is this correct code ??
+   ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations

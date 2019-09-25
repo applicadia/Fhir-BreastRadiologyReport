@@ -16,3 +16,14 @@ There should be two hasMember children for this node,
 "
    Code=LOINC#LOINC#34117-2                        // Is this correct code ??
    ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations
+   HasMemberSlice
+	includes FindingsLeftBreast 0..1	               // Left Breast Findings
+	includes FindingsRightBreast 0..1	            // Right Breast Findings
+
+Group: FindingsLeftBreast
+Parent: HasMemberSlice
+    HasMember only BreastRadiologyObservationFindingsLeftBreast
+
+Group: FindingsRightBreast
+Parent: HasMemberSlice
+    HasMember only BreastRadiologyObservationFindingsRightBreast

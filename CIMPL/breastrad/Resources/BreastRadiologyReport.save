@@ -20,31 +20,5 @@ Description:	"Breast Radiology Diagnostic Report.
     ConclusionText 1..1                             // require conclusion text. Copied from ResultComposition
     ConclusionCode 1..1                             // require conclusion code
     Observation                                     // Use ResultComposition instead of observation
-	includes PatientHistory 0..1					// Patient History Section Splice
-	// includes Findings 0..1						// Findings  Section Splice
-	// includes Impressions 0..1					// Impressions Section Splice
-	// includes Recommendations 0..1				// Recommendations Section Splice
-	// includes PatientRisk 0..1					// PatientRisk Section Splice
 	// includes PriorReports 0..1					// Prior Studies/Reports Section Splice
 
-
-//  Section base class
-Entry: SectionBase
-Parent: Observation
-Description: "Observation Section Base"
-    BasedOn 0..0
-    PartOf 0..0
-    Category=OBSERVATIONCATEGORY#imaging
-    //$$$$ ObservationSubjectOfRecord 0..0
-    Interpretation 0..0
-    Method 0..0
-    Annotation 0..0
-    BodyLocation 0..0
-
-// Patient History Section
-Entry: PatientHistory
-Parent: SectionBase
-Description: "Patient History Section"
-	Code = LOINC#34117-2							// is this correct code for section
-    DataValue only string
-    DataValue[string]  = "Patient History Section"	// Set section name to fixed value

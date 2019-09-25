@@ -1,0 +1,14 @@
+Grammar: DataElement 6.0
+Namespace: brr
+Description: "Breast Radiology Report"
+Uses: fhir.observation
+
+// Breast Radiology Findings Right Breast Section
+Entry: BreastRadiologyObservationFindingsRightBreast
+Parent: Observation                            // Derived from Observation
+Description:	"Breast Radiology Findings Right Breast Section.
+All the observations referenced by the hasMember field are observations of the
+Right breast.
+"
+   Code=LOINC#LOINC#34117-2                        // Is this correct code ??
+   ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations
