@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: fhir.media
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:131
+                                                                                                                                            // DirectFhirGenerator.cs:269
+Media maps to Media:                                                                                                                        // DirectFhirGenerator.cs:270

@@ -1,5 +1,5 @@
 Grammar: ValueSet 5.1
-Namespace: breastrad
+Namespace: brr
 
 ValueSet: MarginVS
 Description: "When breast cancer is surgically removed (during a surgical biopsy, lumpectomy or mastectomy), a rim of normal tissue surrounding the tumor is also removed. This rim is called a margin. Margins help show whether or not all of the tumor was removed.

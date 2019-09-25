@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: fhir.medicationrequest
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:131
+                                                                                                                                            // DirectFhirGenerator.cs:269
+MedicationRequest maps to MedicationRequest:                                                                                                // DirectFhirGenerator.cs:270

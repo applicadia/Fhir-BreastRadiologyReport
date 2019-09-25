@@ -1,0 +1,27 @@
+Grammar: Map 5.1
+Namespace: fhir.diagnosticreport
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:131
+                                                                                                                                            // ConvertFhirClass.cs:211
+DiagnosticReport maps to DiagnosticReport:                                                                                                  // ConvertFhirClass.cs:212
+    Identifier maps to identifier                                                                                                           // ConvertFhirClass.cs:351
+    BasedOn maps to basedOn                                                                                                                 // ConvertFhirClass.cs:351
+    Status maps to status                                                                                                                   // ConvertFhirClass.cs:351
+    Category maps to category                                                                                                               // ConvertFhirClass.cs:351
+    Code maps to code                                                                                                                       // ConvertFhirClass.cs:351
+    Subject maps to subject                                                                                                                 // ConvertFhirClass.cs:351
+    Encounter maps to encounter                                                                                                             // ConvertFhirClass.cs:351
+    EffectiveX maps to effective[x]                                                                                                         // ConvertFhirClass.cs:351
+    Issued maps to issued                                                                                                                   // ConvertFhirClass.cs:351
+    Performer maps to performer                                                                                                             // ConvertFhirClass.cs:351
+    ResultsInterpreter maps to resultsInterpreter                                                                                           // ConvertFhirClass.cs:351
+    Specimen maps to specimen                                                                                                               // ConvertFhirClass.cs:351
+    Result maps to result                                                                                                                   // ConvertFhirClass.cs:351
+    ImagingStudy maps to imagingStudy                                                                                                       // ConvertFhirClass.cs:351
+    Conclusion maps to conclusion                                                                                                           // ConvertFhirClass.cs:351
+    ConclusionCode maps to conclusionCode                                                                                                   // ConvertFhirClass.cs:351
+    PresentedForm maps to presentedForm                                                                                                     // ConvertFhirClass.cs:351
+                                                                                                                                            // ConvertFhirClass.cs:218
+    MediaGroup maps to media                                                                                                                // ConvertFhirClass.cs:219
+    MediaGroup.Comment maps to media.comment                                                                                                // ConvertFhirClass.cs:351
+    MediaGroup.Link maps to media.link                                                                                                      // ConvertFhirClass.cs:351

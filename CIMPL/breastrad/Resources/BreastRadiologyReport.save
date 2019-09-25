@@ -1,0 +1,50 @@
+Grammar: DataElement 6.0
+Namespace: brr
+Description: "Breast Radiology Report"
+Uses: obf, obf.datatype
+CodeSystem: LOINC = http://loinc.org
+CodeSystem: DIAGSVCSECTS = http://terminology.hl7.org/CodeSystem/v2-0074
+CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
+
+//
+// BreastRadiologyReport
+// This is the base of the breast radiology study. 
+Entry: BreastRadiologyReport
+Parent: DiagnosticReport                            // Derived from Diagnostic Report
+Description:	"Breast Radiology Diagnostic Report.
+<br>This diagnostic report is the base of the Breast Radiology Report, and contains a summary of the report findings.
+<br>Detailed information about the reports document is contained in the Breast Radiology Document linked to by the [resultComposition] field."
+    Code=LOINC#10193-1 	                            // Physical findings of Breasts Narrative. Is this correct code ??
+    Category = DIAGSVCSECTS#RAD                     // Fix category  to radiology   
+    Specimen 0..0                                   // dont have specimen
+    ConclusionText 1..1                             // require conclusion text. Copied from ResultComposition
+    ConclusionCode 1..1                             // require conclusion code
+    Observation                                     // Use ResultComposition instead of observation
+	includes PatientHistory 0..1					// Patient History Section Splice
+	// includes Findings 0..1						// Findings  Section Splice
+	// includes Impressions 0..1					// Impressions Section Splice
+	// includes Recommendations 0..1				// Recommendations Section Splice
+	// includes PatientRisk 0..1					// PatientRisk Section Splice
+	// includes PriorReports 0..1					// Prior Studies/Reports Section Splice
+
+
+//  Section base class
+Entry: SectionBase
+Parent: Observation
+Description: "Observation Section Base"
+    BasedOn 0..0
+    PartOf 0..0
+    Category=OBSERVATIONCATEGORY#imaging
+    //$$$$ ObservationSubjectOfRecord 0..0
+    Interpretation 0..0
+    Method 0..0
+    Annotation 0..0
+    BodyLocation 0..0
+
+// Patient History Section
+Entry: PatientHistory
+Parent: SectionBase
+Description: "Patient History Section"
+	Code = LOINC#34117-2							// is this correct code for section
+    DataValue only string
+    DataValue[string]  = "Patient History Section"	// Set section name to fixed value

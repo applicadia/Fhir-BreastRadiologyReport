@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: fhir.encounter
+Target: FHIR_R4
+                                                                                                                                            // DirectFhirGenerator.cs:131
+                                                                                                                                            // DirectFhirGenerator.cs:269
+Encounter maps to Encounter:                                                                                                                // DirectFhirGenerator.cs:270
