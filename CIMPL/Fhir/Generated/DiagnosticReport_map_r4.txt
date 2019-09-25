@@ -1,25 +1,27 @@
 Grammar: Map 5.1
 Namespace: fhir.diagnosticreport
 Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:172
-DiagnosticReport maps to DiagnosticReport:                                                                                                  // ConvertFhirClass.cs:173
-    Identifier maps to identifier                                                                                                           // ConvertFhirClass.cs:316
-    BasedOn maps to basedOn                                                                                                                 // ConvertFhirClass.cs:316
-    Status maps to status                                                                                                                   // ConvertFhirClass.cs:316
-    Category maps to category                                                                                                               // ConvertFhirClass.cs:316
-    Code maps to code                                                                                                                       // ConvertFhirClass.cs:316
-    Subject maps to subject                                                                                                                 // ConvertFhirClass.cs:316
-    Encounter maps to encounter                                                                                                             // ConvertFhirClass.cs:316
-    EffectiveX maps to effective[x]                                                                                                         // ConvertFhirClass.cs:316
-    Issued maps to issued                                                                                                                   // ConvertFhirClass.cs:316
-    Performer maps to performer                                                                                                             // ConvertFhirClass.cs:316
-    ResultsInterpreter maps to resultsInterpreter                                                                                           // ConvertFhirClass.cs:316
-    Specimen maps to specimen                                                                                                               // ConvertFhirClass.cs:316
-    Result maps to result                                                                                                                   // ConvertFhirClass.cs:316
-    ImagingStudy maps to imagingStudy                                                                                                       // ConvertFhirClass.cs:316
-                                                                                                                                            // ConvertFhirClass.cs:179                                                                                                              // ConvertFhirClass.cs:180
-    MediaGroup.Comment maps to media.comment                                                                                                // ConvertFhirClass.cs:316
-    MediaGroup.Link maps to media.link                                                                                                      // ConvertFhirClass.cs:316
-    Conclusion maps to conclusion                                                                                                           // ConvertFhirClass.cs:316
-    ConclusionCode maps to conclusionCode                                                                                                   // ConvertFhirClass.cs:316
-    PresentedForm maps to presentedForm                                                                                                     // ConvertFhirClass.cs:316
+                                                                                                                                            // DirectFhirGenerator.cs:131
+                                                                                                                                            // ConvertFhirClass.cs:211
+DiagnosticReport maps to DiagnosticReport:                                                                                                  // ConvertFhirClass.cs:212
+    Identifier maps to identifier                                                                                                           // ConvertFhirClass.cs:351
+    BasedOn maps to basedOn                                                                                                                 // ConvertFhirClass.cs:351
+    Status maps to status                                                                                                                   // ConvertFhirClass.cs:351
+    Category maps to category                                                                                                               // ConvertFhirClass.cs:351
+    Code maps to code                                                                                                                       // ConvertFhirClass.cs:351
+    Subject maps to subject                                                                                                                 // ConvertFhirClass.cs:351
+    Encounter maps to encounter                                                                                                             // ConvertFhirClass.cs:351
+    EffectiveX maps to effective[x]                                                                                                         // ConvertFhirClass.cs:351
+    Issued maps to issued                                                                                                                   // ConvertFhirClass.cs:351
+    Performer maps to performer                                                                                                             // ConvertFhirClass.cs:351
+    ResultsInterpreter maps to resultsInterpreter                                                                                           // ConvertFhirClass.cs:351
+    Specimen maps to specimen                                                                                                               // ConvertFhirClass.cs:351
+    Result maps to result                                                                                                                   // ConvertFhirClass.cs:351
+    ImagingStudy maps to imagingStudy                                                                                                       // ConvertFhirClass.cs:351
+    Conclusion maps to conclusion                                                                                                           // ConvertFhirClass.cs:351
+    ConclusionCode maps to conclusionCode                                                                                                   // ConvertFhirClass.cs:351
+    PresentedForm maps to presentedForm                                                                                                     // ConvertFhirClass.cs:351
+                                                                                                                                            // ConvertFhirClass.cs:218
+    MediaGroup maps to media                                                                                                                // ConvertFhirClass.cs:219
+    MediaGroup.Comment maps to media.comment                                                                                                // ConvertFhirClass.cs:351
+    MediaGroup.Link maps to media.link                                                                                                      // ConvertFhirClass.cs:351

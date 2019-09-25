@@ -1,42 +1,39 @@
 Grammar: Map 5.1
 Namespace: fhir.observation
 Target: FHIR_R4
-                                                                                                                                            // ConvertFhirClass.cs:172
-Observation maps to Observation:                                                                                                            // ConvertFhirClass.cs:173
-    Identifier maps to identifier                                                                                                           // ConvertFhirClass.cs:316
-    BasedOn maps to basedOn                                                                                                                 // ConvertFhirClass.cs:316
-    PartOf maps to partOf                                                                                                                   // ConvertFhirClass.cs:316
-    Status maps to status                                                                                                                   // ConvertFhirClass.cs:316
-    Category maps to category                                                                                                               // ConvertFhirClass.cs:316
-    Code maps to code                                                                                                                       // ConvertFhirClass.cs:316
-    Subject maps to subject                                                                                                                 // ConvertFhirClass.cs:316
-    Focus maps to focus                                                                                                                     // ConvertFhirClass.cs:316
-    Encounter maps to encounter                                                                                                             // ConvertFhirClass.cs:316
-    EffectiveX maps to effective[x]                                                                                                         // ConvertFhirClass.cs:316
-    Issued maps to issued                                                                                                                   // ConvertFhirClass.cs:316
-    Performer maps to performer                                                                                                             // ConvertFhirClass.cs:316
-    ValueX maps to value[x]                                                                                                                 // ConvertFhirClass.cs:316
-    DataAbsentReason maps to dataAbsentReason                                                                                               // ConvertFhirClass.cs:316
-    Interpretation maps to interpretation                                                                                                   // ConvertFhirClass.cs:316
-    Note maps to note                                                                                                                       // ConvertFhirClass.cs:316
-    BodySite maps to bodySite                                                                                                               // ConvertFhirClass.cs:316
-    Method maps to method                                                                                                                   // ConvertFhirClass.cs:316
-    Specimen maps to specimen                                                                                                               // ConvertFhirClass.cs:316
-    Device maps to device                                                                                                                   // ConvertFhirClass.cs:316
-                                                                                                                                            // ConvertFhirClass.cs:179
-    ReferenceRangeGroup maps to referenceRange                                                                                              // ConvertFhirClass.cs:180
-    ReferenceRangeGroup.Low maps to referenceRange.low                                                                                      // ConvertFhirClass.cs:316
-    ReferenceRangeGroup.High maps to referenceRange.high                                                                                    // ConvertFhirClass.cs:316
-    ReferenceRangeGroup.Type maps to referenceRange.type                                                                                    // ConvertFhirClass.cs:316
-    ReferenceRangeGroup.AppliesTo maps to referenceRange.appliesTo                                                                          // ConvertFhirClass.cs:316
-    ReferenceRangeGroup.Age maps to referenceRange.age                                                                                      // ConvertFhirClass.cs:316
-    ReferenceRangeGroup.Text maps to referenceRange.text                                                                                    // ConvertFhirClass.cs:316
-    HasMember maps to hasMember                                                                                                             // ConvertFhirClass.cs:316
-    DerivedFrom maps to derivedFrom                                                                                                         // ConvertFhirClass.cs:316
-                                                                                                                                            // ConvertFhirClass.cs:179
-    ComponentGroup maps to component                                                                                                        // ConvertFhirClass.cs:180
-    ComponentGroup.Code maps to component.code                                                                                              // ConvertFhirClass.cs:316
-    ComponentGroup.ValueX maps to component.value[x]                                                                                        // ConvertFhirClass.cs:316
-    ComponentGroup.DataAbsentReason maps to component.dataAbsentReason                                                                      // ConvertFhirClass.cs:316
-    ComponentGroup.Interpretation maps to component.interpretation                                                                          // ConvertFhirClass.cs:316
-    ComponentGroup.ReferenceRange maps to component.referenceRange                                                                          // ConvertFhirClass.cs:316
+                                                                                                                                            // DirectFhirGenerator.cs:131
+                                                                                                                                            // ConvertFhirClass.cs:211
+Observation maps to Observation:                                                                                                            // ConvertFhirClass.cs:212
+    Identifier maps to identifier                                                                                                           // ConvertFhirClass.cs:351
+    BasedOn maps to basedOn                                                                                                                 // ConvertFhirClass.cs:351
+    PartOf maps to partOf                                                                                                                   // ConvertFhirClass.cs:351
+    Status maps to status                                                                                                                   // ConvertFhirClass.cs:351
+    Category maps to category                                                                                                               // ConvertFhirClass.cs:351
+    Code maps to code                                                                                                                       // ConvertFhirClass.cs:351
+    Subject maps to subject                                                                                                                 // ConvertFhirClass.cs:351
+    Focus maps to focus                                                                                                                     // ConvertFhirClass.cs:351
+    Encounter maps to encounter                                                                                                             // ConvertFhirClass.cs:351
+    EffectiveX maps to effective[x]                                                                                                         // ConvertFhirClass.cs:351
+    Issued maps to issued                                                                                                                   // ConvertFhirClass.cs:351
+    Performer maps to performer                                                                                                             // ConvertFhirClass.cs:351
+    ValueX maps to value[x]                                                                                                                 // ConvertFhirClass.cs:351
+    DataAbsentReason maps to dataAbsentReason                                                                                               // ConvertFhirClass.cs:351
+    Interpretation maps to interpretation                                                                                                   // ConvertFhirClass.cs:351
+    Note maps to note                                                                                                                       // ConvertFhirClass.cs:351
+    BodySite maps to bodySite                                                                                                               // ConvertFhirClass.cs:351
+    Method maps to method                                                                                                                   // ConvertFhirClass.cs:351
+    Specimen maps to specimen                                                                                                               // ConvertFhirClass.cs:351
+    Device maps to device                                                                                                                   // ConvertFhirClass.cs:351
+    HasMember maps to hasMember                                                                                                             // ConvertFhirClass.cs:351
+    DerivedFrom maps to derivedFrom                                                                                                         // ConvertFhirClass.cs:351
+                                                                                                                                            // ConvertFhirClass.cs:218
+    ReferenceRangeGroup maps to referenceRange                                                                                              // ConvertFhirClass.cs:219
+    ReferenceRangeGroup.Low maps to referenceRange.low                                                                                      // ConvertFhirClass.cs:351
+    ReferenceRangeGroup.High maps to referenceRange.high                                                                                    // ConvertFhirClass.cs:351
+    ReferenceRangeGroup.Type maps to referenceRange.type                                                                                    // ConvertFhirClass.cs:351
+    ReferenceRangeGroup.AppliesTo maps to referenceRange.appliesTo                                                                          // ConvertFhirClass.cs:351
+    ReferenceRangeGroup.Age maps to referenceRange.age                                                                                      // ConvertFhirClass.cs:351
+    ReferenceRangeGroup.Text maps to referenceRange.text                                                                                    // ConvertFhirClass.cs:351
+                                                                                                                                            // ConvertFhirClass.cs:218
+    ComponentGroup maps to component                                                                                                        // ConvertFhirClass.cs:219
+    ComponentGroup.ReferenceRange2 maps to component.referenceRange                                                                         // ConvertFhirClass.cs:351
