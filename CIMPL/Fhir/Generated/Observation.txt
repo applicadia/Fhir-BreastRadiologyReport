@@ -28,7 +28,7 @@ Property: Method 0..1                                                           
 Property: Specimen 0..1                                                                                                                     // ConvertFhirClass.cs:433
 Property: Device 0..1                                                                                                                       // ConvertFhirClass.cs:433
 Property: ReferenceRangeGroup 0..*                                                                                                          // ConvertFhirClass.cs:433
-Property: HasMember 0..*                                                                                                                    // ConvertFhirClass.cs:433
+Property: HasMemberGroup 0..*                                                                                                                    // ConvertFhirClass.cs:433
 Property: DerivedFrom 0..*                                                                                                                  // ConvertFhirClass.cs:433
 Property: ComponentGroup 0..*                                                                                                               // ConvertFhirClass.cs:433
                                                                                                                                             // ConvertFhirClass.cs:334
@@ -145,11 +145,15 @@ Value: fhir.device.Device                                                       
     or fhir.devicemetric.DeviceMetric                                                                                                       // ConvertFhirClass.cs:348
                                                                                                                                             // ConvertFhirClass.cs:334
 // Entry definition of Observation.hasMember
-Element: HasMember                                                                                                                          // ConvertFhirClass.cs:336
+Entry: HasMemberGroup
+Property: HasMemberItem 0..*
+                                                                                                                                            // ConvertFhirClass.cs:334
+// Entry definition of Observation.hasMember
+Element: HasMemberItem                                                                                                                          // ConvertFhirClass.cs:336
 Value: fhir.observation.Observation                                                                                                         // ConvertFhirClass.cs:346
     or fhir.questionnaireresponse.QuestionnaireResponse                                                                                     // ConvertFhirClass.cs:348
     or fhir.molecularsequence.MolecularSequence                                                                                             // ConvertFhirClass.cs:348
-                                                                                                                                            // ConvertFhirClass.cs:334
+
 // Entry definition of Observation.derivedFrom
 Element: DerivedFrom                                                                                                                        // ConvertFhirClass.cs:336
 Value: fhir.documentreference.DocumentReference                                                                                             // ConvertFhirClass.cs:346

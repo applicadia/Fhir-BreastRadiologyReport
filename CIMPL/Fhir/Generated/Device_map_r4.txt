@@ -1,6 +1,6 @@
 Grammar: Map 5.1
 Namespace: fhir.device
 Target: FHIR_R4
-                                                                                                                                            // DirectFhirGenerator.cs:131
-                                                                                                                                            // DirectFhirGenerator.cs:269
-Device maps to Device:                                                                                                                      // DirectFhirGenerator.cs:270
+                                                                                                                                            // DirectFhirGenerator.cs:148
+                                                                                                                                            // DirectFhirGenerator.cs:286
+Device maps to Device:                                                                                                                      // DirectFhirGenerator.cs:287

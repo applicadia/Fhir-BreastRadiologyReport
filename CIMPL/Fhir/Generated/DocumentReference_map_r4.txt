@@ -1,6 +1,6 @@
 Grammar: Map 5.1
 Namespace: fhir.documentreference
 Target: FHIR_R4
-                                                                                                                                            // DirectFhirGenerator.cs:131
-                                                                                                                                            // DirectFhirGenerator.cs:269
-DocumentReference maps to DocumentReference:                                                                                                // DirectFhirGenerator.cs:270
+                                                                                                                                            // DirectFhirGenerator.cs:148
+                                                                                                                                            // DirectFhirGenerator.cs:286
+DocumentReference maps to DocumentReference:                                                                                                // DirectFhirGenerator.cs:287

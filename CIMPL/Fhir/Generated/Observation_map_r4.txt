@@ -24,7 +24,7 @@ Observation maps to Observation:                                                
     Method maps to method                                                                                                                   // ConvertFhirClass.cs:352
     Specimen maps to specimen                                                                                                               // ConvertFhirClass.cs:352
     Device maps to device                                                                                                                   // ConvertFhirClass.cs:352
-    HasMember maps to hasMember                                                                                                             // ConvertFhirClass.cs:352
+    HasMemberGroup.HasMemberItem maps to hasMember                                                                                                             // ConvertFhirClass.cs:352
     DerivedFrom maps to derivedFrom                                                                                                         // ConvertFhirClass.cs:352
                                                                                                                                             // ConvertFhirClass.cs:219
     ReferenceRangeGroup maps to referenceRange                                                                                              // ConvertFhirClass.cs:220

@@ -1,6 +1,6 @@
 Grammar: Map 5.1
 Namespace: fhir.specimen
 Target: FHIR_R4
-                                                                                                                                            // DirectFhirGenerator.cs:131
-                                                                                                                                            // DirectFhirGenerator.cs:269
-Specimen maps to Specimen:                                                                                                                  // DirectFhirGenerator.cs:270
+                                                                                                                                            // DirectFhirGenerator.cs:148
+                                                                                                                                            // DirectFhirGenerator.cs:286
+Specimen maps to Specimen:                                                                                                                  // DirectFhirGenerator.cs:287
