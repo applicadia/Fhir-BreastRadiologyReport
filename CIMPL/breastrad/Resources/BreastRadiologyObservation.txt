@@ -16,6 +16,6 @@ Description:	"Breast Radiology Observation.
     HasMemberGroup
 	//includes BreastRadiologyObservationPatientHistory 0..1	// Patient History splice
 
-Entry: PatientHistoryObservations
+Group: PatientHistoryObservations
 Parent: HasMemberGroup
         HasMemberItem only BreastRadiologyObservationPatientHistory
