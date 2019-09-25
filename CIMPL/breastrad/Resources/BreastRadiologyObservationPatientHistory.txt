@@ -12,7 +12,7 @@ Entry: BreastRadiologyObservationPatientHistory
 Parent: Observation                            // Derived from Observation
 Description:	"Breast Radiology Patient History Observation.
 <br>This observation is the root section of the multiple observations that comprise
-a breaxt radiology patient history observation.
+a breast radiology patient history observation.
 "
    Code=LOINC#LOINC#34117-2                        // Is this correct code ??
    ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations
