@@ -1,0 +1,6 @@
+Grammar: Map 5.1
+Namespace: brr
+Target: FHIR_R4
+
+//BreastRadiologyObservation maps to Observation:
+//    HasMemberSlices.HasMemberSlice.PatientHistory.HasMember maps to hasMember (slice # = 1)

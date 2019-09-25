@@ -1,7 +1,7 @@
 Grammar: DataElement 6.0
 Namespace: brr
 Description: "Breast Radiology Report"
-Uses: fhir.diagnosticreport
+Uses: fhir.diagnosticreport, fhir.medicationrequest, fhir.servicerequest
 
 CodeSystem: LOINC = http://loinc.org
 CodeSystem: DIAGSVCSECTS = http://terminology.hl7.org/CodeSystem/v2-0074
@@ -22,4 +22,15 @@ Description:	"Breast Radiology Diagnostic Report.
     ConclusionCode 1..1                             // require conclusion code
     Result 1..1                                     // require result observation
     Result only BreastRadiologyObservation          // result observation always is a BreastRadiologyObservation
- 
+    Recommendations 0..*                            // Recommendations section.
+    PriorReports 0..*                               // known prior reports
+
+    Element: Recommendations
+    Description: "Recommendations for future care"
+    Value: MedicationRequest or
+           ServiceRequest
+
+    Element: PriorReports
+    Description: "Prior reports"
+    Value: BreastRadiologyReport
+

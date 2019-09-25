@@ -11,14 +11,13 @@ Parent: Observation                                 // Derived from Observation
 Description:	"Breast Radiology Observation.
 <br>This observation is the root section of the multiple observations that comprise a breast radiology observation.
 "
-    Code=LOINC#10193-1 	                            // Physical findings of Breasts Narrative. Is this correct code ??
-    ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations
-    HasMemberSlice
-	includes PatientHistory 0..1	                // Patient History slice
-	includes Findings 0..1	                        // Findings slice
-	includes Impressions  0..1	                    // Findings slice
-	includes Recommendations  0..1	                // Recommendations slice
-	includes PatientRisk  0..1	                    // Patient Risk slice
+    Code=LOINC#10193-1 	                        // Physical findings of Breasts Narrative. Is this correct code ??
+    ValueX 0..0                                 // no value associated with root observation. Those are contained in child observations
+    HasMemberSlices.HasMemberSlice
+	includes PatientHistory 0..1	            // Patient History slice
+	includes Findings 0..1	                    // Findings slice
+	includes Impressions  0..1	                // Findings slice
+	includes PatientRisk  0..1	                // Patient Risk slice
 
 Group: PatientHistory
 Parent: HasMemberSlice
@@ -31,10 +30,6 @@ Parent: HasMemberSlice
 Group: Impressions
 Parent: HasMemberSlice
     HasMember only BreastRadiologyObservationImpressions
-
-Group: Recommendations
-Parent: HasMemberSlice
-    HasMember only BreastRadiologyObservationRecommendations
 
 Group: PatientRisk
 Parent: HasMemberSlice

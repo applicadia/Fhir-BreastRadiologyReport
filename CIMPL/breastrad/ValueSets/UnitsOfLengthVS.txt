@@ -1,0 +1,13 @@
+Grammar: ValueSet 5.1
+Namespace: brr
+CodeSystem: UCUM = http://unitsofmeasure.org
+
+ValueSet: UnitsOfLengthVS
+Description: "Units of measure related to length or distance."
+UCUM#pm "Picometer"
+UCUM#nm	"Nanometer"
+UCUM#mm "Millimeter"
+UCUM#cm	"Centimeter"
+UCUM#m "Meter"
+UCUM#ft-us "Foot"
+UCUM#in-us "Inch"

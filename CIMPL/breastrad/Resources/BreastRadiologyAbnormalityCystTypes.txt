@@ -1,0 +1,22 @@
+Grammar: DataElement 6.0
+Namespace: brr
+Uses: fhir.observation
+CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/CodeSystem/breastrad-BreastAbnormalityCodesCS
+CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
+
+Entry: BreastRadiologyAbnormalityCystTypes
+Parent: Observation
+Description: "Cyst Types.
+<br>This item will be a slice of Observation.Component.
+<br>The slice will be on  Observation.Component.Code.
+<br>This slice code will be modified in a future  versions to be a suitable public terminology value.
+"
+    Code = BREASTABNORMALITYCODESCS#CystTypes
+    Category=OBSERVATIONCATEGORY#imaging
+    HasMember 0..0
+    DerivedFrom 0..0
+    Specimen 0..0
+    ComponentGroup 0..0
+    ValueX 1..1
+    ValueX only concept
+    ValueX[concept] from CystTypesVS

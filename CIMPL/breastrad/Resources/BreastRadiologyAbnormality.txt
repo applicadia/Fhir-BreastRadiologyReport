@@ -1,0 +1,15 @@
+Grammar: DataElement 6.0
+Namespace: brr
+Uses: fhir.observation
+CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/CodeSystem/breastrad-BreastAbnormalityCodesCS
+CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
+
+Entry: BreastRadiologyAbnormality
+Parent: Observation
+Description: "Breast Abnormality entry. Each instance of this will describe one observed breast abnormality.
+Observations specific to this abnormality, such as density and size, will be found in observations referenced
+by this instances hasMember field."
+    Code from BreastAbnormalityCodesVS
+    Specimen 0..0
+    ComponentGroup 0..0
+    ValueX 0..0

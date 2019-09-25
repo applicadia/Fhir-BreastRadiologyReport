@@ -1,0 +1,22 @@
+Grammar: DataElement 6.0
+Namespace: brr
+Uses: fhir.observation
+CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/CodeSystem/breastrad-BreastAbnormalityCodesCS
+CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
+
+Entry: BreastRadiologyAbnormalityMargin
+Parent: Observation
+Description: "When breast cancer is surgically removed (during a surgical biopsy, lumpectomy or mastectomy), 
+a rim of normal tissue surrounding the tumor is also removed. 
+This rim is called a margin. 
+Margins help show whether or not all of the tumor was removed.
+"
+    Code = BREASTABNORMALITYCODESCS#Margin
+    Category=OBSERVATIONCATEGORY#imaging
+    HasMember 0..0
+    DerivedFrom 0..0
+    Specimen 0..0
+    ComponentGroup 0..0
+    ValueX 1..1
+    ValueX only concept
+    ValueX[concept] from MarginVS

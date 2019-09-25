@@ -2,5 +2,10 @@ Grammar: Map 5.1
 Namespace: fhir.quantity
 Target: FHIR_R4
                                                                                                                                             // DirectFhirGenerator.cs:151
-                                                                                                                                            // DirectFhirGenerator.cs:289
-Quantity maps to Quantity:                                                                                                                  // DirectFhirGenerator.cs:290
+                                                                                                                                            // ConvertFhirClass.cs:211
+Quantity maps to Quantity:                                                                                                                  // ConvertFhirClass.cs:212
+    Value2 maps to value                                                                                                                    // ConvertFhirClass.cs:376
+    Comparator maps to comparator                                                                                                           // ConvertFhirClass.cs:376
+    Unit maps to unit                                                                                                                       // ConvertFhirClass.cs:376
+    System maps to system                                                                                                                   // ConvertFhirClass.cs:376
+    Code maps to code                                                                                                                       // ConvertFhirClass.cs:376

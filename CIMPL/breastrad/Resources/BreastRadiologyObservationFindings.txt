@@ -3,7 +3,6 @@ Namespace: brr
 Description: "Breast Radiology Report"
 Uses: fhir.observation
 
-//
 // Breast Radiology Findings Section
 Entry: BreastRadiologyObservationFindings
 Parent: Observation                            // Derived from Observation
@@ -14,10 +13,10 @@ There should be two hasMember children for this node,
 * Breast Radiology Findings Left Breast
 * Breast Radiology Findings Right Breast
 "
-   Code=LOINC#LOINC#34117-2                        // Is this correct code ??
-   ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations
-   HasMemberSlice
-	includes FindingsLeftBreast 0..1	               // Left Breast Findings
+   Code=LOINC#32422-8                               // Is this correct code ??
+   ValueX 0..0                                      // no value associated with root observation. Those are contained in child observations
+   HasMemberSlices.HasMemberSlice
+	includes FindingsLeftBreast 0..1	            // Left Breast Findings
 	includes FindingsRightBreast 0..1	            // Right Breast Findings
 
 Group: FindingsLeftBreast
