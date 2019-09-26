@@ -3,6 +3,7 @@ Namespace: brr
 Uses: fhir.observation, fhir.quantity
 CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/CodeSystem/breastrad-BreastAbnormalityCodesCS
 CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
+CodeSystem: UCUM = http://unitsofmeasure.org
 
 Entry: BreastRadiologyAbnormalityMaxLength
 Parent: Observation
@@ -19,5 +20,4 @@ Description: "MaxLength value.
     ComponentGroup 0..0
     ValueX 1..1
     ValueX only Quantity
-    ValueX[Quantity].System = "http://unitsofmeasure.org"
-    ValueX[Quantity].Code from UnitsOfLengthVS
+    ValueX[Quantity].Units = UCUM#UnitsOfLengthVS

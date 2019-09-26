@@ -1,10 +1,10 @@
 Grammar: Map 5.1
 Namespace: fhir.resource
 Target: FHIR_R4
-                                                                                                                                            // DirectFhirGenerator.cs:151
-                                                                                                                                            // ConvertFhirClass.cs:211
-Resource maps to Resource:                                                                                                                  // ConvertFhirClass.cs:212
-    Id maps to id                                                                                                                           // ConvertFhirClass.cs:376
-    Meta maps to meta                                                                                                                       // ConvertFhirClass.cs:376
-    ImplicitRules maps to implicitRules                                                                                                     // ConvertFhirClass.cs:376
-    Language maps to language                                                                                                               // ConvertFhirClass.cs:376
+
+
+Resource maps to Resource:
+    Id maps to id
+    Meta maps to meta
+    ImplicitRules maps to implicitRules
+    Language maps to language

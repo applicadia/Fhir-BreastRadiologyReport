@@ -1,6 +1,6 @@
 Grammar: Map 5.1
 Namespace: fhir.medicationdispense
 Target: FHIR_R4
-                                                                                                                                            // DirectFhirGenerator.cs:151
-                                                                                                                                            // DirectFhirGenerator.cs:289
-MedicationDispense maps to MedicationDispense:                                                                                              // DirectFhirGenerator.cs:290
+
+
+MedicationDispense maps to MedicationDispense:
