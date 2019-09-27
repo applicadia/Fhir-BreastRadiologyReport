@@ -1,7 +1,7 @@
 Grammar: DataElement 6.0
 Namespace: brr
 Description: "Breast Radiology Report"
-Uses: fhir.observation
+Uses: obf, obf.datatype
 
 //
 // Breast Radiology Findings Section
@@ -12,4 +12,4 @@ Description:	"Breast Radiology Impressions Section.
 a breast radiology impressions section.
 "
    Code=LOINC#19005-8                              // Is this correct code ??
-   ValueX 0..0                                     // no value associated with root observation. Those are contained in child observations
+   DataValue 0..0                                     // no value associated with root observation. Those are contained in child observations

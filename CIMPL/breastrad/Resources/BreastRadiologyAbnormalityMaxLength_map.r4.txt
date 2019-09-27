@@ -3,5 +3,6 @@ Namespace: brr
 Target: FHIR_R4
 
 BreastRadiologyAbnormalityMaxLength maps to Observation:
-    ValueX[Quantity] maps to valueQuantity
-
+	DataValue.Quantity.Number maps to value[x].quantity.value
+	//DataValue.Quantity.Units maps to value[x].quantity.code
+	DataValue.Quantity.Comparator maps to value[x].comparator

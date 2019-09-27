@@ -1,6 +1,6 @@
 Grammar: DataElement 6.0
 Namespace: brr
-Uses: fhir.observation
+Uses: obf, obf.datatype
 CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/CodeSystem/breastrad-BreastAbnormalityCodesCS
 CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
 
@@ -13,10 +13,10 @@ Description: "Calcification Type.
 "
     Code = BREASTABNORMALITYCODESCS#CalcificationType
     Category=OBSERVATIONCATEGORY#imaging
-    HasMember 0..0
+    PanelMembers.Observation 0..0
     DerivedFrom 0..0
     Specimen 0..0
-    ComponentGroup 0..0
-    ValueX 1..1
-    ValueX only concept
-    ValueX[concept] from CalcificationTypeVS
+    Components 0..0
+    DataValue 1..1
+    DataValue only concept
+    DataValue[concept] from CalcificationTypeVS

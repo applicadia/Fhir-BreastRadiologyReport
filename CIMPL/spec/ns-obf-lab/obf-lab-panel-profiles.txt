@@ -1,0 +1,91 @@
+Grammar:           DataElement 6.0
+Namespace:         obf.lab
+Description:       "Profiles of laboratory tests and panels."
+Uses:              obf.datatype, obf
+CodeSystem:        LNC = http://loinc.org
+
+Entry:             CBCWAutoDifferentialPanel
+Parent:            LaboratoryReport
+Description:       "Complete blood count (CBC) with auto differential panel. Includes various measures of red blood cells, platelets, and various types of white blood cells and other related measures, such as hemoglobin. The components of this panel are not entirely standardized, so the definition of the CBC includes tests that are optional, or performed by certain laboratories but not others. Instances typically will include a subset of the listed panel members."
+                   ObservationSubjectOfRecord only Patient
+                   Code = LNC#57021-8 "CBC W Auto Differential panel - Blood"
+                   Observation
+                   includes LeukocytesNCncPtBldQnAutoCntLabObs 0..1
+                   includes ErythrocytesNCncPtBldQnAutoCntLabObs 0..1
+                   includes HemoglobinMCncPtBldQnLabObs 0..1
+                   includes HematocritVFrPtBldQnAutoCntLabObs 0..1
+                   includes MeanCorpuscularVolumeEntVolPtRBCQnAutoCntLabObs 0..1
+                   includes ErythrocyteMCHEntMassPtRBCQnAutoCntLabObs 0..1
+                   includes ErythrocyteMCHCMCncPtRBCQnAutoCntLabObs 0..1
+                   includes PlateletsNCncPtBldQnAutoCntLabObs 0..1
+                   includes Neutrophils100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes NeutrophilsNCncPtBldQnAutoCntLabObs 0..1
+                   includes ErythrocyteDistributionWidthRatioPtRBCQnAutoCntLabObs 0..1
+                   includes Lymphocytes100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes Monocytes100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes Eosinophils100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes Basophils100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes LymphocytesNCncPtBldQnAutoCntLabObs 0..1
+                   includes MonocytesNCncPtBldQnAutoCntLabObs 0..1
+                   includes EosinophilsNCncPtBldQnAutoCntLabObs 0..1
+                   includes BasophilsNCncPtBldQnAutoCntLabObs 0..1
+                   includes NeutrophilsBandForm100WBCNFrPtBldQnManCntLabObs 0..1
+                   includes Metamyelocytes100WBCNFrPtBldQnManCntLabObs 0..1
+                   includes Myelocytes100WBCNFrPtBldQnManCntLabObs 0..1
+                   includes Promyelocytes100WBCNFrPtBldQnManCntLabObs 0..1
+                   includes PromyelocytesNCncPtBldQnLabObs 0..1
+                   includes LymphocytesVariant100WBCNFrPtBldQnLabObs 0..1
+                   includes Blasts100WBCNFrPtBldQnManCntLabObs 0..1
+                   includes BlastsNCncPtBldQnLabObs 0..1
+                   includes ErythrocytesNucleated100WBCRatioPtBldQnLabObs 0..1
+                   includes ErythrocytesNucleatedNCncPtBldQnLabObs 0..1
+                   includes PlateletMeanVolumeEntVolPtBldQnReesEckerLabObs 0..1
+                   includes MyelocytesNCncPtBldQnLabObs 0..1
+                   includes MetamyelocytesNCncPtBldQnLabObs 0..1
+                   includes NeutrophilsBandFormNCncPtBldQnLabObs 0..1
+                   includes GranulocytesImmature100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes GranulocytesImmatureNCncPtBldQnAutoCntLabObs 0..1
+                   includes ErythrocytesNucleated100WBCRatioPtBldQnAutoCntLabObs 0..1
+                   includes MorphologyImpPtBldNarLabObs 0..1
+                   includes ErythrocyteDistributionWidthEntVolPtRBCQnLabObs 0..1
+                   includes PlateletDistributionWidthEntVolPtBldQnAutoCntLabObs 0..1
+                   includes PlateletMeanVolumeEntVolPtBldQnAutoCntLabObs 0..1
+                   includes NeutrophilsBandForm100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes Granulocytes100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes LymphocytesVariant100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes OtherCells100WBCNFrPtBldQnAutoCntLabObs 0..1
+                   includes NeutrophilsBandFormNCncPtBldQnAutoCntLabObs 0..1
+                   includes LymphocytesVariantNCncPtBldQnAutoCntLabObs 0..1
+                   includes LeukocytesOtherNCncPtBldQnAutoCntLabObs 0..1
+                   includes OtherCellsNCncPtBldQnAutoCntLabObs 0..1
+
+Entry:             ComprehensiveMetabolic2000SerumOrPlasmaPanel
+Parent:            LaboratoryReport
+Description:       "Represents a comprehensive metabolic 2000 panel (CMP) from serum or plasma, which measures various components such as glucose, electrolytes, kidney function, and liver function. The components of this panel are not entirely standardized, so the definition of the CMP includes tests that are optional, or performed by certain laboratories but not others. Therefore, instances typically will include a subset of the listed panel members."
+                   ObservationSubjectOfRecord only Patient
+                   Code = LNC#24323-8 "Comprehensive metabolic 2000 panel - Serum or Plasma"
+                   Observation
+                   includes GlobulinMCncPtSerQnCalculatedLabObs 0..1
+                   includes AlanineAminotransferaseCCncPtSerPlasQnLabObs 0..1
+                   includes AlbuminMCncPtSerPlasQnLabObs 0..1
+                   includes AlbuminGlobulinMRtoPtSerPlasQnLabObs 0..1
+                   includes CalciumMCncPtSerPlasQnLabObs 0..1
+                   includes AspartateAminotransferaseCCncPtSerPlasQnLabObs 0..1
+                   includes BilirubinMCncPtSerPlasQnLabObs 0..1
+                   includes CarbonDioxideSCncPtSerPlasQnLabObs 0..1
+                   includes ChlorideSCncPtSerPlasQnLabObs 0..1
+                   includes CreatinineMCncPtSerPlasQnLabObs 0..1
+                   includes GlucoseMCncPtSerPlasQnLabObs 0..1
+                   includes PotassiumSCncPtSerPlasQnLabObs 0..1
+                   includes ProteinMCncPtSerPlasQnLabObs 0..1
+                   includes SodiumSCncPtSerPlasQnLabObs 0..1
+                   includes UreaNitrogenMCncPtSerPlasQnLabObs 0..1
+                   includes UreaNitrogenCreatinineMRtoPtSerPlasQnLabObs 0..1
+                   includes AlkalinePhosphataseCCncPtSerPlasQnLabObs 0..1
+                   includes GFR173sqMPredArVRatPtSerPlasQnMDRDLabObs 0..1
+                   includes GFR173sqMPredFemaleArVRatPtSerPlasBldQnMDRDLabObs 0..1
+                   includes GFR173sqMPredNonBlackArVRatPtSerPlasBldQnMDRDLabObs 0..1
+                   includes GFR173sqMPredBlackArVRatPtSerPlasBldQnMDRDLabObs 0..1
+                   includes BilirubinDirectMCncPtSerPlasQnLabObs 0..1
+                   includes BicarbonateSCncPtSerPlasQnLabObs 0..1
+                   includes AniongapSCncPtSerPlasQnLabObs 0..1

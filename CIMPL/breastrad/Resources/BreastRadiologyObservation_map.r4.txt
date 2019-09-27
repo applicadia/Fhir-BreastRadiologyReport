@@ -3,4 +3,4 @@ Namespace: brr
 Target: FHIR_R4
 
 //BreastRadiologyObservation maps to Observation:
-//    HasMemberSlices.HasMemberSlice.PatientHistory.HasMember maps to hasMember (slice # = 1)
+//    PanelMembers.ObservationSlices.PanelMembers.ObservationSlice.PatientHistory.PanelMembers.Observation maps to PanelMembers.Observation (slice # = 1)

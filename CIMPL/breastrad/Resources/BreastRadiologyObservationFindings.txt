@@ -1,7 +1,7 @@
 Grammar: DataElement 6.0
 Namespace: brr
 Description: "Breast Radiology Report"
-Uses: fhir.observation
+Uses: obf, obf.datatype
 
 // Breast Radiology Findings Section
 Entry: BreastRadiologyObservationFindings
@@ -14,15 +14,15 @@ There should be two hasMember children for this node,
 * Breast Radiology Findings Right Breast
 "
    Code=LOINC#32422-8                               // Is this correct code ??
-   ValueX 0..0                                      // no value associated with root observation. Those are contained in child observations
-   HasMemberSlices.HasMemberSlice
+   DataValue 0..0                                      // no value associated with root observation. Those are contained in child observations
+   PanelMembers
 	includes FindingsLeftBreast 0..1	            // Left Breast Findings
 	includes FindingsRightBreast 0..1	            // Right Breast Findings
 
 Group: FindingsLeftBreast
-Parent: HasMemberSlice
-    HasMember only BreastRadiologyObservationFindingsLeftBreast
+Parent: PanelMembers
+    Observation only BreastRadiologyObservationFindingsLeftBreast
 
 Group: FindingsRightBreast
-Parent: HasMemberSlice
-    HasMember only BreastRadiologyObservationFindingsRightBreast
+Parent: PanelMembers
+    Observation only BreastRadiologyObservationFindingsRightBreast

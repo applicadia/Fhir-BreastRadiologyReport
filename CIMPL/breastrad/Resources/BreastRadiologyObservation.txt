@@ -1,7 +1,7 @@
 Grammar: DataElement 6.0
 Namespace: brr
 Description: "Breast Radiology Report"
-Uses: fhir.observation
+Uses: obf, obf.datatype
 
 //
 // Breast Radiology Observation
@@ -12,25 +12,25 @@ Description:	"Breast Radiology Observation.
 <br>This observation is the root section of the multiple observations that comprise a breast radiology observation.
 "
     Code=LOINC#10193-1 	                        // Physical findings of Breasts Narrative. Is this correct code ??
-    ValueX 0..0                                 // no value associated with root observation. Those are contained in child observations
-    HasMemberSlices.HasMemberSlice
+    DataValue 0..0                                 // no value associated with root observation. Those are contained in child observations
+    PanelMembers
 	includes PatientHistory 0..1	            // Patient History slice
 	includes Findings 0..1	                    // Findings slice
 	includes Impressions  0..1	                // Findings slice
 	includes PatientRisk  0..1	                // Patient Risk slice
 
 Group: PatientHistory
-Parent: HasMemberSlice
-    HasMember only BreastRadiologyObservationPatientHistory
+Parent: PanelMembers
+    Observation only BreastRadiologyObservationPatientHistory
 
 Group: Findings
-Parent: HasMemberSlice
-    HasMember only BreastRadiologyObservationFindings
+Parent: PanelMembers
+    Observation only BreastRadiologyObservationFindings
 
 Group: Impressions
-Parent: HasMemberSlice
-    HasMember only BreastRadiologyObservationImpressions
+Parent: PanelMembers
+    Observation only BreastRadiologyObservationImpressions
 
 Group: PatientRisk
-Parent: HasMemberSlice
-    HasMember only BreastRadiologyObservationPatientRisk
+Parent: PanelMembers
+    Observation only BreastRadiologyObservationPatientRisk

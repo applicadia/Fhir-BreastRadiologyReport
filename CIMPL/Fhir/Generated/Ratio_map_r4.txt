@@ -1,6 +1,0 @@
-Grammar: Map 5.1
-Namespace: fhir.ratio
-Target: FHIR_R4
-
-
-Ratio maps to Ratio:

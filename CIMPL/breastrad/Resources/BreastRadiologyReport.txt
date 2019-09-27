@@ -1,7 +1,7 @@
 Grammar: DataElement 6.0
 Namespace: brr
 Description: "Breast Radiology Report"
-Uses: fhir.diagnosticreport, fhir.medicationrequest, fhir.servicerequest
+Uses: obf, obf.datatype
 
 CodeSystem: LOINC = http://loinc.org
 CodeSystem: DIAGSVCSECTS = http://terminology.hl7.org/CodeSystem/v2-0074
@@ -15,13 +15,13 @@ Parent: DiagnosticReport                            // Derived from Diagnostic R
 Description:	"Breast Radiology Diagnostic Report.
 <br>This diagnostic report is the base of the Breast Radiology Report, and contains a summary of the report findings.
 <br>Detailed information about the results of the exam are contained in the Breast Radiology Observation linked to by the 'result' field."
-    Code=LOINC#10193-1 	                            // Physical findings of Breasts Narrative. Is this correct code ??
+    Code=LOINC#10193-1 	                        // Physical findings of Breasts Narrative. Is this correct code ??
     Category = DIAGSVCSECTS#RAD                     // Fix category  to radiology   
     Specimen 0..0                                   // dont have specimen
-    Conclusion 1..1                                 // require conclusion text.
+    ConclusionText 1..1                             // require conclusion text.
     ConclusionCode 1..1                             // require conclusion code
-    Result 1..1                                     // require result observation
-    Result only BreastRadiologyObservation          // result observation always is a BreastRadiologyObservation
+    Observation  1..1                               // require result observation
+    Observation only BreastRadiologyObservation     // result observation always is a BreastRadiologyObservation
     Recommendations 0..*                            // Recommendations section.
     PriorReports 0..*                               // known prior reports
 

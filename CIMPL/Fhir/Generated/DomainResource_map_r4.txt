@@ -1,8 +1,0 @@
-Grammar: Map 5.1
-Namespace: fhir.domainresource
-Target: FHIR_R4
-
-
-DomainResource maps to DomainResource:
-    Text maps to text
-    Contained maps to contained

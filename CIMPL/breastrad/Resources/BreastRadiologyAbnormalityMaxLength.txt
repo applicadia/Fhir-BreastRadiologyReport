@@ -1,6 +1,6 @@
 Grammar: DataElement 6.0
 Namespace: brr
-Uses: fhir.observation, fhir.quantity
+Uses: obf, obf.datatype
 CodeSystem: BREASTABNORMALITYCODESCS = http://hl7.org/fhir/us/breast-radiology/CodeSystem/breastrad-BreastAbnormalityCodesCS
 CodeSystem: OBSERVATIONCATEGORY = http://terminology.hl7.org/CodeSystem/observation-category
 CodeSystem: UCUM = http://unitsofmeasure.org
@@ -14,10 +14,10 @@ Description: "MaxLength value.
 "
     Code = BREASTABNORMALITYCODESCS#MaxLength
     Category=OBSERVATIONCATEGORY#imaging
-    HasMember 0..0
+    PanelMembers.Observation 0..0
     DerivedFrom 0..0
     Specimen 0..0
-    ComponentGroup 0..0
-    ValueX 1..1
-    ValueX only Quantity
-    ValueX[Quantity].Units = UCUM#UnitsOfLengthVS
+    Components 0..0
+    DataValue 1..1
+    DataValue only Quantity
+    DataValue[Quantity].Units = UCUM#UnitsOfLengthVS

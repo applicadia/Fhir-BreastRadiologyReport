@@ -1,9 +1,0 @@
-Grammar: DataElement 6.0
-Namespace: fhir.simplequantity
-Description: "Simple Quantity definition"
-Uses: fhir.quantity
-
-Group:             SimpleQuantity
-Parent:            Quantity
-Description:       "A quantity where the comparator is not used, as defined in FHIR"
-                   Comparator 0..0
