@@ -20,10 +20,11 @@ Description:	"Breast Radiology Diagnostic Report.
     Specimen 0..0                                   // dont have specimen
     ConclusionText 1..1                             // require conclusion text.
     ConclusionCode 1..1                             // require conclusion code
-    Observation  1..1                               // require result observation
-    Observation only BreastRadiologyObservation     // result observation always is a BreastRadiologyObservation
     Recommendations 0..*                            // Recommendations section.
     PriorReports 0..*                               // known prior reports
+    Observation  1..1                               // require result observation
+    Observation
+    includes BreastRadiologyObservation 1..1        // result observation always is a BreastRadiologyObservation
 
     Element: Recommendations
     Description: "Recommendations for future care"

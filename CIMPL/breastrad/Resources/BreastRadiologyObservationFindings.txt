@@ -13,16 +13,8 @@ There should be two hasMember children for this node,
 * Breast Radiology Findings Left Breast
 * Breast Radiology Findings Right Breast
 "
-   Code=LOINC#32422-8                               // Is this correct code ??
-   DataValue 0..0                                      // no value associated with root observation. Those are contained in child observations
-   PanelMembers
-	includes FindingsLeftBreast 0..1	            // Left Breast Findings
-	includes FindingsRightBreast 0..1	            // Right Breast Findings
-
-Group: FindingsLeftBreast
-Parent: PanelMembers
-    Observation only BreastRadiologyObservationFindingsLeftBreast
-
-Group: FindingsRightBreast
-Parent: PanelMembers
-    Observation only BreastRadiologyObservationFindingsRightBreast
+   Code=LOINC#32422-8                                               // Is this correct code ??
+   DataValue 0..0                                                   // no value associated with root observation. Those are contained in child observations
+   PanelMembers.Observation
+	includes BreastRadiologyObservationFindingsLeftBreast 0..1      // Left Breast Findings
+	includes BreastRadiologyObservationFindingsRightBreast 0..1	    // Right Breast Findings
