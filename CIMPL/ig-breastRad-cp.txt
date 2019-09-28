@@ -1,4 +1,5 @@
 Grammar: ContentProfile 1.0
 
 Namespace: brr *
-	
+Namespace: obf NP
+Namespace: obf.datatype NP
