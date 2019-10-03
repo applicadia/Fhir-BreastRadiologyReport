@@ -176,8 +176,12 @@ Property:          EventContext 0..1
                    StatementDateTime 1..1
                    Status from http://hl7.org/fhir/ValueSet/document-reference-status (required)
                    DocumentStatus from http://hl7.org/fhir/ValueSet/composition-status (required)
-                   Type from http://hl7.org/fhir/ValueSet/c80-doc-typecodes (preferred)
-                   Category from http://hl7.org/fhir/ValueSet/c80-doc-classcodes (required)
+                   Type from http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type (required)
+                   //Type from http://hl7.org/fhir/ValueSet/c80-doc-typecodes (preferred)
+                   //Category from http://hl7.org/fhir/ValueSet/c80-doc-classcodes (required)
+                   // US Core v3 restriction
+                   Category from http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-category (extensible)
+                   // US Core v3 restriction
                    SubjectOfRecord 1..1
                    // US Core restriction 
                    SubjectOfRecord only Patient

@@ -96,6 +96,9 @@ Property:          GeneralPractitioner 0..*
 Property:          ManagingOrganization 0..1
 Property:          SamePersonAs 0..*
                    // US-Core extensions
+Property:          BirthSex 0..1
+Property:          Race 0..1
+Property:          Ethnicity 0..1
                    Status 0..0
                    Identifier 1..*
 
@@ -121,6 +124,39 @@ Property:          TimePeriod 0..1
 Element:           MultipleBirth
 Description:       "If the person was part of a multiple birth event, and if so in which order."
 Value:             boolean or integer
+
+Element:           BirthSex
+Concept:           MTH#C4086849
+Description:       "Administrative sex assigned at birth and recorded on birth certificate."
+Value:             concept from http://hl7.org/fhir/us/core/ValueSet/us-core-birthsex (required)
+
+Group:             Race
+Concept:           MTH#C0034510
+Description:       "Subjective association of a person with a named category of humans sharing common history, traits, place of family origin, nationality, tribe, or other inherited background."
+Property:          RaceCode 0..1
+Property:          RaceDetail 0..*
+
+Element:           RaceCode
+Description:       "A code for the person's race"
+Value:             concept //from http://hl7.org/fhir/us/core/ValueSet/omb-race (required) // Different required bindings in DSTU2 vs. US Core (STU3 and R4). The value set content is the same but the defining URL is not.
+
+Element:           RaceDetail
+Description:       "Additional description of race or heritage."
+Value:             concept //from http://hl7.org/fhir/us/core/ValueSet/detailed-race (required) // Different required bindings in DSTU2 vs. US Core (STU3 and R4). The value set content is the same but the defining URL is not.
+
+Group:             Ethnicity
+Concept:           MTH#C0015031
+Description:       "Indicator of Hispanic or Latino origin."
+Property:          EthnicityCode 1..1
+Property:          EthnicityDetail 0..*
+
+Element:           EthnicityCode
+Description:       "A code for the person's ethnicity"
+Value:             concept //from http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity (required) // Different required bindings in DSTU2 vs. US Core (STU3 and R4). The value set content is the same but the defining URL is not.
+
+Element:           EthnicityDetail
+Description:       "Additional description of ethnicity."
+Value:             concept //from http://hl7.org/fhir/us/core/ValueSet/detailed-ethnicity (required) // Different required bindings in DSTU2 vs. US Core (STU3 and R4). The value set content is the same but the defining URL is not.
 
 Element:           MothersMaidenName
 Concept:           MTH#C0806887
@@ -467,6 +503,9 @@ Property:          Ingredient 0..*
 Property:          LotNumber 0..1
 Property:          ExpirationDate 0..1
                    Status from http://hl7.org/fhir/ValueSet/medication-status (required)
+                   // Conformance: terminology binding incompatibility between argo (DSTU2) and us-core (R4). Leaving binding to mapping.
+                   // Code from  http://fhir.org/guides/argonaut/ValueSet/medication-codes (extensible) // argo (DSTU2)
+                   // Code from http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes (extensible) // us-core (R4)
 
 Element:           DoseForm
 Concept:           MTH#C0013058

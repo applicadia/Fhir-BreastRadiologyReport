@@ -248,6 +248,7 @@ Description:       "Records the extent of the subject's use of tobacco."
                    Code = LNC#72166-2 "Tobacco smoking status NHIS"
                    DataValue 1..1
                    DataValue only concept
+                   DataValue from http://hl7.org/fhir/us/core/ValueSet/us-core-observation-ccdasmokingstatus (extensible)
                    DataAbsentReason 0..0
 
 Entry:             AlcoholUse

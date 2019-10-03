@@ -3,8 +3,10 @@ Namespace:	obf
 
 CodeSystem:     LNC = http://loinc.org
 CodeSystem:     SCT = http://snomed.info/sct
+//CodeSystem:     OIT = http://hl7.org/fhir/v3/ObservationInterpretation
 CodeSystem:     OIT = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 CodeSystem:     ICD10CM = http://hl7.org/fhir/sid/icd-10-cm 
+//CodeSystem:     CONDCAT = http://hl7.org/fhir/us/core/ValueSet/us-core-condition-category
 
 ValueSet:   QuantitativeResultInterpretationVS
 Description:    "Interpretations of abnormal quantitative results."

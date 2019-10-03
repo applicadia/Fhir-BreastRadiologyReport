@@ -33,6 +33,8 @@ Namespace: obf
     Patient:  
         BirthDate MS
         AdministrativeGender MS
+        Race MS
+        Ethnicity MS
         Address.PostalCode MS
         Deceased MS  // Should be Deceased.dateTime only
     ComorbidCondition:
@@ -180,3 +182,13 @@ Namespace: obf.lab
         // Required: Code, Status, Category, SubjectOfRecord
         RelevantTime MS
     //    Observation MS // commented out -- see error below
+
+/* Undiagnosed error on Must Support rule on CBCWAutoDifferentialPanel and ComprehensiveMetabolic2000SerumOrPlasmaPanel:
+[15:29:31.796Z] ERROR shr: Could not find FHIR element for content profile rule with path Observation.  ERROR_CODE:13064 (module=shr-fhir-export, shrId=obf.lab.CBCWAutoDifferentialPanel)
+    target: http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab
+
+[15:29:32.459Z] ERROR shr: Could not find FHIR element for content profile rule with path Observation.  ERROR_CODE:13064 (module=shr-fhir-export)
+    shrId: obf.lab.ComprehensiveMetabolic2000SerumOrPlasmaPanel
+    --
+    target: http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab
+*/

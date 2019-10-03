@@ -89,7 +89,11 @@ Property:          Dosage 0..1
 
 Element:           MedicationCodeOrReference
 Description:       "A choice of a medication code or reference."
+//Value:             concept from http://h7.org/fhir/us/core/ValueSet/us-core-medication-codes (extensible) or Medication
 Value:             concept or Medication
+                    // Conformance: terminology binding incompatibility between argo (DSTU2) and us-core (R4). Leaving binding to mapping.
+                    // concept from  http://fhir.org/guides/argonaut/ValueSet/medication-codes (extensible)  or Medication // argo (DSTU2)
+                    // concept from http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes (extensible)  or Medication // us-core (R4) 
 
 Entry:             MedicationStatement
 Parent:            MedicationAction
@@ -130,7 +134,7 @@ Property:          TerminationReason 0..*
 Element:           MedicationStatementPartOf
 Parent:            PartOf
 Description:       "A larger event of which this particular event is a component or step."
-                   Value only MedicationAdministration or MedicationDispense or MedicationStatement or Procedure or Observation
+                   Value only MedicationAdministration or MedicationStatement or Procedure or Observation
 
 Element:           MedicationInformationSource
 Parent:            InformationSource
@@ -193,10 +197,6 @@ Element:           MedicationAdministrationBasedOn
 Parent:            BasedOn
 Description:       "The original request, instruction or authority to perform the administration."
                    Value only MedicationRequest
-
-Entry:             MedicationDispense
-Parent:            MedicationAction
-Description:       "Indicates that a medication product has been dispensed for a named person/patient. This includes a description of the medication product (supply) provided and the instructions for administering the medication. The medication dispense is the result of a pharmacy system responding to a medication order."
 
                    // TODO: Attributes from FHIR needed
                    // TODO: Mapping needed

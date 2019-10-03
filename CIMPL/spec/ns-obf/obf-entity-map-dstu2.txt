@@ -28,6 +28,10 @@ Patient maps to http://fhir.org/guides/argonaut/StructureDefinition/argo-patient
 	ManagingOrganization maps to managingOrganization
 	SamePersonAs.Patient maps to link.other 
 	SamePersonAs.Relationship maps to link.type
+	BirthSex maps to http://fhir.org/guides/argonaut/StructureDefinition/argo-birthsex
+	Race maps to http://fhir.org/guides/argonaut/StructureDefinition/argo-race
+	Ethnicity maps to http://fhir.org/guides/argonaut/StructureDefinition/argo-ethnicity
+
 
 Practitioner maps to Practitioner:  // dstu 2 change (different mapping target)
 	Identifier maps to identifier (slice on = type.coding.code; slice strategy = includes)

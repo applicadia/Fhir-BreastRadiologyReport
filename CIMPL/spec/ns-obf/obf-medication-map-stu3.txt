@@ -18,7 +18,7 @@ Dosage maps to Dosage:
 	MaxDosePerAdministration maps to maxDosePerAdministration
 	MaxDosePerLifetime maps to maxDosePerLifetime
 
-MedicationStatement maps to MedicationStatement:
+MedicationStatement maps to http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement:
 	Identifier maps to identifier
 	MedicationBasedOn maps to basedOn 
 	MedicationStatementPartOf maps to partOf
@@ -74,7 +74,7 @@ MedicationAdministration maps to MedicationAdministration:
 	Dosage.InstructionCode maps to dosage.extension
 
 
-MedicationRequest maps to MedicationRequest:
+MedicationRequest maps to http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest:
 	Identifier maps to identifier
 //	maps to definition
 	MedicationBasedOn maps to basedOn

@@ -43,8 +43,9 @@ The identity of non-genomic laboratory tests is typically represented by a LOINC
 
 Conformance note: To be conformant to US Core, the code attribute must be a LOINC code, if available. If there is no suitable code in LOINC, then a code from an alternative code system (such as GTR) can be used.
 
-Implementation note: The performer of the test (organization or practitioner) should be included in the FHIR profile as the performer.actor."
+Implementation note: The performer of the test (organization or practitioner) should be included in the FHIR profile as the performer.actor.
 
+Conformance note: The category for this profile is set to GE (Genetics), a code from http://hl7.org/fhir/ValueSet/diagnostic-service-sections. This is contrary to the [Argonaut](http://www.fhir.org/guides/argonaut/r2/) and [US Core](http://hl7.org/fhir/us/core/STU3/index.html) specifications, which require the category 'LAB' in diagnostic reports containing laboratory results. This is assumed to be an oversight in the US Core and Argonaut specifications."
 Property:          SpecimenType 0..1
 Property:          RegionStudied 0..*
                    ObservationSubjectOfRecord only Patient

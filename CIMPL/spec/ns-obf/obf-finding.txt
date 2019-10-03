@@ -45,8 +45,10 @@ Property:          DateOfDiagnosis 0..1
                    // cannot make the binding weaker because US Core requires an extensible binding
                    //Conformance: terminology binding incompatibility between argo (DSTU2) and us-core (R4). Leaving binding to mapping.
                    // Code from http://hl7.org/fhir/ValueSet/daf-problem (extensible)
+                   // Code from http://hl7.org/fhir/us/core/ValueSet/us-core-problem (extensible)
                    ClinicalStatus from http://hl7.org/fhir/ValueSet/condition-clinical (required)
                    // category is 1..1 in Argonaut
+                   Category from http://hl7.org/fhir/us/core/ValueSet/us-core-condition-category (extensible)
                    Severity from http://hl7.org/fhir/ValueSet/condition-severity (preferred)
 
 Group:             StageInformation
@@ -279,10 +281,12 @@ Property:          PresentedForm 0..*
                    SubjectOfRecord substitute ObservationSubjectOfRecord
                    CareContext only Encounter
                    StatementDateTime 1..1
+                   // Code from http://hl7.org/fhir/us/core/ValueSet/us-core-diagnosticreport-report-and-note-codes (extensible) //DSTU2-STU3-R4 binding incompatibility
 
 Entry:             LaboratoryReport
 Parent:            DiagnosticReport
 Description:       "A grouping or summarization of laboratory results, where individual results are typically Observations or nested Observations (panels). This class aligns with US Core DiagnosticReport Profile for Laboratory Results Reporting."
+                   // result must map to http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab in R4
                    Observation substitute LaboratoryObservation
 
 Entry:             SimpleCodedNonLaboratoryObservation
@@ -329,7 +333,7 @@ Description:       "The plan, proposal or order that is fulfilled in whole or in
 Element:           ObservationPartOf
 Parent:            PartOf
 Description:       "A larger event of which this particular Observation is a component or step. For example, an observation as part of a procedure."
-                   Value only MedicationAdministration or MedicationDispense or MedicationStatement or Procedure
+                   Value only MedicationAdministration or MedicationStatement or Procedure
 
 Element:           DerivedFrom
 Description:       "Indicates the source of information in the case the Entry has been created by logical extension or modification of one or more source entries."
@@ -459,7 +463,9 @@ Value:             dateTime
 */
 Entry:             ComorbidCondition
 Parent:            Condition
-Description:       "A comorbidity refers to one or more diseases or conditions that occur along with another condition in the same person at the same time. Conditions considered comorbidities are often long-term or chronic conditions. Comorbidities are defined relative to an index disease and may be categorical, rather than described in full detail. The comorbid condition class provides comorbidity codes corresponding the Elixhauser Comorbidity Index."
+Description:       "A comorbidity refers to one or more diseases or conditions that occur along with another condition in the same person at the same time. Conditions considered comorbidities are often long-term or chronic conditions. Comorbidities are defined relative to an index disease and may be categorical, rather than described in full detail. The comorbid condition class provides comorbidity codes corresponding the Elixhauser Comorbidity Index. 
+
+Conformance note: If an ICD-10-CM code is used for the code attribute, and a semantically equivalent SNOMED code is available, the resulting instance will not be compliant with [US Core Profiles](http://hl7.org/fhir/us/core/STU3/index.html)."
                    Code from ComorbidConditionVS (extensible)
                    Category = SCT#398192003 "Co-morbid conditions (finding)"
                    DateOfDiagnosis 0..0
